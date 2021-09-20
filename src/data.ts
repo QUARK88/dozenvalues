@@ -41,7 +41,7 @@ export const parentLoc = window.location.href.slice(
 
 function getJson(name: string) {
 	var request = new XMLHttpRequest()
-	request.open("GET", parentLoc + "/" + name + ".json", false)
+	request.open("GET", parentLoc + "/json/" + name + ".json", false)
 	request.send(null)
 	return JSON.parse(request.responseText)
 }
