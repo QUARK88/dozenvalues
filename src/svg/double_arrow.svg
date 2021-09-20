@@ -4,7 +4,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
      width="71.2522mm" height="21.8695mm"
-     viewBox="0 0 202 62">
+     viewBox="0 0 202 62" class="arrow">
   <path id="Selection"
         fill="#333333" stroke-width="1"
         d="M 24.00,36.00

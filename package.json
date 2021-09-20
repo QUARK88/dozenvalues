@@ -1,0 +1,26 @@
+{
+  "name": "values-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8values/8values.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8values/8values.github.io/issues"
+  },
+  "homepage": "https://github.com/8values/8values.github.io#readme",
+  "devDependencies": {
+    "raw-loader": "^4.0.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.3",
+    "webpack-cli": "^4.8.0"
+  }
+}
