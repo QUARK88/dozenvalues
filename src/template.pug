@@ -3,6 +3,8 @@ html
   head
     meta(charset="utf-8")
     title #{htmlWebpackPlugin.options.title}
+    link(rel="icon" type="x-icon" href="icons/icon.png")
+    link(rel="shortcut icon" type="x-icon" href="icons/icon.png")
     each cssFile in htmlWebpackPlugin.files.css
       style !{compilation.assets[cssFile.substr(htmlWebpackPlugin.files.publicPath.length)].source()}
   body
