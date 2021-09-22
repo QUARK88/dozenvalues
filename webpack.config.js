@@ -1,3 +1,7 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
+const TerserPlugin = require("terser-webpack-plugin")
 const path = require("path")
 
 module.exports = {
@@ -9,10 +13,8 @@ module.exports = {
 				use: "ts-loader",
 				exclude: /node_modules/,
 			},
-			{
-				test: /\.css$/,
-				use: "raw-loader",
-			},
+			{ test: /\.css$/, use: [MiniCssExtractPlugin.loader, "css-loader"] },
+			{ test: /\.pug$/, loader: "pug-loader" },
 			{
 				test: /\.svg$/,
 				use: "raw-loader",
@@ -23,8 +25,24 @@ module.exports = {
 		extensions: [".tsx", ".ts", ".js"],
 	},
 	output: {
+		path: path.join(__dirname, "dist"),
+		publicPath: "",
 		filename: "bundle.js",
-		path: path.resolve(__dirname, "dist"),
 	},
 	mode: "production",
+	plugins: [
+		new HtmlWebpackPlugin({
+			inject: false,
+			cache: false,
+			template: "src/template.pug",
+			filename: "../public/index.html",
+			// favicon: "favicon.ico",
+			title: "values-common",
+		}),
+		new MiniCssExtractPlugin({ filename: "css/style.css" }),
+	],
+	optimization: {
+		minimize: true,
+		minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
+	},
 }

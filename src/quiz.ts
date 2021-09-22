@@ -1,4 +1,3 @@
-import style from "./css/style.css"
 import { axes, buttons, maxEffects, questions } from "./data"
 import { quizHtml } from "./pages/quiz"
 
@@ -58,7 +57,7 @@ function showResults() {
 }
 
 export function quiz() {
-	document.body.innerHTML = quizHtml + `<style>${style}</style>`
+	document.body.innerHTML = quizHtml
 
 	let buttonElements = document.getElementsByClassName("button")
 

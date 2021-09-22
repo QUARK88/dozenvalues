@@ -1,4 +1,4 @@
-import style from "./css/style.css"
+import "./css/style.css"
 import { indexHtml } from "./pages/index"
 import { instructions } from "./pages/instructions"
 import { quiz } from "./quiz"
@@ -14,7 +14,7 @@ export enum Page {
 export function changePage(dest: number) {
 	switch (dest) {
 		case Page.index:
-			document.body.innerHTML = indexHtml + `<style>${style}</style>`
+			document.body.innerHTML = indexHtml
 			document
 				.getElementById("instructionButton")
 				.addEventListener("click", () => {
@@ -22,7 +22,7 @@ export function changePage(dest: number) {
 				})
 			break
 		case Page.instructions:
-			document.body.innerHTML = instructions + `<style>${style}</style>`
+			document.body.innerHTML = instructions
 			document.getElementById("quizButton").addEventListener("click", () => {
 				changePage(Page.quiz)
 			})
