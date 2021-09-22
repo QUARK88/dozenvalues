@@ -1,4 +1,5 @@
 import "./css/style.css"
+import { general } from "./data"
 import { indexHtml } from "./pages/index"
 import { instructions } from "./pages/instructions"
 import { quiz } from "./quiz"
@@ -10,6 +11,8 @@ export enum Page {
 	quiz,
 	results,
 }
+
+document.title = general.title
 
 export function changePage(dest: number) {
 	switch (dest) {
