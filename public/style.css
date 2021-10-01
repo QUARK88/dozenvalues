@@ -23,3 +23,7 @@ p.question {
 	border: 8px solid #000000;
 	border-radius: 16pt;
 }
+div.text-wrapper {
+	border: 8px solid #000000;
+	border-radius: 8pt;
+}
