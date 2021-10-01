@@ -8,6 +8,7 @@
 }
 div.bar {
 	border-color: #000000;
+	border-width: 6px;
 }
 .button {
 	border: 6px solid #000000;
