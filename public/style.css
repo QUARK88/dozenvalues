@@ -9,3 +9,6 @@
 div.bar {
 	border-color: #000000;
 }
+.button {
+	border: 6px solid #000000;
+}
