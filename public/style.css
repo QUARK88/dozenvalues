@@ -6,7 +6,6 @@
 * {
 	font-family: BrandonText !important;
 }
-
-h1 {
-	color: #000000;
+div.bar {
+	border-color: #000000;
 }
