@@ -97,10 +97,11 @@ div.center {
 	font-size: 24pt;
 	margin: auto;
 }
-.column {
-	display: block;
-	width: 22%;
-	padding: 6pt;
+.column{
+  width: 14%
+}
+div.axis_name{
+  font-size: 13pt
 }
 .quadcolumn {
 	display: block;
