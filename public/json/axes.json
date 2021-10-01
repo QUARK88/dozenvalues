@@ -40,13 +40,13 @@
 			"description": "Those with higher Commerce scores believe that free markets are the best way to distribute resources. They tend to support deregulation, low taxes, and reject intervention in the economy."
 		},
 		"tiers": [
-			"Laissez-Faire",
-			"Free Market",
-			"Permissive",
-			"Intervening",
-			"Regulated",
+			"Planned",
 			"Directed",
-			"Planned"
+			"Regulated",
+			"Intervening",
+			"Permissive",
+			"Free Market",
+			"Laissez-Faire"
 		]
 	},
 	{
@@ -90,13 +90,13 @@
 			"description": "Those with higher Restriction scores believe that strict rules should be put in place to limit what an individual may do. They tend to support paternalistic social policy and limitations on speech."
 		},
 		"tiers": [
-			"Brutal",
-			"Controlling",
-			"Restrictive",
-			"Limiting",
-			"Lenient",
+			"Emancipatory",
 			"Tolerant",
-			"Emancipatory"
+			"Lenient",
+			"Limiting",
+			"Restrictive",
+			"Controlling",
+			"Brutal"
 		]
 	},
 	{
@@ -115,13 +115,13 @@
 			"description": "Those with higher Supremacy scores tend to believe that some identity groups have innate differences that set them above or below other groups. They tend to support ethnic nationalism, gender roles, and eugenics."
 		},
 		"tiers": [
-			"Supremacist",
-			"Discriminatory",
-			"Prejudicial",
-			"Normative",
-			"Respectful",
+			"Intersectional",
 			"Inclusive",
-			"Intersectional"
+			"Respectful",
+			"Normative",
+			"Prejudicial",
+			"Discriminatory",
+			"Supremacist"
 		]
 	},
 	{
@@ -140,13 +140,13 @@
 			"description": "Those with higher Novelty scores believe that holding on to the past is irrational and instead we should look to the future. They tend to support secularism, transhumanism and rewriting culture."
 		},
 		"tiers": [
-			"Futuristic",
-			"Progressive",
-			"Neoteric",
-			"Conventional",
-			"Conservative",
+			"Antiquated",
 			"Traditional",
-			"Antiquated"
+			"Conservative",
+			"Conventional",
+			"Neoteric",
+			"Progressive",
+			"Futuristic"
 		]
 	}
 ]
