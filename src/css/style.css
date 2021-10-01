@@ -116,13 +116,6 @@ img.quadcolumn:hover {
 /* div.quadcolumn {
 	width: 23.75%;
 } */
-div.axis_name {
-	color: #333333;
-	font-size: 19pt;
-	font-family: "Montserrat";
-	/* display: inline-block; */
-	padding-bottom: 8.65pt;
-}
 .spacer {
 	display: flex;
 }
