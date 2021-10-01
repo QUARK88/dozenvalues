@@ -1,6 +1,6 @@
 [
     {
-        "text": "Inequality is one of the biggest problems of our age.",
+        "question": "Inequality is one of the biggest problems of our age.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -11,7 +11,7 @@
         }
     },
     {
-        "text": "Everyone should benefit from natural resources.",
+        "question": "Everyone should benefit from natural resources.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -22,7 +22,7 @@
         }
     },
     {
-        "text": "Abandoned property should be free to use by any individual.",
+        "question": "Abandoned property should be free to use by any individual.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -33,7 +33,7 @@
         }
     },
     {
-        "text": "Workers deserve a say in deciding the way they work and its use.",
+        "question": "Workers deserve a say in deciding the way they work and its use.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -44,7 +44,7 @@
         }
     },
     {
-        "text": "Wealth accumulation leads to the creation of an oppressive class system.",
+        "question": "Wealth accumulation leads to the creation of an oppressive class system.",
         "effect": {
             "A1": 2,
             "A2": 0,
@@ -55,7 +55,7 @@
         }
     },
     {
-        "text": "Theft can never be justified.",
+        "question": "Theft can never be justified.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -66,7 +66,7 @@
         }
     },
     {
-        "text": "Intellectual property is legitimate.",
+        "question": "Intellectual property is legitimate.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -77,7 +77,7 @@
         }
     },
     {
-        "text": "Trade unions hurt the economy.",
+        "question": "Trade unions hurt the economy.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -88,7 +88,7 @@
         }
     },
     {
-        "text": "Bosses know what's best for their workers.",
+        "question": "Bosses know what's best for their workers.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -99,7 +99,7 @@
         }
     },
     {
-        "text": "Landlords provide an essential service.",
+        "question": "Landlords provide an essential service.",
         "effect": {
             "A1": -2,
             "A2": 0,
@@ -110,7 +110,7 @@
         }
     },
     {
-        "text": "It’s wasteful to have so many different brands of the same good.",
+        "question": "It’s wasteful to have so many different brands of the same good.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -121,7 +121,7 @@
         }
     },
     {
-        "text": "People should not have to pay for healthcare.",
+        "question": "People should not have to pay for healthcare.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -132,7 +132,7 @@
         }
     },
     {
-        "text": "We should combat mindless consumerism.",
+        "question": "We should combat mindless consumerism.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -143,7 +143,7 @@
         }
     },
     {
-        "text": "Everyone should be provided with a job.",
+        "question": "Everyone should be provided with a job.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -154,7 +154,7 @@
         }
     },
     {
-        "text": "In an ideal society, money would not exist.",
+        "question": "In an ideal society, money would not exist.",
         "effect": {
             "A1": 0,
             "A2": 2,
@@ -165,7 +165,7 @@
         }
     },
     {
-        "text": "Regulations can often harm the people they aim to protect.",
+        "question": "Regulations can often harm the people they aim to protect.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -176,7 +176,7 @@
         }
     },
     {
-        "text": "Competition drives innovation.",
+        "question": "Competition drives innovation.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -187,7 +187,7 @@
         }
     },
     {
-        "text": "The prices of goods should be set by the market.",
+        "question": "The prices of goods should be set by the market.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -198,7 +198,7 @@
         }
     },
     {
-        "text": "Welfare can reduce people’s incentive to work.",
+        "question": "Welfare can reduce people’s incentive to work.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -209,7 +209,7 @@
         }
     },
     {
-        "text": "All government intervention in the economy should be opposed.",
+        "question": "All government intervention in the economy should be opposed.",
         "effect": {
             "A1": 0,
             "A2": -2,
@@ -220,7 +220,7 @@
         }
     },
     {
-        "text": "Nations thrive when presided over by strong capable governments.",
+        "question": "Nations thrive when presided over by strong capable governments.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -231,7 +231,7 @@
         }
     },
     {
-        "text": "The populous cannot govern themselves.",
+        "question": "The populous cannot govern themselves.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -242,7 +242,7 @@
         }
     },
     {
-        "text": "There should be certain rules and standards that apply across all of society.",
+        "question": "There should be certain rules and standards that apply across all of society.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -253,7 +253,7 @@
         }
     },
     {
-        "text": "Life without the state would be nasty, brutish and short.",
+        "question": "Life without the state would be nasty, brutish and short.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -264,7 +264,7 @@
         }
     },
     {
-        "text": "Society must unite behind a central authority in order to be cohesive.",
+        "question": "Society must unite behind a central authority in order to be cohesive.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -275,7 +275,7 @@
         }
     },
     {
-        "text": "Citizens, not officials, should hold political power.",
+        "question": "Citizens, not officials, should hold political power.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -286,7 +286,7 @@
         }
     },
     {
-        "text": "Local governments should be more powerful than national governments.",
+        "question": "Local governments should be more powerful than national governments.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -297,7 +297,7 @@
         }
     },
     {
-        "text": "Like minded individuals should form self governing communities.",
+        "question": "Like minded individuals should form self governing communities.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -308,7 +308,7 @@
         }
     },
     {
-        "text": "Power corrupts, and absolute power corrupts absolutely.",
+        "question": "Power corrupts, and absolute power corrupts absolutely.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -319,7 +319,7 @@
         }
     },
     {
-        "text": "The state should be abolished.",
+        "question": "The state should be abolished.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -330,7 +330,7 @@
         }
     },
     {
-        "text": "Euthanasia should be legal.",
+        "question": "Euthanasia should be legal.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -341,7 +341,7 @@
         }
     },
     {
-        "text": "If people want to live unhealthy lifestyles, it is their right to do so.",
+        "question": "If people want to live unhealthy lifestyles, it is their right to do so.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -352,7 +352,7 @@
         }
     },
     {
-        "text": "Freedom of speech is vital for a healthy society.",
+        "question": "Freedom of speech is vital for a healthy society.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -363,7 +363,7 @@
         }
     },
     {
-        "text": "All drugs should be decriminalised.",
+        "question": "All drugs should be decriminalised.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -374,7 +374,7 @@
         }
     },
     {
-        "text": "An individual should be allowed to do whatever they want with their body.",
+        "question": "An individual should be allowed to do whatever they want with their body.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -385,7 +385,7 @@
         }
     },
     {
-        "text": "An individual can never be truly separate from society.",
+        "question": "An individual can never be truly separate from society.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -396,7 +396,7 @@
         }
     },
     {
-        "text": "The worst criminals should be publicly executed.",
+        "question": "The worst criminals should be publicly executed.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -407,7 +407,7 @@
         }
     },
     {
-        "text": "Some ideas are too dangerous to be given a platform.",
+        "question": "Some ideas are too dangerous to be given a platform.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -418,7 +418,7 @@
         }
     },
     {
-        "text": "Pornography should be banned.",
+        "question": "Pornography should be banned.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -429,7 +429,7 @@
         }
     },
     {
-        "text": "We shouldn’t let people do things which will put them in danger.",
+        "question": "We shouldn’t let people do things which will put them in danger.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -440,7 +440,7 @@
         }
     },
     {
-        "text": "People should not be treated differently because of their race.",
+        "question": "People should not be treated differently because of their race.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -451,7 +451,7 @@
         }
     },
     {
-        "text": "Equality between men and women is desirable.",
+        "question": "Equality between men and women is desirable.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -462,7 +462,7 @@
         }
     },
     {
-        "text": "Disabled people should not be discouraged from having children.",
+        "question": "Disabled people should not be discouraged from having children.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -473,7 +473,7 @@
         }
     },
     {
-        "text": "Obese people should not be shamed for their appearance.",
+        "question": "Obese people should not be shamed for their appearance.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -484,7 +484,7 @@
         }
     },
     {
-        "text": "Society should embrace multiculturalism.",
+        "question": "Society should embrace multiculturalism.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -495,7 +495,7 @@
         }
     },
     {
-        "text": "Political correctness has gone too far.",
+        "question": "Political correctness has gone too far.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -506,7 +506,7 @@
         }
     },
     {
-        "text": "Women are naturally more nurturing than men.",
+        "question": "Women are naturally more nurturing than men.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -517,7 +517,7 @@
         }
     },
     {
-        "text": "An individual’s gender is determined by their chromosomes.",
+        "question": "An individual’s gender is determined by their chromosomes.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -528,7 +528,7 @@
         }
     },
     {
-        "text": "Men make better leaders than women.",
+        "question": "Men make better leaders than women.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -539,7 +539,7 @@
         }
     },
     {
-        "text": "Certain ethnic groups are genetically predisposed to violence.",
+        "question": "Certain ethnic groups are genetically predisposed to violence.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -550,7 +550,7 @@
         }
     },
     {
-        "text": "It is important to respect religion.",
+        "question": "It is important to respect religion.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -561,7 +561,7 @@
         }
     },
     {
-        "text": "My culture is worth protecting.",
+        "question": "My culture is worth protecting.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -572,7 +572,7 @@
         }
     },
     {
-        "text": "We should be skeptical of new technologies.",
+        "question": "We should be skeptical of new technologies.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -583,7 +583,7 @@
         }
     },
     {
-        "text": "There are moral rules which should never be broken.",
+        "question": "There are moral rules which should never be broken.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -594,7 +594,7 @@
         }
     },
     {
-        "text": "We should not attempt to mess with nature.",
+        "question": "We should not attempt to mess with nature.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -605,7 +605,7 @@
         }
     },
     {
-        "text": "Scientific progress can improve many people’s lives.",
+        "question": "Scientific progress can improve many people’s lives.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -616,7 +616,7 @@
         }
     },
     {
-        "text": "Nature has no inherent value.",
+        "question": "Nature has no inherent value.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -627,7 +627,7 @@
         }
     },
     {
-        "text": "The benefits of automation outweigh the costs.",
+        "question": "The benefits of automation outweigh the costs.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -638,7 +638,7 @@
         }
     },
     {
-        "text": "Parents should not send their children to religious schools.",
+        "question": "Parents should not send their children to religious schools.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -649,7 +649,7 @@
         }
     },
     {
-        "text": "In the future we should improve our own biology with technology.",
+        "question": "In the future we should improve our own biology with technology.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -660,7 +660,7 @@
         }
     },
     {
-        "text": "Communism is a desirable end goal.",
+        "question": "Communism is a desirable end goal.",
         "effect": {
             "A1": 1,
             "A2": 1,
@@ -671,7 +671,7 @@
         }
     },
     {
-        "text": "EquCom",
+        "question": "EquCom",
         "effect": {
             "A1": 1,
             "A2": -1,
@@ -682,7 +682,7 @@
         }
     },
     {
-        "text": "A party of revolutionaries should lead the workers against capitalism.",
+        "question": "A party of revolutionaries should lead the workers against capitalism.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -693,7 +693,7 @@
         }
     },
     {
-        "text": "Hierarchies should be dismantled.",
+        "question": "Hierarchies should be dismantled.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -704,7 +704,7 @@
         }
     },
     {
-        "text": "EquPer",
+        "question": "EquPer",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -715,7 +715,7 @@
         }
     },
     {
-        "text": "EquRes",
+        "question": "EquRes",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -726,7 +726,7 @@
         }
     },
     {
-        "text": "EquInc",
+        "question": "EquInc",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -737,7 +737,7 @@
         }
     },
     {
-        "text": "Powerful bankers manipulate our society behind the scenes.",
+        "question": "Powerful bankers manipulate our society behind the scenes.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -748,7 +748,7 @@
         }
     },
     {
-        "text": "Nomadic cultures have a wiser relationship with the land than we do.",
+        "question": "Nomadic cultures have a wiser relationship with the land than we do.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -759,7 +759,7 @@
         }
     },
     {
-        "text": "Inheritance should be abolished.",
+        "question": "Inheritance should be abolished.",
         "effect": {
             "A1": 1,
             "A2": 0,
@@ -770,7 +770,7 @@
         }
     },
     {
-        "text": "Workers in essential parts of the economy should not be allowed to strike.",
+        "question": "Workers in essential parts of the economy should not be allowed to strike.",
         "effect": {
             "A1": -1,
             "A2": 1,
@@ -781,7 +781,7 @@
         }
     },
     {
-        "text": "ProCom",
+        "question": "ProCom",
         "effect": {
             "A1": -1,
             "A2": -1,
@@ -792,7 +792,7 @@
         }
     },
     {
-        "text": "ProDom",
+        "question": "ProDom",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -803,7 +803,7 @@
         }
     },
     {
-        "text": "ProAna",
+        "question": "ProAna",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -814,7 +814,7 @@
         }
     },
     {
-        "text": "People should be allowed to use their property however they please.",
+        "question": "People should be allowed to use their property however they please.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -825,7 +825,7 @@
         }
     },
     {
-        "text": "Trespassing should be met with harsh consequences.",
+        "question": "Trespassing should be met with harsh consequences.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -836,7 +836,7 @@
         }
     },
     {
-        "text": "ProInc",
+        "question": "ProInc",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -847,7 +847,7 @@
         }
     },
     {
-        "text": "The wealth disparity between different ethnic groups is caused by some groups working harder than others.",
+        "question": "The wealth disparity between different ethnic groups is caused by some groups working harder than others.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -858,7 +858,7 @@
         }
     },
     {
-        "text": "Feudalism was not such a bad system.",
+        "question": "Feudalism was not such a bad system.",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -869,7 +869,7 @@
         }
     },
     {
-        "text": "ProNov",
+        "question": "ProNov",
         "effect": {
             "A1": -1,
             "A2": 0,
@@ -880,7 +880,7 @@
         }
     },
     {
-        "text": "The state should control all aspects of the economy.",
+        "question": "The state should control all aspects of the economy.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -891,7 +891,7 @@
         }
     },
     {
-        "text": "Local councils should have more power to implement economic policies.",
+        "question": "Local councils should have more power to implement economic policies.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -902,7 +902,7 @@
         }
     },
     {
-        "text": "CooPer",
+        "question": "CooPer",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -913,7 +913,7 @@
         }
     },
     {
-        "text": "CooRes",
+        "question": "CooRes",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -924,7 +924,7 @@
         }
     },
     {
-        "text": "CooInc",
+        "question": "CooInc",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -935,7 +935,7 @@
         }
     },
     {
-        "text": "We should increase tariffs on imports in order to help local producers.",
+        "question": "We should increase tariffs on imports in order to help local producers.",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -946,7 +946,7 @@
         }
     },
     {
-        "text": "CooHer",
+        "question": "CooHer",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -957,7 +957,7 @@
         }
     },
     {
-        "text": "CooNov",
+        "question": "CooNov",
         "effect": {
             "A1": 0,
             "A2": 1,
@@ -968,7 +968,7 @@
         }
     },
     {
-        "text": "ComDom",
+        "question": "ComDom",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -979,7 +979,7 @@
         }
     },
     {
-        "text": "ComAna",
+        "question": "ComAna",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -990,7 +990,7 @@
         }
     },
     {
-        "text": "Prostitution should be allowed.",
+        "question": "Prostitution should be allowed.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -1001,7 +1001,7 @@
         }
     },
     {
-        "text": "Independent websites should not be required to tolerate content that violates their policy.",
+        "question": "Independent websites should not be required to tolerate content that violates their policy.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -1012,7 +1012,7 @@
         }
     },
     {
-        "text": "ComInc",
+        "question": "ComInc",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -1023,7 +1023,7 @@
         }
     },
     {
-        "text": "Welfare for disabled people should be cut.",
+        "question": "Welfare for disabled people should be cut.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -1034,7 +1034,7 @@
         }
     },
     {
-        "text": "Space travel should not be funded by tax money.",
+        "question": "Space travel should not be funded by tax money.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -1045,7 +1045,7 @@
         }
     },
     {
-        "text": "Shops should not be required to close on Sundays or during religious festivals.",
+        "question": "Shops should not be required to close on Sundays or during religious festivals.",
         "effect": {
             "A1": 0,
             "A2": -1,
@@ -1056,7 +1056,7 @@
         }
     },
     {
-        "text": "DomPer",
+        "question": "DomPer",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1067,7 +1067,7 @@
         }
     },
     {
-        "text": "Physical violence should be used against those who oppose my views.",
+        "question": "Physical violence should be used against those who oppose my views.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1078,7 +1078,7 @@
         }
     },
     {
-        "text": "A singular world government is desirable.",
+        "question": "A singular world government is desirable.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1089,7 +1089,7 @@
         }
     },
     {
-        "text": "The nation comes before all else.",
+        "question": "The nation comes before all else.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1100,7 +1100,7 @@
         }
     },
     {
-        "text": "Monarchy is a good system of government.",
+        "question": "Monarchy is a good system of government.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1111,7 +1111,7 @@
         }
     },
     {
-        "text": "Scientists and experts should rule instead of elected politicians.",
+        "question": "Scientists and experts should rule instead of elected politicians.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1122,7 +1122,7 @@
         }
     },
     {
-        "text": "Firearms should be available to the general public.",
+        "question": "Firearms should be available to the general public.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1133,7 +1133,7 @@
         }
     },
     {
-        "text": "Sometimes vigilante justice is necessary.",
+        "question": "Sometimes vigilante justice is necessary.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1144,7 +1144,7 @@
         }
     },
     {
-        "text": "AnaInc",
+        "question": "AnaInc",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1155,7 +1155,7 @@
         }
     },
     {
-        "text": "AnaSup",
+        "question": "AnaSup",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1166,7 +1166,7 @@
         }
     },
     {
-        "text": "AnaHer",
+        "question": "AnaHer",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1177,7 +1177,7 @@
         }
     },
     {
-        "text": "AnaNov",
+        "question": "AnaNov",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1188,7 +1188,7 @@
         }
     },
     {
-        "text": "Gay marriage should be legal.",
+        "question": "Gay marriage should be legal.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1199,7 +1199,7 @@
         }
     },
     {
-        "text": "PerSup",
+        "question": "PerSup",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1210,7 +1210,7 @@
         }
     },
     {
-        "text": "PerHer",
+        "question": "PerHer",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1221,7 +1221,7 @@
         }
     },
     {
-        "text": "It’s often necessary to break taboos.",
+        "question": "It’s often necessary to break taboos.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1232,7 +1232,7 @@
         }
     },
     {
-        "text": "Hate speech against minorities should be a crime.",
+        "question": "Hate speech against minorities should be a crime.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1243,7 +1243,7 @@
         }
     },
     {
-        "text": "ResSup",
+        "question": "ResSup",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1254,7 +1254,7 @@
         }
     },
     {
-        "text": "ResHer",
+        "question": "ResHer",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1265,7 +1265,7 @@
         }
     },
     {
-        "text": "There should be laws against wearing religious clothing in public.",
+        "question": "There should be laws against wearing religious clothing in public.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1276,7 +1276,7 @@
         }
     },
     {
-        "text": "It would be a shame to see minority languages go extinct.",
+        "question": "It would be a shame to see minority languages go extinct.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1287,7 +1287,7 @@
         }
     },
     {
-        "text": "Gender should be abolished.",
+        "question": "Gender should be abolished.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1298,7 +1298,7 @@
         }
     },
     {
-        "text": "Transsexual individuals should not change the body they are born in.",
+        "question": "Transsexual individuals should not change the body they are born in.",
         "effect": {
             "A1": 0,
             "A2": 0,
@@ -1309,7 +1309,7 @@
         }
     },
     {
-        "text": "It is acceptable to genetically engineer handicapping genes out of the population.",
+        "question": "It is acceptable to genetically engineer handicapping genes out of the population.",
         "effect": {
             "A1": 0,
             "A2": 0,
