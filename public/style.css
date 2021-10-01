@@ -11,4 +11,13 @@ div.bar {
 }
 .button {
 	border: 6px solid #000000;
+	border-radius: 8pt;
+}
+.small_button, .small_button_off {
+	border: 6px solid #000000;
+	border-radius: 8pt;
+}
+p.question {
+	border: 6px solid #000000;
+	border-radius: 16pt;
 }
