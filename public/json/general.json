@@ -1,5 +1,5 @@
 {
-	"title": dozenvalues.png,
+	"title": "DozenValues",
 	"github": "https://github.com/QUARK88/testing",
 	"description": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly. At the end of the quiz you will be presented with your results. Since some questions affect multiple axes, it’s very unlikely you’ll get 100% for any value, so don’t be alarmed if your responses seem more moderate than you expected.",
 	"valQuestion": "What are the 12 values?",
