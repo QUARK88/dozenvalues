@@ -6,7 +6,7 @@
 		"left": {
 			"name": "Equality",
 			"color": "#ff0c57",
-			"icon": "value_images/equality.png",
+			"icon": "value_images/equality.svg",
 			"description": "Those with higher Equality scores tend to reject the idea that private ownership should be the basis for the economy. They tend to support unions, common land ownership, and socialism."
 		},
 		"right": {
