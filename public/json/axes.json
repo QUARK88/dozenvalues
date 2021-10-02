@@ -6,13 +6,13 @@
 		"left": {
 			"name": "Equality",
 			"color": "#ff0c57",
-			"icon": "value_images/equality.svg",
+			"icon": "value_images/equality.png",
 			"description": "Those with higher Equality scores tend to reject the idea that private ownership should be the basis for the economy. They tend to support unions, common land ownership, and socialism."
 		},
 		"right": {
 			"name": "Property",
 			"color": "#1fe545",
-			"icon": "value_images/property.svg",
+			"icon": "value_images/property.png",
 			"description": "Those with higher Property scores believe that private property should be maintained and that inequality is a natural part of life. They tend to support wage labor, landlords, and class systems."
 		},
 		"tiers": [
