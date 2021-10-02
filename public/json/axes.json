@@ -2,6 +2,7 @@
 	{
 		"id": "A1",
 		"name": "Ownership",
+		"weight": 1,
 		"left": {
 			"name": "Equality",
 			"color": "#ff0c57",
@@ -27,6 +28,7 @@
 	{
 		"id": "A2",
 		"name": "Market",
+		"weight": 0.95,
 		"left": {
 			"name": "Coordination",
 			"color": "#b900d3",
@@ -52,6 +54,7 @@
 	{
 		"id": "A3",
 		"name": "Power",
+		"weight": 1,
 		"left": {
 			"name": "Dominion",
 			"color": "#0cd1a5",
@@ -77,6 +80,7 @@
 	{
 		"id": "A4",
 		"name": "Autonomy",
+		"weight": 0.5,
 		"left": {
 			"name": "Permission",
 			"color": "#ffff00",
@@ -102,6 +106,7 @@
 	{
 		"id": "A5",
 		"name": "Identity",
+		"weight": 0.6,
 		"left": {
 			"name": "Inclusivity",
 			"color": "#ff15a8",
@@ -127,6 +132,7 @@
 	{
 		"id": "A6",
 		"name": "Progress",
+		"weight": 0.6,
 		"left": {
 			"name": "Heritage",
 			"color": "#9bf122",
