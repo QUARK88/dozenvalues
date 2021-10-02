@@ -12,7 +12,7 @@
 		"right": {
 			"name": "Property",
 			"color": "#1fe545",
-			"icon": "value_images/property.png",
+			"icon": "value_images/property.svg",
 			"description": "Those with higher Property scores believe that private property should be maintained and that inequality is a natural part of life. They tend to support wage labor, landlords, and class systems."
 		},
 		"tiers": [
