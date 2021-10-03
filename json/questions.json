@@ -1,0 +1,1124 @@
+[
+    {
+        "question": "Euthanasia should be legal.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Citizens, not officials, should hold political power.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Inequality is one of the biggest problems of our age.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "It is important to respect religion.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "Scientific progress can improve many people’s lives.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "Any sexual activity is fine as long as everyone involved is a consenting adult.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 2,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "My culture is worth protecting.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "The wealth disparity between different ethnic groups is due to some groups working harder.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "In an ideal society, money would not exist.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "People should not be treated differently because of their race.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Nobody should have access to my private information without my consent.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Gender should be abolished.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 1,
+            "A6": -1
+        }
+    },
+    {
+        "question": "An individual can never be truly separate from society.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Powerful bankers manipulate our society behind the scenes.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Space travel should not be funded by tax money.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "Hate speech against minorities should be a crime.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Nations thrive when presided over by strong capable governments.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Landlords provide an essential service.",
+        "effect": {
+            "A1": -2,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Shops should not be required to close on Sundays or during religious festivals.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "In the future we should improve our own biology with technology.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -2
+        }
+    },
+    {
+        "question": "Regulations can often harm the people they aim to protect.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Everyone should benefit from natural resources.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "A singular world government is desirable.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "It’s wasteful to have so many different brands of the same good.",
+        "effect": {
+            "A1": 0,
+            "A2": 2,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We should not engage in offensive warfare.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Wealth accumulation leads to the creation of an oppressive class system.",
+        "effect": {
+            "A1": 2,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Gay marriage should be legal.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Local councils should have more power to implement economic policies.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Theft can never be justified.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "People are whatever gender they say they are.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 2,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We should increase tariffs on imports in order to help local producers.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "People should be allowed to use their property however they please.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Workers in essential parts of the economy should not be allowed to strike.",
+        "effect": {
+            "A1": -1,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "The worst criminals should be publicly executed.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Monarchy is a good system of government.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "Society must unite behind a central authority in order to be cohesive.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 2,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Political correctness has gone too far.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "A party of revolutionaries should lead the workers against capitalism.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "All government intervention in the economy should be opposed.",
+        "effect": {
+            "A1": 0,
+            "A2": -2,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Scientists and experts should rule instead of elected politicians.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "Income tax should be abolished.",
+        "effect": {
+            "A1": 0,
+            "A2": -2,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Women are naturally more nurturing than men.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Life without the state would be nasty, brutish and short.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 2,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Nothing is sacred, and we should embrace this.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -2
+        }
+    },
+    {
+        "question": "The populous cannot govern themselves.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Communism is a desirable end goal.",
+        "effect": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Hierarchies should be dismantled.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "An individual’s gender is determined by their chromosomes.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Feudalism was not such a bad system.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "Equality between men and women is desirable.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "People should not have to pay for healthcare.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Sometimes vigilante justice is necessary.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Disabled people should not be discouraged from having children.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Nature has no inherent value.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "Intellectual property is legitimate.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Power corrupts, and absolute power corrupts absolutely.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Trespassing should be met with harsh consequences.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "It would be a shame to see minority languages go extinct.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 1,
+            "A6": 1
+        }
+    },
+    {
+        "question": "If people want to live unhealthy lifestyles, it is their right to do so.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "There should be laws against wearing religious clothing in public.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "Some ideas are too dangerous to be given a platform.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We should combat mindless consumerism.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Competition drives innovation.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Obese people should not be shamed for their appearance.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "The benefits of automation outweigh the costs.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "The nation comes before all else.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Workers should seize the means of production.",
+        "effect": {
+            "A1": 2,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We should be skeptical of new technologies.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "There should be certain rules and standards that apply across all of society.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Men make better leaders than women.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Pornography should be banned.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Parents should not send their children to religious schools.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "Trade unions hurt the economy.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Firearms should be available to the general public.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Local governments should be more powerful than national governments.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "The state should control all aspects of the economy.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": 1,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Welfare for disabled people should be cut.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": -1,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Certain ethnic groups are genetically predisposed to violence.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -2,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Bosses know what's best for their workers.",
+        "effect": {
+            "A1": -1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We shouldn’t let people do things which will put them in danger.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -2,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "The prices of goods should be set by the market.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Physical violence should be used against those who oppose my views.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": -2,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Prostitution should be allowed.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "The state should be abolished.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -2,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Everyone should be provided with a job.",
+        "effect": {
+            "A1": 0,
+            "A2": 1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We should not attempt to mess with nature.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 2
+        }
+    },
+    {
+        "question": "Like minded individuals should form self governing communities.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": -2,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Society should embrace multiculturalism.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 2,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Independent websites should not be required to tolerate content that violates their policy.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": -1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Abandoned property should be free to use by any individual.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Many industries are too important to be left to the market.",
+        "effect": {
+            "A1": 0,
+            "A2": 2,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "It’s not healthy for children to be raised by gay couples.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": -2,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Freedom of speech is vital for a healthy society.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Nomadic cultures have a wiser relationship with the land than we do.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    },
+    {
+        "question": "It’s often necessary to break taboos.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": -1
+        }
+    },
+    {
+        "question": "Welfare can reduce people’s incentive to work.",
+        "effect": {
+            "A1": 0,
+            "A2": -1,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "All drugs should be decriminalised.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 1,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "Inheritance should be abolished.",
+        "effect": {
+            "A1": 1,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "We should return to a simpler, less materialistic way of living.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 2
+        }
+    },
+    {
+        "question": "If someone is first to claim an area of land, they are entitled to profit from it.",
+        "effect": {
+            "A1": -2,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "An individual should be allowed to do whatever they want with their body.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 2,
+            "A5": 0,
+            "A6": 0
+        }
+    },
+    {
+        "question": "There are moral rules which should never be broken.",
+        "effect": {
+            "A1": 0,
+            "A2": 0,
+            "A3": 0,
+            "A4": 0,
+            "A5": 0,
+            "A6": 1
+        }
+    }
+]
