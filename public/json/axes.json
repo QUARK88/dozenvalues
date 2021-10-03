@@ -32,13 +32,13 @@
 		"left": {
 			"name": "Coordination",
 			"color": "#b900d3",
-			"icon": "value_images/coordination.png",
+			"icon": "value_images/coordination.svg",
 			"description": "Those with higher Coordination scores believe that the economy should be planned out to best suit people’s needs. They tend to support regulation, high taxation, and at high values, economic planning."
 		},
 		"right": {
 			"name": "Commerce",
 			"color": "#ffc100",
-			"icon": "value_images/commerce.png",
+			"icon": "value_images/commerce.svg",
 			"description": "Those with higher Commerce scores believe that free markets are the best way to distribute resources. They tend to support deregulation, low taxes, and reject intervention in the economy."
 		},
 		"tiers": [
@@ -58,13 +58,13 @@
 		"left": {
 			"name": "Dominion",
 			"color": "#0cd1a5",
-			"icon": "value_images/dominion.png",
+			"icon": "value_images/dominion.svg",
 			"description": "Those with higher Dominion scores believe political power should be held by a select few individuals. They tend to support strong governments, and at high values, autocracy."
 		},
 		"right": {
 			"name": "Anarchy",
 			"color": "#ff3a17",
-			"icon": "value_images/anarchy.png",
+			"icon": "value_images/anarchy.svg",
 			"description": "Those with higher Anarchy scores believe political power should be spread amongst the population. They tend to support local governance, and at high values anarchism."
 		},
 		"tiers": [
@@ -84,13 +84,13 @@
 		"left": {
 			"name": "Permission",
 			"color": "#ffff00",
-			"icon": "value_images/permission.png",
+			"icon": "value_images/permission.svg",
 			"description": "Those with higher Permission scores believe an individual should be able to act as they please so long as they aren’t harming others. They tend to believe in free speech, bodily autonomy, and individualism."
 		},
 		"right": {
 			"name": "Restriction",
 			"color": "#2876ff",
-			"icon": "value_images/restriction.png",
+			"icon": "value_images/restriction.svg",
 			"description": "Those with higher Restriction scores believe that strict rules should be put in place to limit what an individual may do. They tend to support paternalistic social policy and limitations on speech."
 		},
 		"tiers": [
@@ -110,13 +110,13 @@
 		"left": {
 			"name": "Inclusivity",
 			"color": "#ff15a8",
-			"icon": "value_images/inclusivity.png",
+			"icon": "value_images/inclusivity.svg",
 			"description": "Those with higher Inclusivity scores believe that all identity groups in society should be treated equally. They tend to support feminism, racial equality, and LGBT acceptance."
 		},
 		"right": {
 			"name": "Supremacy",
 			"color": "#ff7b09",
-			"icon": "value_images/supremacy.png",
+			"icon": "value_images/supremacy.svg",
 			"description": "Those with higher Supremacy scores tend to believe that some identity groups have innate differences that set them above or below other groups. They tend to support ethnic nationalism, gender roles, and eugenics."
 		},
 		"tiers": [
@@ -136,13 +136,13 @@
 		"left": {
 			"name": "Heritage",
 			"color": "#9bf122",
-			"icon": "value_images/heritage.png",
+			"icon": "value_images/heritage.svg",
 			"description": "Those with higher Heritage scores believe that rapid change is risky and that the past should be cherished. They tend to value religion, nature and preserving culture."
 		},
 		"right": {
 			"name": "Novelty",
 			"color": "#894efa",
-			"icon": "value_images/novelty.png",
+			"icon": "value_images/novelty.svg",
 			"description": "Those with higher Novelty scores believe that holding on to the past is irrational and instead we should look to the future. They tend to support secularism, transhumanism and rewriting culture."
 		},
 		"tiers": [
