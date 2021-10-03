@@ -18,8 +18,7 @@ div.bar {
 .small_button, .small_button_off {
 	border: 8px solid #000000;
 	border-radius: 8pt;
-};
-	border-radius: 16pt;
+}
 p.question {
 	border: 8px solid #000000
 }
@@ -40,5 +39,14 @@ div.text-wrapper {
 	background: #000000;
 }
 h1 {
+	color: #000000;
+}
+p.axis_name {
+	color: #000000;
+}
+p.question {
+	color: #000000;
+}
+h2 {
 	color: #000000;
 }
