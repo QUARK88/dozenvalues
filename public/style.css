@@ -26,3 +26,9 @@ p.question {
 .column {
 	max-width: 9.7rem;
 }
+p.axis_name {
+	color: #000000;
+}
+div.axis_name {
+	color: #000000;
+}
