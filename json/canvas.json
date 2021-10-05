@@ -1,6 +1,6 @@
 {
 	"fgColor": "#000000",
-	"bgColor": "#EEEEEE",
-	"barThickness": 62,
-	"outlineThickness": 8
+	"bgColor": "#eeeeee",
+	"barThickness": 60,
+	"outlineThickness": 6
 }
