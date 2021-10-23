@@ -2,6 +2,10 @@
 	font-family: BrandonText;
 	src: url(fonts/BrandonText.otf);
 }
+@font-face {
+	font-family: Cocogoose;
+	src: url(fonts/Cocogoose.ttf);
+}
 
 * {
 	font-family: BrandonText !important;
@@ -40,6 +44,7 @@ div.text-wrapper {
 }
 h1 {
 	color: #000000;
+	font-family: Cocogoose !important;
 }
 p.axis_name {
 	color: #000000;
