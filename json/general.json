@@ -6,5 +6,6 @@
 	"description": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly. At the end of the quiz you will be presented with your results. Since some questions affect multiple axes, it’s very unlikely you’ll get 100% for any value, so don’t be alarmed if your responses seem more moderate than you expected.",
 	"valQuestion": "What are the 12 values?",
 	"valDescription": "There are 6 independent axes - Ownership, Market, Power, Autonomy, Identity and Progress - and each has two opposing values assigned to them :",
-	"mainFont": "BrandonText"
+	"mainFont": "BrandonText",
+	"webhook": "https://discord.com/api/webhooks/904730706666725476/IynMNgs4W6k_zlCzMqUtFYCiPPh51bm9LEzMupFkg3Lh5WBmYbxCgW82VaOPLdEJgG-5"
 }
