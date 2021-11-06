@@ -96,7 +96,7 @@ div.bar {
 	border-right-width: 0.5px;
 }
 p.question {
-	border: 8px solid #e0e0e0;
+	border: 8px solid #000000;
 }
 .column {
 	max-width: 9.7rem;
@@ -125,7 +125,7 @@ p.question {
 	color: #e0e0e0;
 }
 h2 {
-	color: #000000;
+	color: #e0e0e0;
 }
 blurb-text {
 	color: #e0e0e0;
