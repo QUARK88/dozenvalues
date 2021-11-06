@@ -6,9 +6,67 @@
 	font-family: Cocogoose;
 	src: url(fonts/Cocogoose.ttf);
 }
-
 * {
 	font-family: BrandonText !important;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+div.bar {
+	border-color: #ffffff;
+        border-width: 8px;
+	border-right-width: 0.5px;
+}
+.button {
+	border: 8px solid #ffffff;
+	border-radius: 8pt;
+}
+.small_button, .small_button_off {
+	border: 8px solid #ffffff;
+	border-radius: 8pt;
+}
+p.question {
+	border: 8px solid #ffffff
+}
+.column {
+	max-width: 9.7rem;
+}
+p.axis_name {
+	color: #ffffff;
+}
+div.axis_name {
+	color: #ffffff;
+}
+div.text-wrapper {
+	color: #ffffff;
+}
+.small_button:hover,
+.small_button:focus {
+	background: #000000;
+}
+h1 {
+	color: #ffffff;
+	font-family: Cocogoose !important;
+}
+p.axis_name {
+	color: #ffffff;
+}
+p.question {
+	color: #ffffff;
+}
+h2 {
+	color: #ffffff;
+}
+blurb-text {
+	color: #e0e0e0;
+}
+p {
+	color: #e0e0e0
+}
+
+
+
 }
 div.bar {
 	border-color: #000000;
