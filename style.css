@@ -32,6 +32,7 @@ p.question {
 }
 p.axis_name {
 	color: #000000;
+	font-family: Cocogoose !important;
 }
 div.axis_name {
 	color: #000000;
@@ -65,6 +66,9 @@ blurb-text {
 }
 p {
 	color: #222222;
+}
+div.column {
+	font-family: Cocogoose !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -142,5 +146,8 @@ blurb-text {
 }
 p {
 	color: #e0e0e0;
+}
+div.column {
+	font-family: Cocogoose !important;
 }
 }
