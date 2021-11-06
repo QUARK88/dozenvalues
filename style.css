@@ -66,10 +66,10 @@ p {
 @media (prefers-color-scheme: dark) {
 body {
 	background-color: #141414;
+	border: 8px solid #000000;
 }
 html {
 	background-color: #505050;
-	border: 8px solid #000000;
 }
 .button {
 	border: 8px solid #080808;
