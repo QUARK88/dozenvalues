@@ -73,6 +73,14 @@ html {
 border {
 	background-color: #000000;
 }
+.button {
+	border: 8px solid #080808;
+	border-radius: 8pt;
+}
+.small_button, .small_button_off {
+	border: 8px solid #080808;
+	border-radius: 8pt;
+}
 div.center {
 	background-color: #080808;
 }
