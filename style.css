@@ -70,53 +70,56 @@ body {
 html {
 	background-color: #505050;
 }
+border {
+	background-color: #000000;
+}
 div.center {
 	background-color: #080808;
 }
 div.bar {
-	border-color: #ffffff;
+	border-color: #e0e0e0;
         border-width: 8px;
 	border-right-width: 0.5px;
 }
 .button {
-	border: 8px solid #ffffff;
+	border: 8px solid #a0a0a0;
 	border-radius: 8pt;
 }
 .small_button, .small_button_off {
-	border: 8px solid #ffffff;
+	border: 8px solid #a0a0a0;
 	border-radius: 8pt;
 }
 p.question {
-	border: 8px solid #ffffff
+	border: 8px solid #e0e0e0
 }
 .column {
 	max-width: 9.7rem;
 }
 p.axis_name {
-	color: #ffffff;
+	color: #e0e0e0;
 }
 div.axis_name {
-	color: #ffffff;
+	color: #e0e0e0;
 }
 div.text-wrapper {
-	color: #ffffff;
+	color: #e0e0e0;
 }
 .small_button:hover,
 .small_button:focus {
 	background: #000000;
 }
 h1 {
-	color: #ffffff;
+	color: #e0e0e0;
 	font-family: Cocogoose !important;
 }
 p.axis_name {
-	color: #ffffff;
+	color: #e0e0e0;
 }
 p.question {
-	color: #ffffff;
+	color: #e0e0e0;
 }
 h2 {
-	color: #ffffff;
+	color: #e0e0e0;
 }
 blurb-text {
 	color: #e0e0e0;
