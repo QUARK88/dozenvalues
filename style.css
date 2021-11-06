@@ -82,11 +82,11 @@ div.bar {
 	border-right-width: 0.5px;
 }
 .button {
-	border: 8px solid #a0a0a0;
+	border: 8px solid #505050;
 	border-radius: 8pt;
 }
 .small_button, .small_button_off {
-	border: 8px solid #a0a0a0;
+	border: 8px solid #505050;
 	border-radius: 8pt;
 }
 p.question {
