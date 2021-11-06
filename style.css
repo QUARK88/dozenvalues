@@ -84,6 +84,9 @@ border {
 div.center {
 	background-color: #080808;
 }
+div.spacer {
+	background-color: #080808;
+}
 div.bar {
 	border-color: #e0e0e0;
         border-width: 8px;
