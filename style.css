@@ -64,6 +64,9 @@ p {
 }
 
 @media (prefers-color-scheme: dark) {
+p {
+	color: #000000
+}
 div.bar {
 	border-color: #ffffff;
         border-width: 8px;
