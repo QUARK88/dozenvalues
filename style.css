@@ -54,7 +54,7 @@ p.axis_name {
 p.question {
 	color: #000000;
 }
-p.value {
+value {
 	font-family: Cocogoose !important;
 }
 h2 {
@@ -131,7 +131,7 @@ p.axis_name {
 p.question {
 	color: #e0e0e0;
 }
-p.value {
+value {
 	font-family: Cocogoose !important;
 }
 h2 {
