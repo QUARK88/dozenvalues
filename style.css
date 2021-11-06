@@ -1,5 +1,5 @@
 @font-face {
-	font-family: BrandonText !important;
+	font-family: BrandonText;
 	src: url(fonts/BrandonText.otf);
 }
 @font-face {
@@ -7,7 +7,7 @@
 	src: url(fonts/Cocogoose.ttf);
 }
 html {
-	font-family: BrandonText;
+	font-family: BrandonText !important;
 }
 
 div.bar {
