@@ -62,10 +62,16 @@ blurb-text {
 p {
 	color: #222222
 }
-/*
+
 @media (prefers-color-scheme: dark) {
 body {
-	background-color: #000000;
+	background-color: #141414;
+}
+html {
+	background-color: #505050;
+}
+div.center {
+	color: #080808;
 }
 div.bar {
 	border-color: #ffffff;
@@ -119,4 +125,3 @@ p {
 	color: #e0e0e0
 }
 }
-*/
