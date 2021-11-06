@@ -7,8 +7,13 @@
 	src: url(fonts/Cocogoose.ttf);
 }
 html {
-	font-family: BrandonText !important;
+	font-family: Cocogoose;
 }
+p,.button,.small_button, .small_button_off,p.question,h2 {
+	font-family: BrandonText;
+}
+
+
 
 div.bar {
 	border-color: #000000;
@@ -66,21 +71,22 @@ h2 {
 	h1,h2 {
 		color: #ffffff;
 	}
-	p,.question,.axis_name,.blurb-text {
+	p,.question,div.axis_name,p.axis_name,.blurb-text {
 		color: #e0e0e0;
 	}
 	.button,.small_button, .small_button_off {
 		border: 8px solid #080808;
 	}
-	.center,.spacer,.explanation_bg {
+	div.center,.spacer,.explanation_bg {
 		background-color: #080808;
 	}
 	.bar {
 		border-color: #000000;
 	}
-	.question {
+	p.question {
 		border: 8px solid #080808;
 		background-color: #000000;
+		color: #ffffff;
 	}
 	.text-wrapper {
 		color: #000000;
