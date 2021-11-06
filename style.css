@@ -49,6 +49,7 @@ h1 {
 }
 p.axis_name {
 	color: #000000;
+	font-family: Cocogoose !important;
 }
 p.question {
 	color: #000000;
