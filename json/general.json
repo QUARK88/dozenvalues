@@ -7,5 +7,6 @@
 	"valQuestion": "What are the 12 values?",
 	"valDescription": "There are 6 independent axes - Ownership, Market, Power, Autonomy, Identity and Progress - and each has two opposing values assigned to them :",
 	"mainFont": "BrandonText",
+	"titleFont": "Cocogoose",
 	"webhook": "https://discord.com/api/webhooks/905911347202646066/2j5T8r-GnqXX7aZ_j96kVHx_RwOqB4P46gwVrQlh6MrcJdi5YBd2xR2MaH_4MUn1GQ6X"
 }
