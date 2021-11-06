@@ -25,7 +25,7 @@ div.bar {
 	border-radius: 8pt;
 }
 p.question {
-	border: 8px solid #000000
+	border: 8px solid #000000;
 }
 .column {
 	max-width: 9.7rem;
@@ -60,7 +60,7 @@ blurb-text {
 	color: #222222;
 }
 p {
-	color: #222222
+	color: #222222;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -87,13 +87,11 @@ div.center {
 div.spacer {
 	background-color: #080808;
 }
-div.bar {
-	border-color: #e0e0e0;
-        border-width: 8px;
-	border-right-width: 0.5px;
+div.explanation_bg {
+	background-color: #080808;
 }
 p.question {
-	border: 8px solid #e0e0e0
+	border: 8px solid #e0e0e0;
 }
 .column {
 	max-width: 9.7rem;
@@ -128,6 +126,6 @@ blurb-text {
 	color: #e0e0e0;
 }
 p {
-	color: #e0e0e0
+	color: #e0e0e0;
 }
 }
