@@ -9,11 +9,9 @@
 html {
 	font-family: Cocogoose;
 }
-p,.button,.small_button, .small_button_off,p.question,h2 {
-	font-family: BrandonText;
+p,.button,.small_button, .small_button_off,p.question,h2,div.text-wrapper {
+	font-family: BrandonText ;
 }
-
-
 
 div.bar {
 	border-color: #000000;
