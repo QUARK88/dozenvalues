@@ -16,6 +16,14 @@ div.bar {
         border-width: 8px;
 	border-right-width: 0.5px;
 }
+.button {
+	border: 8px solid #000000;
+	border-radius: 8pt;
+}
+.small_button, .small_button_off {
+	border: 8px solid #000000;
+	border-radius: 8pt;
+}
 p.question {
 	border: 8px solid #000000
 }
@@ -72,14 +80,6 @@ div.bar {
 	border-color: #e0e0e0;
         border-width: 8px;
 	border-right-width: 0.5px;
-}
-.button {
-	border: 8px solid #505050;
-	border-radius: 8pt;
-}
-.small_button, .small_button_off {
-	border: 8px solid #505050;
-	border-radius: 8pt;
 }
 p.question {
 	border: 8px solid #e0e0e0
