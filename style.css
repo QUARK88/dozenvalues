@@ -64,7 +64,7 @@ p {
 }
 
 @media (prefers-color-scheme: dark) {
-p {
+body {
 	color: #000000
 }
 div.bar {
