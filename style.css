@@ -1,5 +1,5 @@
 @font-face {
-	font-family: BrandonText;
+	font-family: BrandonText !important;
 	src: url(fonts/BrandonText.otf);
 }
 @font-face {
@@ -35,8 +35,7 @@ p.question {
 .text-wrapper {
 	color: #000000;
 }
-.small_button:hover,
-.small_button:focus {
+.small_button:hover,.small_button:focus {
 	background: #000000;
 }
 h1,.axis_name {
