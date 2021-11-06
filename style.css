@@ -55,6 +55,7 @@ p.question {
 }
 h2 {
 	color: #000000;
+	font-family: Cocogoose !important;
 }
 blurb-text {
 	color: #222222;
@@ -117,7 +118,7 @@ div.text-wrapper {
 	background: #000000;
 }
 h1 {
-	color: #e0e0e0;
+	color: #ffffff;
 	font-family: Cocogoose !important;
 }
 p.axis_name {
@@ -127,7 +128,8 @@ p.question {
 	color: #e0e0e0;
 }
 h2 {
-	color: #e0e0e0;
+	color: #ffffff;
+	font-family: Cocogoose !important;
 }
 blurb-text {
 	color: #e0e0e0;
