@@ -97,6 +97,7 @@ div.bar {
 }
 p.question {
 	border: 8px solid #080808;
+	background-color: #000000;
 }
 .column {
 	max-width: 9.7rem;
