@@ -124,6 +124,7 @@ h1 {
 }
 p.axis_name {
 	color: #e0e0e0;
+	font-family: Cocogoose !important;
 }
 p.question {
 	color: #e0e0e0;
