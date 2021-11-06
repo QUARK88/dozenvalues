@@ -70,7 +70,7 @@ body {
 html {
 	background-color: #505050;
 }
-border {
+div.border {
 	background-color: #000000;
 }
 .button {
@@ -89,6 +89,11 @@ div.spacer {
 }
 div.explanation_bg {
 	background-color: #080808;
+}
+div.bar {
+	border-color: #000000;
+        border-width: 8px;
+	border-right-width: 0.5px;
 }
 p.question {
 	border: 8px solid #e0e0e0;
