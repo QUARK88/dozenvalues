@@ -62,10 +62,10 @@ blurb-text {
 p {
 	color: #222222
 }
-/*
+
 @media (prefers-color-scheme: dark) {
 body {
-	color: #000000;
+	background-color: #000000;
 }
 div.bar {
 	border-color: #ffffff;
@@ -119,4 +119,3 @@ p {
 	color: #e0e0e0
 }
 }
-*/
