@@ -3,7 +3,7 @@
 		"id": "A1",
 		"name": "Ownership",
 		"weight": 1,
-		"weights": [10,15,20,10,20,15,10],
+		"weights": [-0.01,10,15,20,10,20,15,10,-0.01],
 		"left": {
 			"name": "Equality",
 			"color": "#ff0c57",
@@ -17,20 +17,22 @@
 			"description": "Those with higher Property scores believe that private property should be maintained and that inequality is a natural part of life. They tend to support wage labor, landlords, and class systems."
 		},
 		"tiers": [
+			"Toothbrush Thief",
 			"Communist",
 			"Socialist",
 			"Collective",
 			"Syncretic",
 			"Individual",
 			"Private",
-			"Propertarian"
+			"Propertarian",
+			"Landlord"
 		]
 	},
 	{
 		"id": "A2",
 		"name": "Market",
 		"weight": 0.95,
-		"weights": [10,15,20,10,20,15,10],
+		"weights": [-0.01,10,15,20,10,20,15,10,-0.01],
 		"left": {
 			"name": "Coordination",
 			"color": "#b900d3",
@@ -44,20 +46,22 @@
 			"description": "Those with higher Commerce scores believe that free markets are the best way to distribute resources. They tend to support deregulation, low taxes, and reject intervention in the economy."
 		},
 		"tiers": [
+			"Toaster Loicense Inspector",
 			"Planned",
 			"Directed",
 			"Regulated",
 			"Intervening",
 			"Permissive",
 			"Free Market",
-			"Laissez-Faire"
+			"Laissez-Faire",
+			"Consoomer"
 		]
 	},
 	{
 		"id": "A3",
 		"name": "Power",
 		"weight": 1,
-		"weights": [10,15,20,10,20,15,10],
+		"weights": [-0.01,10,15,20,10,20,15,10,-0.01],
 		"left": {
 			"name": "Dominion",
 			"color": "#0cd1a5",
@@ -71,20 +75,22 @@
 			"description": "Those with higher Anarchy scores believe political power should be spread amongst the population. They tend to support local governance, and at high values anarchism."
 		},
 		"tiers": [
+			"Emperor Of Mankind",
 			"Autocratic",
 			"Concentrated",
 			"Unified",
 			"Representative",
 			"Dispersed",
 			"Decentral",
-			"Anarchist"
+			"Anarchist",
+			"Chaos God"
 		]
 	},
 	{
 		"id": "A4",
 		"name": "Autonomy",
 		"weight": 0.5,
-		"weights": [10,15,20,10,20,15,10],
+		"weights": [-0.01,10,15,20,10,20,15,10,-0.01],
 		"left": {
 			"name": "Permission",
 			"color": "#ffff00",
@@ -98,20 +104,22 @@
 			"description": "Those with higher Restriction scores believe that strict rules should be put in place to limit what an individual may do. They tend to support paternalistic social policy and limitations on speech."
 		},
 		"tiers": [
+			"Weed-Smoking Hippie",
 			"Emancipatory",
 			"Tolerant",
 			"Lenient",
 			"Limiting",
 			"Restrictive",
 			"Controlling",
-			"Brutal"
+			"Brutal",
+			"Literally 1984"
 		]
 	},
 	{
 		"id": "A5",
 		"name": "Identity",
 		"weight": 0.6,
-		"weights": [10,15,20,10,20,15,10],
+		"weights": [-0.01,10,15,20,10,20,15,10,-0.01],
 		"left": {
 			"name": "Inclusivity",
 			"color": "#ff15a8",
@@ -125,20 +133,22 @@
 			"description": "Those with higher Supremacy scores tend to believe that some identity groups have innate differences that set them above or below other groups. They tend to support ethnic nationalism, gender roles, and eugenics."
 		},
 		"tiers": [
+			"Feminazi",
 			"Intersectional",
 			"Inclusive",
 			"Respectful",
 			"Normative",
 			"Prejudicial",
 			"Discriminatory",
-			"Supremacist"
+			"Supremacist",
+			"Worse Than Hitler"
 		]
 	},
 	{
 		"id": "A6",
 		"name": "Progress",
 		"weight": 0.6,
-		"weights": [10,15,20,10,20,15,10],
+		"weights": [-0.01,10,15,20,10,20,15,10,-0.01],
 		"left": {
 			"name": "Heritage",
 			"color": "#9bf122",
@@ -152,13 +162,15 @@
 			"description": "Those with higher Novelty scores believe that holding on to the past is irrational and instead we should look to the future. They tend to support secularism, transhumanism and rewriting culture."
 		},
 		"tiers": [
+			"ooga booga sun god mad",
 			"Antiquated",
 			"Traditional",
 			"Conservative",
 			"Conventional",
 			"Neoteric",
 			"Progressive",
-			"Futuristic"
+			"Futuristic",
+			"Կ̵̟̂γ̶̈́̾ξ̷́̌ψ̵̾͊κ̵̅͘ό̵̅ ̵̛̐ε̷̈͂o̵̎̀u̸̎̈ր̵̆̈́ ̶̿͝c̴̍̾Օ̵̐̈́պ̴̄̿ժ̴͛̚ւ̴̐̄f̵͛̀ի̸͆̊ս̴̋͠ղ̴̴̒̉̇͛"
 		]
 	}
 ]
