@@ -1484,7 +1484,7 @@
             "A6": 35
         }
     },
-        {
+    {
         "name": "Tridemism",
         "stats": {
             "b1": 70,
@@ -1504,6 +1504,215 @@
             "b4": 55,
             "b5": 45,
             "b6": 50
+        }
+    },
+    {
+        "name": "Orwellism",
+        "stats": {
+            "b1": 65,
+            "b2": 80,
+            "b3": 55,
+            "b4": 80,
+            "b5": 55,
+            "b6": 45
+        }
+    },
+    {
+        "name": "Benevolent Aristocracy",
+        "stats": {
+            "b1": 20,
+            "b2": 65,
+            "b3": 85,
+            "b4": 90,
+            "b5": 55,
+            "b6": 75
+        }
+    },
+    {
+        "name": "Mercantilism",
+        "stats": {
+            "b1": 35,
+            "b2": 80,
+            "b3": 60,
+            "b4": 50,
+            "b5": 55,
+            "b6": 40
+        }
+    },
+    {
+        "name": "Regulationism",
+        "stats": {
+            "b1": 40,
+            "b2": 70,
+            "b3": 55,
+            "b4": 50,
+            "b5": 55,
+            "b6": 45
+        }
+    },
+    {
+        "name": "Constitutional Monarchism",
+        "stats": {
+            "b1": 40,
+            "b2": 45,
+            "b3": 65,
+            "b4": 70,
+            "b5": 55,
+            "b6": 65
+        }
+    },
+    {
+        "name": "Crypto-Anarchism",
+        "stats": {
+            "b1": 35,
+            "b2": 0,
+            "b3": 5,
+            "b4": 100,
+            "b5": 50,
+            "b6": 20
+        }
+    },
+    {
+        "name": "Monarcho-Socialism",
+        "stats": {
+            "b1": 70,
+            "b2": 80,
+            "b3": 90,
+            "b4": 55,
+            "b5": 55,
+            "b6": 70
+        }
+    },
+    {
+        "name": "Castroism",
+        "stats": {
+            "b1": 75,
+            "b2": 65,
+            "b3": 75,
+            "b4": 50,
+            "b5": 60,
+            "b6": 35
+        }
+    },
+    {
+        "name": "Left Market Minarchism",
+        "stats": {
+            "b1": 80,
+            "b2": 15,
+            "b3": 20,
+            "b4": 100,
+            "b5": 65,
+            "b6": 30
+        }
+    },
+    {
+        "name": "Left minarchism",
+        "stats": {
+            "b1": 80,
+            "b2": 55,
+            "b3": 20,
+            "b4": 100,
+            "b5": 65,
+            "b6": 35
+        }
+    },
+    {
+        "name": "Totalitarianism",
+        "stats": {
+            "b1": 35,
+            "b2": 80,
+            "b3": 95,
+            "b4": 5,
+            "b5": 45,
+            "b6": 45
+        }
+    },
+    {
+        "name": "Authoritarianism",
+        "stats": {
+            "b1": 35,
+            "b2": 65,
+            "b3": 80,
+            "b4": 25,
+            "b5": 45,
+            "b6": 50
+        }
+    },
+    {
+        "name": "Thatcherism",
+        "stats": {
+            "b1": 30,
+            "b2": 30,
+            "b3": 65,
+            "b4": 55,
+            "b5": 40,
+            "b6": 60
+        }
+    },
+    {
+        "name": "Cooperativism",
+        "stats": {
+            "b1": 65,
+            "b2": 45,
+            "b3": 45,
+            "b4": 70,
+            "b5": 80,
+            "b6": 45
+        }
+    },
+    {
+        "name": "National Liberalism",
+        "stats": {
+            "b1": 40,
+            "b2": 35,
+            "b3": 55,
+            "b4": 75,
+            "b5": 45,
+            "b6": 45
+        }
+    },
+    {
+        "name": "Reactionary Liberalism",
+        "stats": {
+            "b1": 25,
+            "b2": 35,
+            "b3": 55,
+            "b4": 65,
+            "b5": 25,
+            "b6": 85
+        }
+    },
+    {
+        "name": "Reactionary Libertarianism",
+        "stats": {
+            "b1": 10,
+            "b2": 20,
+            "b3": 20,
+            "b4": 40,
+            "b5": 30,
+            "b6": 90
+        }
+    },
+    {
+        "name": "Communalism",
+        "stats": {
+            "b1": 95,
+            "b2": 75,
+            "b3": 10,
+            "b4": 80,
+            "b5": 90,
+            "b6": 60
+        }
+    },
+    {
+        "name": "Democratic Confederalism",
+        "stats": {
+            "b1": 90,
+            "b2": 60,
+            "b3": 20,
+            "b4": 75,
+            "b5": 85,
+            "b6": 60
         }
     }
 ]
