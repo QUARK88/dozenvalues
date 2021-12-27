@@ -354,7 +354,7 @@
     {
         "name": "Democratic Socialism",
         "stats": {
-            "A1": 60,
+            "A1": 70,
             "A2": 80,
             "A3": 60,
             "A4": 60,
@@ -992,7 +992,7 @@
     {
         "name": "Liberal Socialism",
         "stats": {
-            "A1": 65,
+            "A1": 70,
             "A2": 45,
             "A3": 55,
             "A4": 80,
@@ -1801,6 +1801,83 @@
             "A4": 65,
             "A5": 50,
             "A6": 50
+        }
+    },
+    {
+        "name": "State Development Capitalism",
+        "stats": {
+            "A1": 15,
+            "A2": 55,
+            "A3": 80,
+            "A4": 30,
+            "A5": 40,
+            "A6": 35
+        }
+    },
+    {
+        "name": "Welfare Chauvinism",
+        "stats": {
+            "A1": 50,
+            "A2": 70,
+            "A3": 50,
+            "A4": 55,
+            "A5": 30,
+            "A6": 55
+        }
+    },
+    {
+        "name": "Keynesian Socialism",
+        "stats": {
+            "A1": 75,
+            "A2": 55,
+            "A3": 55,
+            "A4": 70,
+            "A5": 70,
+            "A6": 35
+        }
+    },
+    {
+        "name": "Liberal Corporatism",
+        "stats": {
+            "A1": 55,
+            "A2": 70,
+            "A3": 60,
+            "A4": 80,
+            "A5": 75,
+            "A6": 30
+        }
+    },
+    {
+        "name": "National Conservatism",
+        "stats": {
+            "A1": 40,
+            "A2": 50,
+            "A3": 55,
+            "A4": 40,
+            "A5": 10,
+            "A6": 80
+        }
+    },
+    {
+        "name": "Radical Conservatism",
+        "stats": {
+            "A1": 30,
+            "A2": 40,
+            "A3": 50,
+            "A4": 40,
+            "A5": 25,
+            "A6": 80
+        }
+    },
+    {
+        "name": "Objectivism",
+        "stats": {
+            "A1": 20,
+            "A2": 0,
+            "A3": 45,
+            "A4": 90,
+            "A5": 50,
+            "A6": 35
         }
     },
     {
