@@ -89,7 +89,7 @@
 	{
 		"id": "A4",
 		"name": "Autonomy",
-		"weight": 0.5,
+		"weight": 0.55,
 		"weights": [-0.01,10,15.01,19.99,10,19.99,15.01,10,-0.01],
 		"left": {
 			"name": "Permission",
@@ -147,7 +147,7 @@
 	{
 		"id": "A6",
 		"name": "Progress",
-		"weight": 0.6,
+		"weight": 0.7,
 		"weights": [-0.01,10,15.01,19.99,10,19.99,15.01,10,-0.01],
 		"left": {
 			"name": "Heritage",
