@@ -89,7 +89,7 @@
 	{
 		"id": "A4",
 		"name": "Autonomy",
-		"weight": 0.55,
+		"weight": 0.6,
 		"weights": [-0.01,10,15.01,19.99,10,19.99,15.01,10,-0.01],
 		"left": {
 			"name": "Permission",
