@@ -957,6 +957,17 @@
         }
     },
     {
+        "name": "Hayekism",
+        "stats": {
+            "A1": 20,
+            "A2": 20,
+            "A3": 70,
+            "A4": 90,
+            "A5": 40,
+            "A6": 45
+        }
+    },
+    {
         "name": "Helvetic Model",
         "stats": {
             "A1": 35,
@@ -1103,6 +1114,17 @@
         "name": "Laissez-Faire Capitalism",
         "stats": {
             "A1": 20,
+            "A2": 0,
+            "A3": 50,
+            "A4": 60,
+            "A5": 50,
+            "A6": 50
+        }
+    },
+    {
+        "name": "Laissez-Faire Socialism",
+        "stats": {
+            "A1": 80,
             "A2": 0,
             "A3": 50,
             "A4": 60,
@@ -2090,6 +2112,17 @@
         }
     },
     {
+        "name": "Social Anarchism",
+        "stats": {
+            "A1": 70,
+            "A2": 35,
+            "A3": 0,
+            "A4": 75,
+            "A5": 75,
+            "A6": 45
+        }
+    },
+    {
         "name": "Social Authoritarianism",
         "stats": {
             "A1": 50,
@@ -2175,6 +2208,17 @@
             "A4": 85,
             "A5": 75,
             "A6": 40
+        }
+    },
+    {
+        "name": "Social Nationalism",
+        "stats": {
+            "A1": 50,
+            "A2": 70,
+            "A3": 75,
+            "A4": 40,
+            "A5": 35,
+            "A6": 45
         }
     },
     {
