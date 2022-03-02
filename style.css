@@ -30,22 +30,22 @@ p.question {
 	max-width: 9.7rem;
 }
 .small_button:hover,.small_button:focus {
-	background: #000000;
+	background: #202020;
 }
 .question,p.axis_name,.text-wrapper,.axis_name,h2 {
 	color: #000000;
 }
 .blurb-text,p {
-	color: #222222;
+	color: #202020;
 }
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #141414;
+		background-color: #101010;
 		border-color: #000000;
 	}
 	html {
-		background-color: #505050;
+		background-color: #404040;
 	}
 	h1,h2,p.axis_name,div.axis_name {
 		color: #ffffff;
@@ -58,6 +58,8 @@ p.question {
 	}
 	div.center,.spacer,.explanation_bg {
 		background-color: #080808;
+		border-radius: 25px;
+		margin-top: 15px;
 	}
 	.bar {
 		border-color: #000000;
@@ -71,6 +73,6 @@ p.question {
 		color: #000000;
 	}
 	.small_button:hover,.small_button:focus {
-		background: #000000;
+		background: #202020;
 	}
 }
