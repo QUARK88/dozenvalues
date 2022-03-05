@@ -8,7 +8,7 @@
 	{
 		"name": "Agree",
 		"modifier": 0.5,
-		"color": "#00c0ff",
+		"color": "#0080ff",
 		"focusColor": "#0080c0"
 	},
 	{
@@ -20,7 +20,7 @@
 	{
 		"name": "Disagree",
 		"modifier": 0.5,
-		"color": "#ff0000",
+		"color": "#ff4040",
 		"focusColor": "#c00000"
 	},
 	{
