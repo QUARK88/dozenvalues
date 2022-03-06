@@ -1628,6 +1628,17 @@
         }
     },
     {
+        "name": "Neo-Libertarianism",
+        "stats": {
+            "A1": 15,
+            "A2": 20,
+            "A3": 45,
+            "A4": 80,
+            "A5": 60,
+            "A6": 55
+        }
+    },
+    {
         "name": "Neo-Marxism",
         "stats": {
             "A1": 85,
