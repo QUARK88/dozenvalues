@@ -176,6 +176,17 @@
         }
     },
     {
+        "name": "Aristocratic Radicalism",
+        "stats": {
+            "A1": 10,
+            "A2": 15,
+            "A3": 70,
+            "A4": 80,
+            "A5": 50,
+            "A6": 20
+        }
+    },
+    {
         "name": "Austrolibertarian Market Socialism",
         "stats": {
             "A1": 75,
@@ -1188,7 +1199,7 @@
         }
     },
     {
-        "name": "Left Wing Populism",
+        "name": "Left-Wing Populism",
         "stats": {
             "A1": 50,
             "A2": 65,
@@ -1441,7 +1452,18 @@
         }
     },
     {
-        "name": "Marxism Leninism",
+        "name": "Marxism-Leninism-Maoism",
+        "stats": {
+            "A1": 75,
+            "A2": 85,
+            "A3": 65,
+            "A4": 30,
+            "A5": 55,
+            "A6": 60
+        }
+    },
+    {
+        "name": "Marxism-Leninism",
         "stats": {
             "A1": 75,
             "A2": 80,
@@ -2090,7 +2112,7 @@
         }
     },
     {
-        "name": "Right Wing Populism",
+        "name": "Right-Wing Populism",
         "stats": {
             "A1": 35,
             "A2": 55,
@@ -2142,6 +2164,17 @@
             "A4": 45,
             "A5": 65,
             "A6": 40
+        }
+    },
+    {
+        "name": "Social Capitalism",
+        "stats": {
+            "A1": 35,
+            "A2": 40,
+            "A3": 60,
+            "A4": 60,
+            "A5": 60,
+            "A6": 45
         }
     },
     {
@@ -2296,6 +2329,17 @@
             "A4": 25,
             "A5": 10,
             "A6": 45
+        }
+    },
+    {
+        "name": "Techno-Nationalism",
+        "stats": {
+            "A1": 40,
+            "A2": 60,
+            "A3": 60,
+            "A4": 60,
+            "A5": 35,
+            "A6": 25
         }
     },
     {
