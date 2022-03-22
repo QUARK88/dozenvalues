@@ -379,7 +379,7 @@
               c.title+
               '</h1>\n<hr />\n<h2 style="text-align:center">Instructions</h2>\n<p class="question">\n\tYou will be presented with '+
               a.length+
-              ' statements. For each one,click the\n\tbutton with your opinion on it.\n</p>\n<button class="button" id="quizButton">Got it!</button>\n<br />\n<button class="button" id="shuffleButton">Got it!(Shuffled)</button>\n<br />\n<button class="small_button" id="backButton">\n\tBack\n</button>\n<br />',
+              ' statements. For each one,click the\n\tbutton with your opinion on it.\n</p>\n<button class="button" id="quizButton">Got it!</button>\n<br />\n<button class="button" id="shuffleButton">Got it! (Shuffled)</button>\n<br />\n<button class="small_button" id="backButton">\n\tBack\n</button>\n<br />',
             F="",
             S=0,
             O=s;
@@ -527,14 +527,14 @@
                 for(var o,l="",s=0;s<r.length;s++){
                   var a=r[s],
                     u=null!==(o=d.limit)&&void 0!==o?o:30;
-                  l+="<h2>"+a.name+" Axis:"+e[s]+'<span class="weight-300" id="economic-label"></span></h2><div class="axis"><img src="'+i(a,!1)+'" height="128pt" /><div style="background-color:'+a.left.color+";border-right-style:solid;text-align:left;width:"+t[a.id]+'%" class="bar"><div class="text-wrapper">'+(t[a.id]>u?t[a.id].toFixed(1)+"%":"")+'</div></div><div style="background-color:'+a.right.color+";border-left-style:solid;text-align:right;width:"+(100-t[a.id])+'%" class="bar"><div class="text-wrapper">'+(100-t[a.id]>u?(100-t[a.id]).toFixed(1)+"%":"")+'</div></div><img src="'+i(a,!0)+'" height="128pt" /></div>';
+                  l+="<h2>"+a.name+" Axis :"+e[s]+'<span class="weight-300" id="economic-label"></span></h2><div class="axis"><img src="'+i(a,!1)+'" height="128pt" /><div style="background-color:'+a.left.color+";border-right-style:solid;text-align:left;width:"+t[a.id]+'%" class="bar"><div class="text-wrapper">'+(t[a.id]>u?t[a.id].toFixed(1)+"%":"")+'</div></div><div style="background-color:'+a.right.color+";border-left-style:solid;text-align:right;width:"+(100-t[a.id])+'%" class="bar"><div class="text-wrapper">'+(100-t[a.id]>u?(100-t[a.id]).toFixed(1)+"%":"")+'</div></div><img src="'+i(a,!0)+'" height="128pt" /></div>';
                 }
                 return(
                   "<h1>"+
                   c.title+
                   "</h1>\n<hr />\n<h1>Results</h1>\n"+
                   l+
-                  "\n<h2>Closest Match:"+
+                  "\n<h2>Closest Match: "+
                   n.name+
                   '</h2>\n<hr />\n<canvas id="banner" width="800" height="'+(170+120*r.length-18-6)+
                   '"></canvas>\n<button class="button" id="backButton">Back</button>\n<br />'
