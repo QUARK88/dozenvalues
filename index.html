@@ -527,7 +527,7 @@
                 for(var o,l="",s=0;s<r.length;s++){
                   var a=r[s],
                     u=null!==(o=d.limit)&&void 0!==o?o:30;
-                  l+="<h2>"+a.name+" Axis :"+e[s]+'<span class="weight-300" id="economic-label"></span></h2><div class="axis"><img src="'+i(a,!1)+'" height="128pt" /><div style="background-color:'+a.left.color+";border-right-style:solid;text-align:left;width:"+t[a.id]+'%" class="bar"><div class="text-wrapper">'+(t[a.id]>u?t[a.id].toFixed(1)+"%":"")+'</div></div><div style="background-color:'+a.right.color+";border-left-style:solid;text-align:right;width:"+(100-t[a.id])+'%" class="bar"><div class="text-wrapper">'+(100-t[a.id]>u?(100-t[a.id]).toFixed(1)+"%":"")+'</div></div><img src="'+i(a,!0)+'" height="128pt" /></div>';
+                  l+="<h2>"+a.name+" Axis: "+e[s]+'<span class="weight-300" id="economic-label"></span></h2><div class="axis"><img src="'+i(a,!1)+'" height="128pt" /><div style="background-color:'+a.left.color+";border-right-style:solid;text-align:left;width:"+t[a.id]+'%" class="bar"><div class="text-wrapper">'+(t[a.id]>u?t[a.id].toFixed(1)+"%":"")+'</div></div><div style="background-color:'+a.right.color+";border-left-style:solid;text-align:right;width:"+(100-t[a.id])+'%" class="bar"><div class="text-wrapper">'+(100-t[a.id]>u?(100-t[a.id]).toFixed(1)+"%":"")+'</div></div><img src="'+i(a,!0)+'" height="128pt" /></div>';
                 }
                 return(
                   "<h1>"+
@@ -591,7 +591,7 @@
                       100-t[n.id] >
   (null!==(T=d.limit)&&void 0!==T?T:30)&&
                         l.fillText((100-t[n.id]).toFixed(1)+"%",670,M),(l.font="300 30px "+c.mainFont),(l.textAlign="center"),
-                      l.fillText(n.name+" Axis:"+e[r],400,I);
+                      l.fillText(n.name+" Axis: "+e[r],400,I);
                   });
               })(t,n,e);
             });
