@@ -424,7 +424,7 @@
                       G[D]={};
                       for(var i=0,o=r;i<o.length;i++){
                         var l=o[i];
-                        G[D][l.id]=n[D].effect[l.id]*s[t].modifier;
+                        G[D][l.id]=-(n[D].effect[l.id]*s[t].modifier);
                       }
                       D++,e();
                     })(t);
@@ -435,7 +435,7 @@
                       G[D][l.id]=n[D].effect[l.id]*s[t].modifier;
                     }
                     D++,(function(){
-                        for(var t=G[0],n=function(n){t[n.id]=G.map(function(t){return t[n.id];  }).reduce(function(t,n){return t+n;  },0);},e=0,i=r;e<i.length;e++)n(i[e]);
+                        for(var t=G[0],n=function(n){t[n.id]=G.map(function(t){return t[n.id];}).reduce(function(t,n){return t+n;},0);},e=0,i=r;e<i.length;e++)n(i[e]);
                         var o=t;
                         for(var l in t)o[l]=(t[l]+y[l])/(0.01*(y[l]+y[l]));
                         location.search="?"+Object.values(o).map(function(t){return t.toFixed(1);}).join(",");
@@ -453,9 +453,7 @@
             .addEventListener("click",function(){D>0&&(D--,e());}),(j=document.getElementById("questionNumber")),(z=document.getElementById("questionText")),e();
         }
         function U(t){
-          return u[
-            u
-              .map(function(n,e){
+          return u[u.map(function(n,e){
                 var i={},
                   o=function(e){
                     i[e]=Math.abs(n.stats[e]-t[e])*(r.find(function(t){
