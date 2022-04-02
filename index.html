@@ -424,7 +424,7 @@
                       G[D]={};
                       for(var i=0,o=r;i<o.length;i++){
                         var l=o[i];
-                        G[D][l.id]=-(n[D].effect[l.id]*s[t].modifier);
+                        G[D][l.id]=n[D].effect[l.id]*s[t].modifier;
                       }
                       D++,e();
                     })(t);
