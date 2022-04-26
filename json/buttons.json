@@ -8,20 +8,20 @@
 	{
 		"name": "Agree",
 		"modifier": 0.5,
-		"color": "#00a0ff",
-		"focusColor": "#0080c0"
+		"color": "#60a0cC0",
+		"focusColor": "#406080"
 	},
 	{
 		"name": "Neutral",
 		"modifier": 0,
-		"color": "#808080",
-		"focusColor": "#404040"
+		"color": "#c0c0c0",
+		"focusColor": "#808080"
 	},
 	{
 		"name": "Disagree",
 		"modifier": 0.5,
-		"color": "#ff2020",
-		"focusColor": "#c00000"
+		"color": "#c06060",
+		"focusColor": "#804040"
 	},
 	{
 		"name": "Strongly Disagree",
