@@ -339,19 +339,7 @@
         }
         for(
           var o,
-            l,r=n("axes"),s=n("buttons"),a=n("questions"),u=n("ideologies"),d=n("canvas"),
-            h=
-              "<style>"+((o="style"),(l=new XMLHttpRequest()).open("GET",t+"/"+o+".css",!1),
-              l.send(null),
-              l.responseText+"</style>"),
-            f={},
-            v=0,
-            g=r;
-          v<g.length;
-          v++
-        ){
-          f[(k=g[v]).id]=0;
-        }
+            l,r=n("axes"),s=n("buttons"),a=n("questions"),u=n("ideologies"),h="<style>"+((o="style"),(l=new XMLHttpRequest()).open("GET",t+"/"+o+".css",!1),l.send(null),l.responseText+"</style>"),f={},v=0,g=r;v<g.length;v++){f[(k=g[v]).id]=0;}
         for(var b=0,m=a;b<m.length;b++)
           for(var p=m[b],x=0,w=r;x<w.length;x++){
             var k;
@@ -387,7 +375,7 @@
               '\n</div>\n<br>\n<button class="button" id="instructionButton";" style="font-size:36pt;">Click here to start!</button>\n<br><hr>\n<h2>What is '+
               "DozenValues"+
               "?</h2>\n<p>"+
-              "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly. At the end of the quiz you will be presented with your results. Since some questions affect multiple axes, it’s very unlikely you’ll get 100% for any value, so don’t be alarmed if your responses seem more moderate than you expected."+
+              "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz you will be presented with your results. Since some questions affect multiple axes, it’s very unlikely you’ll get 100% for any value, so don’t be alarmed if your responses seem more moderate than you expected."+
               "</p>\n<h2><a>"+
               "What are the 12 values?"+
               "</a></h2>\n<p>"+
@@ -398,15 +386,15 @@
               "</h2>\n<h2>"+
               "What is the Closest Match?"+
               "</h2>\n<p>"+
-              "Once your results are generated, our test will try to assign you an ideology out of the 223 we have that is the closest to your scores. We invite you to search more about this ideology, to see if it seems to fit your beliefs. If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be build and developped collectively, so any propositions are welcomed."+
+              'Once your results are generated, our test will try to assign you with an ideology, out of <a href="https://polcompballminarchy.miraheze.org/wiki/List_of_DozenValues_matches">the 228 we have</a>, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed.'+
               '</p>\n<div class="explanation_bg">\n'+
-              '<iframe src="https://discord.com/widget?id=836684237977550878&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>',
+              '<iframe src="https://discord.com/widget?id=836684237977550878&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>'+
+              "</h2>\n<h2>"+"Credits"+"</h2>\n<p>"+"Project leader, design & code: Quark#0741<br><br>Original idea & questions: Solar#5896<br><br>Questions & matches help: Bery#4540, Buni/Wilbur/Alan/Lepus#6282, Tomscimyt#9258</p>",
             I=
               "<h1>"+
               "DozenValues"+
               '</h1>\n<hr />\n<h2 style="text-align:center">Instructions</h2>\n<p class="question">\n\tYou will be presented with '+
-              a.length+
-              ' statements. For each one, click the\n\tbutton with your opinion on it.\n</p>\n<button class="button" id="quizButton">Got it!</button>\n<br />\n<button class="button" id="shuffleButton">Got it! (Shuffled)</button>\n<br />\n<button class="small_button" id="backButton">\n\tBack\n</button>\n<br />',
+              a.length+' statements. For each one, click the\n\tbutton with your opinion on it.\n</p>\n<button class="button" id="quizButton">Got it!</button>\n<br />\n<button class="button" id="shuffleButton">Got it! (Shuffled)</button>\n<br />\n<button class="small_button" id="backButton">\n\tBack\n</button>\n<br />',
             F="",
             S=0,
             O=s;
@@ -534,7 +522,7 @@
               "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvOTMwMTMwMDA3NzA2MTkzOTIwL2xfRWpzZm40Mjc5U3k1SmhVaUduMko0Mm1wUzVDZmkwY09zUFJnYmhFOEt1VFpCNWprMWxwZXhsNWo0NWJFRjlsZ0Zk" &&(function(t){fetch(atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvOTMwMTMwMDA3NzA2MTkzOTIwL2xfRWpzZm40Mjc5U3k1SmhVaUduMko0Mm1wUzVDZmkwY09zUFJnYmhFOEt1VFpCNWprMWxwZXhsNWo0NWJFRjlsZ0Zk"),{method:"post",headers:{"Content-Type":"application/json" },body:JSON.stringify({content:"**"+JSON.stringify(U(t).name)+"**\nhttps://quark88.github.io/dozenvalues/?"+Object.values(t).map(function(t){return t.toFixed(1);}).join(","),}),});
             })(t),(document.body.innerHTML=(function(t,n,e){
                 for(var o,l="",s=0;s<r.length;s++){
-                    var a=r[s],u=null!==(o=d.limit)&&void 0!==o?o:30;
+                    var a=r[s],u=null!==(o=25)&&void 0!==o?o:30;
                     l+="<h2>"+a.name+" Axis: "+e[s]+'<span class="weight-300" id="economic-label"></span></h2><div class="axis"><img src="'+i(a,!1)+'" height="128pt" /><div style="background-color:'+a.left.color+";border-right-style:solid;text-align:left;width:"+t[a.id]+'%" class="bar"><div class="text-wrapper">'+(t[a.id]>u?t[a.id].toFixed(1)+"%":"")+'</div></div><div style="background-color:'+a.right.color+";border-left-style:solid;text-align:right;width:"+(100-t[a.id])+'%" class="bar"><div class="text-wrapper">'+(100-t[a.id]>u?(100-t[a.id]).toFixed(1)+"%":"")+'</div></div><img src="'+i(a,!0)+'" height="128pt"/></div>';
                 }
                 return(
@@ -555,47 +543,41 @@
               }),(window.onload=function(){
               !(function(t,n,e){
                 var o=-24,
-                  l=document.getElementById("banner").getContext("2d");(l.fillStyle=d.bgColor),
-                  l.fillRect(0,0,800,170+120*r.length+o),(l.fillStyle=d.fgColor),(l.font="700 "+3.5e3/l.measureText("DozenValues").width+"px "+"Cocogoose"),(l.textAlign="left"),
-                  l.fillText("DozenValues",20,66),(l.font="50px "+"BrandonText"),
+                  l=document.getElementById("banner").getContext("2d");(l.fillStyle="#e0e0e0"),
+                  l.fillRect(0,0,800,170+120*r.length+o),(l.fillStyle="#000000"),(l.font="700 "+3.5e3/l.measureText("DozenValues").width+"px "+"Cocogoose"),(l.textAlign="left"),
+                  l.fillText("DozenValues",20,66),(l.font="48px "+"BrandonText"),
                   l.fillText(n.name,20,116),(l.textAlign="right"),(l.font="300 "+12e3/l.measureText("quark88.github.io/dozenvalues").width+"px "+"BrandonText"),
-                  l.fillText("quark88.github.io/dozenvalues",780,42),
-                  l.fillText("2.3.0",780,72),
+                  l.fillText("quark88.github.io/dozenvalues",780,40),
+                  l.fillText("Version 3.0.0",780,70),
                   r.forEach(function(n,r){
                     var s,a,u,h,f,v,g,b,m,p,x,w,k,y,C,T,B=72,
                       E=120*r+o,
                       L=170+E,
-                      q=180+E-((null!==(s=d.barThickness)&&void 0!==s?s:B)+2*(null!==(a=d.outlineThickness)&&void 0!==a?a:4)-80)/2,
-                      _=184+E-((null!==(u=d.barThickness)&&void 0!==u?u:B)-B)/2,
-                      M=237.5+E+((null!==(h=d.barThickness)&&void 0!==h?h:B)-B)/4,
-                      I=175+E-((null!==(f=d.barThickness)&&void 0!==f?f:B)+2*(null!==(v=d.outlineThickness)&&void 0!==v?v:4)-80)/2,
+                      q=180+E-((null!==(s=60)&&void 0!==s?s:B)+2*(null!==(a=6)&&void 0!==a?a:4)-80)/2,
+                      _=184+E-((null!==(u=60)&&void 0!==u?u:B)-B)/2,
+                      M=237.5+E+((null!==(h=60)&&void 0!==h?h:B)-B)/4,
+                      I=170+E-((null!==(f=60)&&void 0!==f?f:B)+2*(null!==(v=6)&&void 0!==v?v:4)-80)/2,
                       F=new Image(200,200);(F.onload=function(){
                       l.drawImage(F,20,L,100,100);
                     }),(F.src=i(n,!1));
                     var S=new Image(200,200);(S.onload=function(){
                       l.drawImage(S,680,L,100,100);
-                    }),(S.src=i(n,!0)),(l.fillStyle=d.fgColor),
-                      l.fillRect(
-                        120,
-                        q,
-                        560,(null!==(g=d.barThickness)&&void 0!==g?g:B)+2*(null!==(b=d.outlineThickness)&&void 0!==b?b:4)
+                    }),(S.src=i(n,!0)),(l.fillStyle="#000000"),
+                      l.fillRect(120,q,560,(null!==(g=60)&&void 0!==g?g:B)+2*(null!==(b=6)&&void 0!==b?b:4)
                       ),(l.fillStyle=n.left.color),
-                      l.fillRect(
-                        120,
-                        _,
-                        5.6*t[n.id]-(null!==(m=d.outlineThickness)&&void 0!==m?m:4)/2,
-                        null!==(p=d.barThickness)&&void 0!==p?p:B
+                      l.fillRect(120,_,
+                        5.6*t[n.id]-(null!==(m=6)&&void 0!==m?m:4)/2,
+                        null!==(p=60)&&void 0!==p?p:B
                       ),(l.fillStyle=n.right.color),
                       l.fillRect(
-                        120+5.6*t[n.id]+(null!==(x=d.outlineThickness)&&void 0!==x?x:4)/2,_,
-                        5.6*(100-t[n.id])-(null!==(w=d.outlineThickness)&&void 0!==w?w:4)/2,
-                        null!==(k=d.barThickness)&&void 0!==k?k:B
-                      ),(l.fillStyle=d.fgColor),(l.font=0.625*(null!==(y=d.barThickness)&&void 0!==y?y:B)+"px "+"BrandonText"),(l.textAlign="left"),
-                      t[n.id]>(null!==(C=d.limit)&&void 0!==C?C:30)&&
+                        120+5.6*t[n.id]+(null!==(x=6)&&void 0!==x?x:4)/2,_,
+                        5.6*(100-t[n.id])-(null!==(w=6)&&void 0!==w?w:4)/2,
+                        null!==(k=60)&&void 0!==k?k:B
+                      ),(l.fillStyle="#000000"),(l.font=0.625*(null!==(y=60)&&void 0!==y?y:B)+"px "+"BrandonText"),(l.textAlign="left"),
+                      t[n.id]>(null!==(C=25)&&void 0!==C?C:30)&&
                         l.fillText(t[n.id].toFixed(1)+"%",130,M),(l.textAlign="right"),
-                      100-t[n.id]>(null!==(T=d.limit)&&void 0!==T?T:30)&&
-                        l.fillText((100-t[n.id]).toFixed(1)+"%",670,M),(l.font="300 30px "+"BrandonText"),(l.textAlign="center"),
-                      l.fillText(n.name+" Axis: "+e[r],400,I);
+                      100-t[n.id]>(null!==(T=25)&&void 0!==T?T:30)&&
+                        l.fillText((100-t[n.id]).toFixed(1)+"%",670,M),(l.font="300 30px "+"BrandonText"),(l.textAlign="center"),l.fillText(n.name+" Axis: "+e[r],400,I);
                   });
               })(t,n,e);
             });

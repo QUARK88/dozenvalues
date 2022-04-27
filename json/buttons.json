@@ -3,30 +3,30 @@
 		"name": "Strongly Agree",
 		"modifier": 1,
 		"color": "#0080c0",
-		"focusColor": "#004080"
+		"focusColor": "#0060a0"
 	},
 	{
 		"name": "Agree",
 		"modifier": 0.5,
-		"color": "#00a0ff",
-		"focusColor": "#0080c0"
+		"color": "#00c0ff",
+		"focusColor": "#00a0e0"
 	},
 	{
 		"name": "Neutral",
 		"modifier": 0,
 		"color": "#808080",
-		"focusColor": "#404040"
+		"focusColor": "#606060"
 	},
 	{
 		"name": "Disagree",
 		"modifier": 0.5,
-		"color": "#ff2020",
-		"focusColor": "#c00000"
+		"color": "#ff0000",
+		"focusColor": "#e00000"
 	},
 	{
 		"name": "Strongly Disagree",
 		"modifier": -1,
 		"color": "#c00000",
-		"focusColor": "#800000"
+		"focusColor": "#a00000"
 	}
 ]

@@ -66,13 +66,13 @@
 			"name": "Dominion",
 			"color": "#0cd1a5",
 			"icon": "value_images/dominion.svg",
-			"description": "Those with higher Dominion scores believe political power should be held by a select few individuals. They tend to support strong governments, and at high values, autocracy."
+			"description": "Those with higher Dominion scores believe political power should be held by a select few individuals. They tend to support strong governments, centralism, and at high values, autocracy."
 		},
 		"right": {
 			"name": "Anarchy",
 			"color": "#ff3a17",
 			"icon": "value_images/anarchy.svg",
-			"description": "Those with higher Anarchy scores believe political power should be spread amongst the population. They tend to support local governance, and at high values anarchism."
+			"description": "Those with higher Anarchy scores believe political power should be spread amongst the population. They tend to support local governance, smaller governments, and at high values, anarchism."
 		},
 		"tiers": [
 			"Emperor Of Mankind",
@@ -101,7 +101,7 @@
 			"name": "Restriction",
 			"color": "#2876ff",
 			"icon": "value_images/restriction.svg",
-			"description": "Those with higher Restriction scores believe that strict rules should be put in place to limit what an individual may do. They tend to support paternalistic social policy and limitations on speech."
+			"description": "Those with higher Restriction scores believe that strict rules should be put in place to limit what an individual may do. They tend to support paternalistic social policy, collectivism, and limitations on speech."
 		},
 		"tiers": [
 			"Weed-Smoking Hippie",
@@ -124,7 +124,7 @@
 			"name": "Inclusivity",
 			"color": "#ff15a8",
 			"icon": "value_images/inclusivity.svg",
-			"description": "Those with higher Inclusivity scores believe that all identity groups in society should be treated equally. They tend to support feminism, racial equality, and LGBT acceptance."
+			"description": "Those with higher Inclusivity scores believe that all identity groups in society should be treated equally. They tend to support feminism, racial equality, and LGBT+ acceptance."
 		},
 		"right": {
 			"name": "Supremacy",
@@ -153,13 +153,13 @@
 			"name": "Heritage",
 			"color": "#9bf122",
 			"icon": "value_images/heritage.svg",
-			"description": "Those with higher Heritage scores believe that rapid change is risky and that the past should be cherished. They tend to value religion, nature and preserving culture."
+			"description": "Those with higher Heritage scores believe that rapid change is risky and that the past should be cherished. They tend to value religion, nature, and preserving culture."
 		},
 		"right": {
 			"name": "Novelty",
 			"color": "#894efa",
 			"icon": "value_images/novelty.svg",
-			"description": "Those with higher Novelty scores believe that holding on to the past is irrational and instead we should look to the future. They tend to support secularism, transhumanism and rewriting culture."
+			"description": "Those with higher Novelty scores believe that holding on to the past is irrational and instead we should look to the future. They tend to support secularism, transhumanism, and rewriting culture."
 		},
 		"tiers": [
 			"ooga booga magic test scary",
