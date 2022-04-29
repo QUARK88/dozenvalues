@@ -72,6 +72,8 @@
 "stats":{"A1":60,"A2":40,"A3":15,"A4":50,"A5":55,"A6":80}},{
 "name":"Cellular Democracy",
 "stats":{"A1":50,"A2":10,"A3":25,"A4":60,"A5":70,"A6":50}},{
+"name":"Centrism",
+"stats":{"A1":45,"A2":50,"A3":50,"A4":55,"A5":50,"A6":50}},{
 "name":"Christian Democracy",
 "stats":{"A1":40,"A2":55,"A3":45,"A4":45,"A5":50,"A6":70}},{
 "name":"Classical Conservatism",
