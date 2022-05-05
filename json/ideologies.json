@@ -74,6 +74,8 @@
 "stats":{"A1":50,"A2":10,"A3":25,"A4":60,"A5":70,"A6":50}},{
 "name":"Centrism",
 "stats":{"A1":45,"A2":50,"A3":50,"A4":55,"A5":50,"A6":50}},{
+"name":"Chavismo",
+"stats":{"A1":75,"A2":70,"A3":65,"A4":45,"A5":45,"A6":60}},{
 "name":"Christian Democracy",
 "stats":{"A1":40,"A2":55,"A3":45,"A4":45,"A5":50,"A6":70}},{
 "name":"Classical Conservatism",
@@ -108,6 +110,8 @@
 "stats":{"A1":90,"A2":85,"A3":55,"A4":70,"A5":75,"A6":5}},{
 "name":"Cyberfeminism",
 "stats":{"A1":55,"A2":55,"A3":40,"A4":90,"A5":95,"A6":0}},{
+"name":"De Francism",
+"stats":{"A1":70,"A2":85,"A3":85,"A4":25,"A5":95,"A6":20}},{
 "name":"Degrowthism",
 "stats":{"A1":70,"A2":80,"A3":30,"A4":65,"A5":85,"A6":75}},{
 "name":"De Leonism",
@@ -164,6 +168,8 @@
 "stats":{"A1":50,"A2":30,"A3":40,"A4":70,"A5":65,"A6":40}},{
 "name":"Geosyndicalism",
 "stats":{"A1":65,"A2":40,"A3":25,"A4":75,"A5":75,"A6":40}},{
+"name":"Geo-Transhumanism",
+"stats":{"A1":50,"A2":30,"A3":40,"A4":75,"A5":70,"A6":0}},{
 "name":"Gorbachevism",
 "stats":{"A1":60,"A2":65,"A3":65,"A4":60,"A5":70,"A6":40}},{
 "name":"Green Politics",
@@ -209,7 +215,7 @@
 "name":"Laissez-Faire",
 "stats":{"A1":40,"A2":0,"A3":45,"A4":60,"A5":50,"A6":50}},{
 "name":"Lange Model",
-"stats":{"A1":85,"A2":50,"A3":80,"A4":30,"A5":55,"A6":30}},{
+"stats":{"A1":85,"A2":50,"A3":75,"A4":40,"A5":55,"A6":30}},{
 "name":"Left Communism",
 "stats":{"A1":90,"A2":80,"A3":45,"A4":50,"A5":80,"A6":35}},{
 "name":"Left Libertarianism",
@@ -447,7 +453,7 @@
 "name":"Transhumanist Socialism",
 "stats":{"A1":80,"A2":70,"A3":50,"A4":65,"A5":70,"A6":0}},{
 "name":"Tridemism",
-"stats":{"A1":70,"A2":45,"A3":65,"A4":50,"A5":65,"A6":25}},{
+"stats":{"A1":70,"A2":45,"A3":65,"A4":50,"A5":65,"A6":30}},{
 "name":"Trotskyism",
 "stats":{"A1":80,"A2":90,"A3":70,"A4":45,"A5":65,"A6":25}},{
 "name":"Welfare Chauvinism",
