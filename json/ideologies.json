@@ -283,6 +283,8 @@
 "name":"Minarcho-Socialism",
 "stats":{"A1":85,"A2":70,"A3":20,"A4":95,"A5":70,"A6":40}},{
 "name":"Monarcho-Socialism",
+"stats":{"A1":5,"A2":20,"A3":90,"A4":35,"A5":45,"A6":70}},{
+"name":"Monarcho-Socialism",
 "stats":{"A1":70,"A2":80,"A3":90,"A4":55,"A5":55,"A6":70}},{
 "name":"Muscular Liberalism",
 "stats":{"A1":20,"A2":45,"A3":65,"A4":45,"A5":85,"A6":45}},{
