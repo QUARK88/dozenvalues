@@ -1,0 +1,476 @@
+[{"name":"21st Century Socialism",
+"stats":{"A1":75,"A2":80,"A3":50,"A4":70,"A5":85,"A6":50}},{
+"name":"Absolute Monarchism",
+"stats":{"A1":5,"A2":65,"A3":90,"A4":30,"A5":40,"A6":65}},{
+"name":"Agorism",
+"stats":{"A1":45,"A2":5,"A3":5,"A4":95,"A5":65,"A6":35}},{
+"name":"Agrarian Anarchism",
+"stats":{"A1":60,"A2":60,"A3":5,"A4":70,"A5":65,"A6":80}},{
+"name":"Agrarianism",
+"stats":{"A1":30,"A2":40,"A3":25,"A4":45,"A5":55,"A6":80}},{
+"name":"American Progressivism",
+"stats":{"A1":40,"A2":60,"A3":60,"A4":80,"A5":90,"A6":25}},{
+"name":"Anarcho-Capitalism",
+"stats":{"A1":20,"A2":5,"A3":10,"A4":95,"A5":50,"A6":40}},{
+"name":"Anarcho-Communism",
+"stats":{"A1":90,"A2":75,"A3":5,"A4":75,"A5":75,"A6":50}},{
+"name":"Anarcho-Conservatism",
+"stats":{"A1":40,"A2":35,"A3":5,"A4":60,"A5":40,"A6":75}},{
+"name":"Anarcho-Distributism",
+"stats":{"A1":50,"A2":35,"A3":0,"A4":75,"A5":65,"A6":75}},{
+"name":"Anarcho-Egoism",
+"stats":{"A1":80,"A2":35,"A3":0,"A4":100,"A5":75,"A6":30}},{
+"name":"Anarcho-Frontierism",
+"stats":{"A1":70,"A2":10,"A3":5,"A4":95,"A5":70,"A6":20}},{
+"name":"Anarcho-Naturism",
+"stats":{"A1":50,"A2":40,"A3":5,"A4":95,"A5":70,"A6":80}},{
+"name":"Anarcho-Primitivism",
+"stats":{"A1":75,"A2":50,"A3":0,"A4":60,"A5":60,"A6":95}},{
+"name":"Anarcho-Transhumanism",
+"stats":{"A1":70,"A2":30,"A3":5,"A4":95,"A5":70,"A6":5}},{
+"name":"Aristocratic Radicalism",
+"stats":{"A1":10,"A2":15,"A3":70,"A4":80,"A5":50,"A6":20}},{
+"name":"Austrolibertarian Market Socialism",
+"stats":{"A1":75,"A2":5,"A3":30,"A4":95,"A5":75,"A6":40}},{
+"name":"Austrolibertarianism",
+"stats":{"A1":15,"A2":5,"A3":30,"A4":90,"A5":45,"A6":55}},{
+"name":"Authoritarian Capitalism",
+"stats":{"A1":15,"A2":30,"A3":80,"A4":30,"A5":55,"A6":40}},{
+"name":"Authoritarian Conservatism",
+"stats":{"A1":15,"A2":75,"A3":70,"A4":25,"A5":40,"A6":70}},{
+"name":"Authoritarian Democracy",
+"stats":{"A1":40,"A2":65,"A3":55,"A4":35,"A5":40,"A6":50}},{
+"name":"Authoritarianism",
+"stats":{"A1":35,"A2":65,"A3":80,"A4":25,"A5":45,"A6":50}},{
+"name":"Autonomism",
+"stats":{"A1":90,"A2":80,"A3":0,"A4":75,"A5":85,"A6":35}},{
+"name":"Barracks Communism",
+"stats":{"A1":90,"A2":85,"A3":40,"A4":25,"A5":60,"A6":55}},{
+"name":"Ba'athism",
+"stats":{"A1":40,"A2":65,"A3":85,"A4":25,"A5":25,"A6":40}},{
+"name":"Benevolent Aristocracy",
+"stats":{"A1":20,"A2":65,"A3":85,"A4":90,"A5":55,"A6":70}},{
+"name":"Bismarckism",
+"stats":{"A1":25,"A2":75,"A3":75,"A4":35,"A5":40,"A6":55}},{
+"name":"Bleeding-Heart Libertarianism",
+"stats":{"A1":30,"A2":20,"A3":35,"A4":95,"A5":85,"A6":40}},{
+"name":"Blue Labourism",
+"stats":{"A1":65,"A2":70,"A3":45,"A4":40,"A5":30,"A6":70}},{
+"name":"Bonapartism",
+"stats":{"A1":25,"A2":50,"A3":90,"A4":40,"A5":50,"A6":50}},{
+"name":"Bull Moose Progressivism",
+"stats":{"A1":40,"A2":70,"A3":55,"A4":65,"A5":75,"A6":30}},{
+"name":"Cameralism",
+"stats":{"A1":10,"A2":80,"A3":90,"A4":30,"A5":40,"A6":60}},{
+"name":"Capitalist Transhumanism",
+"stats":{"A1":15,"A2":20,"A3":55,"A4":60,"A5":55,"A6":0}},{
+"name":"Cardenismo",
+"stats":{"A1":65,"A2":70,"A3":70,"A4":60,"A5":50,"A6":35}},{
+"name":"Carlism",
+"stats":{"A1":55,"A2":70,"A3":45,"A4":25,"A5":25,"A6":90}},{
+"name":"Castroism",
+"stats":{"A1":75,"A2":65,"A3":75,"A4":50,"A5":60,"A6":35}},{
+"name":"Catholic Worker Movement",
+"stats":{"A1":60,"A2":40,"A3":15,"A4":50,"A5":55,"A6":80}},{
+"name":"Cellular Democracy",
+"stats":{"A1":50,"A2":10,"A3":25,"A4":60,"A5":70,"A6":50}},{
+"name":"Centrism",
+"stats":{"A1":45,"A2":50,"A3":50,"A4":55,"A5":50,"A6":50}},{
+"name":"Chavismo",
+"stats":{"A1":75,"A2":70,"A3":65,"A4":45,"A5":45,"A6":60}},{
+"name":"Christian Democracy",
+"stats":{"A1":40,"A2":55,"A3":45,"A4":45,"A5":50,"A6":70}},{
+"name":"Classical Conservatism",
+"stats":{"A1":20,"A2":50,"A3":55,"A4":40,"A5":35,"A6":80}},{
+"name":"Classical Fascism",
+"stats":{"A1":35,"A2":75,"A3":90,"A4":15,"A5":20,"A6":45}},{
+"name":"Classical Liberalism",
+"stats":{"A1":25,"A2":30,"A3":40,"A4":75,"A5":50,"A6":40}},{
+"name":"Clerical Fascism",
+"stats":{"A1":30,"A2":70,"A3":85,"A4":10,"A5":10,"A6":85}},{
+"name":"Collectivist Anarchism",
+"stats":{"A1":80,"A2":80,"A3":0,"A4":80,"A5":55,"A6":55}},{
+"name":"Communalism",
+"stats":{"A1":95,"A2":75,"A3":10,"A4":80,"A5":90,"A6":60}},{
+"name":"Communitarianism",
+"stats":{"A1":65,"A2":70,"A3":30,"A4":35,"A5":55,"A6":65}},{
+"name":"Conservative Liberalism",
+"stats":{"A1":20,"A2":35,"A3":50,"A4":60,"A5":45,"A6":60}},{
+"name":"Conservative Socialism",
+"stats":{"A1":75,"A2":80,"A3":50,"A4":40,"A5":40,"A6":65}},{
+"name":"Constitutional Monarchism",
+"stats":{"A1":40,"A2":45,"A3":65,"A4":70,"A5":55,"A6":65}},{
+"name":"Cooperativism",
+"stats":{"A1":70,"A2":45,"A3":45,"A4":70,"A5":80,"A6":45}},{
+"name":"Council Communism",
+"stats":{"A1":90,"A2":85,"A3":25,"A4":60,"A5":80,"A6":40}},{
+"name":"Cromwellianism",
+"stats":{"A1":20,"A2":50,"A3":60,"A4":5,"A5":50,"A6":75}},{
+"name":"Crypto-Anarchism",
+"stats":{"A1":35,"A2":0,"A3":5,"A4":100,"A5":50,"A6":20}},{
+"name":"Cybercommunism",
+"stats":{"A1":90,"A2":85,"A3":55,"A4":70,"A5":75,"A6":5}},{
+"name":"Cyberfeminism",
+"stats":{"A1":55,"A2":55,"A3":40,"A4":90,"A5":95,"A6":0}},{
+"name":"De Francism",
+"stats":{"A1":70,"A2":85,"A3":85,"A4":25,"A5":95,"A6":20}},{
+"name":"Degrowthism",
+"stats":{"A1":70,"A2":80,"A3":30,"A4":65,"A5":85,"A6":75}},{
+"name":"De Leonism",
+"stats":{"A1":90,"A2":70,"A3":25,"A4":65,"A5":55,"A6":50}},{
+"name":"Democratic Confederalism",
+"stats":{"A1":90,"A2":60,"A3":20,"A4":75,"A5":85,"A6":60}},{
+"name":"Democratic Socialism",
+"stats":{"A1":70,"A2":80,"A3":60,"A4":60,"A5":70,"A6":45}},{
+"name":"Democratic Transhumanism",
+"stats":{"A1":50,"A2":60,"A3":35,"A4":60,"A5":80,"A6":0}},{
+"name":"Dengism",
+"stats":{"A1":55,"A2":60,"A3":75,"A4":35,"A5":40,"A6":50}},{
+"name":"Dictablanda",
+"stats":{"A1":45,"A2":40,"A3":90,"A4":95,"A5":60,"A6":50}},{
+"name":"Digger Movement",
+"stats":{"A1":80,"A2":45,"A3":0,"A4":65,"A5":55,"A6":85}},{
+"name":"Dirigisme",
+"stats":{"A1":35,"A2":80,"A3":60,"A4":50,"A5":55,"A6":40}},{
+"name":"Distributism",
+"stats":{"A1":50,"A2":50,"A3":30,"A4":45,"A5":55,"A6":75}},{
+"name":"Eco Anarchism",
+"stats":{"A1":90,"A2":65,"A3":0,"A4":70,"A5":80,"A6":70}},{
+"name":"Eco-Authoritarianism",
+"stats":{"A1":50,"A2":70,"A3":75,"A4":35,"A5":85,"A6":65}},{
+"name":"Eco-Capitalism",
+"stats":{"A1":20,"A2":35,"A3":40,"A4":55,"A5":85,"A6":65}},{
+"name":"Ego-Communism",
+"stats":{"A1":90,"A2":70,"A3":5,"A4":100,"A5":80,"A6":25}},{
+"name":"Enlightened Absolutism",
+"stats":{"A1":20,"A2":35,"A3":80,"A4":75,"A5":50,"A6":40}},{
+"name":"Esoteric Fascism",
+"stats":{"A1":35,"A2":70,"A3":90,"A4":15,"A5":0,"A6":90}},{
+"name":"Euskadi Carlism",
+"stats":{"A1":70,"A2":55,"A3":35,"A4":60,"A5":50,"A6":80}},{
+"name":"Fabian Socialism",
+"stats":{"A1":70,"A2":55,"A3":60,"A4":30,"A5":40,"A6":40}},{
+"name":"Falangism",
+"stats":{"A1":60,"A2":70,"A3":75,"A4":20,"A5":25,"A6":75}},{
+"name":"Feudalism",
+"stats":{"A1":10,"A2":45,"A3":50,"A4":30,"A5":40,"A6":95}},{
+"name":"Fiscal Conservatism",
+"stats":{"A1":20,"A2":20,"A3":50,"A4":55,"A5":60,"A6":60}},{
+"name":"Fordism",
+"stats":{"A1":10,"A2":55,"A3":90,"A4":60,"A5":95,"A6":0}},{
+"name":"Fourth Theory",
+"stats":{"A1":80,"A2":75,"A3":80,"A4":25,"A5":15,"A6":65}},{
+"name":"Francoism",
+"stats":{"A1":45,"A2":35,"A3":85,"A4":25,"A5":25,"A6":75}},{
+"name":"Fully Automated Luxury Communism",
+"stats":{"A1":90,"A2":80,"A3":55,"A4":85,"A5":95,"A6":5}},{
+"name":"Futurism",
+"stats":{"A1":50,"A2":45,"A3":70,"A4":40,"A5":20,"A6":0}},{
+"name":"Geo-Anarchism",
+"stats":{"A1":50,"A2":5,"A3":5,"A4":95,"A5":65,"A6":50}},{
+"name":"Geolibertarianism",
+"stats":{"A1":50,"A2":5,"A3":30,"A4":90,"A5":65,"A6":40}},{
+"name":"Georgism",
+"stats":{"A1":50,"A2":30,"A3":40,"A4":70,"A5":65,"A6":40}},{
+"name":"Geosyndicalism",
+"stats":{"A1":65,"A2":40,"A3":25,"A4":75,"A5":75,"A6":40}},{
+"name":"Geo-Transhumanism",
+"stats":{"A1":50,"A2":30,"A3":40,"A4":75,"A5":70,"A6":0}},{
+"name":"Gorbachevism",
+"stats":{"A1":60,"A2":65,"A3":65,"A4":60,"A5":70,"A6":40}},{
+"name":"Green Politics",
+"stats":{"A1":55,"A2":65,"A3":30,"A4":70,"A5":80,"A6":65}},{
+"name":"Guevarism",
+"stats":{"A1":90,"A2":80,"A3":60,"A4":50,"A5":65,"A6":45}},{
+"name":"Guild Socialism",
+"stats":{"A1":85,"A2":50,"A3":45,"A4":55,"A5":60,"A6":65}},{
+"name":"Hamiltonianism",
+"stats":{"A1":25,"A2":65,"A3":70,"A4":75,"A5":50,"A6":65}},{
+"name":"Hayekism",
+"stats":{"A1":20,"A2":20,"A3":30,"A4":90,"A5":40,"A6":45}},{
+"name":"Helvetic Model",
+"stats":{"A1":35,"A2":35,"A3":30,"A4":65,"A5":50,"A6":50}},{
+"name":"Hoppeanism",
+"stats":{"A1":10,"A2":5,"A3":10,"A4":75,"A5":25,"A6":75}},{
+"name":"Hoxhaism",
+"stats":{"A1":75,"A2":80,"A3":75,"A4":20,"A5":45,"A6":25}},{
+"name":"Illiberal Democracy",
+"stats":{"A1":50,"A2":55,"A3":40,"A4":20,"A5":40,"A6":50}},{
+"name":"Indigenous Anarchism",
+"stats":{"A1":85,"A2":55,"A3":0,"A4":70,"A5":85,"A6":75}},{
+"name":"Individualist Anarchism",
+"stats":{"A1":70,"A2":15,"A3":0,"A4":100,"A5":75,"A6":35}},{
+"name":"Jacobinism",
+"stats":{"A1":85,"A2":80,"A3":65,"A4":40,"A5":80,"A6":25}},{
+"name":"Jeffersonian Democracy",
+"stats":{"A1":30,"A2":35,"A3":30,"A4":75,"A5":60,"A6":40}},{
+"name":"Jihadism",
+"stats":{"A1":45,"A2":60,"A3":90,"A4":5,"A5":40,"A6":95}},{
+"name":"Juche",
+"stats":{"A1":80,"A2":90,"A3":95,"A4":20,"A5":50,"A6":40}},{
+"name":"Kemalism",
+"stats":{"A1":55,"A2":65,"A3":75,"A4":50,"A5":65,"A6":30}},{
+"name":"Keynesian Socialism",
+"stats":{"A1":75,"A2":55,"A3":55,"A4":70,"A5":70,"A6":35}},{
+"name":"Korwinism",
+"stats":{"A1":15,"A2":10,"A3":25,"A4":90,"A5":10,"A6":60}},{
+"name":"Labourism",
+"stats":{"A1":65,"A2":75,"A3":50,"A4":55,"A5":75,"A6":45}},{
+"name":"Laissez-Faire Capitalism",
+"stats":{"A1":20,"A2":0,"A3":45,"A4":60,"A5":50,"A6":50}},{
+"name":"Laissez-Faire Socialism",
+"stats":{"A1":80,"A2":0,"A3":45,"A4":60,"A5":50,"A6":50}},{
+"name":"Laissez-Faire",
+"stats":{"A1":40,"A2":0,"A3":45,"A4":60,"A5":50,"A6":50}},{
+"name":"Lange Model",
+"stats":{"A1":85,"A2":50,"A3":75,"A4":40,"A5":55,"A6":30}},{
+"name":"Left Communism",
+"stats":{"A1":90,"A2":85,"A3":50,"A4":50,"A5":80,"A6":35}},{
+"name":"Left Libertarianism",
+"stats":{"A1":70,"A2":55,"A3":30,"A4":90,"A5":80,"A6":35}},{
+"name":"Left Market Minarchism",
+"stats":{"A1":80,"A2":10,"A3":20,"A4":100,"A5":70,"A6":30}},{
+"name":"Left-Wing Populism",
+"stats":{"A1":50,"A2":65,"A3":45,"A4":60,"A5":60,"A6":45}},{
+"name":"Left Minarchism",
+"stats":{"A1":80,"A2":55,"A3":20,"A4":100,"A5":70,"A6":35}},{
+"name":"Left-Rothbardianism",
+"stats":{"A1":40,"A2":5,"A3":5,"A4":95,"A5":65,"A6":40}},{
+"name":"Leninism",
+"stats":{"A1":80,"A2":75,"A3":65,"A4":45,"A5":65,"A6":30}},{
+"name":"Liberal Conservatism",
+"stats":{"A1":20,"A2":30,"A3":55,"A4":55,"A5":65,"A6":55}},{
+"name":"Liberal Corporatism",
+"stats":{"A1":55,"A2":55,"A3":60,"A4":70,"A5":75,"A6":45}},{
+"name":"Liberal Democracy",
+"stats":{"A1":40,"A2":40,"A3":45,"A4":65,"A5":75,"A6":40}},{
+"name":"Liberal Socialism",
+"stats":{"A1":75,"A2":50,"A3":50,"A4":75,"A5":80,"A6":40}},{
+"name":"Liberalism",
+"stats":{"A1":35,"A2":35,"A3":50,"A4":75,"A5":80,"A6":40}},{
+"name":"Liberaltarianism",
+"stats":{"A1":35,"A2":35,"A3":40,"A4":95,"A5":80,"A6":40}},{
+"name":"Libertarian Communism",
+"stats":{"A1":90,"A2":80,"A3":30,"A4":80,"A5":75,"A6":50}},{
+"name":"Libertarian Conservatism",
+"stats":{"A1":20,"A2":20,"A3":30,"A4":80,"A5":60,"A6":70}},{
+"name":"Libertarian Distributism",
+"stats":{"A1":30,"A2":20,"A3":25,"A4":80,"A5":55,"A6":75}},{
+"name":"Libertarian Market Socialism",
+"stats":{"A1":85,"A2":20,"A3":30,"A4":80,"A5":75,"A6":40}},{
+"name":"Libertarian Marxism",
+"stats":{"A1":95,"A2":80,"A3":30,"A4":80,"A5":75,"A6":35}},{
+"name":"Libertarian Monarchism",
+"stats":{"A1":15,"A2":15,"A3":80,"A4":85,"A5":55,"A6":65}},{
+"name":"Libertarian Socialism",
+"stats":{"A1":85,"A2":70,"A3":30,"A4":85,"A5":75,"A6":45}},{
+"name":"Libertarian Transhumanism",
+"stats":{"A1":25,"A2":20,"A3":30,"A4":95,"A5":65,"A6":0}},{
+"name":"Libertarianism",
+"stats":{"A1":35,"A2":20,"A3":30,"A4":90,"A5":65,"A6":50}},{
+"name":"Mao-Spontex",
+"stats":{"A1":85,"A2":75,"A3":20,"A4":40,"A5":70,"A6":45}},{
+"name":"Maoism",
+"stats":{"A1":75,"A2":75,"A3":75,"A4":30,"A5":65,"A6":35}},{
+"name":"Market Anarchism",
+"stats":{"A1":60,"A2":0,"A3":0,"A4":95,"A5":75,"A6":40}},{
+"name":"Market Socialism",
+"stats":{"A1":85,"A2":30,"A3":45,"A4":60,"A5":70,"A6":45}},{
+"name":"Marxism-Leninism-Maoism",
+"stats":{"A1":75,"A2":85,"A3":65,"A4":30,"A5":55,"A6":60}},{
+"name":"Marxism-Leninism",
+"stats":{"A1":75,"A2":80,"A3":75,"A4":30,"A5":55,"A6":30}},{
+"name":"Marxism",
+"stats":{"A1":85,"A2":85,"A3":45,"A4":55,"A5":70,"A6":30}},{
+"name":"Mercantilism",
+"stats":{"A1":20,"A2":70,"A3":85,"A4":40,"A5":40,"A6":80}},{
+"name":"Millism",
+"stats":{"A1":65,"A2":30,"A3":40,"A4":95,"A5":60,"A6":30}},{
+"name":"Minarchism",
+"stats":{"A1":30,"A2":10,"A3":20,"A4":95,"A5":65,"A6":40}},{
+"name":"Minarcho-Socialism",
+"stats":{"A1":85,"A2":70,"A3":20,"A4":95,"A5":70,"A6":40}},{
+"name":"Monarcho-Capitalism",
+"stats":{"A1":5,"A2":20,"A3":90,"A4":35,"A5":45,"A6":70}},{
+"name":"Monarcho-Socialism",
+"stats":{"A1":70,"A2":80,"A3":90,"A4":55,"A5":55,"A6":70}},{
+"name":"Muscular Liberalism",
+"stats":{"A1":20,"A2":45,"A3":65,"A4":45,"A5":85,"A6":45}},{
+"name":"Mutualism",
+"stats":{"A1":75,"A2":20,"A3":5,"A4":90,"A5":60,"A6":50}},{
+"name":"National Anarchism",
+"stats":{"A1":80,"A2":40,"A3":5,"A4":40,"A5":10,"A6":60}},{
+"name":"National Bolshevism",
+"stats":{"A1":75,"A2":85,"A3":80,"A4":20,"A5":5,"A6":50}},{
+"name":"National Capitalism",
+"stats":{"A1":15,"A2":20,"A3":85,"A4":25,"A5":5,"A6":40}},{
+"name":"National Conservatism",
+"stats":{"A1":35,"A2":50,"A3":55,"A4":40,"A5":10,"A6":85}},{
+"name":"National Liberalism",
+"stats":{"A1":40,"A2":35,"A3":55,"A4":75,"A5":35,"A6":45}},{
+"name":"National Syndicalism",
+"stats":{"A1":75,"A2":55,"A3":65,"A4":30,"A5":25,"A6":75}},{
+"name":"National Transhumanism",
+"stats":{"A1":35,"A2":65,"A3":90,"A4":30,"A5":5,"A6":10}},{
+"name":"Nazism",
+"stats":{"A1":35,"A2":65,"A3":90,"A4":25,"A5":0,"A6":45}},{
+"name":"Neo-Libertarianism",
+"stats":{"A1":15,"A2":20,"A3":45,"A4":80,"A5":60,"A6":55}},{
+"name":"Neo-Marxism",
+"stats":{"A1":85,"A2":80,"A3":45,"A4":80,"A5":95,"A6":25}},{
+"name":"Neo-Trotskyism",
+"stats":{"A1":80,"A2":90,"A3":60,"A4":60,"A5":85,"A6":25}},{
+"name":"Neo-Zapatismo",
+"stats":{"A1":95,"A2":75,"A3":15,"A4":80,"A5":85,"A6":65}},{
+"name":"Neocameralism",
+"stats":{"A1":15,"A2":45,"A3":90,"A4":70,"A5":20,"A6":75}},{
+"name":"Neoconservatism",
+"stats":{"A1":20,"A2":35,"A3":60,"A4":50,"A5":50,"A6":50}},{
+"name":"Neoliberalism",
+"stats":{"A1":30,"A2":30,"A3":60,"A4":65,"A5":80,"A6":35}},{
+"name":"Neoreactionarism",
+"stats":{"A1":20,"A2":60,"A3":70,"A4":35,"A5":15,"A6":80}},{
+"name":"New Right Conservatism",
+"stats":{"A1":15,"A2":35,"A3":55,"A4":40,"A5":40,"A6":65}},{
+"name":"Nordic Model",
+"stats":{"A1":50,"A2":55,"A3":45,"A4":70,"A5":80,"A6":45}},{
+"name":"Objectivism",
+"stats":{"A1":20,"A2":0,"A3":45,"A4":90,"A5":50,"A6":35}},{
+"name":"Ochlocracy",
+"stats":{"A1":75,"A2":65,"A3":15,"A4":15,"A5":45,"A6":60}},{
+"name":"Odalism",
+"stats":{"A1":55,"A2":55,"A3":10,"A4":35,"A5":20,"A6":100}},{
+"name":"Ordoliberalism",
+"stats":{"A1":30,"A2":40,"A3":60,"A4":65,"A5":70,"A6":40}},{
+"name":"Orwellism",
+"stats":{"A1":70,"A2":80,"A3":55,"A4":80,"A5":55,"A6":60}},{
+"name":"Paleoconservatism",
+"stats":{"A1":30,"A2":50,"A3":40,"A4":45,"A5":30,"A6":70}},{
+"name":"Paleoliberalism",
+"stats":{"A1":50,"A2":50,"A3":45,"A4":75,"A5":65,"A6":35}},{
+"name":"Paleolibertarianism",
+"stats":{"A1":15,"A2":10,"A3":25,"A4":85,"A5":30,"A6":70}},{
+"name":"Paternalistic Conservatism",
+"stats":{"A1":25,"A2":70,"A3":75,"A4":30,"A5":45,"A6":70}},{
+"name":"Peronism",
+"stats":{"A1":55,"A2":75,"A3":65,"A4":40,"A5":55,"A6":50}},{
+"name":"Pink Capitalism",
+"stats":{"A1":20,"A2":10,"A3":50,"A4":80,"A5":95,"A6":35}},{
+"name":"Pinkertonism",
+"stats":{"A1":5,"A2":20,"A3":20,"A4":15,"A5":75,"A6":40}},{
+"name":"Pinochetism",
+"stats":{"A1":20,"A2":30,"A3":85,"A4":25,"A5":40,"A6":60}},{
+"name":"Pirate Politics",
+"stats":{"A1":50,"A2":40,"A3":30,"A4":90,"A5":65,"A6":30}},{
+"name":"Populism",
+"stats":{"A1":45,"A2":50,"A3":40,"A4":50,"A5":45,"A6":50}},{
+"name":"Post-Civilisation Anarchism",
+"stats":{"A1":80,"A2":50,"A3":0,"A4":95,"A5":80,"A6":70}},{
+"name":"Post-Left Anarchism",
+"stats":{"A1":80,"A2":40,"A3":0,"A4":100,"A5":85,"A6":50}},{
+"name":"Progressive Conservatism",
+"stats":{"A1":25,"A2":55,"A3":60,"A4":50,"A5":65,"A6":55}},{
+"name":"Proutism",
+"stats":{"A1":75,"A2":35,"A3":40,"A4":60,"A5":75,"A6":75}},{
+"name":"Queer Anarchism",
+"stats":{"A1":70,"A2":60,"A3":10,"A4":90,"A5":95,"A6":45}},{
+"name":"Radical Conservatism",
+"stats":{"A1":30,"A2":40,"A3":50,"A4":40,"A5":25,"A6":80}},{
+"name":"Radical Liberalism",
+"stats":{"A1":40,"A2":50,"A3":40,"A4":65,"A5":80,"A6":30}},{
+"name":"Reactionarism",
+"stats":{"A1":20,"A2":50,"A3":75,"A4":30,"A5":25,"A6":90}},{
+"name":"Reactionary Liberalism",
+"stats":{"A1":25,"A2":35,"A3":55,"A4":65,"A5":25,"A6":85}},{
+"name":"Reactionary Libertarianism",
+"stats":{"A1":10,"A2":20,"A3":20,"A4":40,"A5":30,"A6":90}},{
+"name":"Reactionary Socialism",
+"stats":{"A1":75,"A2":65,"A3":45,"A4":40,"A5":40,"A6":90}},{
+"name":"Regulationism",
+"stats":{"A1":40,"A2":80,"A3":55,"A4":50,"A5":55,"A6":45}},{
+"name":"Religious Anarchism",
+"stats":{"A1":80,"A2":65,"A3":0,"A4":70,"A5":65,"A6":80}},{
+"name":"Religious Socialism",
+"stats":{"A1":75,"A2":75,"A3":50,"A4":50,"A5":65,"A6":75}},{
+"name":"Ricardian Socialism",
+"stats":{"A1":80,"A2":25,"A3":40,"A4":70,"A5":65,"A6":55}},{
+"name":"Right Libertarianism",
+"stats":{"A1":20,"A2":20,"A3":35,"A4":85,"A5":60,"A6":50}},{
+"name":"Right Minarchism",
+"stats":{"A1":20,"A2":10,"A3":20,"A4":95,"A5":50,"A6":40}},{
+"name":"Right-Wing Populism",
+"stats":{"A1":35,"A2":55,"A3":35,"A4":50,"A5":30,"A6":55}},{
+"name":"Scientocracy",
+"stats":{"A1":45,"A2":55,"A3":60,"A4":45,"A5":60,"A6":25}},{
+"name":"Small Government Conservatism",
+"stats":{"A1":20,"A2":15,"A3":25,"A4":70,"A5":40,"A6":70}},{
+"name":"Social Anarchism",
+"stats":{"A1":70,"A2":35,"A3":0,"A4":75,"A5":75,"A6":45}},{
+"name":"Social Authoritarianism",
+"stats":{"A1":50,"A2":70,"A3":75,"A4":45,"A5":65,"A6":40}},{
+"name":"Social Capitalism",
+"stats":{"A1":35,"A2":40,"A3":60,"A4":60,"A5":60,"A6":45}},{
+"name":"Social Corporatism",
+"stats":{"A1":55,"A2":75,"A3":60,"A4":60,"A5":70,"A6":40}},{
+"name":"Social Darwinism",
+"stats":{"A1":20,"A2":10,"A3":60,"A4":60,"A5":35,"A6":35}},{
+"name":"Social Democracy",
+"stats":{"A1":50,"A2":65,"A3":50,"A4":65,"A5":75,"A6":40}},{
+"name":"Social Distributism",
+"stats":{"A1":60,"A2":50,"A3":30,"A4":45,"A5":65,"A6":80}},{
+"name":"Social Georgism",
+"stats":{"A1":60,"A2":45,"A3":40,"A4":75,"A5":75,"A6":40}},{
+"name":"Social Liberalism",
+"stats":{"A1":40,"A2":50,"A3":50,"A4":70,"A5":80,"A6":40}},{
+"name":"Social Libertarianism",
+"stats":{"A1":40,"A2":50,"A3":40,"A4":85,"A5":75,"A6":40}},{
+"name":"Social Nationalism",
+"stats":{"A1":50,"A2":70,"A3":75,"A4":40,"A5":35,"A6":40}},{
+"name":"Sorelianism",
+"stats":{"A1":70,"A2":40,"A3":50,"A4":50,"A5":20,"A6":75}},{
+"name":"State Capitalism",
+"stats":{"A1":15,"A2":85,"A3":75,"A4":45,"A5":55,"A6":40}},{
+"name":"State Corporatism",
+"stats":{"A1":35,"A2":75,"A3":85,"A4":40,"A5":50,"A6":45}},{
+"name":"State Development Capitalism",
+"stats":{"A1":15,"A2":55,"A3":80,"A4":30,"A5":40,"A6":35}},{
+"name":"State Liberalism",
+"stats":{"A1":20,"A2":35,"A3":85,"A4":40,"A5":100,"A6":25}},{
+"name":"Strasserism",
+"stats":{"A1":55,"A2":80,"A3":85,"A4":25,"A5":10,"A6":45}},{
+"name":"Syncretic Liberalism",
+"stats":{"A1":40,"A2":50,"A3":55,"A4":65,"A5":65,"A6":45}},{
+"name":"Techno-Nationalism",
+"stats":{"A1":40,"A2":60,"A3":60,"A4":60,"A5":35,"A6":25}},{
+"name":"Techno-Populism",
+"stats":{"A1":60,"A2":60,"A3":25,"A4":65,"A5":55,"A6":15}},{
+"name":"Technocracy",
+"stats":{"A1":45,"A2":80,"A3":75,"A4":50,"A5":60,"A6":10}},{
+"name":"Technoliberalism",
+"stats":{"A1":35,"A2":45,"A3":35,"A4":80,"A5":80,"A6":10}},{
+"name":"Technolibertarianism",
+"stats":{"A1":35,"A2":10,"A3":20,"A4":90,"A5":60,"A6":10}},{
+"name":"Thatcherism",
+"stats":{"A1":30,"A2":30,"A3":65,"A4":55,"A5":40,"A6":60}},{
+"name":"Theocracy",
+"stats":{"A1":40,"A2":60,"A3":70,"A4":25,"A5":50,"A6":80}},{
+"name":"Third Way",
+"stats":{"A1":35,"A2":40,"A3":55,"A4":70,"A5":85,"A6":30}},{
+"name":"Timocracy",
+"stats":{"A1":0,"A2":35,"A3":80,"A4":35,"A5":50,"A6":55}},{
+"name":"Titoism",
+"stats":{"A1":80,"A2":60,"A3":70,"A4":35,"A5":70,"A6":40}},{
+"name":"Totalitarianism",
+"stats":{"A1":35,"A2":80,"A3":95,"A4":5,"A5":45,"A6":45}},{
+"name":"Transhumanism",
+"stats":{"A1":45,"A2":50,"A3":50,"A4":65,"A5":55,"A6":0}},{
+"name":"Transhumanist Socialism",
+"stats":{"A1":80,"A2":70,"A3":50,"A4":65,"A5":70,"A6":0}},{
+"name":"Tridemism",
+"stats":{"A1":70,"A2":45,"A3":65,"A4":50,"A5":65,"A6":30}},{
+"name":"Trotskyism",
+"stats":{"A1":80,"A2":90,"A3":70,"A4":45,"A5":65,"A6":25}},{
+"name":"Welfare Chauvinism",
+"stats":{"A1":50,"A2":70,"A3":50,"A4":55,"A5":30,"A6":55}},{
+"name":"Yellow Socialism",
+"stats":{"A1":65,"A2":80,"A3":70,"A4":45,"A5":30,"A6":45}}]
