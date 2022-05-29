@@ -148,8 +148,7 @@
         const results = rawResults.split(",")
         let allscores = [0, 0, 0, 0, 0, 0]
         for (const i in keys) {
-            const res = parseFloat(results[i])
-            allscores[i] = res
+            const res = (Math.round(parseFloat(results[i])*10)/10)
             document.getElementById(keys[i] + "L").style.width = res + "%"
             document.getElementById(keys[i] + "R").style.width = 100 - res + "%"
             if (res > 20)
