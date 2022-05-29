@@ -223,11 +223,11 @@
             ctx.font = "32px textfont"
             ctx.fillStyle = "#080808"
             ctx.textAlign = "left"
-            if (allscores[y] > 15) {
+            if (allscores[y] > 20) {
                 ctx.fillText(allscores[y] + "%", 136, x)
             }
             ctx.textAlign = "right"
-            if ((100 - allscores[y]) > 15) {
+            if ((100 - allscores[y]) > 20) {
                 ctx.fillText((100 - allscores[y]) + "%", 664, x)
             }
         }
