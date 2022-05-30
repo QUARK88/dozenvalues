@@ -9,7 +9,7 @@
 "name":"Agrarianism",
 "stats":{"A1":30,"A2":40,"A3":25,"A4":45,"A5":55,"A6":80}},{
 "name":"American Progressivism",
-"stats":{"A1":40,"A2":60,"A3":60,"A4":80,"A5":90,"A6":25}},{
+"stats":{"A1":40,"A2":60,"A3":60,"A4":80,"A5":90,"A6":35}},{
 "name":"Anarcho-Capitalism",
 "stats":{"A1":20,"A2":5,"A3":10,"A4":95,"A5":50,"A6":40}},{
 "name":"Anarcho-Communism",
@@ -203,7 +203,7 @@
 "name":"Jacobinism",
 "stats":{"A1":85,"A2":80,"A3":65,"A4":40,"A5":80,"A6":25}},{
 "name":"Jeffersonian Democracy",
-"stats":{"A1":30,"A2":35,"A3":30,"A4":75,"A5":60,"A6":40}},{
+"stats":{"A1":30,"A2":35,"A3":30,"A4":75,"A5":55,"A6":40}},{
 "name":"Jihadism",
 "stats":{"A1":45,"A2":60,"A3":90,"A4":5,"A5":40,"A6":95}},{
 "name":"Juche",
@@ -229,11 +229,11 @@
 "name":"Left Libertarianism",
 "stats":{"A1":70,"A2":55,"A3":30,"A4":90,"A5":80,"A6":35}},{
 "name":"Left Market Minarchism",
-"stats":{"A1":80,"A2":10,"A3":20,"A4":100,"A5":70,"A6":30}},{
+"stats":{"A1":80,"A2":10,"A3":25,"A4":100,"A5":70,"A6":30}},{
 "name":"Left-Wing Populism",
 "stats":{"A1":50,"A2":65,"A3":45,"A4":60,"A5":60,"A6":45}},{
 "name":"Left Minarchism",
-"stats":{"A1":80,"A2":55,"A3":20,"A4":100,"A5":70,"A6":35}},{
+"stats":{"A1":80,"A2":55,"A3":25,"A4":100,"A5":70,"A6":35}},{
 "name":"Left-Rothbardianism",
 "stats":{"A1":40,"A2":5,"A3":5,"A4":95,"A5":65,"A6":40}},{
 "name":"Leninism",
@@ -287,9 +287,9 @@
 "name":"Millism",
 "stats":{"A1":65,"A2":30,"A3":40,"A4":95,"A5":60,"A6":30}},{
 "name":"Minarchism",
-"stats":{"A1":30,"A2":10,"A3":20,"A4":95,"A5":65,"A6":40}},{
+"stats":{"A1":30,"A2":10,"A3":25,"A4":95,"A5":65,"A6":40}},{
 "name":"Minarcho-Socialism",
-"stats":{"A1":85,"A2":70,"A3":20,"A4":95,"A5":70,"A6":40}},{
+"stats":{"A1":85,"A2":70,"A3":25,"A4":95,"A5":70,"A6":40}},{
 "name":"Monarcho-Capitalism",
 "stats":{"A1":5,"A2":20,"A3":90,"A4":35,"A5":45,"A6":70}},{
 "name":"Monarcho-Socialism",
@@ -397,7 +397,7 @@
 "name":"Right Libertarianism",
 "stats":{"A1":20,"A2":20,"A3":35,"A4":85,"A5":60,"A6":50}},{
 "name":"Right Minarchism",
-"stats":{"A1":20,"A2":10,"A3":20,"A4":95,"A5":50,"A6":40}},{
+"stats":{"A1":20,"A2":10,"A3":25,"A4":95,"A5":50,"A6":40}},{
 "name":"Right-Wing Populism",
 "stats":{"A1":35,"A2":55,"A3":35,"A4":50,"A5":30,"A6":55}},{
 "name":"Scientocracy",
