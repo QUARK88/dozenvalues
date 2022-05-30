@@ -50,7 +50,7 @@
 "effect":{"A1":0,"A2":0,"A3":0,"A4":1,"A5":0,"A6":1}},
 {"question":"People are whatever gender they say they are.",
 "effect":{"A1":0,"A2":0,"A3":0,"A4":0,"A5":2,"A6":0}},
-{"question":"Leadership passed on hereditarily is legitimate.",
+{"question":"Leadership should be passed on hereditarily.",
 "effect":{"A1":0,"A2":0,"A3":1,"A4":0,"A5":0,"A6":1}},
 {"question":"The universal basic income is superior to other types of welfare.",
 "effect":{"A1":0,"A2":1,"A3":0,"A4":1,"A5":0,"A6":0}},
