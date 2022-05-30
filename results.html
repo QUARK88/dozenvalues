@@ -223,11 +223,11 @@
             ctx.fillStyle = "#080808"
             ctx.textAlign = "left"
             if (allscores[y] > 20) {
-                ctx.fillText((Math.round((allscores[y])*10)/10) + "%", 136, x)
+                ctx.fillText((Math.round((allscores[y])*10)/10).toFixed(1) + "%", 136, x)
             }
             ctx.textAlign = "right"
             if ((100 - allscores[y]) > 20) {
-                ctx.fillText((Math.round((100 - allscores[y])*10)/10) + "%", 664, x)
+                ctx.fillText((Math.round((100 - allscores[y])*10)/10).toFixed(1) + "%", 664, x)
             }
         }
         drawbar(208)
