@@ -134,7 +134,7 @@
 "effect":{"A1":1,"A2":0,"A3":0,"A4":0,"A5":0,"A6":0}},
 {"question":"Theft can never be justified.",
 "effect":{"A1":-1,"A2":0,"A3":0,"A4":0,"A5":0,"A6":0}},
-{"question":"Wages can never be fair.",
+{"question":"We should move beyond wage systems.",
 "effect":{"A1":1,"A2":0,"A3":0,"A4":0,"A5":0,"A6":0}},
 {"question":"Certain ethnic groups are genetically predisposed to violence.",
 "effect":{"A1":0,"A2":0,"A3":0,"A4":0,"A5":-2,"A6":0}},
