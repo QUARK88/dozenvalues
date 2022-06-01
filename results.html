@@ -86,6 +86,7 @@
         <img src="./assets/icons/novelty.svg" id="novelty" height="128px">
     </div>
     <h2>Closest Match: <span id=score></span></h2>
+    <h2>Next matches: <span id=score2></span>, <span id=score3></span></h2>
     <canvas id="results" width="800" height="880"></canvas>
     <div id="downloadButton"><svg viewBox="0 0 24 24">\t
             <path fill="currentColor"
@@ -122,6 +123,8 @@
         }
         matches.sort((a, b) => (a.score - b.score))
         document.getElementById("score").textContent = matches[0].ideology
+        document.getElementById("score2").textContent = matches[1].ideology
+        document.getElementById("score3").textContent = matches[2].ideology
     }
     function axesLabels(scores, axes) {
         for (const i in keys) {
@@ -141,14 +144,14 @@
     let allscores = [0, 0, 0, 0, 0, 0]
     for (const i in keys) {
         const res = parseFloat(results[i])
-        allscores[i] = (Math.round(res*10)/10)
+        allscores[i] = (Math.round(res * 10) / 10)
     }
     (async function () {
         const rawResults = window.location.search.substring(1)
         const results = rawResults.split(",")
         let allscores = [0, 0, 0, 0, 0, 0]
         for (const i in keys) {
-            const res = (Math.round(parseFloat(results[i])*10)/10)
+            const res = (Math.round(parseFloat(results[i]) * 10) / 10)
             document.getElementById(keys[i] + "L").style.width = res + "%"
             document.getElementById(keys[i] + "R").style.width = 100 - res + "%"
             if (res > 20)
@@ -223,11 +226,11 @@
             ctx.fillStyle = "#080808"
             ctx.textAlign = "left"
             if (allscores[y] > 20) {
-                ctx.fillText((Math.round((allscores[y])*10)/10).toFixed(1) + "%", 136, x)
+                ctx.fillText((Math.round((allscores[y]) * 10) / 10).toFixed(1) + "%", 136, x)
             }
             ctx.textAlign = "right"
             if ((100 - allscores[y]) > 20) {
-                ctx.fillText((Math.round((100 - allscores[y])*10)/10).toFixed(1) + "%", 664, x)
+                ctx.fillText((Math.round((100 - allscores[y]) * 10) / 10).toFixed(1) + "%", 664, x)
             }
         }
         drawbar(208)
