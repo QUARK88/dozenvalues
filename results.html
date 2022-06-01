@@ -184,6 +184,8 @@
         ctx.textAlign = "left"
         ctx.font = "48px textfont"
         let match = document.getElementById("score").textContent
+        let match2 = document.getElementById("score2").textContent
+        let match3 = document.getElementById("score3").textContent
         ctx.fillText(match, 32, 144)
         ctx.textAlign = "center"
         ctx.font = "24px textfont"
@@ -258,7 +260,7 @@
             const params = {
                 username: "DozenValues Results Logging",
                 avatar_url: "",
-                content: `**${match}**\n${location.href}`
+                content: `**${match}** | ${match2}, ${match3}\n${location.href}`
             }
             request.send(JSON.stringify(params));
         }
