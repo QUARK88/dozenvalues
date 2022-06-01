@@ -240,7 +240,7 @@
 "effect":{"A1":0,"A2":0,"A3":0,"A4":0,"A5":-1,"A6":1}},
 {"question":"There should be certain rules and standards that apply across all of society.",
 "effect":{"A1":0,"A2":0,"A3":1,"A4":0,"A5":0,"A6":0}},
-{"question":"If it is tradition to modify children's bodies, it should be done.",
+{"question":"If it is tradition to perform some surgeries on babies, it should be done.",
 "effect":{"A1":0,"A2":0,"A3":0,"A4":-1,"A5":0,"A6":1}},
 {"question":"In an ideal society, money would not exist.",
 "effect":{"A1":0,"A2":1,"A3":0,"A4":0,"A5":0,"A6":0}},
