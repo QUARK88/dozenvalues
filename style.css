@@ -8,6 +8,73 @@
     src: url(./assets/fonts/Cocogoose.ttf)
 }
 
+@media (prefers-color-scheme: light) {
+    .explanation_bg {
+        background-color: #fff !important;
+    }
+
+    html {
+        background-color: #c0c0c0 !important;
+    }
+
+    body {
+        background-color: #e0e0e0 !important;
+        border-color: #fff !important;
+        border-top: 1px solid #fff !important;
+        border-bottom: 1px solid #fff !important;
+        border-left: 24px solid #fff !important;
+        border-right: 24px solid #fff !important;
+    }
+
+    h1 {
+        color: #000 !important;
+    }
+
+    h2 {
+        color: #000 !important;
+    }
+
+    div.center {
+        background-color: #fff !important;
+        color: #e0e0e0 !important;
+    }
+
+    #results {
+        background-color: #c0c0c0 !important;
+        border: 4px solid #c0c0c0 !important;
+    }
+
+    h2.question {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+
+    #downloadButton {
+        color: #000 !important;
+    }
+
+    p {
+        color: #202020 !important;
+    }
+
+    h2.axis_name {
+        color: #000 !important;
+    }
+
+    p.question {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    div.axis_name {
+        color: #000 !important;
+    }
+
+    .explanation_bg {
+        background-color: #fff !important;
+    }
+}
+
 html {
     background-color: #202020;
     padding: 0;

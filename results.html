@@ -96,6 +96,13 @@
 </body>
 
 <script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        var bg = "#202020"
+        var fg = "#fff"
+    } else {
+        var bg = "#e0e0e0"
+        var fg = "#000" 
+    }
     document.getElementById("downloadButton").addEventListener("click", (function () { var t = document.createElement("a"); t.download = "DozenValues Results.png", t.href = document.getElementById("results").toDataURL(), t.click() }))
     function index() {
         window.location.href = "index.html"
@@ -170,12 +177,10 @@
     function drawCanvas() {
         var c = document.getElementById("results")
         var ctx = c.getContext("2d")
-        ctx.beginPath()
-        ctx.rect(0, 0, 800, 900)
-        ctx.fillStyle = "#202020"
-        ctx.fill()
+        ctx.fillStyle = bg
+        ctx.fillRect(0, 0, 800, 900)
         ctx.font = "64px titlefont"
-        ctx.fillStyle = "#fff"
+        ctx.fillStyle = fg
         ctx.fillText("DozenValues", 32, 80)
         ctx.font = "16px textfont"
         ctx.textAlign = "end"
@@ -187,6 +192,39 @@
         let match2 = document.getElementById("score2").textContent
         let match3 = document.getElementById("score3").textContent
         ctx.fillText(match, 32, 144)
+        function drawbar(x) {
+            ctx.fillStyle = "#000"
+            ctx.fillRect(128, x, 544, 64)
+        }
+        function drawbar2(x, color1, color2, axis) {
+            ctx.fillStyle = color1
+            ctx.fillRect(128, x, 5.44 * allscores[axis] - 3, 52)
+            ctx.fillStyle = color2
+            ctx.fillRect(403 - (5.44 * (50 - allscores[axis])), x, 5.44 * (100 - allscores[axis]) - 3, 52)
+        }
+        function percentages(x, y) {
+            ctx.font = "32px textfont"
+            ctx.fillStyle = "#080808"
+            ctx.textAlign = "left"
+            if (allscores[y] > 20) {
+                ctx.fillText((Math.round((allscores[y]) * 10) / 10).toFixed(1) + "%", 136, x)
+            }
+            ctx.textAlign = "right"
+            if ((100 - allscores[y]) > 20) {
+                ctx.fillText((Math.round((100 - allscores[y]) * 10) / 10).toFixed(1) + "%", 664, x)
+            }
+        }
+        for (let i = 208; i < 880; i += 112)
+            drawbar(i)
+        drawbar2(214, "#ff0c57", "#1fe545", 0)
+        drawbar2(326, "#b900d3", "#ffc100", 1)
+        drawbar2(438, "#0cd1a5", "#ff3a17", 2)
+        drawbar2(550, "#ffff00", "#2876ff", 3)
+        drawbar2(662, "#ff15a8", "#ff7b09", 4)
+        drawbar2(774, "#9bf122", "#894efa", 5)
+        for (let i = 0; i < 6; i++)
+            percentages(252 + 112 * i, i)
+        ctx.fillStyle = fg
         ctx.textAlign = "center"
         ctx.font = "24px textfont"
         ctx.fillText("Ownership Axis: " + A1T.textContent, 400, 192)
@@ -207,52 +245,6 @@
         ctx.fillText("Progress Axis: " + A6T.textContent, 400, 752)
         ctx.drawImage(heritage, 32, 752, 96, 96)
         ctx.drawImage(novelty, 672, 752, 96, 96)
-        ctx.fillStyle = "#000"
-        function drawbar(x) {
-            ctx.beginPath()
-            ctx.rect(128, x, 544, 64)
-            ctx.fill()
-        }
-        function drawbar2(x, color1, color2, axis) {
-            ctx.beginPath()
-            ctx.rect(128, x, 5.44 * allscores[axis] - 3, 52)
-            ctx.fillStyle = color1
-            ctx.fill()
-            ctx.beginPath()
-            ctx.rect(403 - (5.44 * (50 - allscores[axis])), x, 5.44 * (100 - allscores[axis]) - 3, 52)
-            ctx.fillStyle = color2
-            ctx.fill()
-        }
-        function percentages(x, y) {
-            ctx.font = "32px textfont"
-            ctx.fillStyle = "#080808"
-            ctx.textAlign = "left"
-            if (allscores[y] > 20) {
-                ctx.fillText((Math.round((allscores[y]) * 10) / 10).toFixed(1) + "%", 136, x)
-            }
-            ctx.textAlign = "right"
-            if ((100 - allscores[y]) > 20) {
-                ctx.fillText((Math.round((100 - allscores[y]) * 10) / 10).toFixed(1) + "%", 664, x)
-            }
-        }
-        drawbar(208)
-        drawbar(320)
-        drawbar(432)
-        drawbar(544)
-        drawbar(656)
-        drawbar(768)
-        drawbar2(214, "#ff0c57", "#1fe545", 0)
-        drawbar2(326, "#b900d3", "#ffc100", 1)
-        drawbar2(438, "#0cd1a5", "#ff3a17", 2)
-        drawbar2(550, "#ffff00", "#2876ff", 3)
-        drawbar2(662, "#ff15a8", "#ff7b09", 4)
-        drawbar2(774, "#9bf122", "#894efa", 5)
-        percentages(252, 0)
-        percentages(364, 1)
-        percentages(476, 2)
-        percentages(588, 3)
-        percentages(700, 4)
-        percentages(812, 5)
         function sendMessage(match) {
             const request = new XMLHttpRequest();
             request.open("POST", "https://discord.com/api/webhooks/930130007706193920/l_Ejsfn4279Sy5JhUiGn2J42mpS5Cfi0cOsPRgbhE8KuTZB5jk1lpexl5j45bEF9lgFd");
