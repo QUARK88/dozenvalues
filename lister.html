@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>DozenValues</title>
+    <link rel=icon type=x-icon href="icon.png" />
+    <link rel="shortcut icon" type=x-icon href="icon.png" />
+    <meta property=og:title content="DozenValues" />
+    <meta property=og:description
+        content="DozenValues is a political test that aims to map differing political perspectives onto six axes." />
+    <meta property=og:url content="https://quark88.github.io/dozenvalues" />
+    <meta property=og:image content="https://github.com/QUARK88/dozenvalues/blob/master/icons/icon.png?raw=true" />
+    <meta property=og:type content="Political test" />
+    <meta property=og:locale content="en_US" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>DozenValues</h1>
+    <h2 style="text-align:center">Lister</h2>
+    <h2><span id=matches></span></h2>
+</body>
+
+<script>
+    function calcaxis(v1, v2) {
+        const V1 = parseFloat(v1)
+        const V2 = parseFloat(v2)
+        return Math.pow(Math.abs(V1 - V2) / 100, 3)
+    }
+    const keys = ["A1", "A2", "A3", "A4", "A5", "A6"]
+    const weights = [1, 0.9, 1, 0.6, 0.6, 0.7]
+    const axWeight = [10, 25, 45, 55, 75, 90, 100]
+    function orderscores(scores, ideos) {
+        let matches = new Array()
+        for (const id of ideos) {
+            let sum = new Number()
+            for (const key in keys) {
+                sum += weights[key] * calcaxis(scores[key], id.stats[keys[key]])
+            }
+            sum /= 6
+            matches.push({
+                "ideology": id.name,
+                "score": sum
+            })
+        }
+        matches.sort((a, b) => (a.score - b.score))
+        let names = new Array()
+        for (let i = 0; i < 239; i++)
+            names[i] = matches[i].ideology
+        document.getElementById("matches").textContent = names
+        console.log(matches)
+    }
+    const rawResults = window.location.search.substring(1)
+    const results = rawResults.split(",")
+    let allscores = [0, 0, 0, 0, 0, 0]
+    for (const i in keys) {
+        const res = parseFloat(results[i])
+        allscores[i] = (Math.round(res * 10) / 10)
+    }
+    (async function () {
+        const rawResults = window.location.search.substring(1)
+        const results = rawResults.split(",")
+        let allscores = [0, 0, 0, 0, 0, 0]
+        await fetch("./json/ideologies.json")
+            .then(response => response.json())
+            .then(data => orderscores(results, data))
+    })()
+</script>
