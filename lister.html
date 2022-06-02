@@ -19,10 +19,14 @@
 <body>
     <h1>DozenValues</h1>
     <h2 style="text-align:center">Lister</h2>
+    <button class="small_button" onclick="gotoresults()">Back</button><br>
     <h2 id="listholder"></h2>
 </body>
 
 <script>
+    function gotoresults() {
+        window.location.href = "results.html"
+    }
     function minmax(val, max, min) {
         return (
             Math.pow(

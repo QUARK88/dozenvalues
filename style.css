@@ -335,6 +335,10 @@ div.axis_name {
     }
 }
 
+#listholder {
+    text-align: center;
+}
+
 div.explanation_blurb_left,
 div.explanation_blurb_right {
     margin: 16px;
@@ -357,17 +361,25 @@ div.axis {
 div.bar {
     background-color: #fff;
     border-bottom: 8px solid #000;
-    border-left-color: #000;
-    border-left-width: 4px;
-    border-right-color: #000;
-    border-right-width: 4px;
     border-top: 8px solid #000;
     display: block;
-    height: 36pt;
+    height: 48px;
     line-height: 48px;
     margin-bottom: 16px;
     margin-top: 16px;
     padding: 16px
+}
+
+div.smallbar {
+    background-color: #fff;
+    border-bottom: 4px solid #000;
+    border-top: 4px solid #000;
+    display: block;
+    height: 24px;
+    line-height: 48px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 8px
 }
 
 div.text-wrapper {
