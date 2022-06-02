@@ -261,6 +261,9 @@
 </body>
 
 <script>
+    function minmax(val, max, min) {
+        return (val - min) / (max - min)
+    }
     function calcaxis(v1, v2) {
         const V1 = parseFloat(v1)
         const V2 = parseFloat(v2)
@@ -283,10 +286,9 @@
             })
         }
         matches.sort((a, b) => (a.score - b.score))
-        let percentages = new Array()
-        for (let i = 0; i < 239; i++) {
-            percentages[i] = Math.round((matches[0].score / matches[i].score) * 100)
-            document.getElementById("match" + i).textContent = (i + 1) + ". " + matches[i].ideology + " " + percentages[i] + "%"
+        for (const i in matches) {
+            percentage = Math.round(10000 - (minmax((matches[0].score / matches[i].score) * 100, 0, 100) * 10000)) / 100
+            document.getElementById("match" + i).textContent = `${i}. ${matches[i].ideology} ${percentage}%`
         }
     }
     const rawResults = window.location.search.substring(1)
