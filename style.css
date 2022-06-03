@@ -34,6 +34,10 @@
         color: #000 !important;
     }
 
+    h3 {
+        color: #000 !important;
+    }
+
     div.center {
         background-color: #fff !important;
         color: #e0e0e0 !important;
@@ -131,6 +135,14 @@ h2 {
     font-size: 48px;
     margin-bottom: 16px;
     margin-top: 32px
+}
+
+h3 {
+    color: #fff;
+    font-family: textfont;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 0px
 }
 
 h2.value {
@@ -333,10 +345,6 @@ div.axis_name {
     .github-corner .octo-arm {
         animation: octocat-wave 560ms ease-in-out
     }
-}
-
-#listholder {
-    text-align: center;
 }
 
 div.explanation_blurb_left,

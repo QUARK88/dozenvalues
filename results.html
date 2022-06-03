@@ -85,15 +85,18 @@
         </div>
         <img src="./assets/icons/novelty.svg" id="novelty" height="128px">
     </div>
-    <h2>Closest Match: <span id=score></span></h2>
-    <h2>Next matches: <span id=score2></span>, <span id=score3></span></h2>
+    <h2>Closest Match: <span id="score"></span></h2>
+    <p><span id="desc"></span></p>
+    <h2>Next matches: <span id="score2"></span>, <span id=score3></span></h2>
     <canvas id="results" width="800" height="880"></canvas>
     <div id="downloadButton"><svg viewBox="0 0 24 24">\t
             <path fill="currentColor"
                 d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
         </svg></div>
-    <button class="small_button" onclick="lister()">Full List</button><br>
-    <button class="small_button" onclick="index()">Back</button><br>
+    <button class="small_button"
+        onclick="window.location.href = `lister.html?${allscores[0]},${allscores[1]},${allscores[2]},${allscores[3]},${allscores[4]},${allscores[5]}`">Full
+        List</button><br>
+    <button class="small_button" onclick="window.location.href = 'index.html'">Back</button><br>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
@@ -108,12 +111,6 @@
         var fg = "#000"
     }
     document.getElementById("downloadButton").addEventListener("click", (function () { var t = document.createElement("a"); t.download = "DozenValues Results.png", t.href = document.getElementById("results").toDataURL(), t.click() }))
-    function index() {
-        window.location.href = "index.html"
-    }
-    function lister() {
-        window.location.href = `lister.html?${allscores[0]},${allscores[1]},${allscores[2]},${allscores[3]},${allscores[4]},${allscores[5]}`;
-    }
     function calcaxis(v1, v2) {
         const V1 = parseFloat(v1)
         const V2 = parseFloat(v2)
@@ -132,6 +129,7 @@
             sum /= 6
             matches.push({
                 "ideology": id.name,
+                "desc": id.desc,
                 "score": sum
             })
         }
@@ -139,6 +137,7 @@
         document.getElementById("score").textContent = matches[0].ideology
         document.getElementById("score2").textContent = matches[1].ideology
         document.getElementById("score3").textContent = matches[2].ideology
+        document.getElementById("desc").textContent = matches[0].desc
     }
     function axesLabels(scores, axes) {
         for (const i in keys) {

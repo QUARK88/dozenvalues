@@ -61,8 +61,10 @@
             <a href="#anchor-A6"><img src="./assets/icons/novelty.svg" class="quadcolumn"></a>
         </div>
     </div>
-    <button class="button" id="instructionButton" style="font-size:36pt;" onclick="instructions()">Click here to
+    <button class="button" id="instructionButton" style="font-size:36pt;"
+        onclick="window.location.href = 'instructions.html'">Click here to
         start!</button>
+    <button class="small_button" onclick="window.location.href = 'matches.html'">Matches</button><br>
     <h2>What is DozenValues?</h2>
     <p>DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be
         presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response
@@ -230,8 +232,7 @@
         <br>
     </div>
     <h2>What is the Closest Match?</h2>
-    <p>Once your results are generated, our test will try to assign you with an ideology, out of <a
-            href="https://polcompballminarchy.miraheze.org/wiki/List_of_DozenValues_matches">the 237 we have</a>, that
+    <p>Once your results are generated, our test will try to assign you with an ideology, out of the 239 we have, that
         is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your
         beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or
         ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any
@@ -243,11 +244,5 @@
     <p>Project leader, design &amp; code: Quark#0741<br><br>Original idea &amp; questions: Solar#5896<br><br>Questions
         &amp; matches help: Bery#4540, Buni/Wilbur/Alan/Lepus#6282, Tomscimyt#9258</p><br>
 </body>
-
-<script>
-    function instructions() {
-        window.location.href = "instructions.html";
-    }
-</script>
 
 </html>
