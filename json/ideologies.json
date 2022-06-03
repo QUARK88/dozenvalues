@@ -138,7 +138,7 @@
 "desc":"Ideology of Mikhail Bakunin, "},{
 "name":"Communalism",
 "stats":{"A1":95,"A2":75,"A3":10,"A4":80,"A5":90,"A6":60},
-"desc":"Ideology of Murray Bookchin, "},{
+"desc":"Ideology of Murray Bookchin, type of anarcho-communism with an emphasis on ecology and federal communes."},{
 "name":"Communitarianism",
 "stats":{"A1":65,"A2":70,"A3":30,"A4":35,"A5":55,"A6":65},
 "desc":"Description in progress"},{
@@ -180,7 +180,7 @@
 "desc":"Ideology of Daniel De Leon, "},{
 "name":"Democratic Confederalism",
 "stats":{"A1":90,"A2":60,"A3":25,"A4":75,"A5":85,"A6":60},
-"desc":"Description in progress"},{
+"desc":"Ideology of Abdullah Öcalan, libertarian socialist, with a focus on eco-communes and a confederal government."},{
 "name":"Democratic Socialism",
 "stats":{"A1":70,"A2":80,"A3":60,"A4":60,"A5":70,"A6":45},
 "desc":"Description in progress"},{
@@ -561,7 +561,7 @@
 "desc":"Description in progress"},{
 "name":"Proutism",
 "stats":{"A1":75,"A2":35,"A3":40,"A4":60,"A5":75,"A6":75},
-"desc":"Ideology of Prabhat Ranjan Sarkar, "},{
+"desc":"Ideology of Prabhat Ranjan Sarkar, also known as Progressive Utilization Theory, aims for local zones to be governed in self-sufficient ways, with a market socialist economy, and inclusive traditionalism."},{
 "name":"Queer Anarchism",
 "stats":{"A1":70,"A2":60,"A3":10,"A4":90,"A5":95,"A6":45},
 "desc":"Description in progress"},{
@@ -606,7 +606,7 @@
 "desc":"Description in progress"},{
 "name":"Scientocracy",
 "stats":{"A1":45,"A2":55,"A3":60,"A4":45,"A5":60,"A6":25},
-"desc":"Description in progress"},{
+"desc":"Government system under which a comitee of scientists rule over social policy, and make sure all decisions are fact-checked."},{
 "name":"Small Government Conservatism",
 "stats":{"A1":20,"A2":15,"A3":25,"A4":70,"A5":40,"A6":70},
 "desc":"Description in progress"},{
