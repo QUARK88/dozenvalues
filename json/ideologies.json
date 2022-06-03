@@ -1,21 +1,21 @@
 [{"name":"21st Century Socialism",
 "stats":{"A1":75,"A2":80,"A3":50,"A4":70,"A5":85,"A6":50},
-"desc":"Description in progress"},{
+"desc":"Ideology claiming that both capitalism and marxism-leninism failed, and aims to focus on worker and minority issues using democratic means."},{
 "name":"Absolute Monarchism",
 "stats":{"A1":5,"A2":65,"A3":90,"A4":30,"A5":40,"A6":65},
-"desc":"Description in progress"},{
+"desc":"System under which an individual exerts absolute power over all society and the economy via hereditary power."},{
 "name":"Agorism",
 "stats":{"A1":45,"A2":5,"A3":5,"A4":95,"A5":65,"A6":35},
-"desc":"Description in progress"},{
+"desc":"Anarchist ideology which believes that using counter-economics like black markets is the best way to have freedom from the state."},{
 "name":"Agrarian Anarchism",
 "stats":{"A1":60,"A2":60,"A3":5,"A4":70,"A5":65,"A6":80},
-"desc":"Description in progress"},{
+"desc":"Anarchist ideology believing in the preservation of the environment, and that liberty comes from agrarian practices and a return to the land."},{
 "name":"Agrarianism",
 "stats":{"A1":30,"A2":40,"A3":25,"A4":45,"A5":55,"A6":80},
-"desc":"Description in progress"},{
+"desc":"System focused on agrarian practices, traditional lifestyles, rural habitation, and ownership of farming land."},{
 "name":"American Progressivism",
 "stats":{"A1":40,"A2":60,"A3":60,"A4":80,"A5":90,"A6":35},
-"desc":"Description in progress"},{
+"desc":"Ideology having a focus on a large welfare state, cultural intersectionality, and increased civil freedoms."},{
 "name":"Anarcho-Capitalism",
 "stats":{"A1":20,"A2":5,"A3":10,"A4":95,"A5":50,"A6":40},
 "desc":"Description in progress"},{
@@ -78,19 +78,19 @@
 "desc":"Description in progress"},{
 "name":"Bismarckism",
 "stats":{"A1":25,"A2":75,"A3":75,"A4":35,"A5":40,"A6":55},
-"desc":"Ideology of Otto von Bismarck, "},{
+"desc":"Ideology of Otto von Bismarck, operating under a strong paternalistic state, conservative values, nationalism, and a heavily centralized capitalism."},{
 "name":"Bleeding-Heart Libertarianism",
 "stats":{"A1":30,"A2":20,"A3":35,"A4":95,"A5":85,"A6":40},
 "desc":"Description in progress"},{
 "name":"Blue Labourism",
 "stats":{"A1":65,"A2":70,"A3":45,"A4":40,"A5":30,"A6":70},
-"desc":"Description in progress"},{
+"desc":"Movement which favors labor rights for manual workers, a return to conservative values, and communitarianism."},{
 "name":"Bonapartism",
 "stats":{"A1":25,"A2":50,"A3":90,"A4":40,"A5":50,"A6":50},
 "desc":"Ideology of Napoléon Bonaparte, "},{
 "name":"Bull Moose Progressivism",
 "stats":{"A1":40,"A2":70,"A3":55,"A4":65,"A5":75,"A6":30},
-"desc":"Ideology of Theodore Roosevelt Jr., "},{
+"desc":"Ideology of Theodore Roosevelt Jr., focusing on pro-worker regulations within capitalism and better social justice between different citizen groups."},{
 "name":"Cameralism",
 "stats":{"A1":10,"A2":80,"A3":90,"A4":30,"A5":40,"A6":60},
 "desc":"Extremely authoritarian ideology aiming to maximize revenue for the state using large amounts of centralization of power and wealth."},{
@@ -198,7 +198,7 @@
 "desc":"Movement in favor of agrarian communes to form to live in traditionalist and religious lifestyles without hierarchies."},{
 "name":"Dirigisme",
 "stats":{"A1":35,"A2":80,"A3":60,"A4":50,"A5":55,"A6":40},
-"desc":"Description in progress"},{
+"desc":"Economic doctrine under which the state intervenes massively in the economy to correct the market, direct investment, and moderate planning."},{
 "name":"Distributism",
 "stats":{"A1":50,"A2":50,"A3":30,"A4":45,"A5":55,"A6":75},
 "desc":"Description in progress"},{
@@ -234,16 +234,16 @@
 "desc":"Description in progress"},{
 "name":"Fiscal Conservatism",
 "stats":{"A1":20,"A2":20,"A3":50,"A4":55,"A5":60,"A6":60},
-"desc":"Description in progress"},{
+"desc":"Form of moderate conservatism with a focus on reducing public spending with freer markets and deregulation."},{
 "name":"Fordism",
 "stats":{"A1":10,"A2":55,"A3":90,"A4":60,"A5":95,"A6":0},
-"desc":"Description in progress"},{
+"desc":"Imaginary ideology operating as a totalitarian, globalist, futuristic capitalist hierachy, applying industrial concepts to human beings."},{
 "name":"Fourth Theory",
 "stats":{"A1":80,"A2":75,"A3":80,"A4":25,"A5":15,"A6":65},
-"desc":"Ideology of Aleksandr Dugin, "},{
+"desc":"Ideology of Aleksandr Dugin, based around the idea that unifying communist and fascist beliefs into one is the key to fight modern liberalism."},{
 "name":"Francoism",
 "stats":{"A1":45,"A2":35,"A3":85,"A4":25,"A5":25,"A6":75},
-"desc":"Ideology of Francisco Franco, "},{
+"desc":"Ideology of Francisco Franco, wanting to unify the nation with a strong state, a comeback to traditional values, and moderately syndicalist economics."},{
 "name":"Fully Automated Luxury Communism",
 "stats":{"A1":90,"A2":80,"A3":55,"A4":85,"A5":95,"A6":5},
 "desc":"Description in progress"},{
