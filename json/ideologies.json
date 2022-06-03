@@ -285,10 +285,10 @@
 "desc":"Ideology of Friedrich Hayek, promoting a moderate form of laissez-faire, with a reduced-size state, increased civil freedoms, and patriotism."},{
 "name":"Helvetic Model",
 "stats":{"A1":35,"A2":35,"A3":30,"A4":65,"A5":50,"A6":50},
-"desc":"Description in progress"},{
+"desc":"Political model standing for a small government, low taxes, limited economic intervention, diplomatic isolation, and increased civil freedoms."},{
 "name":"Hoppeanism",
 "stats":{"A1":10,"A2":5,"A3":10,"A4":75,"A5":25,"A6":75},
-"desc":"Ideology of Hans-Hermann Hoppe, "},{
+"desc":"Ideology of Hans-Hermann Hoppe, a branch of anarcho-capitalism which has an emphasis on a physical removal of unwanted individuals from communities."},{
 "name":"Hoxhaism",
 "stats":{"A1":75,"A2":80,"A3":75,"A4":20,"A5":45,"A6":25},
 "desc":"Ideology of Enver Hoxha, using a totalitarian state in order to bring communism, strong secularism and progress to the people."},{
@@ -540,7 +540,7 @@
 "desc":"Description in progress"},{
 "name":"Pinochetism",
 "stats":{"A1":20,"A2":30,"A3":85,"A4":25,"A5":40,"A6":60},
-"desc":"Ideology of Augusto Pinochet, "},{
+"desc":"Ideology of Augusto Pinochet, moderately conservative, against all forms of economic leftism, autocratic, and slightly nationalist."},{
 "name":"Pirate Politics",
 "stats":{"A1":50,"A2":40,"A3":30,"A4":90,"A5":65,"A6":30},
 "desc":"Description in progress"},{
