@@ -18,10 +18,10 @@
 "desc":"Ideology having a focus on a large welfare state, cultural intersectionality, and increased civil freedoms."},{
 "name":"Anarcho-Capitalism",
 "stats":{"A1":20,"A2":5,"A3":10,"A4":95,"A5":50,"A6":40},
-"desc":"Description in progress"},{
+"desc":"Anarchist ideology believing the best way to achieve freedom is with an economy ran by unregulated capitalist markets."},{
 "name":"Anarcho-Communism",
 "stats":{"A1":90,"A2":75,"A3":5,"A4":75,"A5":75,"A6":50},
-"desc":"Description in progress"},{
+"desc":"Anarchist ideology believing the best way to achieve freedom is by the abolition of money and a gift-based economy."},{
 "name":"Anarcho-Conservatism",
 "stats":{"A1":40,"A2":35,"A3":5,"A4":60,"A5":40,"A6":75},
 "desc":"Description in progress"},{
@@ -105,7 +105,7 @@
 "desc":"Movement aiming to establish a traditionalist, religious, nationalist and federal monarchy, against liberalism, with leftist economics."},{
 "name":"Castroism",
 "stats":{"A1":75,"A2":65,"A3":75,"A4":50,"A5":60,"A6":35},
-"desc":"Ideology of Fidel Castro, form of Marxism-Leninism promoting nationalism and progress under an authoritarian government."},{
+"desc":"Ideology of Fidel Castro, form of marxism-leninism promoting nationalism and progress under an authoritarian government."},{
 "name":"Catholic Worker Movement",
 "stats":{"A1":60,"A2":40,"A3":15,"A4":50,"A5":55,"A6":80},
 "desc":"Ideology wishing to create autonomous, pacifist religious communes with strong community values."},{
@@ -117,7 +117,7 @@
 "desc":"Description in progress"},{
 "name":"Chavismo",
 "stats":{"A1":75,"A2":70,"A3":65,"A4":45,"A5":45,"A6":60},
-"desc":"Ideology of Hugo Chávez, pushing for democratic and populist reforms to implement left-wing economic policies."},{
+"desc":"Ideology of Hugo Chávez, pushing for democratic and populist reforms to implement left-wing economic policies, and is patriotic."},{
 "name":"Christian Democracy",
 "stats":{"A1":40,"A2":55,"A3":45,"A4":45,"A5":50,"A6":70},
 "desc":"Description in progress"},{
@@ -620,7 +620,7 @@
 "stats":{"A1":35,"A2":40,"A3":60,"A4":60,"A5":60,"A6":45},
 "desc":"Description in progress"},{
 "name":"Social Corporatism",
-"stats":{"A1":55,"A2":75,"A3":60,"A4":60,"A5":70,"A6":40},
+"stats":{"A1":55,"A2":65,"A3":60,"A4":60,"A5":70,"A6":40},
 "desc":"Description in progress"},{
 "name":"Social Darwinism",
 "stats":{"A1":20,"A2":10,"A3":60,"A4":60,"A5":35,"A6":35},
