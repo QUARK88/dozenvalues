@@ -668,7 +668,7 @@
 "stats":{"A1":40,"A2":60,"A3":60,"A4":60,"A5":35,"A6":25},
 "desc":"Thought which seeks to strengthen the nation with the use of technology, and sees patriotic pride in research."},{
 "name":"Techno-Populism",
-"stats":{"A1":60,"A2":60,"A3":25,"A4":65,"A5":55,"A6":15},
+"stats":{"A1":60,"A2":60,"A3":35,"A4":65,"A5":55,"A6":15},
 "desc":"Movement promoting decentral access to technology, electronic voting, and a connection between experts and the people."},{
 "name":"Technocracy",
 "stats":{"A1":45,"A2":80,"A3":75,"A4":50,"A5":60,"A6":10},
