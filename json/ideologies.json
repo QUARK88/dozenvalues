@@ -87,7 +87,7 @@
 "desc":"Movement which favors labor rights for manual workers, a return to conservative values, and communitarianism."},{
 "name":"Bonapartism",
 "stats":{"A1":25,"A2":50,"A3":90,"A4":40,"A5":50,"A6":50},
-"desc":"Ideology of Napoléon Bonaparte, "},{
+"desc":"Ideology of Napoléon Bonaparte, pragmatic, autocratic, and supportive of enlightenment values such as legal equality."},{
 "name":"Bull Moose Progressivism",
 "stats":{"A1":40,"A2":70,"A3":55,"A4":65,"A5":75,"A6":30},
 "desc":"Ideology of Theodore Roosevelt Jr., focusing on pro-worker regulations within capitalism and better social justice between different citizen groups."},{
@@ -134,8 +134,8 @@
 "stats":{"A1":30,"A2":70,"A3":85,"A4":10,"A5":10,"A6":85},
 "desc":"Description in progress"},{
 "name":"Collectivist Anarchism",
-"stats":{"A1":80,"A2":80,"A3":0,"A4":80,"A5":55,"A6":55},
-"desc":"Ideology of Mikhail Bakunin, "},{
+"stats":{"A1":80,"A2":75,"A3":0,"A4":80,"A5":55,"A6":55},
+"desc":"Ideology of Mikhail Bakunin, anarchist, and promotes the use of labor coins to run a worker-owned economy."},{
 "name":"Communalism",
 "stats":{"A1":95,"A2":75,"A3":10,"A4":80,"A5":90,"A6":60},
 "desc":"Ideology of Murray Bookchin, type of anarcho-communism with an emphasis on ecology and federal communes."},{
@@ -159,7 +159,7 @@
 "desc":"Description in progress"},{
 "name":"Cromwellianism",
 "stats":{"A1":20,"A2":50,"A3":60,"A4":5,"A5":50,"A6":75},
-"desc":"Ideology of Oliver Cromwell, "},{
+"desc":"Ideology of Oliver Cromwell, a radically paternalistic, traditionalist theocracy which believes in republican ideals."},{
 "name":"Crypto-Anarchism",
 "stats":{"A1":35,"A2":0,"A3":5,"A4":100,"A5":50,"A6":20},
 "desc":"Description in progress"},{
@@ -171,7 +171,7 @@
 "desc":"Description in progress"},{
 "name":"De Francism",
 "stats":{"A1":70,"A2":85,"A3":85,"A4":25,"A5":95,"A6":20},
-"desc":"Ideology of José de Francia, "},{
+"desc":"Ideology of José de Francia, which is extremely authoritarian and extremely progressive, mandating race mixing."},{
 "name":"Degrowthism",
 "stats":{"A1":70,"A2":80,"A3":30,"A4":65,"A5":85,"A6":75},
 "desc":"Description in progress"},{
@@ -522,7 +522,7 @@
 "desc":"Description in progress"},{
 "name":"Paleoliberalism",
 "stats":{"A1":50,"A2":50,"A3":45,"A4":75,"A5":65,"A6":35},
-"desc":"Description in progress"},{
+"desc":"Liberal ideology with a focus on populism, labor rights, progressivism, diversity and civil freedom."},{
 "name":"Paleolibertarianism",
 "stats":{"A1":15,"A2":10,"A3":25,"A4":85,"A5":30,"A6":70},
 "desc":"Description in progress"},{
