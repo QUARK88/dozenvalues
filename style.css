@@ -241,6 +241,7 @@ div.center {
 .quadcolumn {
     display: block;
     width: 100% !important;
+    transition: all .2s ease-in-out
 }
 
 img.quadcolumn:first-of-type {
