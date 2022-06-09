@@ -241,7 +241,6 @@ div.center {
 .quadcolumn {
     display: block;
     width: 100% !important;
-    transition: all .2s ease-in-out
 }
 
 img.quadcolumn:first-of-type {
@@ -250,7 +249,8 @@ img.quadcolumn:first-of-type {
 }
 
 img.quadcolumn:hover {
-    transform: scale(1.05)
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
 }
 
 div.axis_name {
@@ -280,7 +280,9 @@ div.axis_name {
 .button:focus,
 .button:hover {
     background: #0080c0;
-    font-family: titlefont !important
+    transform: scale(1.025);
+    transition: all .2s ease-in-out;
+    box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
 }
 
 .small_button,
@@ -304,7 +306,10 @@ div.axis_name {
 .small_button:focus,
 .small_button:hover {
     background: #202020;
-    font-family: titlefont !important
+    font-family: titlefont !important;
+    transform: scale(1.025);
+    transition: all .2s ease-in-out;
+    box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
 }
 
 .small_button_off {
