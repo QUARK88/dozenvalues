@@ -1,1 +1,38 @@
-<!DOCTYPE html><html><head> <meta charset="utf-8"/> <title>DozenValues</title> <link rel=icon type=x-icon href="icon.png"/> <link rel="shortcut icon" type=x-icon href="icon.png"/> <meta property=og:title content="DozenValues"/> <meta property=og:description content="DozenValues is a political test that aims to map differing political perspectives onto six axes."/> <meta property=og:url content="https://quark88.github.io/dozenvalues"/> <meta property=og:image content="https://github.com/QUARK88/dozenvalues/blob/master/icon.png?raw=true"/> <meta property=og:type content="Political test"/> <meta property=og:locale content="en_US"/> <link rel="stylesheet" href="style.css"></head><body> <h1>DozenValues</h1> <h2 style="text-align:center">Instructions</h2> <p class="question"> You will be presented with 132 statements. For each one, click the button with your opinion on it. </p><button class="button" id="quizButton" onclick="gt(1)">Got it!</button> <button class="button" id="quizButton" onclick="gt(2)">Got it! (Shuffled)</button> <button class="small_button" id="backButton" onclick="gt(0)">Back</button><br></body><script>function gt(n){const p=["index.html", "quiz.html", "quiz.html?r"] window.location.href=p[n];}</script></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>DozenValues</title>
+    <link rel=icon type=x-icon href="icon.png" />
+    <link rel="shortcut icon" type=x-icon href="icon.png" />
+    <meta property=og:title content="DozenValues" />
+    <meta property=og:description
+        content="DozenValues is a political test that aims to map differing political perspectives onto six axes." />
+    <meta property=og:url content="https://quark88.github.io/dozenvalues" />
+    <meta property=og:image content="https://github.com/QUARK88/dozenvalues/blob/master/icon.png?raw=true" />
+    <meta property=og:type content="Political test" />
+    <meta property=og:locale content="en_US" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>DozenValues</h1>
+    <h2 style="text-align:center">Instructions</h2>
+    <p class="question">
+        You will be presented with 132 statements. For each one, click the
+        button with your opinion on it.
+    </p>
+    <button class="button" id="quizButton" onclick="gt(1)">Got it!</button>
+    <button class="button" id="quizButton" onclick="gt(2)">Got it! (Shuffled)</button>
+    <button class="small_button" id="backButton" onclick="gt(0)">Back</button><br>
+</body>
+
+<script>
+    function gt(n) {
+        const p = ["index.html", "quiz.html", "quiz.html?r"]
+        window.location.href = p[n];
+    }
+</script>
+
+</html>
