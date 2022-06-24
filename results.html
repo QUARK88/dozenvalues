@@ -322,9 +322,6 @@
             ctx.lineWidth = 4;
             ctx.stroke()
         }
-        dot(500 + 5 * (100 - allscores[0]), 5 * (100 - allscores[1]))
-        dot(5 * (100 - allscores[3]), 500 + 5 * (100 - allscores[2]))
-        dot(500 + 5 * (100 - allscores[4]), 500 + 5 * (100 - allscores[5]))
         ctx.beginPath();
         ctx.moveTo(500, 0);
         ctx.lineTo(500, 1000);
@@ -346,6 +343,9 @@
         ctx.strokeStyle = "#000000";
         ctx.lineWidth = 16;
         ctx.stroke();
+        dot(500 + 5 * (100 - allscores[0]), 5 * (100 - allscores[1]))
+        dot(5 * (100 - allscores[3]), 500 + 5 * (100 - allscores[2]))
+        dot(500 + 5 * (100 - allscores[4]), 500 + 5 * (100 - allscores[5]))
     }
 </script>
 
