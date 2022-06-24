@@ -88,8 +88,19 @@
     <h2>Closest Match: <span id="score"></span></h2>
     <h3>Next matches: <span id="score2"></span>, <span id=score3></span></h3>
     <p><span id="desc"></span></p>
+    <center>
+        <h2>Simple Results:</h2>
+    </center>
     <canvas id="results" width="800" height="880"></canvas>
     <div id="downloadButton"><svg viewBox="0 0 24 24">\t
+            <path fill="currentColor"
+                d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
+        </svg></div>
+    <center>
+        <h2>Advanced Results:</h2>
+    </center>
+    <canvas id="results2" width="1000" height="1000"></canvas>
+    <div id="downloadButton2"><svg viewBox="0 0 24 24">\t
             <path fill="currentColor"
                 d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
         </svg></div>
@@ -97,6 +108,9 @@
         onclick="window.location.href = `lister.html?${allscores[0]},${allscores[1]},${allscores[2]},${allscores[3]},${allscores[4]},${allscores[5]}`">Full
         List</button><br>
     <button class="small_button" onclick="window.location.href = 'index.html'">Back</button><br>
+    <img src="./assets/econcompass.svg" id="econcompass" style="display:none">
+    <img src="./assets/statcompass.svg" id="statcompass" style="display:none">
+    <img src="./assets/cultcompass.svg" id="cultcompass" style="display:none">
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
@@ -111,6 +125,7 @@
         var fg = "#000"
     }
     document.getElementById("downloadButton").addEventListener("click", (function () { var t = document.createElement("a"); t.download = "DozenValues Results.png", t.href = document.getElementById("results").toDataURL(), t.click() }))
+    document.getElementById("downloadButton2").addEventListener("click", (function () { var t = document.createElement("a"); t.download = "DozenValues Results.png", t.href = document.getElementById("results2").toDataURL(), t.click() }))
     function calcaxis(v1, v2) {
         const V1 = parseFloat(v1)
         const V2 = parseFloat(v2)
@@ -179,6 +194,7 @@
             .then(response => response.json())
             .then(data => orderscores(results, data))
         drawCanvas()
+        drawCanvas2()
     })()
     function drawCanvas() {
         var c = document.getElementById("results")
@@ -264,6 +280,72 @@
             request.send(JSON.stringify(params));
         }
         sendMessage(match, location.href)
+    }
+    function drawCanvas2() {
+        var c = document.getElementById("results2")
+        var ctx = c.getContext("2d")
+        ctx.fillStyle = bg
+        ctx.fillRect(0, 0, 1000, 1000)
+        ctx.font = "64px titlefont"
+        ctx.fillStyle = fg
+        ctx.fillText("DozenValues", 16, 64)
+        ctx.textAlign = "left"
+        ctx.font = "32px textfont"
+        let match = document.getElementById("score").textContent
+        let match2 = document.getElementById("score2").textContent
+        let match3 = document.getElementById("score3").textContent
+        ctx.fillText("1. " + match, 16, 112)
+        ctx.fillText("2. " + match2, 16, 152)
+        ctx.fillText("3. " + match3, 16, 192)
+        ctx.font = "24px textfont"
+        function line(a, b, c) {
+            const label = document.getElementById("A" + (b + 1) + "T").textContent
+            if (a < 50) {
+                const values = ["Property", "Commerce", "Anarchy", "Restriction", "Supremacy", "Novelty"]
+                ctx.fillText(Number.parseFloat(100 - a).toFixed(1) + "% " + values[b] + " (" + label + ")", 16, c)
+            } else {
+                const values = ["Equality", "Coordination", "Dominion", "Permission", "Inclusivity", "Heritage"]
+                ctx.fillText(Number.parseFloat(a).toFixed(1) + "% " + values[b] + " (" + label + ")", 16, c)
+            }
+        }
+        for (let i = 0; i < 6; i++) {
+            line(allscores[i], i, 240 + 48 * i)
+        }
+        ctx.drawImage(econcompass, 500, 0, 500, 500)
+        ctx.drawImage(statcompass, 0, 500, 500, 500)
+        ctx.drawImage(cultcompass, 500, 500, 500, 500)
+        function dot(x, y) {
+            ctx.beginPath()
+            ctx.arc(x, y, 12, 0, 2 * Math.PI)
+            ctx.fillStyle = "#ffffff"
+            ctx.fill()
+            ctx.lineWidth = 4;
+            ctx.stroke()
+        }
+        dot(500 + 5 * (100 - allscores[0]), 5 * (100 - allscores[1]))
+        dot(5 * (100 - allscores[3]), 500 + 5 * (100 - allscores[2]))
+        dot(500 + 5 * (100 - allscores[4]), 500 + 5 * (100 - allscores[5]))
+        ctx.beginPath();
+        ctx.moveTo(500, 0);
+        ctx.lineTo(500, 1000);
+        ctx.strokeStyle = "#000000";
+        ctx.lineWidth = 8;
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(0, 500);
+        ctx.lineTo(1000, 500);
+        ctx.strokeStyle = "#000000";
+        ctx.lineWidth = 8;
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(1000, 0);
+        ctx.lineTo(1000, 1000);
+        ctx.lineTo(0, 1000);
+        ctx.lineTo(0, 0);
+        ctx.strokeStyle = "#000000";
+        ctx.lineWidth = 16;
+        ctx.stroke();
     }
 </script>
 
