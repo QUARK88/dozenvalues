@@ -298,13 +298,15 @@
         ctx.fillText("2. " + match2, 16, 152)
         ctx.fillText("3. " + match3, 16, 192)
         ctx.font = "24px textfont"
-        function line(value, index, height) {
-            const label = document.getElementById(`A${index + 1}T`).textContent
-            const values = [
-                ["Equality", "Coordination", "Dominion", "Permission", "Inclusivity", "Heritage"],
-                ["Property", "Commerce", "Anarchy", "Restriction", "Supremacy", "Novelty"]
-            ]
-            ctx.fillText(value < 50 ? (value - 100) : value + "% " + values[value < 50 ? 1 : 0][index] + " (" + label + ")", 16, height)
+        function line(a, b, c) {
+            const label = document.getElementById("A" + (b + 1) + "T").textContent
+            if (a < 50) {
+                const values = ["Property", "Commerce", "Anarchy", "Restriction", "Supremacy", "Novelty"]
+                ctx.fillText(Number.parseFloat(100 - a).toFixed(1) + "% " + values[b] + " (" + label + ")", 16, c)
+            } else {
+                const values = ["Equality", "Coordination", "Dominion", "Permission", "Inclusivity", "Heritage"]
+                ctx.fillText(Number.parseFloat(a).toFixed(1) + "% " + values[b] + " (" + label + ")", 16, c)
+            }
         }
         for (let i = 0; i < 6; i++) {
             line(allscores[i], i, 240 + 48 * i)
