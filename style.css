@@ -83,6 +83,10 @@
     .explanation_bg {
         background-color: #fff !important;
     }
+
+    .slider {
+        background: #404040 !important;
+    }
 }
 
 html {
@@ -134,7 +138,14 @@ h1 {
     height: 64px;
     margin-left: auto;
     margin-right: auto;
-    width: 64px
+    width: 64px;
+    transition: all .2s ease-in-out;
+}
+
+#downloadButton:hover,
+#downloadButton2:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
 }
 
 h2 {
@@ -218,7 +229,7 @@ p.question {
     font-weight: 400;
     justify-content: center;
     margin: 16pt auto;
-    min-height: 144pt;
+    min-height: 256px;
     min-width: 500pt;
     padding: 16pt;
     width: 70%
@@ -249,6 +260,7 @@ div.center {
 .quadcolumn {
     display: block;
     width: 100% !important;
+    transition: all .2s ease-in-out;
 }
 
 img.quadcolumn:first-of-type {
@@ -282,7 +294,8 @@ div.axis_name {
     text-align: center;
     width: 50%;
     margin-bottom: 24px;
-    margin-top: 24px
+    margin-top: 24px;
+    transition: all .2s ease-in-out;
 }
 
 .button:focus,
@@ -298,17 +311,18 @@ div.axis_name {
     background-color: #404040;
     font-family: titlefont !important;
     border: 0;
-    border-radius: 8pt;
+    border-radius: 12px;
     color: #fff;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     font-size: 18pt;
-    margin: auto;
+    margin: 16px;
     min-width: 100pt;
     padding: 8pt;
     text-align: center;
     text-decoration: none;
-    width: 10%
+    width: 16%;
+    transition: all .2s ease-in-out;
 }
 
 .small_button:focus,
@@ -426,7 +440,13 @@ div.text-wrapper {
 
 .arrow {
     height: auto;
-    width: 60% !important
+    width: 75% !important;
+    transition: all .2s ease-in-out;
+}
+
+.arrow:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
 }
 
 .spacer {
@@ -438,4 +458,33 @@ div.text-wrapper {
     *display: inline;
     margin-top: 12px;
     text-align: center
+}
+
+slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.slider::-moz-range-thumb {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: #000000;
+    background: #00a0e0;
+    cursor: pointer;
+}
+
+.slider:hover {
+    transform: scale(1.025);
+    transition: all .2s ease-in-out;
+    box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
 }
