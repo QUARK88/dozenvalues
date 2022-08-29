@@ -25,7 +25,8 @@ import type { Indextext, Lang, Axis, Ui, Value, Textelm } from "./types"
             loadUI(ui, lang)
             //Sets lang parameter and changes URL accordingly
             params.set("lang", lang)
-            const newPath: string = document.location.origin + "/index.html?" + params.toString()
+            const newPath: string = document.location.origin + 
+            window.location.pathname + "?" + params.toString()
             window.history.replaceState(null, document.title, newPath)
             //Changes selected index
             langDropdown.selectedIndex = langList.indexOf(lang, 0)
