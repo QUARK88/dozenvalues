@@ -83,7 +83,17 @@ const params: URLSearchParams = new URLSearchParams(document.location.search)
 let lang: string = params.get("lang") ?? "en"
 const ui: Ui = getLanguage(lang); lang = ui.lang ?? lang
 const rawScores: string = params.get("score") ?? "50,50,50,50,50,50"
-const scores: Array<number> = rawScores.split(",").map(v => parseFloat(v))
+const scores: Array<number> = rawScores.split(",").map(v =>  {
+    const score = parseFloat(v)
+    if(Number.isNaN(score) || !Number.isFinite(score)) {
+        return 50
+    }
+    return Math.max(Math.min(score,100),0)
+})
+if(scores.length < 6) {
+    alert("Invalid result")
+    throw new Error("Missing scores")
+}
 const send: boolean = !(params.get("send") === "no")
 //Assigns canvas elements to constants
 const canvasElm = <HTMLCanvasElement>document.getElementById("results1")!
