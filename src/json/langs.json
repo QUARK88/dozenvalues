@@ -10,5 +10,9 @@
     {
         "id": "fr",
         "name": "Français"
+    },
+    {
+        "id": "cs",
+        "name": "čeština"
     }
 ]
