@@ -1,6 +1,6 @@
 [
     {
-        "text": "Euthanasia should be legal.",
+        "text": "Eutanázie by měla být legální.",
         "effect": [
             0,
             0,
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "text": "Politicians should not exist.",
+        "text": "Politikové by neměli existovat.",
         "effect": [
             0,
             0,
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "text": "Property shouldn't be held by few select individuals.",
+        "text": "Majetek by neměl patřit malé skupině jednotlivců.",
         "effect": [
             1,
             0,
@@ -33,7 +33,7 @@
         ]
     },
     {
-        "text": "It is important to respect religion.",
+        "text": "Je důležité respektovat náboženství.",
         "effect": [
             0,
             0,
@@ -44,7 +44,7 @@
         ]
     },
     {
-        "text": "Any sexual activity is fine as long as everyone involved is a consenting adult.",
+        "text": "Každá sexuální aktivita je přijatelný za podmínky, že každý zúčastněný je souhlasící dospělá osoba.",
         "effect": [
             0,
             0,
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "text": "Independent websites should not be required to tolerate content that violates their policy.",
+        "text": "Po nezávislých webových stránkách by se nemělo požadovat, aby tolerovaly obsah, který porušuje jejich zásady.",
         "effect": [
             0,
             -1,
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "text": "It is deplorable that unions force non-consenting workers to strike.",
+        "text": "Je smutné, že odbory nutí nesouhlasící dělníky stávkovat.",
         "effect": [
             -1,
             0,
@@ -77,7 +77,7 @@
         ]
     },
     {
-        "text": "It would be a shame to see minority languages go extinct.",
+        "text": "Byla by škoda vidět menšinové jazyky vymřít.",
         "effect": [
             0,
             0,
@@ -88,7 +88,7 @@
         ]
     },
     {
-        "text": "It’s not healthy for children to be raised by gay couples.",
+        "text": "Není zdravé, aby byly děti vychovávány homosexuálními páry.",
         "effect": [
             0,
             0,
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "text": "All workers worldwide deserve to be freed from capitalism.",
+        "text": "Všichni dělníci na světě si zaslouží být osvobozeni od kapitalismu.",
         "effect": [
             1,
             0,
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "text": "The right to start a business is fundamental to any thriving economy.",
+        "text": "Právo založit si podnik je zásadní pro jakoukoliv úspěšnou ekonomiku.",
         "effect": [
             -1,
             -1,
@@ -121,7 +121,7 @@
         ]
     },
     {
-        "text": "Physical violence should be used against those who oppose my views.",
+        "text": "Fyzické násilí by mělo být použito proti všem, kdo odporují mým názorům.",
         "effect": [
             0,
             0,
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "text": "Workers should have more of a say in production.",
+        "text": "Dělníci by měli mít větší moc ve výrobě.",
         "effect": [
             1,
             1,
@@ -143,7 +143,7 @@
         ]
     },
     {
-        "text": "Workers in essential parts of the economy should not be allowed to strike.",
+        "text": "Dělníkům v nezbytných částech ekonomiky by nemělo být dovoleno stávkovat.",
         "effect": [
             -1,
             1,
@@ -154,7 +154,7 @@
         ]
     },
     {
-        "text": "Local governments should be more powerful than national governments.",
+        "text": "Místní vlády by měly být více mocné, než národní vláda.",
         "effect": [
             0,
             0,
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "text": "Nations thrive when presided over by strong capable governments.",
+        "text": "Národům prospívá, když jim vládne silná, schopná vláda.",
         "effect": [
             0,
             0,
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "text": "Hierarchies should be dismantled.",
+        "text": "Hierarchie by měly být odbourány.",
         "effect": [
             1,
             0,
@@ -187,7 +187,7 @@
         ]
     },
     {
-        "text": "Regulations can often harm the people they aim to protect.",
+        "text": "Regulace často můžou škodit lidem, které mají chránit.",
         "effect": [
             0,
             -1,
@@ -198,7 +198,7 @@
         ]
     },
     {
-        "text": "Society should embrace multiculturalism.",
+        "text": "Společnost by měla přijmout multikulturalismus.",
         "effect": [
             0,
             0,
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "text": "Welfare for disabled people should be cut.",
+        "text": "Sociální dávky postiženým lidem by měly být zredukovány.",
         "effect": [
             0,
             -1,
@@ -220,7 +220,7 @@
         ]
     },
     {
-        "text": "Society must unite behind a central authority in order to be cohesive.",
+        "text": "Společnost se musí sjednotit za ústřední autoritou, aby byla soudržná.",
         "effect": [
             0,
             0,
@@ -231,7 +231,7 @@
         ]
     },
     {
-        "text": "Women are naturally more nurturing than men.",
+        "text": "Ženy jsou přirozeně více starostlivé, než muži.",
         "effect": [
             0,
             0,
@@ -242,7 +242,7 @@
         ]
     },
     {
-        "text": "Eugenics should be used to genetically remove disabled individuals.",
+        "text": "Eugenika by měla bý použita k genetickému odstranění postižených jedinců.",
         "effect": [
             0,
             0,
@@ -253,7 +253,7 @@
         ]
     },
     {
-        "text": "The nation comes before all else.",
+        "text": "Národ je nade vše.",
         "effect": [
             0,
             0,
@@ -264,7 +264,7 @@
         ]
     },
     {
-        "text": "Eradicating diseases isn't a valid reason to enforce vaccination.",
+        "text": "Vymýcení nemocí není dostatečný důvod k vynucování vakcinace.",
         "effect": [
             0,
             0,
@@ -275,7 +275,7 @@
         ]
     },
     {
-        "text": "People are whatever gender they say they are.",
+        "text": "Lidé mají takový gender, pod kterým se identifikují.",
         "effect": [
             0,
             0,
@@ -286,7 +286,7 @@
         ]
     },
     {
-        "text": "Leadership should be passed on hereditarily.",
+        "text": "Politická moc by se měla předávat dědičně.",
         "effect": [
             0,
             0,
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "text": "The universal basic income is superior to other types of welfare.",
+        "text": "Myšlenka univerzálního základního příjmu je lepší, než ostatní typy sociálních dávek.",
         "effect": [
             0,
             1,
@@ -308,7 +308,7 @@
         ]
     },
     {
-        "text": "If people want to live unhealthy lifestyles, it is their right to do so.",
+        "text": "Pokud lidé chtějí vést nezdravý životní styl, měli by na to mít právo.",
         "effect": [
             0,
             0,
@@ -319,7 +319,7 @@
         ]
     },
     {
-        "text": "Sometimes, vigilante justice is necessary.",
+        "text": "Vigilantismus je občas potřeba.",
         "effect": [
             0,
             0,
@@ -330,7 +330,7 @@
         ]
     },
     {
-        "text": "We should replace the central bank with alternate credit forms, such as free banking.",
+        "text": "Měli bychom nahradit centrální banku jinými typy kreditace, jako třeba volné bankovnictví.",
         "effect": [
             0,
             -1,
@@ -341,7 +341,7 @@
         ]
     },
     {
-        "text": "Equality between men and women is desirable.",
+        "text": "Rovnost mezi muži a ženami je žádoucí.",
         "effect": [
             0,
             0,
@@ -352,7 +352,7 @@
         ]
     },
     {
-        "text": "With open borders come major economic benefits.",
+        "text": "Otevřené hranice nám přináší značné ekonomické výhody..",
         "effect": [
             0,
             -1,
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "text": "Income tax should be abolished.",
+        "text": "Daň z příjmu by měla být zrušena.",
         "effect": [
             0,
             -2,
@@ -374,7 +374,7 @@
         ]
     },
     {
-        "text": "Landlords provide an essential service.",
+        "text": "Statkáři poskytují důležitou službu.",
         "effect": [
             -2,
             0,
@@ -385,7 +385,7 @@
         ]
     },
     {
-        "text": "Gathering of personal data by companies is legitimate.",
+        "text": "Sbírání osobních dat společnostmi je legitimní.",
         "effect": [
             0,
             -1,
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "text": "Some sexual orientations are to be socially favored.",
+        "text": "Některé sexuální orientace by měly být upřednostňovány.",
         "effect": [
             0,
             0,
@@ -407,7 +407,7 @@
         ]
     },
     {
-        "text": "The populous cannot govern themselves.",
+        "text": "Lid nemůže vládnout sám sobě.",
         "effect": [
             0,
             0,
@@ -418,7 +418,7 @@
         ]
     },
     {
-        "text": "Our natural resources don't belong to foreign capital.",
+        "text": "Naše přírodní zdroje nepatří do cizího kapitálu.",
         "effect": [
             1,
             0,
@@ -429,7 +429,7 @@
         ]
     },
     {
-        "text": "We should not engage in offensive warfare.",
+        "text": "Neměli bychom se účastnit útočného válčení.",
         "effect": [
             0,
             0,
@@ -440,7 +440,7 @@
         ]
     },
     {
-        "text": "Local councils should have more power to implement economic policies.",
+        "text": "Místní rady by měly mít více moci na prosazení své ekonomické politiky.",
         "effect": [
             0,
             1,
@@ -451,7 +451,7 @@
         ]
     },
     {
-        "text": "Altering our language to make it more gender-inclusive is not a bad idea.",
+        "text": "Pozměnění našeho jazyka tak, aby byl více genderově inkluzivní, není špatný nápad.",
         "effect": [
             0,
             0,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "text": "Life without the state would be nasty, brutish and short.",
+        "text": "Život bez státu by byl nepříjemný, brutální, a krátký.",
         "effect": [
             0,
             0,
@@ -473,7 +473,7 @@
         ]
     },
     {
-        "text": "We shouldn’t let people do things which will put them in danger.",
+        "text": "Neměli bychom nechat lidi dělat věci, které je ohrozí.",
         "effect": [
             0,
             0,
@@ -484,7 +484,7 @@
         ]
     },
     {
-        "text": "Everyone should be provided with a job.",
+        "text": "Každému by měla být poskytnuta práce.",
         "effect": [
             0,
             1,
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "text": "People should be allowed to use their terrain however they please.",
+        "text": "Lidem by mělo být dovoleno používát svůj terén podle jejich přání.",
         "effect": [
             -1,
             0,
@@ -506,7 +506,7 @@
         ]
     },
     {
-        "text": "Abandoned property should be free to use by any individual.",
+        "text": "Opuštěný majetek by měl být k dispozici komukoli, kdo by ho využíval.",
         "effect": [
             1,
             0,
@@ -517,7 +517,7 @@
         ]
     },
     {
-        "text": "Gender should be abolished.",
+        "text": "Gender je koncept, který by měl být překonán.",
         "effect": [
             0,
             0,
@@ -528,7 +528,7 @@
         ]
     },
     {
-        "text": "An individual’s gender is determined by their chromosomes.",
+        "text": "Gender jednotlivce je určen pouze jejich chromozomy.",
         "effect": [
             0,
             0,
@@ -539,7 +539,7 @@
         ]
     },
     {
-        "text": "We should increase tariffs on imports in order to help local producers.",
+        "text": "Měli bychom zvýšit cla, abychom pomohli místním výrobcům.",
         "effect": [
             0,
             1,
@@ -550,7 +550,7 @@
         ]
     },
     {
-        "text": "It’s wasteful to have so many different brands of the same good.",
+        "text": "Je zbytečné mít tolik různých značek stejného zboží.",
         "effect": [
             0,
             2,
@@ -561,7 +561,7 @@
         ]
     },
     {
-        "text": "Workplaces should not be required to close on Sundays or during religious festivals.",
+        "text": "Po pracovištích by se nemělo vyžadovat, aby byly zavřené v neděli nebo v případě náboženských svátků.",
         "effect": [
             0,
             -1,
@@ -572,7 +572,7 @@
         ]
     },
     {
-        "text": "Intellectual property is legitimate.",
+        "text": "Duševní vlastnictví je legitimní.",
         "effect": [
             -1,
             0,
@@ -583,7 +583,7 @@
         ]
     },
     {
-        "text": "Competition drives innovation.",
+        "text": "Konkurence pohání inovaci.",
         "effect": [
             0,
             -1,
@@ -594,7 +594,7 @@
         ]
     },
     {
-        "text": "Freedom of speech is vital for a healthy society.",
+        "text": "Svoboda slova je důležitá pro zdravou společnost.",
         "effect": [
             0,
             0,
@@ -605,7 +605,7 @@
         ]
     },
     {
-        "text": "The benefits of automation outweigh the costs.",
+        "text": "Výhody automatizace jsou větší, než její nevýhody.",
         "effect": [
             0,
             0,
@@ -616,7 +616,7 @@
         ]
     },
     {
-        "text": "Workers should seize the means of production.",
+        "text": "Dělníci by si měli přivlastnit prostředky výroby.",
         "effect": [
             2,
             0,
@@ -627,7 +627,7 @@
         ]
     },
     {
-        "text": "Using artificial intelligence to better plan production is worth investigating.",
+        "text": "Použití umělé inteligence k lepšímu plánování produkce stojí za výzkum.",
         "effect": [
             0,
             1,
@@ -638,7 +638,7 @@
         ]
     },
     {
-        "text": "Trespassing should be met with harsh consequences.",
+        "text": "Vstup na soukromé pozemky bez povolení by se měl tvrdě trestat.",
         "effect": [
             -1,
             0,
@@ -649,7 +649,7 @@
         ]
     },
     {
-        "text": "It is better for different peoples to stay in their own communities.",
+        "text": "Je lepší, aby různé národy zůstaly ve svých komunitách.",
         "effect": [
             0,
             0,
@@ -660,7 +660,7 @@
         ]
     },
     {
-        "text": "Like-minded individuals should form self-governing communities.",
+        "text": "Stejně smýšlející lidé by měli vytvořit samosprávné komunity.",
         "effect": [
             0,
             0,
@@ -671,7 +671,7 @@
         ]
     },
     {
-        "text": "We should not attempt to mess with nature.",
+        "text": "Neměli bychom si zahrávat s přírodou.",
         "effect": [
             0,
             0,
@@ -682,7 +682,7 @@
         ]
     },
     {
-        "text": "International borders should not exist.",
+        "text": "Mezinárodní hranice by neměly existovat.",
         "effect": [
             0,
             0,
@@ -693,7 +693,7 @@
         ]
     },
     {
-        "text": "Men make better leaders than women.",
+        "text": "Muži jsou lepšími vůdci, než ženy.",
         "effect": [
             0,
             0,
@@ -704,7 +704,7 @@
         ]
     },
     {
-        "text": "A party of revolutionaries should lead the workers against capitalism.",
+        "text": "Proti kapitalismu by dělníky měla vést revoluční strana.",
         "effect": [
             1,
             0,
@@ -715,7 +715,7 @@
         ]
     },
     {
-        "text": "Equality of opportunity is a must-have.",
+        "text": "Rovnost příležitosti je nezbytná.",
         "effect": [
             1,
             0,
@@ -726,7 +726,7 @@
         ]
     },
     {
-        "text": "Workers deserve a greater part of what they create.",
+        "text": "Dělníci si zaslouží větší část toho, co vytvoří.",
         "effect": [
             1,
             0,
@@ -737,7 +737,7 @@
         ]
     },
     {
-        "text": "Theft can never be justified.",
+        "text": "Krádež není nikdy ospraveditelná.",
         "effect": [
             -1,
             0,
@@ -748,7 +748,7 @@
         ]
     },
     {
-        "text": "We should move beyond wage systems.",
+        "text": "Mzdové systémy jsou koncept, jež bychom měli překonat.",
         "effect": [
             1,
             0,
@@ -759,7 +759,7 @@
         ]
     },
     {
-        "text": "Certain ethnic groups are genetically predisposed to violence.",
+        "text": "Určité etnické skupiny jsou geneticky předurčeny k násilí.",
         "effect": [
             0,
             0,
@@ -770,7 +770,7 @@
         ]
     },
     {
-        "text": "We should be skeptical of new technologies.",
+        "text": "Měli bychom být skeptiční k novým ideologiím.",
         "effect": [
             0,
             0,
@@ -781,7 +781,7 @@
         ]
     },
     {
-        "text": "Taxes should exist on harmful products to discourage their consumption.",
+        "text": "Na škodlivé výrobky by měly být daně určené k odrazení jejich spotřeby.",
         "effect": [
             0,
             1,
@@ -792,7 +792,7 @@
         ]
     },
     {
-        "text": "Political correctness has gone too far.",
+        "text": "Politická korektnost zašla příliš daleko.",
         "effect": [
             0,
             0,
@@ -803,7 +803,7 @@
         ]
     },
     {
-        "text": "Founding offshore platform countries is a legitimate practice.",
+        "text": "Zakládání zemí s mimobřežními platformami je legitimní praktika.",
         "effect": [
             -1,
             0,
@@ -814,7 +814,7 @@
         ]
     },
     {
-        "text": "We should combat mindless consumerism.",
+        "text": "Měli bychom bojovat proti bezmyslnému konzumu.",
         "effect": [
             0,
             1,
@@ -825,7 +825,7 @@
         ]
     },
     {
-        "text": "An individual can never be truly separate from society.",
+        "text": "Jedinec nemůže nikdy být odloučen od společnosti.",
         "effect": [
             0,
             0,
@@ -836,7 +836,7 @@
         ]
     },
     {
-        "text": "Nothing is sacred, and we should embrace this.",
+        "text": "Měli bychom příjmout, že nic není svaté.",
         "effect": [
             0,
             0,
@@ -847,7 +847,7 @@
         ]
     },
     {
-        "text": "Industrial capitalism was a great improvement for humanity.",
+        "text": "Průmyslový kapitalismus hodně zlepšil lidský život.",
         "effect": [
             -1,
             0,
@@ -858,7 +858,7 @@
         ]
     },
     {
-        "text": "Governmental surveillance is an unnecessary evil.",
+        "text": "Vládní sledování je zbytečné zlo.",
         "effect": [
             0,
             0,
@@ -869,7 +869,7 @@
         ]
     },
     {
-        "text": "Gay marriage should be legal.",
+        "text": "Homosexuální sňatky by měly být legální.",
         "effect": [
             0,
             0,
@@ -880,7 +880,7 @@
         ]
     },
     {
-        "text": "Monarchy is an outdated form of government.",
+        "text": "Monarchismus je zastaralá forma vlády.",
         "effect": [
             0,
             0,
@@ -891,7 +891,7 @@
         ]
     },
     {
-        "text": "Bosses know what's best for their workers.",
+        "text": "Šefové vědí, co je nejlepší pro jejich zaměstance.",
         "effect": [
             -1,
             0,
@@ -902,7 +902,7 @@
         ]
     },
     {
-        "text": "A singular world government is desirable.",
+        "text": "Jednotná světová vláda je žádoucí.",
         "effect": [
             0,
             0,
@@ -913,7 +913,7 @@
         ]
     },
     {
-        "text": "Firearms should be available to the general public.",
+        "text": "Zbraně by měly být dostupné obecnému lidu.",
         "effect": [
             0,
             0,
@@ -924,7 +924,7 @@
         ]
     },
     {
-        "text": "Equal representation of genders should be mandatory in workplaces.",
+        "text": "Na pracovištích by měla být povinná rovná reprezentace pohlaví.",
         "effect": [
             0,
             1,
@@ -935,7 +935,7 @@
         ]
     },
     {
-        "text": "Pornography should be banned.",
+        "text": "Pornografie by měla být zakátzána.",
         "effect": [
             0,
             0,
@@ -946,7 +946,7 @@
         ]
     },
     {
-        "text": "Many industries are too important to be left to the market.",
+        "text": "Spousta průmyslných odvětví je příliš důležitá, abychom ji ponechali trhu.",
         "effect": [
             0,
             2,
@@ -957,7 +957,7 @@
         ]
     },
     {
-        "text": "Tyranny by majority is a legitimate concern.",
+        "text": "Je oprávněné se obávat tyranie většiny.",
         "effect": [
             0,
             0,
@@ -968,7 +968,7 @@
         ]
     },
     {
-        "text": "Expertise, not popular approval, represents best the worth of a ruler.",
+        "text": "Hodnotu vůdce reprezentuje nejlépe odbornost, nikoliv popularita.",
         "effect": [
             0,
             0,
@@ -979,7 +979,7 @@
         ]
     },
     {
-        "text": "People should not have to pay for healthcare.",
+        "text": "Lidé by neměli muset platit za zdravotnictví.",
         "effect": [
             0,
             1,
@@ -990,7 +990,7 @@
         ]
     },
     {
-        "text": "Workers should be encouraged to form cooperatives on their own.",
+        "text": "Dělníci by měli být podpořeni k tvorbě výrobních družstev sami od sebe.",
         "effect": [
             1,
             -1,
@@ -1001,7 +1001,7 @@
         ]
     },
     {
-        "text": "Not questioning authority is good if it ensures stability.",
+        "text": "Nezpochybňování autority je dobré, pokud to povede k stabilitě.",
         "effect": [
             0,
             0,
@@ -1012,7 +1012,7 @@
         ]
     },
     {
-        "text": "The worst criminals should be publicly executed.",
+        "text": "Nejhorší zločinci by měli být veřejně popraveni.",
         "effect": [
             0,
             0,
@@ -1023,7 +1023,7 @@
         ]
     },
     {
-        "text": "The prices of goods should be set by the market.",
+        "text": "Ceny zboží by měly být dány trhem.",
         "effect": [
             0,
             -1,
@@ -1034,7 +1034,7 @@
         ]
     },
     {
-        "text": "It’s often necessary to break taboos.",
+        "text": "Občas je nutné probořit tabu.",
         "effect": [
             0,
             0,
@@ -1045,7 +1045,7 @@
         ]
     },
     {
-        "text": "Space travel should not be funded by tax money.",
+        "text": "Vesmírný turismus by neměl být financován daněmi.",
         "effect": [
             0,
             -1,
@@ -1056,7 +1056,7 @@
         ]
     },
     {
-        "text": "Employers should have the duty to fire workers who engage in internalized discrimination.",
+        "text": "Zaměstnavatelé by měli mít povinnost propuštět dělníky, pokud se angažují diskriminace.",
         "effect": [
             -1,
             0,
@@ -1067,7 +1067,7 @@
         ]
     },
     {
-        "text": "Wealth accumulation leads to the creation of an oppressive class system.",
+        "text": "Akumulace bohatství vede k vytvoření opresivního třídního systému.",
         "effect": [
             2,
             0,
@@ -1078,7 +1078,7 @@
         ]
     },
     {
-        "text": "Deportation should be used to ensure ethnic homogeneity.",
+        "text": "Deportace by měla být využívána k zajištění etnické homogenity.",
         "effect": [
             0,
             0,
@@ -1089,7 +1089,7 @@
         ]
     },
     {
-        "text": "The wealth disparity between different cultural groups is due to some groups working harder.",
+        "text": "Nerovnost bohatství mezi různými kulturními skupinami je kvůli tomu, že některé skupiny pracují více.",
         "effect": [
             -1,
             0,
@@ -1100,7 +1100,7 @@
         ]
     },
     {
-        "text": "In times of crisis, safety takes precedence over liberty.",
+        "text": "V časech krize je bezpečnost důležitější, než svoboda.",
         "effect": [
             0,
             0,
@@ -1111,7 +1111,7 @@
         ]
     },
     {
-        "text": "Life in big cities is unfulfilling.",
+        "text": "Život ve velkých městech je zřídkakdy naplňující.",
         "effect": [
             0,
             0,
@@ -1122,7 +1122,7 @@
         ]
     },
     {
-        "text": "Nature has no inherent value.",
+        "text": "Příroda nemá žádnou přirozenou hodnotu.",
         "effect": [
             0,
             0,
@@ -1133,7 +1133,7 @@
         ]
     },
     {
-        "text": "Eminent domain is needed to ensure ethical and efficient usage of land.",
+        "text": "Eminentní doména je potřeba k zajištění etického a efektivního využítí pozemku.",
         "effect": [
             1,
             0,
@@ -1144,7 +1144,7 @@
         ]
     },
     {
-        "text": "Hate speech against minorities should be a crime.",
+        "text": "Projevy nenávisti proti menšinám by měly být považovány za zločin.",
         "effect": [
             0,
             0,
@@ -1155,7 +1155,7 @@
         ]
     },
     {
-        "text": "Discrimination against obese people is unacceptable.",
+        "text": "Diskriminace proti obézním lidem je nepřijatelná.",
         "effect": [
             0,
             0,
@@ -1166,7 +1166,7 @@
         ]
     },
     {
-        "text": "Subsidies should be given to agrarian producers and those who wish to become ones.",
+        "text": "Dotace by měly být dávány primárně zemědělcům a lidem, kteří se jimi chtějí stát.",
         "effect": [
             0,
             1,
@@ -1177,7 +1177,7 @@
         ]
     },
     {
-        "text": "Parents should not send their children to religious schools.",
+        "text": "Rodiče by neměli zasílat své děti do náboženských škol.",
         "effect": [
             0,
             0,
@@ -1188,7 +1188,7 @@
         ]
     },
     {
-        "text": "The state should control all aspects of the economy.",
+        "text": "Stát by měl ovládat všechny aspekty ekonomiky.",
         "effect": [
             0,
             1,
@@ -1199,7 +1199,7 @@
         ]
     },
     {
-        "text": "People should not be treated differently because of their origin.",
+        "text": "Lidé by neměli být vnímáni rozdílně v závislosti na jejich původu.",
         "effect": [
             0,
             0,
@@ -1210,7 +1210,7 @@
         ]
     },
     {
-        "text": "Feudalism was not such a bad system.",
+        "text": "Feudalismus nebyl tak špatný.",
         "effect": [
             -1,
             0,
@@ -1221,7 +1221,7 @@
         ]
     },
     {
-        "text": "Nomadic cultures have a wiser relationship with the land than we do.",
+        "text": "Nomádské kultury mají k přírodě lepší vztahy, než my.",
         "effect": [
             1,
             0,
@@ -1232,7 +1232,7 @@
         ]
     },
     {
-        "text": "There should be laws against wearing religious clothing in public.",
+        "text": "Měly by existovat zákony proti veřejnému nošení náboženského oblečení.",
         "effect": [
             0,
             0,
@@ -1243,7 +1243,7 @@
         ]
     },
     {
-        "text": "Trade unions hurt everyone.",
+        "text": "Odbory škodí všem.",
         "effect": [
             -1,
             0,
@@ -1254,7 +1254,7 @@
         ]
     },
     {
-        "text": "Some ideas are too dangerous to be given a platform.",
+        "text": "Některé nápady jsou příliš nebezpečné na to, aby se jim dával prostor.",
         "effect": [
             0,
             0,
@@ -1265,7 +1265,7 @@
         ]
     },
     {
-        "text": "There is no reason why children should stay with their biological parents.",
+        "text": "Neexistuje žádný důvod, proč by děti měly zůstat se svými biologickými rodiči.",
         "effect": [
             0,
             0,
@@ -1276,7 +1276,7 @@
         ]
     },
     {
-        "text": "A large welfare state breeds an unhealthy culture of reliance.",
+        "text": "Velký sociální stát vede své občany k nezdravé kultuře závislosti na sociálních dávkách.",
         "effect": [
             0,
             -1,
@@ -1287,7 +1287,7 @@
         ]
     },
     {
-        "text": "In the future we should improve our own biology with technology.",
+        "text": "V budoucnosti bychom měli technologicky vylepšovat naši biologii.",
         "effect": [
             0,
             0,
@@ -1298,7 +1298,7 @@
         ]
     },
     {
-        "text": "My culture is worth protecting.",
+        "text": "Moji kulturu stojí za to chránit.",
         "effect": [
             0,
             0,
@@ -1309,7 +1309,7 @@
         ]
     },
     {
-        "text": "Traditional gender roles are necessary.",
+        "text": "Tradiční pohlavní role jsou nezbytné.",
         "effect": [
             0,
             0,
@@ -1320,7 +1320,7 @@
         ]
     },
     {
-        "text": "There should be certain rules and standards that apply across all of society.",
+        "text": "Měla by existovat určitá pravidla platící napříč celou společností.",
         "effect": [
             0,
             0,
@@ -1331,7 +1331,7 @@
         ]
     },
     {
-        "text": "If it is tradition to perform some surgeries on babies, it should be done.",
+        "text": "Pokud je tradiční dělat chirurgické zákroky na mimincích, mělo by se tak i pokračovat.",
         "effect": [
             0,
             0,
@@ -1342,7 +1342,7 @@
         ]
     },
     {
-        "text": "In an ideal society, money would not exist.",
+        "text": "V ideální společnosti by neměly existovat peníze.",
         "effect": [
             0,
             1,
@@ -1353,7 +1353,7 @@
         ]
     },
     {
-        "text": "All government intervention in the economy should be opposed.",
+        "text": "Mělo by se odporovat jakýmkoli státním zásahům do ekonomiky.",
         "effect": [
             0,
             -2,
@@ -1364,7 +1364,7 @@
         ]
     },
     {
-        "text": "No one but me can adequately represent my political views.",
+        "text": "Nikdo kromě mě nemůže správně reprezentovat mé politické názory.",
         "effect": [
             0,
             0,
@@ -1375,7 +1375,7 @@
         ]
     },
     {
-        "text": "Prostitution should be allowed.",
+        "text": "Prostituce by měla být povolena.",
         "effect": [
             0,
             -1,
@@ -1386,7 +1386,7 @@
         ]
     },
     {
-        "text": "All drugs should be decriminalised.",
+        "text": "Všechny drogy by měly být dekriminalizovány.",
         "effect": [
             0,
             0,
@@ -1397,7 +1397,7 @@
         ]
     },
     {
-        "text": "Inheritance should be abolished.",
+        "text": "Majetkové dědictví by mělo být překonáno.",
         "effect": [
             1,
             0,
@@ -1408,7 +1408,7 @@
         ]
     },
     {
-        "text": "We should return to a simpler, less materialistic way of living.",
+        "text": "Měli bychom se vrátit k jednoduššímu, méně materialistickému způsobu života.",
         "effect": [
             0,
             0,
@@ -1419,7 +1419,7 @@
         ]
     },
     {
-        "text": "If someone is first to claim an area of land, they are entitled to profit from it.",
+        "text": "Pokud si někdo jako první uplatní nárok na výměru půdy, má nárok na zisk.",
         "effect": [
             -2,
             0,
@@ -1430,7 +1430,7 @@
         ]
     },
     {
-        "text": "An individual should be allowed to do whatever they want with their body.",
+        "text": "Jedinec by měl mít možnost nakládat se svým tělem, jak se jim zlíbí.",
         "effect": [
             0,
             0,
@@ -1441,7 +1441,7 @@
         ]
     },
     {
-        "text": "There are moral rules which should never be broken.",
+        "text": "Existují určitá morální pravidla, která by neměla být nikdy porušena.",
         "effect": [
             0,
             0,
