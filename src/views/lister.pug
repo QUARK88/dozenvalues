@@ -4,4 +4,13 @@ html
     body
         h1(id="title")
         div(id="matchholder")
-        script(type="module" src="./dist/lister.js")
+        label(for="abs" id="abs_label")
+        input(type="checkbox" id="abs")
+        div(class="small-button-holder")
+            button(id="matches_button" class="small-button")
+            button(id="back_button" onclick="window.history.back()")
+            button(id="questions_button" class="small-button")
+        if inline_js
+            script(type="module") !{js["lister"]}
+        else
+            script(type="module" src="./dist/lister.js")

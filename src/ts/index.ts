@@ -67,7 +67,12 @@ function loadUI(ui: Ui, lang: string): void {
     document.getElementById("matches_button")!.addEventListener<"click">("click", () =>
         window.location.href = "matches.html?lang=" + lang
     )
-
+    document.getElementById("lister_button")!.addEventListener<"click">("click", () =>
+        window.location.href = "lister.html?lang=" + lang
+    )
+    document.getElementById("questions_button")!.addEventListener<"click">("click", () =>
+        window.location.href = "questions.html?lang=" + lang
+    )
     //Creates icons boxes and explaination blocks
     for (const axis of ui.axes) {
         //creates base column node div
