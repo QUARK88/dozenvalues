@@ -16,7 +16,13 @@ html
         canvas(id="results2")
         button(id="download2")
             include includes/download.svg
-        button(id="full_list" class="small")
+        div(class="small-button-holder")
+            button(id="matches_button" class="small-button")
+            button(id="lister_button" class="small-button")
+            button(id="questions_button" class="small-button")
         button(id="back_button")
         script(type="application/javascript") window.VERSION = "#{version}"
-        script(type="module" src="./dist/results.js")
+        if inline_js
+            script(type="module") !{js["results"]}
+        else
+            script(type="module" src="./dist/results.js")

@@ -1,0 +1,14 @@
+doctype html
+html
+    include includes/tags
+    body 
+        h1(id="title")
+        div(id="questionholder")
+        div(class="small-button-holder")
+            button(id="matches_button" class="small-button")
+            button(id="back_button" onclick="window.history.back()")
+            button(id="lister_button" class="small-button")
+        if inline_js
+            script(type="module") !{js["questions"]}
+        else
+            script(type="module" src="./dist/questions.js")

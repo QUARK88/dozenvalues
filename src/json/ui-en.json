@@ -151,6 +151,8 @@
             "title": "DozenValues",
             "start_button": "Click here to start!",
             "matches_button": "Matches",
+            "lister_button" : "Lister",
+            "questions_button": "Questions",
             "whatis": "What is DozenValues?",
             "whatare12v": "What are the 12 values?",
             "whatare12v_text": "There are 6 independent axes - Ownership, Market, Power, Autonomy, Identity and Progress - and each has two opposing values assigned to them:",
@@ -274,7 +276,9 @@
             "back_button": "Back",
             "simple_results": "Simple Results",
             "advanced_results": "Advanced Results",
-            "full_list": "Full List"
+            "matches_button": "All Matches",
+            "questions_button": "Questions",
+            "lister_button": "Full List"
         },
 
         "axis_name": "Axis",
@@ -282,5 +286,28 @@
         "version_name": "Version",
         "closest_match": "Closest Match",
         "next_matches": "Next Matches"
+    },
+    "listertext": {
+        "title": "DozenValues",
+        "back_button": "Back",
+        "abs_label": "Absolute",
+        "matches_button": "Matches",
+        "questions_button": "Questions"
+    },
+    "matchestext": {
+        "title": "DozenValues",
+        "back_button": "Back",
+        "questions_button": "Questions",
+        "lister_button": "Lister"
+    },
+    "questionstext": {
+        "title": "DozenValues",
+        "back_button": "Back",
+        "matches_button": "Matches",
+        "lister_button": "Lister"
+    },
+    "font" : {
+        "text_font" : "BrandonText",
+        "title_font" : "Cocogoose"
     }
 }

@@ -12,7 +12,10 @@ html
         h1(id="title")
         div(id="column-holder")
         button(id="start_button")
-        button(id="matches_button" class="small")
+        div(class="small-button-holder")
+            button(id="matches_button" class="small-button")
+            button(id="lister_button" class="small-button")
+            button(id="questions_button" class="small-button")
         h2(id="whatis")
         p(id="whatis_text")
         h2(id="whatare12v")
@@ -32,4 +35,7 @@ html
         div(class="plainlinks")
             h2(id="credits")
             p(id="credits-list")
-        script(type="module" src="./dist/index.js")
+        if inline_js
+            script(type="module") !{js["index"]}
+        else
+            script(type="module" src="./dist/index.js")

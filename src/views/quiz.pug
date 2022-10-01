@@ -7,4 +7,7 @@ html
         p(id="questiontext")
         div(id="buttonholder")
         button(id="back_button")
-        script(type="module" src="./dist/quiz.js")
+        if inline_js
+            script(type="module") !{js["quiz"]}
+        else
+            script(type="module" src="./dist/quiz.js")
