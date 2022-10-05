@@ -333,7 +333,7 @@
             85,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology, combining civil liberties and free markets with the concern for social justice and care for the worst-off."
     },
     {
         "name": "Blue Labourism",
@@ -717,7 +717,7 @@
             55,
             50
         ],
-        "desc": "Ideology of Daniel De Leon, "
+        "desc": "Ideology of Daniel De Leon, combining elements of anarcho-syndicalism and marxism."
     },
     {
         "name": "Democratic Confederalism",
@@ -765,7 +765,7 @@
             40,
             50
         ],
-        "desc": "Ideology of Deng Xiaoping, "
+        "desc": "Ideology of Deng Xiaoping, aiming to reach socialism through the use of a regulated capitalist period with an autoritarian government."
     },
     {
         "name": "Dictablanda",
@@ -1041,7 +1041,7 @@
             65,
             40
         ],
-        "desc": "Ideology of Henry George, "
+        "desc": "Ideology of Henry George, advocating libertarian economics with a focus on land ownership."
     },
     {
         "name": "Geosyndicalism",
@@ -2085,7 +2085,7 @@
             55,
             60
         ],
-        "desc": "Ideology of Eric Blair, form of libertarian democratic socialism which despises totalitarianism, and is slightly conservative."
+        "desc": "Ideology of Eric Blair, form of libertarian democratic socialism which opposes totalitarianism, and is slightly conservative."
     },
     {
         "name": "Paleoconservatism",
@@ -2445,7 +2445,7 @@
             60,
             25
         ],
-        "desc": "Government system under which a comitee of scientists rule over social policy, and make sure all decisions are fact-checked."
+        "desc": "Government system under which a commitee of scientists rule over social policy, and make sure all decisions are fact-checked."
     },
     {
         "name": "Small-Government Conservatism",
