@@ -2625,10 +2625,10 @@
             50,
             45
         ],
-        "desc": "Ekonomický systém ."
+        "desc": "Ekonomický systém, pod kterým stát plánuje ekonomiku podle svých cílů a rozděluje ekonomiku do sektorů sjednocených typem produkce, aby zajistil efektivitu."
     },
     {
-        "name": "State Development Capitalism",
+        "name": "Státní rozvojový kapitalismus",
         "stats": [
             15,
             55,
@@ -2640,7 +2640,7 @@
         "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "State Liberalism",
+        "name": "Státní liberalismus",
         "stats": [
             20,
             35,
@@ -2652,7 +2652,7 @@
         "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Strasserism",
+        "name": "Strasserismus",
         "stats": [
             55,
             80,
@@ -2661,10 +2661,10 @@
             10,
             45
         ],
-        "desc": "Ideology of Otto Strasser. "
+        "desc": "Ideologie Otta Strassera, kombinující levicovou ekonomiku s pravicovým nacionalismem a autoritní vládou."
     },
     {
-        "name": "Syncretic Liberalism",
+        "name": "Synkretický liberalismus",
         "stats": [
             40,
             50,
@@ -2676,7 +2676,7 @@
         "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Techno-Nationalism",
+        "name": "Techno-nacionalismus",
         "stats": [
             40,
             60,
@@ -2685,10 +2685,10 @@
             35,
             25
         ],
-        "desc": "Thought which seeks to strengthen the nation with the use of technology, and sees patriotic pride in research."
+        "desc": "Myšlenkový směr snažící se posilnit národ použitím technolgie a vidící vlasteneckou hrdost ve výzkumu."
     },
     {
-        "name": "Techno-Populism",
+        "name": "Techno-populismus",
         "stats": [
             60,
             60,
@@ -2697,10 +2697,10 @@
             55,
             15
         ],
-        "desc": "Movement promoting decentral access to technology, electronic voting, and a connection between experts and the people."
+        "desc": "Hnutí podporující decentralizovaný přístup k technologii, elektronické hlasování, a lepší vztahy mezi experty a lidmi."
     },
     {
-        "name": "Technocracy",
+        "name": "Technokracie",
         "stats": [
             45,
             80,
@@ -2709,10 +2709,10 @@
             60,
             10
         ],
-        "desc": "Ideology promoting an oligarchic rule of experts to dictate policy and the economy in rational and efficient ways."
+        "desc": "Ideologie podporující oligarchickou vládu expertů s pravomocí racionálně směrovat zákony a ekonomii k efektivitě."
     },
     {
-        "name": "Technoliberalism",
+        "name": "Technoliberalismus",
         "stats": [
             35,
             45,
@@ -2721,10 +2721,10 @@
             80,
             10
         ],
-        "desc": "Philosophy valuing freedom, individualism, free access to technology, widespread education, and economic liberty."
+        "desc": "Politická filozofie vážící si civilní i ekonomické svobody, individualismu, volného přístupu k technologii, a rozšíření školství."
     },
     {
-        "name": "Technolibertarianism",
+        "name": "Technolibertarianismus",
         "stats": [
             35,
             10,
@@ -2733,10 +2733,10 @@
             60,
             10
         ],
-        "desc": "Movement in favor of minimal market regulation, removing internet censorship, civil freedoms, and market-driven technological innovation."
+        "desc": "Hnutí podporující minimální regulaci trhu, zrušení cenzury internetu, občanská práva a technologickou inovaci založenou na tržních principech."
     },
     {
-        "name": "Thatcherism",
+        "name": "Thatcherismus",
         "stats": [
             30,
             30,
@@ -2745,10 +2745,10 @@
             40,
             60
         ],
-        "desc": "Ideology of Margaret Thatcher, opposing public services and social welfare in favor of privatisation, centralization, and conservatism."
+        "desc": "Ideologie Margaret Thatcher odporující veřejným službám a sociálním dávkám ve prospěch privatizace, centralizace a konzervatismu."
     },
     {
-        "name": "Theocracy",
+        "name": "Teokracie",
         "stats": [
             40,
             60,
@@ -2757,10 +2757,10 @@
             50,
             80
         ],
-        "desc": "Form of government where rulers are selected for their faith, and aims to spread religious beliefs through authoritarian means."
+        "desc": "Forma vlády, ve které jsou vládci vybírání pro jejich víru, snažící se náboženské názory šířit skrz autoritativní prostředky."
     },
     {
-        "name": "Third Way",
+        "name": "Třetí cesta",
         "stats": [
             35,
             40,
@@ -2769,10 +2769,10 @@
             85,
             35
         ],
-        "desc": "Political position combining economic freedom with limited social services, under a liberal system."
+        "desc": "Politická pozice kombinující ekonomickou svobodu s omezenými sociálními službami, operující pod liberálním systémem."
     },
     {
-        "name": "Timocracy",
+        "name": "Timocracie",
         "stats": [
             0,
             35,
@@ -2781,10 +2781,10 @@
             50,
             55
         ],
-        "desc": "Form of government in which those with the most wealth or property rule to increase their economic power."
+        "desc": "Forma vlády, ve které ti s největším majetkem vládnou, aby si zvýšili jejich ekonomickou moc."
     },
     {
-        "name": "Titoism",
+        "name": "Titoismus",
         "stats": [
             80,
             60,
@@ -2793,10 +2793,10 @@
             70,
             40
         ],
-        "desc": "Ideology of Josip Broz Tito, wanting an authoritarian market socialist economy, cross-ethnic unity, and federalism."
+        "desc": "Ideologie Josib Broz Tita, obhajující autoritativní ekonomii tržního socialismu, mezi-etnické spojení a federalismus."
     },
     {
-        "name": "Totalitarianism",
+        "name": "Totalitarianismus",
         "stats": [
             35,
             80,
@@ -2808,7 +2808,7 @@
         "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Transhumanism",
+        "name": "Transhumanismus",
         "stats": [
             45,
             50,
@@ -2817,10 +2817,10 @@
             55,
             0
         ],
-        "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement."
+        "desc": "Hnutí snažící se překonat biologii minulosti skrz hojné využití technologického a vědeckého pokroku."
     },
     {
-        "name": "Transhumanist Socialism",
+        "name": "Transhumanistický socialismus",
         "stats": [
             80,
             70,
@@ -2829,10 +2829,10 @@
             70,
             0
         ],
-        "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using socialist economics."
+        "desc": "Hnutí snažící se překonat biologii minulosti skrz hojné využití technologického a vědeckého pokroku s využitím socialistické ekonomie."
     },
     {
-        "name": "Tridemism",
+        "name": "Tridemismus",
         "stats": [
             70,
             45,
@@ -2841,10 +2841,10 @@
             65,
             30
         ],
-        "desc": "Ideology of Sun Yat-sen, wanting a society founded on the principles of central democracy, moderate socialism and civic nationalism."
+        "desc": "Ideologie Sun Yat-sena, snažící se o společnost založenou na principech centralizované demokracie, mírného socialismu a civilního nacionalismu."
     },
     {
-        "name": "Trotskyism",
+        "name": "Trotskyismus",
         "stats": [
             80,
             90,
@@ -2853,10 +2853,10 @@
             65,
             25
         ],
-        "desc": "Ideology of Lev Bronstein, wanting a global communist revolution, spread by a moderately authoritarian state."
+        "desc": "Ideologie Lva Bronsteina, obhajující globální komunistickou revoluci šířenou mírně autoritativním státem."
     },
     {
-        "name": "Welfare Chauvinism",
+        "name": "Sociální chauvinismus",
         "stats": [
             50,
             70,
@@ -2865,10 +2865,10 @@
             30,
             55
         ],
-        "desc": "Ideology combining a strong welfare state with ultranationalism, reserving social benefits to native populations in the nation."
+        "desc": "Ideologie kombinující silný sociální stát s ultranacionalismem, omezující sociální výhody pouze populacím narozeným v onom národu."
     },
     {
-        "name": "Yellow Socialism",
+        "name": "Žlutý socialismus",
         "stats": [
             65,
             80,
@@ -2877,6 +2877,6 @@
             30,
             45
         ],
-        "desc": "Ideology of Pierre Biétry, believing the best way to achieve socialism is by constant negotiation between unions and owners, operating under a strong reactionary government."
+        "desc": "Ideologie Pierre Biétriho, věřící v to, že nejlepším způsobem dosažení socialismu je konstantním smlouváním mezi odbory a vlastníky, operující pod autoritativní reakcionářskou vládou."
     }
 ]
