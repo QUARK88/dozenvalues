@@ -151,6 +151,8 @@
             "title": "DozenValues",
             "start_button": "Klikněte sem pro zahájení testu",
             "matches_button": "Možné shody",
+            "lister_button": "Seznam ideologií",
+            "questions_button":"Seznam otázek",
             "whatis": "Co je DozenValues?",
             "whatare12v": "Jaké jsou hodnoty DozenValues?",
             "whatare12v_text": "DozenValues má 6 na sobě nezávislých os - vlastnictví, trh, moc, autonomie, identita, a pokrok - a každá z těchto os má dvě protichůdné hodnoty:",
@@ -274,12 +276,37 @@
             "back_button": "Zpět",
             "simple_results": "Jednoduché výsledky",
             "advanced_results": "Pokročilé výsledky",
-            "full_list": "Celý seznam"
+            "matches_button": "Všechny shody",
+            "questions_button": "Otázky",
+            "lister_button": "Celý seznam"
         },
         "axis_name": "Osa",
         "axis_name_before": false,
         "version_name": "Verze",
         "closest_match": "Nejbližší shoda",
         "next_matches": "Další shody"
+    },
+    "listertext": {
+        "title": "DozenValues",
+        "back_button": "Zpět",
+        "abs_label": "Absolutní rozřazení procent",
+        "matches_button": "Shody",
+        "questions_button": "Otázky"
+    },
+    "matchestext": {
+        "title": "DozenValues",
+        "back_button": "Zpět",
+        "questions_button": "Otázky",
+        "lister_button": "Senam ideologií"
+    },
+    "questionstext": {
+        "title": "DozenValues",
+        "back_button": "Zpět",
+        "matches_button": "Shody",
+        "lister_button": "Seznam ideologií"
+    },
+    "font" : {
+        "text_font" : "BrandonText",
+        "title_font" : "Cocogoose"
     }
 }
