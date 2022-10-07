@@ -53,10 +53,11 @@ export class Canvas {
     private canvas: HTMLCanvasElement
     private ctx: CanvasRenderingContext2D
     private font: string
+    private titleFont: string
     private bgColor: string
     private fgColor: string
 
-    constructor(element: HTMLCanvasElement, x: number, y: number, font: string, fg: string, bg: string) {
+    constructor(element: HTMLCanvasElement, x: number, y: number, textFont: string, titleFont: string, fg: string, bg: string) {
         //Sets canvas
         this.canvas = <HTMLCanvasElement>element
         this.canvas.width = x
@@ -64,7 +65,8 @@ export class Canvas {
         //Grabs 2d context
         this.ctx = this.canvas.getContext("2d")!
         //Loads font, bg and fg colors to class private variables
-        this.font = font
+        this.font = textFont
+        this.titleFont = titleFont
         this.bgColor = bg
         this.fgColor = fg
         //Draws background
@@ -75,10 +77,12 @@ export class Canvas {
         this.ctx.font = size.toFixed(0) + "px " + this.font
     }
     drawHeader(title: string, url: string, version: string, match: string): void {
+        this.ctx.fillStyle = this.bgColor
+        this.ctx.fillRect(0,0,this.canvas.width,180)
         //Draws title
         this.ctx.fillStyle = this.fgColor
         this.ctx.textAlign = "start"
-        this.ctx.font = "64px titlefont"
+        this.ctx.font = "64px " + this.titleFont
         this.ctx.fillText(title, 32, 80, 490)
         //Draws url
         this.ctx.textAlign = "end"
@@ -89,7 +93,7 @@ export class Canvas {
         //Draws match
         this.ctx.textAlign = "left"
         this.setFontsize(48)
-        this.ctx.fillText(match, 32, 144)
+        this.ctx.fillText(match, 32, 144, this.canvas.width - 64)
     }
     drawBar(index: number, colors: Array<string>, score: number, axis: string): void {
         const 

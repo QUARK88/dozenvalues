@@ -1,0 +1,17 @@
+doctype html
+html
+    include includes/tags
+    body 
+        h1(id="title")
+        select(id="match-dropdown")
+        canvas(id="match")
+        div(id="match-text")
+        div(class="small-button-holder")
+            button(id="lister_button" class="small-button")
+            button(id="back_button" onclick="window.history.back()")
+            button(id="questions_button" class="small-button")
+        script(type="application/javascript") window.VERSION = "#{version}"
+        if inline_js
+            script(type="module") !{js["matches"]}
+        else
+            script(type="module" src="./dist/matches.js")

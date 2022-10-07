@@ -8,4 +8,7 @@ html
         button(id="quiz_button")
         button(id="quiz_random_button")
         button(id="back_button")
-        script(type="module" src="./dist/instructions.js")
+        if inline_js
+            script(type="module") !{js["instructions"]}
+        else
+            script(type="module" src="./dist/instructions.js")

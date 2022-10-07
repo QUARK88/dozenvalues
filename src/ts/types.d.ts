@@ -69,6 +69,13 @@ export type Ui = {
     instructiontext: Textelm;
     quiztext: Quiztext;
     resultstext: Resultstext;
+    listertext: Textelm;
+    matchestext: Textelm;
+    questionstext: Textelm;
+    font: {
+        text_font : string;
+        title_font : string
+    }
 }
 
 export type Ideology = {
