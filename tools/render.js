@@ -8,7 +8,7 @@ const params = {
     version : process.env.npm_package_version,
     discord : true,
     inline_js: false
-}
+};
 
 (() => {
     const src_dir_name = "./src/json/"

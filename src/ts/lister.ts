@@ -1,5 +1,5 @@
-import { getJson, getLanguage, orderScores } from "./common.js"
-import type { Ui, Ideology, Axis } from "./types"
+import { getJson, getLanguage, orderScores, b64enc } from "./common.js"
+import type { Ui, Ideology } from "./types"
 
 const params: URLSearchParams = new URLSearchParams(document.location.search)
 let lang: string = params.get("lang") ?? "en"
@@ -27,7 +27,7 @@ questionsButton.addEventListener<"click">("click",() =>
 const matchesButton = document.getElementById("matches_button")!
 matchesButton.addEventListener<"click">("click", () => {
     window.location.href = "matches.html?lang=" + lang +
-    "&ideo=" + btoa(matches[0].name)
+    "&ideo=" + b64enc(matches[0].name)
 })
 
 const abscheck = <HTMLInputElement> document.getElementById("abs")
@@ -59,7 +59,7 @@ function displayMatches(matches: Ideology[], absolute: boolean=false) {
         const elm = document.createElement("a")
         elm.className = "match-text"
         elm.textContent = `${i+1}: ${v.name} : ${v.score?.toFixed(1)}%`
-        elm.href= `matches.html?lang=${lang}&ideo=${btoa(v.name)}`
+        elm.href= `matches.html?lang=${lang}&ideo=${b64enc(v.name)}`
         matchholder.appendChild(elm)
     })
 }

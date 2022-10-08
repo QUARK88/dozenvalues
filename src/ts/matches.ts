@@ -1,4 +1,4 @@
-import { getJson, getLanguage, Canvas, matchAxisTier } from "./common.js"
+import { getJson, getLanguage, Canvas, matchAxisTier, b64dec } from "./common.js"
 import type {Ui, Ideology} from "./types"
 
 const params: URLSearchParams = new URLSearchParams(document.location.search)
@@ -70,7 +70,7 @@ window.onload = () => {
     const ideo = params.get("ideo")
     if(ideo) {
         try {
-            const decIdeo = atob(ideo)
+            const decIdeo = b64dec(ideo)
             const matched = matches.find(x => x.name === decIdeo) ?? matches[0]
             changedSelection(matched)
             dropDown.selectedIndex = matches.indexOf(matched)

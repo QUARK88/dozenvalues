@@ -18,6 +18,36 @@ export function getLanguage(lang: string): Ui {
     return getLanguage("en")
 }
 
+export function b64enc(input: string) {
+    const codeUnits = Uint16Array.from(
+        { length: input.length },
+        (_, index) => input.charCodeAt(index)
+    );
+    const charCodes = new Uint8Array(codeUnits.buffer)
+
+    let result = ""
+    charCodes.forEach((char) => {
+        result += String.fromCharCode(char)
+    });
+    return btoa(result)
+}
+
+export function b64dec(input: string) {
+    const dec = atob(input)
+    const bytes = Uint8Array.from(
+        { length: dec.length },
+        (_, index) => dec.charCodeAt(index)
+    );
+    const charCodes = new Uint16Array(bytes.buffer)
+  
+    let result = ""
+    charCodes.forEach((char) => {
+      result += String.fromCharCode(char)
+    })
+    return result
+  }
+
+
 export function matchAxisTier(score: number, labels: Array<string>): string {
     if (score < 0 || score > 100 || Number.isNaN(score)) throw new Error(`Invalid score: ${score}%`)
     const tiers = [10, 25, 45, 55, 75, 90, 100]
@@ -78,7 +108,7 @@ export class Canvas {
     }
     drawHeader(title: string, url: string, version: string, match: string): void {
         this.ctx.fillStyle = this.bgColor
-        this.ctx.fillRect(0,0,this.canvas.width,180)
+        this.ctx.fillRect(0, 0, this.canvas.width, 180)
         //Draws title
         this.ctx.fillStyle = this.fgColor
         this.ctx.textAlign = "start"
@@ -96,13 +126,13 @@ export class Canvas {
         this.ctx.fillText(match, 32, 144, this.canvas.width - 64)
     }
     drawBar(index: number, colors: Array<string>, score: number, axis: string): void {
-        const 
-        h = index * 112,
-        h0 = h + 160,
-        h1 = h + 208,
-        h2 = h + 214,
-        h3 = h + 252,
-        h4 = h + 192
+        const
+            h = index * 112,
+            h0 = h + 160,
+            h1 = h + 208,
+            h2 = h + 214,
+            h3 = h + 252,
+            h4 = h + 192
         //Blank out previous result
         this.ctx.fillStyle = this.bgColor
         this.ctx.fillRect(128, h0, 544, 112)
@@ -139,10 +169,10 @@ export class Canvas {
     }
     drawImages(images: Array<string>, index: number): void {
         images.forEach((v, i) => {
-            const 
-            h = 192 + index * 112,
-            w = 32 + i * 640,
-            img = new Image()
+            const
+                h = 192 + index * 112,
+                w = 32 + i * 640,
+                img = new Image()
             img.src = v
             img.addEventListener("load", () =>
                 this.ctx.drawImage(img, w, h, 96, 96)
