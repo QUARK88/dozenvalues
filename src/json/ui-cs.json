@@ -2,7 +2,7 @@
     "lang": "cs",
     "axes": [
         {
-            "axisname": "vlastnictví",
+            "axisname": "Vlastnictví",
             "tiers": [
                 "Propertární",
                 "Soukromý",
@@ -26,7 +26,7 @@
             }
         },
         {
-            "axisname": "trhu",
+            "axisname": "Trhu",
             "tiers": [
                 "Laissez-Faire",
                 "Volný trh",
@@ -50,7 +50,7 @@
             }
         },
         {
-            "axisname": "moci",
+            "axisname": "Moci",
             "tiers": [
                 "Anarchistický",
                 "Decentralizovaný",
@@ -74,7 +74,7 @@
             }
         },
         {
-            "axisname": "autonomie",
+            "axisname": "Autonomie",
             "tiers": [
                 "Brutální",
                 "Ovládající",
@@ -98,7 +98,7 @@
             }
         },
         {
-            "axisname": "identity",
+            "axisname": "Identity",
             "tiers": [
                 "Supremacistický",
                 "Diskriminující",
@@ -107,7 +107,7 @@
                 "Respektující",
                 "Inkluzivní",
                 "Intersekční"
-            ], 
+            ],
             "leftvalue": {
                 "name": "Inkluzivita",
                 "color": "#ff15a8",
@@ -122,7 +122,7 @@
             }
         },
         {
-            "axisname": "pokroku",
+            "axisname": "Pokroku",
             "tiers": [
                 "Futuristický",
                 "Progresivní",
@@ -136,7 +136,7 @@
                 "name": "Dědictví",
                 "color": "#9bf122",
                 "icon": "./assets/icons/heritage.svg",
-                "blurb": "Ti s větším skóre dědictví věří, že rychlá změna je riskantní a že minulost by měla být opěvována. Tito lidé většinou podporují náboženství, přirodu a zachování kultury." 
+                "blurb": "Ti s větším skóre dědictví věří, že rychlá změna je riskantní a že minulost by měla být opěvována. Tito lidé většinou podporují náboženství, přirodu a zachování kultury."
             },
             "rightvalue": {
                 "name": "Novota",
@@ -152,7 +152,7 @@
             "start_button": "Klikněte sem pro zahájení testu",
             "matches_button": "Možné shody",
             "lister_button": "Seznam ideologií",
-            "questions_button":"Seznam otázek",
+            "questions_button": "Seznam otázek",
             "whatis": "Co je DozenValues?",
             "whatare12v": "Jaké jsou hodnoty DozenValues?",
             "whatare12v_text": "DozenValues má 6 na sobě nezávislých os - vlastnictví, trh, moc, autonomie, identita, a pokrok - a každá z těchto os má dvě protichůdné hodnoty:",
@@ -305,8 +305,8 @@
         "matches_button": "Shody",
         "lister_button": "Seznam ideologií"
     },
-    "font" : {
-        "text_font" : "BrandonText",
-        "title_font" : "Cocogoose"
+    "font": {
+        "text_font": "BrandonText",
+        "title_font": "Cocogoose"
     }
 }

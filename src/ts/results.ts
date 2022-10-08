@@ -1,4 +1,4 @@
-import { getJson, getLanguage, Canvas, matchAxisTier, orderScores } from "./common.js"
+import { getJson, getLanguage, Canvas, matchAxisTier, orderScores, b64enc } from "./common.js"
 import type { Ui, Ideology, Axis } from "./types"
 
 class Canvas2 {
@@ -58,9 +58,9 @@ class Canvas2 {
         this.setFontsize(24)
         let text: string = "";
         if(value>=50) {
-            text += value.toFixed(1) + " " + axis.leftvalue.name
+            text += value.toFixed(1) + "% " + axis.leftvalue.name
         } else {
-            text += (100-value).toFixed(1) + " " + axis.rightvalue.name
+            text += (100-value).toFixed(1) + "% " + axis.rightvalue.name
         }
         text += ` (${tier})`
         this.ctx.fillText(text,16,240+48*index)
@@ -155,7 +155,7 @@ questionsButton.addEventListener<"click">("click",() =>
 const matchesButton = document.getElementById("matches_button")!
 matchesButton.addEventListener<"click">("click", () => {
     window.location.href = "matches.html?lang=" + lang +
-    "&ideo=" + btoa(matches[0].name)
+    "&ideo=" + b64enc(matches[0].name)
 })
 
 //Enable download buttons
