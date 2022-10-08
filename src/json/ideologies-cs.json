@@ -1,6 +1,6 @@
 [
     {
-        "name": "21st Century Socialism",
+        "name": "Socialismus 21. století",
         "stats": [
             75,
             80,
@@ -9,10 +9,10 @@
             85,
             50
         ],
-        "desc": "Ideology claiming that both capitalism and marxism-leninism failed, and aims to focus on worker and minority issues using democratic means."
+        "desc": "Ideologie tvrdící, že kapitalismus i marxismus-leninismus selhal, snažící se zaměřovat na problémy dělníků a menšin pomocí demokracie."
     },
     {
-        "name": "Absolute Monarchism",
+        "name": "Absolutní monarchismus",
         "stats": [
             5,
             65,
@@ -21,10 +21,10 @@
             40,
             65
         ],
-        "desc": "System under which an individual exerts absolute power over all society and the economy via hereditary power."
+        "desc": "Systém, pod kterým jedinec využívá neomezené moci nad společností a ekonomikou, získanou dědičně."
     },
     {
-        "name": "Agorism",
+        "name": "Agorismus",
         "stats": [
             45,
             5,
@@ -33,10 +33,10 @@
             65,
             35
         ],
-        "desc": "Anarchist ideology which believes that using counter-economics like black markets is the best way to have freedom from the state."
+        "desc": "Anarchistická ideologie, věřící v to, že použití kontra-ekonomie, jako např. černý trh, je nejlepší způsob, jak si zajistit svobodu od státu."
     },
     {
-        "name": "Agrarian Anarchism",
+        "name": "Agrární anarchismus",
         "stats": [
             60,
             60,
@@ -45,10 +45,10 @@
             65,
             80
         ],
-        "desc": "Anarchist ideology believing in the preservation of the environment, and that liberty comes from agrarian practices and a return to the land."
+        "desc": "Anarchistická ideologie věřící v ochranu životního prostředí a myšlenku, že svobodu lze najít v praktcie zemědělství a návratu k půdě."
     },
     {
-        "name": "Agrarianism",
+        "name": "Agrarianismus",
         "stats": [
             30,
             40,
@@ -57,10 +57,10 @@
             55,
             80
         ],
-        "desc": "System focused on agrarian practices, traditional lifestyles, rural habitation, and ownership of farming land."
+        "desc": "Systém zaměřující se na praktiku zemědělství, tradiční životní styl, život na venkově a vlastnictví obdělávaného pozemku."
     },
     {
-        "name": "American Progressivism",
+        "name": "Americký progresivismus",
         "stats": [
             40,
             60,
@@ -69,10 +69,10 @@
             90,
             35
         ],
-        "desc": "Ideology having a focus on a large welfare state, cultural intersectionality, and increased civil freedoms."
+        "desc": "Ideologie zaměřující se na rozsáhlý systém sociálních dávek, kulturní intersekcionalitu a rozšíření občasnkých práv."
     },
     {
-        "name": "Anarcho-Capitalism",
+        "name": "Anarchokapitalismus",
         "stats": [
             20,
             5,
@@ -81,10 +81,10 @@
             50,
             40
         ],
-        "desc": "Anarchist ideology believing the best way to achieve freedom is with an economy ran by unregulated capitalist markets."
+        "desc": "Anarchistická ideologie věřící v to, že nejlepším způsobem dosažení svobody je pomocí ekonomie neregulovaných kapitalistických trhů"
     },
     {
-        "name": "Anarcho-Communism",
+        "name": "Anarchokomunismus",
         "stats": [
             90,
             75,
@@ -93,10 +93,10 @@
             75,
             50
         ],
-        "desc": "Anarchist ideology believing the best way to achieve freedom is by the abolition of money and a gift-based economy."
+        "desc": "Anarchistická ideologie věřící v to, že nejlepším způsobem dosažení svobody je pomocí zrušení peněžního systému a jeho nahrazení dárkovou ekonomikou."
     },
     {
-        "name": "Anarcho-Conservatism",
+        "name": "Anarcho-konzervatismus",
         "stats": [
             40,
             35,
@@ -105,10 +105,10 @@
             40,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Anarcho-Distributism",
+        "name": "Anarcho-distributismus",
         "stats": [
             50,
             35,
@@ -117,10 +117,10 @@
             65,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Anarcho-Egoism",
+        "name": "Anarcho-egoismus",
         "stats": [
             80,
             35,
@@ -129,10 +129,10 @@
             75,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Anarcho-Frontierism",
+        "name": "Anarcho-frontierismus",
         "stats": [
             70,
             10,
@@ -141,10 +141,10 @@
             70,
             20
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Anarcho-Naturism",
+        "name": "Anarcho-natursimus",
         "stats": [
             50,
             40,
@@ -153,10 +153,10 @@
             70,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Anarcho-Primitivism",
+        "name": "Anarcho-primitivismus",
         "stats": [
             75,
             50,
@@ -165,10 +165,10 @@
             60,
             95
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Anarcho-Transhumanism",
+        "name": "Anarcho-transhumanismus",
         "stats": [
             70,
             30,
@@ -177,10 +177,10 @@
             70,
             5
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Aristocratic Radicalism",
+        "name": "Aristokratický radikalismus",
         "stats": [
             10,
             15,
@@ -189,10 +189,10 @@
             50,
             20
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Austrolibertarian Market Socialism",
+        "name": "Austrolibertární tržní socialismus",
         "stats": [
             75,
             5,
@@ -201,10 +201,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Austrolibertarianism",
+        "name": "Austrolibertarianismus",
         "stats": [
             15,
             5,
@@ -213,10 +213,10 @@
             45,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Authoritarian Capitalism",
+        "name": "Autoritativní kapitalismus",
         "stats": [
             15,
             30,
@@ -225,10 +225,10 @@
             55,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Authoritarian Conservatism",
+        "name": "Autoritativní konzervatismus",
         "stats": [
             15,
             75,
@@ -237,10 +237,10 @@
             40,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Authoritarian Democracy",
+        "name": "Authoritativní demokracie",
         "stats": [
             40,
             65,
@@ -249,10 +249,10 @@
             40,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Authoritarianism",
+        "name": "Authoritivismus",
         "stats": [
             35,
             65,
@@ -261,10 +261,10 @@
             45,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Autonomism",
+        "name": "Autonomismus",
         "stats": [
             90,
             80,
@@ -273,10 +273,10 @@
             85,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Barracks Communism",
+        "name": "Kasárenský komunismus",
         "stats": [
             90,
             85,
@@ -285,10 +285,10 @@
             60,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Ba'athism",
+        "name": "Ba'athismus",
         "stats": [
             40,
             65,
@@ -297,10 +297,10 @@
             25,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Benevolent Aristocracy",
+        "name": "Benevolentní aristokracie",
         "stats": [
             20,
             65,
@@ -309,10 +309,10 @@
             55,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Bismarckism",
+        "name": "Bismarckismus",
         "stats": [
             25,
             75,
@@ -321,10 +321,10 @@
             40,
             55
         ],
-        "desc": "Ideology of Otto von Bismarck, operating under a strong paternalistic state, conservative values, nationalism, and a heavily centralized capitalism."
+        "desc": "Ideologie Otta von Bismarcka, zarhnující silný paternalistický stát, konzervativní hodnoty, nacionalismus, a velmi centralizovaný kapitalismus."
     },
     {
-        "name": "Bleeding-Heart Libertarianism",
+        "name": "Neoklasický libertarianismus",
         "stats": [
             30,
             20,
@@ -333,10 +333,10 @@
             85,
             40
         ],
-        "desc": "Ideology, combining civil liberties and free markets with the concern for social justice and care for the worst-off."
-    },
+        "desc": "Ideologie kombinující občanská práva a volný trh se sociální spravedlností a péčí o ty, kteří jsou na tom nejhůře."
+    },  
     {
-        "name": "Blue Labourism",
+        "name": "Modrý labourismus",
         "stats": [
             65,
             70,
@@ -345,10 +345,10 @@
             30,
             70
         ],
-        "desc": "Movement which favors labor rights for manual workers, a return to conservative values, and communitarianism."
+        "desc": "Hnutí upřednostňující dělnická práva pro manuální pracovníky, návrat ke konzervativním hodnotám a komuntarianismus."
     },
     {
-        "name": "Bonapartism",
+        "name": "Bonapartismus",
         "stats": [
             25,
             50,
@@ -357,10 +357,10 @@
             50,
             50
         ],
-        "desc": "Ideology of Napoléon Bonaparte, pragmatic, autocratic, and supportive of enlightenment values such as legal equality."
+        "desc": "Ideologie Napoleona Bonaparte, zahrnující pragmatismus, autokracii a podporu osvícenských hodnot, jako ne např. rovnost před zákonem."
     },
     {
-        "name": "Bull Moose Progressivism",
+        "name": "Rooseveltův progresivismus",
         "stats": [
             40,
             70,
@@ -369,10 +369,10 @@
             75,
             30
         ],
-        "desc": "Ideology of Theodore Roosevelt Jr., focusing on pro-worker regulations within capitalism and better social justice between different citizen groups."
+        "desc": "Ideologie Theodora Roosevelta, zaměřující se na pro-dělnické regulace v kapitalismu a sociální spraveldnost mezi různými skupinami občanů."
     },
     {
-        "name": "Cameralism",
+        "name": "Kameralismus",
         "stats": [
             10,
             80,
@@ -381,10 +381,10 @@
             40,
             60
         ],
-        "desc": "Extremely authoritarian ideology aiming to maximize revenue for the state using large amounts of centralization of power and wealth."
+        "desc": "Extrémně autoritní ideologie snažící se maximizovat výdělek státu s použitím hojné centralizace moci a bohatsví."
     },
     {
-        "name": "Capitalist Transhumanism",
+        "name": "Kapitalistický transhumanismus",
         "stats": [
             15,
             20,
@@ -393,7 +393,7 @@
             55,
             0
         ],
-        "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using capitalist economics."
+        "desc": "Hnutí snažící se o překonání biologie minulosti hojným používáním technlogie a vědeckého pokroku v kapitalistické ekonomice."
     },
     {
         "name": "Cardenismo",
@@ -405,10 +405,10 @@
             50,
             35
         ],
-        "desc": "Ideology of Lázaro Cárdenas, which pushes for a populist authoritarian state to nationalize industry, promote secularism and redistribute land."
+        "desc": "Ideologie Lázara Cárdenas, snažící se o populistický autoritní stát k účelu znárodnění průmyslu, podpory sekularismu a redistribuce pozemků."
     },
     {
-        "name": "Carlism",
+        "name": "Carlismus",
         "stats": [
             55,
             70,
@@ -417,10 +417,10 @@
             25,
             90
         ],
-        "desc": "Movement aiming to establish a traditionalist, religious, nationalist and federal monarchy, against liberalism, with leftist economics."
+        "desc": "Hnutí snažící se o nastolení tradicionalistické, náboženské, nacionalistické a federální monarchie proti liberalismu s využitím levicové ekonomie."
     },
     {
-        "name": "Castroism",
+        "name": "Castroismus",
         "stats": [
             75,
             65,
@@ -429,10 +429,10 @@
             60,
             35
         ],
-        "desc": "Ideology of Fidel Castro, form of marxism-leninism promoting nationalism and progress under an authoritarian government."
+        "desc": "Ideologie Fidela Castra, považovaná za formu marxismu-leninismu, podporující nacionalismus a pokrok pod autoritní vládou."
     },
     {
-        "name": "Catholic Worker Movement",
+        "name": "Katolické dělnické hnutí",
         "stats": [
             60,
             40,
@@ -441,10 +441,10 @@
             55,
             80
         ],
-        "desc": "Ideology wishing to create autonomous, pacifist religious communes with strong community values."
+        "desc": "Ideologie snažící se o vytvoření autonomní, pacifistické náboženské společnosti pomocí silných komunitních hodnot."
     },
     {
-        "name": "Cellular Democracy",
+        "name": "Celulární demokracie",
         "stats": [
             50,
             10,
@@ -453,10 +453,10 @@
             70,
             50
         ],
-        "desc": "Model of democracy wanting to divide areas into democratic subdivisions under a georgist and libertarian economy."
+        "desc": "Model demokracie snažící se o rozdělení krajů do demokratických podjednotek s libertárně-georgistickou ekonomií."
     },
     {
-        "name": "Centrism",
+        "name": "Centrismus",
         "stats": [
             45,
             50,
@@ -465,7 +465,7 @@
             50,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
         "name": "Chavismo",
@@ -477,10 +477,10 @@
             45,
             60
         ],
-        "desc": "Ideology of Hugo Chávez, pushing for democratic and populist reforms to implement left-wing economic policies, and is patriotic."
+        "desc": "Ideologie Huga Chávez, podporující demokratické a populistické reformy k implementaci levicové ekonomické politiky, využívající vlastenectví."
     },
     {
-        "name": "Christian Democracy",
+        "name": "Křesťanská demokracie",
         "stats": [
             40,
             55,
@@ -489,10 +489,10 @@
             50,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Classical Conservatism",
+        "name": "Klasickáý konzervatismus",
         "stats": [
             20,
             50,
@@ -501,10 +501,10 @@
             35,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Classical Fascism",
+        "name": "Klasický fašismus",
         "stats": [
             35,
             75,
@@ -513,10 +513,10 @@
             20,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Classical Liberalism",
+        "name": "Klasický liberalismus",
         "stats": [
             25,
             30,
@@ -525,10 +525,10 @@
             50,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Clerical Fascism",
+        "name": "Klerofašismus",
         "stats": [
             30,
             70,
@@ -537,10 +537,10 @@
             10,
             85
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Collectivist Anarchism",
+        "name": "Anarcho-kolektivismus",
         "stats": [
             80,
             75,
@@ -549,10 +549,10 @@
             55,
             55
         ],
-        "desc": "Ideology of Mikhail Bakunin, anarchist, and promotes the use of labor coins to run a worker-owned economy."
+        "desc": "Anarchistická ideologie Mikhaila Bakunina, podporující použití pracovních voucherů v dělníky-vedené ekonomice."
     },
     {
-        "name": "Communalism",
+        "name": "Komunalismus",
         "stats": [
             95,
             75,
@@ -561,10 +561,10 @@
             90,
             60
         ],
-        "desc": "Ideology of Murray Bookchin, type of anarcho-communism with an emphasis on ecology and federal communes."
+        "desc": "Ideologie Murray Bookchina se znaky anarchokomunismu a zaměřením na ekologii a federální komuny."
     },
     {
-        "name": "Communitarianism",
+        "name": "Komunitarianismus",
         "stats": [
             65,
             70,
@@ -573,10 +573,10 @@
             55,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Conservative Liberalism",
+        "name": "Konzervativní liberalismus",
         "stats": [
             20,
             35,
@@ -585,10 +585,10 @@
             45,
             60
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Conservative Socialism",
+        "name": "Konzervativní socialismus",
         "stats": [
             75,
             80,
@@ -597,10 +597,10 @@
             40,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Constitutional Monarchism",
+        "name": "Konstituční monarchismus",
         "stats": [
             40,
             45,
@@ -609,10 +609,10 @@
             55,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Cooperativism",
+        "name": "Kooperativismus",
         "stats": [
             70,
             45,
@@ -621,10 +621,10 @@
             80,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Council Communism",
+        "name": "Radní komunismus",
         "stats": [
             90,
             85,
@@ -633,10 +633,10 @@
             80,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Cromwellianism",
+        "name": "Cromwellianismismus",
         "stats": [
             20,
             50,
@@ -645,10 +645,10 @@
             50,
             75
         ],
-        "desc": "Ideology of Oliver Cromwell, a radically paternalistic, traditionalist theocracy which believes in republican ideals."
+        "desc": "Ideologie Olivera Cromwella, radikálně paternalistická tradicionalistická teokracie věřící v republikánské ideály."
     },
     {
-        "name": "Crypto-Anarchism",
+        "name": "Kryptoanarchismus",
         "stats": [
             35,
             0,
@@ -657,10 +657,10 @@
             50,
             20
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Cybercommunism",
+        "name": "Kyberkomunismus",
         "stats": [
             90,
             85,
@@ -669,10 +669,10 @@
             75,
             5
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Cyberfeminism",
+        "name": "Kyberfeminismus",
         "stats": [
             55,
             55,
@@ -681,10 +681,10 @@
             95,
             0
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "De Francism",
+        "name": "De Francismus",
         "stats": [
             70,
             85,
@@ -693,10 +693,10 @@
             95,
             20
         ],
-        "desc": "Ideology of José de Francia, which is extremely authoritarian and extremely progressive, mandating race mixing."
+        "desc": "Ideologie José de Francia, vyznačující se extrémně autoritativní, progresivní vládou, nařizující míšení ras."
     },
     {
-        "name": "Degrowthism",
+        "name": "Nerůstové hnutí",
         "stats": [
             70,
             80,
@@ -705,10 +705,10 @@
             85,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "De Leonism",
+        "name": "Deleonismus",
         "stats": [
             90,
             70,
@@ -717,10 +717,10 @@
             55,
             50
         ],
-        "desc": "Ideology of Daniel De Leon, combining elements of anarcho-syndicalism and marxism."
+        "desc": "Ideologie Daniela de Leona, kombinující prvky anarcho-snydikalismu a marxismu."
     },
     {
-        "name": "Democratic Confederalism",
+        "name": "Democratický konfederalismus",
         "stats": [
             90,
             60,
@@ -729,10 +729,10 @@
             85,
             60
         ],
-        "desc": "Ideology of Abdullah Öcalan, libertarian socialist, with a focus on eco-communes and a confederal government."
+        "desc": "Libertárně-socialistická ideologie Abdulláh Öcalana, zaměřující se na ekologické komuny a konfederativní vládu."
     },
     {
-        "name": "Democratic Socialism",
+        "name": "Democratický socialismus",
         "stats": [
             70,
             80,
@@ -741,10 +741,10 @@
             70,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Democratic Transhumanism",
+        "name": "Democratický transhumanismus",
         "stats": [
             50,
             60,
@@ -753,10 +753,10 @@
             80,
             0
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Dengism",
+        "name": "Dengismus",
         "stats": [
             55,
             60,
@@ -765,7 +765,7 @@
             40,
             50
         ],
-        "desc": "Ideology of Deng Xiaoping, aiming to reach socialism through the use of a regulated capitalist period with an autoritarian government."
+        "desc": "Ideologie Deng Xiaopinga, snažící se o dosažení socialismu využitím období regulované kapitalistické ekonomiky a autoritativní vlády."
     },
     {
         "name": "Dictablanda",
@@ -777,10 +777,10 @@
             60,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Digger Movement",
+        "name": "Hnutí Diggers",
         "stats": [
             80,
             45,
@@ -789,7 +789,7 @@
             55,
             85
         ],
-        "desc": "Movement in favor of agrarian communes to form to live in traditionalist and religious lifestyles without hierarchies."
+        "desc": "Hnutí ve prospěch tvorby agrárních komun na k účelu tradičního a náboženského žvotního stylu bez hiearchie."
     },
     {
         "name": "Dirigisme",
@@ -801,10 +801,10 @@
             55,
             40
         ],
-        "desc": "Economic doctrine under which the state intervenes massively in the economy to correct the market, direct investment, and moderate planning."
+        "desc": "Economická doktrína, zahrnující hojné zásahy státy v ekonomice pro účely spravení trhu, řízení investic a mírně i plánování."
     },
     {
-        "name": "Distributism",
+        "name": "Distributismus",
         "stats": [
             50,
             50,
@@ -813,10 +813,10 @@
             55,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Eco-Anarchism",
+        "name": "Ekologický anarchismus",
         "stats": [
             90,
             65,
@@ -825,10 +825,10 @@
             80,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Eco-Authoritarianism",
+        "name": "Ekologický autoritarianismus",
         "stats": [
             50,
             70,
@@ -837,10 +837,10 @@
             85,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Eco-Capitalism",
+        "name": "Ekologický kapitalismus",
         "stats": [
             20,
             35,
@@ -849,10 +849,10 @@
             85,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Ego-Communism",
+        "name": "Ego-komunismus",
         "stats": [
             90,
             70,
@@ -861,10 +861,10 @@
             80,
             25
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Enlightened Absolutism",
+        "name": "Osvícenský absolutismus",
         "stats": [
             20,
             35,
@@ -873,10 +873,10 @@
             50,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Esoteric Fascism",
+        "name": "Esotericý fašismus",
         "stats": [
             35,
             70,
@@ -885,10 +885,10 @@
             0,
             90
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Euskadi Carlism",
+        "name": "Euskadi Karlismus",
         "stats": [
             70,
             55,
@@ -897,10 +897,10 @@
             50,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Fabian Socialism",
+        "name": "Fabiánský socialismus",
         "stats": [
             70,
             55,
@@ -909,10 +909,10 @@
             40,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Falangism",
+        "name": "Falangismus",
         "stats": [
             60,
             70,
@@ -921,10 +921,10 @@
             25,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Feudalism",
+        "name": "Feudalismus",
         "stats": [
             10,
             45,
@@ -933,10 +933,10 @@
             40,
             95
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Fiscal Conservatism",
+        "name": "Fiskální konzervatismus",
         "stats": [
             20,
             20,
@@ -945,10 +945,10 @@
             60,
             60
         ],
-        "desc": "Form of moderate conservatism with a focus on reducing public spending with freer markets and deregulation."
+        "desc": "Forma umírněného konzervatismu se záměrem na redukci veřejných výdajů, volnější trhy a deregulaci."
     },
     {
-        "name": "Fordism",
+        "name": "Fordismus",
         "stats": [
             10,
             55,
@@ -957,10 +957,10 @@
             95,
             0
         ],
-        "desc": "Imaginary ideology operating as a totalitarian, globalist, futuristic capitalist hierachy, applying industrial concepts to human beings."
+        "desc": "Smyšlená ideologie zahrnující totalitní, globalistickou, a futuristickou kapitalistickou hierarchii, vztahující koncepty průmyslu na lidské bytosti."
     },
     {
-        "name": "Fourth Theory",
+        "name": "Čtvrtá teorie",
         "stats": [
             80,
             75,
@@ -969,10 +969,10 @@
             15,
             65
         ],
-        "desc": "Ideology of Aleksandr Dugin, based around the idea that unifying communist and fascist beliefs into one is the key to fight modern liberalism."
+        "desc": "Ideologie Alexandra Dugina, založená na tvrzení, že klíčem k boji proti modernímu liberalismu je spojení prvků fašismu a komunismu."
     },
     {
-        "name": "Francoism",
+        "name": "Francoismus",
         "stats": [
             45,
             35,
@@ -981,10 +981,10 @@
             25,
             75
         ],
-        "desc": "Ideology of Francisco Franco, wanting to unify the nation with a strong state, a comeback to traditional values, and moderately syndicalist economics."
+        "desc": "Ideologie Francisca Franca, snažící se o sjednocení národu se silným státem, návratem k tradičním hodnotám a mírně syndikalistickou ekonomikou."
     },
     {
-        "name": "Fully Automated Luxury Communism",
+        "name": "Plně automatický luxusní komunismus",
         "stats": [
             90,
             80,
@@ -993,10 +993,10 @@
             95,
             5
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Futurism",
+        "name": "Futurismus",
         "stats": [
             50,
             45,
@@ -1005,10 +1005,10 @@
             20,
             0
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Geo-Anarchism",
+        "name": "Geo-anarchismus",
         "stats": [
             50,
             5,
@@ -1017,10 +1017,10 @@
             65,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Geolibertarianism",
+        "name": "Geolibertarianismus",
         "stats": [
             50,
             5,
@@ -1029,10 +1029,10 @@
             65,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Georgism",
+        "name": "Georgismus",
         "stats": [
             50,
             30,
@@ -1041,10 +1041,10 @@
             65,
             40
         ],
-        "desc": "Ideology of Henry George, advocating libertarian economics with a focus on land ownership."
+        "desc": "Ideologie Henryho George, podporující libertární ekonomiku se záměrem na vlastnictví pozemků."
     },
     {
-        "name": "Geosyndicalism",
+        "name": "Geosyndicalismus",
         "stats": [
             65,
             40,
@@ -1053,10 +1053,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Geo-Transhumanism",
+        "name": "Geo-transhumanismus",
         "stats": [
             50,
             30,
@@ -1065,10 +1065,10 @@
             70,
             0
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Gorbachevism",
+        "name": "Gorbachevismus",
         "stats": [
             60,
             65,
@@ -1077,10 +1077,10 @@
             70,
             40
         ],
-        "desc": "Ideology of Mikhail Gorbachev, "
+        "desc": "Ideologie Mikhaila Gorbacheva. "
     },
     {
-        "name": "Green Politics",
+        "name": "Zelená politika",
         "stats": [
             55,
             65,
@@ -1089,10 +1089,10 @@
             80,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Guevarism",
+        "name": "Guevarismus",
         "stats": [
             90,
             80,
@@ -1101,10 +1101,10 @@
             65,
             45
         ],
-        "desc": "Ideology of Ernesto Guevara, wanting a communist vanguard to lead rural populations against capitalism, worldwide."
+        "desc": "Ideologie Ernesta Guevara, obhajující vedení veknovkého obyvatelstva proti komunismu celosvětově a pod vedením komunistických stran."
     },
     {
-        "name": "Guild Socialism",
+        "name": "Cechovní socialismus",
         "stats": [
             85,
             50,
@@ -1113,10 +1113,10 @@
             60,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Hamiltonianism",
+        "name": "Hamiltonianismus",
         "stats": [
             25,
             65,
@@ -1125,10 +1125,10 @@
             50,
             65
         ],
-        "desc": "Ideology of Alexander Hamilton, "
+        "desc": "Ideologie Alexander Hamiltona. "
     },
     {
-        "name": "Hayekism",
+        "name": "Hayekismus",
         "stats": [
             20,
             20,
@@ -1137,10 +1137,10 @@
             40,
             45
         ],
-        "desc": "Ideology of Friedrich Hayek, promoting a moderate form of laissez-faire, with a reduced-size state, increased civil freedoms, and patriotism."
+        "desc": "Ideologie Friedricha Hayek, podporující stát s redukovanou mocí a více občanskými právy, mírnou formu laissez-faire a vlastenectví."
     },
     {
-        "name": "Helvetic Model",
+        "name": "Helvetský model",
         "stats": [
             35,
             35,
@@ -1149,10 +1149,10 @@
             50,
             50
         ],
-        "desc": "Political model standing for a small government, low taxes, limited economic intervention, diplomatic isolation, and increased civil freedoms."
+        "desc": "Politický model obhajující malé pravomoci státu, nízké daně, limitovanou ekonomickou intervenci, diplomatickou izolaci a zvýšené množství občanských práv."
     },
     {
-        "name": "Hoppeanism",
+        "name": "Hoppeanismus",
         "stats": [
             10,
             5,
@@ -1161,10 +1161,10 @@
             25,
             75
         ],
-        "desc": "Ideology of Hans-Hermann Hoppe, a branch of anarcho-capitalism which has an emphasis on a physical removal of unwanted individuals from communities."
+        "desc": "Ideologie Hans-Hermanna Hoppe, odvětví anarchokapitalismu s záměrem na fyzické odstranění nežádoucích individuálů z komunit."
     },
     {
-        "name": "Hoxhaism",
+        "name": "Hoxhaismus",
         "stats": [
             75,
             80,
@@ -1173,10 +1173,10 @@
             45,
             25
         ],
-        "desc": "Ideology of Enver Hoxha, using a totalitarian state in order to bring communism, strong secularism and progress to the people."
+        "desc": "Ideologie Envera Hodžy, využívající totalitní stát za účelem podpory komunismu, sekularismu a pokroku lidem."
     },
     {
-        "name": "Illiberal Democracy",
+        "name": "Neliberální demokracie",
         "stats": [
             50,
             55,
@@ -1185,10 +1185,10 @@
             40,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Ilminism",
+        "name": "Ilminismus",
         "stats": [
             20,
             70,
@@ -1197,10 +1197,10 @@
             30,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Indigenous Anarchism",
+        "name": "Domorodní anarchismus",
         "stats": [
             85,
             55,
@@ -1209,10 +1209,10 @@
             85,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Individualist Anarchism",
+        "name": "Individualistický anarchismus",
         "stats": [
             70,
             15,
@@ -1221,10 +1221,10 @@
             75,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Jacobinism",
+        "name": "Jakobínismus",
         "stats": [
             85,
             80,
@@ -1233,10 +1233,10 @@
             80,
             25
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Jeffersonian Democracy",
+        "name": "Jeffersonská demokracie",
         "stats": [
             30,
             35,
@@ -1245,10 +1245,10 @@
             55,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Jihadism",
+        "name": "Džihádismus",
         "stats": [
             45,
             60,
@@ -1257,7 +1257,7 @@
             40,
             95
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
         "name": "Juche",
@@ -1269,10 +1269,10 @@
             50,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Kemalism",
+        "name": "Kemalismus",
         "stats": [
             55,
             65,
@@ -1281,10 +1281,10 @@
             65,
             30
         ],
-        "desc": "Ideology of Mustafa Kemal, which believes in a strong state to promote progress, social economics and an united republic."
+        "desc": "Ideologie Mustafy Kemala, věřící v silný stát podporující pokrok, sociální ekonomii a spojenou republiku."
     },
-    {
-        "name": "Keynesian Socialism",
+     {
+        "name": "Keynesiánský socialismus",
         "stats": [
             75,
             55,
@@ -1293,10 +1293,10 @@
             70,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Korwinism",
+        "name": "Korwinismus",
         "stats": [
             15,
             10,
@@ -1305,10 +1305,10 @@
             10,
             60
         ],
-        "desc": "Ideology of Janusz Korwin-Mikke, "
+        "desc": "Ideologie of Janusz Korwin-Mikkeho. "
     },
     {
-        "name": "Labourism",
+        "name": "Labourismus",
         "stats": [
             65,
             75,
@@ -1317,10 +1317,10 @@
             75,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Laissez-Faire Capitalism",
+        "name": "Laissez-faire kapitalismus",
         "stats": [
             20,
             0,
@@ -1329,10 +1329,10 @@
             50,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Laissez-Faire Socialism",
+        "name": "Laissez-Faire socialismus",
         "stats": [
             80,
             0,
@@ -1341,10 +1341,10 @@
             50,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Laissez-Faire",
+        "name": "Obecná nauka Laissez-Faire",
         "stats": [
             40,
             0,
@@ -1353,10 +1353,10 @@
             50,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Lange Model",
+        "name": "Langeův model",
         "stats": [
             85,
             50,
@@ -1365,10 +1365,10 @@
             55,
             30
         ],
-        "desc": "Ideology of Oskar Lange, "
+        "desc": "Ideologie of Oskara Lange. "
     },
     {
-        "name": "Left Communism",
+        "name": "Levokomunismus",
         "stats": [
             90,
             85,
@@ -1377,10 +1377,10 @@
             80,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Left-Libertarianism",
+        "name": "Levicový libertárianismus",
         "stats": [
             70,
             55,
@@ -1389,10 +1389,10 @@
             80,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Left-Market Minarchism",
+        "name": "Levicový tržní minarchismus",
         "stats": [
             80,
             10,
@@ -1401,10 +1401,10 @@
             70,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Left-Wing Populism",
+        "name": "Levicový populismus",
         "stats": [
             50,
             65,
@@ -1413,10 +1413,10 @@
             60,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Left-Minarchism",
+        "name": "Levicový minarchismus",
         "stats": [
             80,
             55,
@@ -1425,10 +1425,10 @@
             70,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Left-Rothbardianism",
+        "name": "Levicový rothberdianismus",
         "stats": [
             40,
             5,
@@ -1437,10 +1437,10 @@
             65,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Leninism",
+        "name": "Leninismus",
         "stats": [
             80,
             75,
@@ -1449,10 +1449,10 @@
             65,
             30
         ],
-        "desc": "Ideology of Vladimir Ulyanov, "
+        "desc": "Ideologie Vladimiír Ulyanova. "
     },
     {
-        "name": "Liberal Conservatism",
+        "name": "Liberální konzervatismus",
         "stats": [
             20,
             30,
@@ -1461,10 +1461,10 @@
             65,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Liberal Corporatism",
+        "name": "Liberální korporatismus",
         "stats": [
             55,
             55,
@@ -1473,10 +1473,10 @@
             75,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Liberal Democracy",
+        "name": "Liberální demokracie",
         "stats": [
             40,
             40,
@@ -1485,10 +1485,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Liberal Socialism",
+        "name": "Liberální socialismus",
         "stats": [
             75,
             50,
@@ -1497,10 +1497,10 @@
             80,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Liberalism",
+        "name": "Liberalismus",
         "stats": [
             35,
             35,
@@ -1509,10 +1509,10 @@
             80,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Liberaltarianism",
+        "name": "Liberaltarianismus",
         "stats": [
             35,
             35,
@@ -1521,10 +1521,10 @@
             80,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Communism",
+        "name": "Libertární komunismus",
         "stats": [
             90,
             80,
@@ -1533,10 +1533,10 @@
             75,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Conservatism",
+        "name": "Libertární konzervatismus",
         "stats": [
             20,
             20,
@@ -1545,10 +1545,10 @@
             60,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Distributism",
+        "name": "Libertární konzervatismus",
         "stats": [
             30,
             20,
@@ -1557,10 +1557,10 @@
             55,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Market Socialism",
+        "name": "Libertární tržní socialismus",
         "stats": [
             85,
             20,
@@ -1569,10 +1569,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Marxism",
+        "name": "Libertární marxismus",
         "stats": [
             95,
             80,
@@ -1581,10 +1581,10 @@
             75,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Monarchism",
+        "name": "Libertární monarchismus",
         "stats": [
             15,
             15,
@@ -1593,10 +1593,10 @@
             55,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Socialism",
+        "name": "Libertární socialismus",
         "stats": [
             85,
             70,
@@ -1605,10 +1605,10 @@
             75,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarian Transhumanism",
+        "name": "Libertární transhumanismus",
         "stats": [
             25,
             20,
@@ -1617,10 +1617,10 @@
             65,
             0
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Libertarianism",
+        "name": "Libertárianismus",
         "stats": [
             35,
             20,
@@ -1629,7 +1629,7 @@
             65,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
         "name": "Mao-Spontex",
@@ -1641,10 +1641,10 @@
             70,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Maoism",
+        "name": "Maoismus",
         "stats": [
             75,
             75,
@@ -1653,10 +1653,10 @@
             65,
             35
         ],
-        "desc": "Ideology of Mao Zedong, "
+        "desc": "Ideologie Mao-Zedonga. "
     },
     {
-        "name": "Market Anarchism",
+        "name": "Tržní anarchismus",
         "stats": [
             60,
             0,
@@ -1665,10 +1665,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Market Socialism",
+        "name": "Tržní socialismus",
         "stats": [
             85,
             30,
@@ -1677,10 +1677,10 @@
             70,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Marxism-Leninism-Maoism",
+        "name": "Marxismus-leninismus-maoismus",
         "stats": [
             75,
             85,
@@ -1689,10 +1689,10 @@
             55,
             60
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Marxism-Leninism",
+        "name": "Marxismus-leninismus",
         "stats": [
             75,
             80,
@@ -1701,10 +1701,10 @@
             55,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Marxism",
+        "name": "Marxismus",
         "stats": [
             85,
             85,
@@ -1713,10 +1713,10 @@
             70,
             30
         ],
-        "desc": "Ideology of Karl Marx, "
+        "desc": "Ideologie Karla Marxe. "
     },
     {
-        "name": "Mercantilism",
+        "name": "Merkantilismus",
         "stats": [
             20,
             70,
@@ -1725,10 +1725,10 @@
             40,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Millism",
+        "name": "Millismus",
         "stats": [
             65,
             30,
@@ -1737,10 +1737,10 @@
             60,
             30
         ],
-        "desc": "Ideology of John Stuart Mill, "
+        "desc": "Ideologie John Stuart Milla. "
     },
     {
-        "name": "Minarchism",
+        "name": "Minarchismus",
         "stats": [
             30,
             10,
@@ -1749,10 +1749,10 @@
             65,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Minarcho-Socialism",
+        "name": "Minarcho-socialismus",
         "stats": [
             85,
             70,
@@ -1761,10 +1761,10 @@
             70,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Monarcho-Capitalism",
+        "name": "Monarcho-kapitalismus",
         "stats": [
             5,
             20,
@@ -1773,10 +1773,10 @@
             45,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Monarcho-Socialism",
+        "name": "Monarcho-socialismus",
         "stats": [
             70,
             80,
@@ -1785,10 +1785,10 @@
             55,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Muscular Liberalism",
+        "name": "Muskulární liberalismus",
         "stats": [
             20,
             45,
@@ -1797,10 +1797,10 @@
             85,
             45
         ],
-        "desc": "Ideology of David Cameron, "
+        "desc": "Ideologie Davida Camerona. "
     },
     {
-        "name": "Mutualism",
+        "name": "Mutualismus",
         "stats": [
             75,
             20,
@@ -1809,10 +1809,10 @@
             60,
             50
         ],
-        "desc": "Ideology of Pierre-Joseph Proudhon, "
+        "desc": "Ideologie Pierre-Joseph Proudhona. "
     },
     {
-        "name": "National-Anarchism",
+        "name": "Národní anarchismus",
         "stats": [
             80,
             40,
@@ -1821,10 +1821,10 @@
             10,
             60
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "National-Bolshevism",
+        "name": "Národní bolševismus",
         "stats": [
             75,
             85,
@@ -1833,10 +1833,10 @@
             5,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "National-Capitalism",
+        "name": "Národní kapitalismus",
         "stats": [
             15,
             20,
@@ -1845,10 +1845,10 @@
             5,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "National-Conservatism",
+        "name": "Národní konzervatismus",
         "stats": [
             35,
             50,
@@ -1857,10 +1857,10 @@
             10,
             85
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "National-Liberalism",
+        "name": "Národní liberalismus",
         "stats": [
             40,
             35,
@@ -1869,10 +1869,10 @@
             35,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "National-Socialism",
+        "name": "Národní socialismus",
         "stats": [
             35,
             65,
@@ -1881,10 +1881,10 @@
             0,
             45
         ],
-        "desc": "Ideology of Adolf Hitler, adpoting state corporatist economics, totalitarian control and racial nationalism."
+        "desc": "Ideologie Adolfa Hitlera, podporující státně korporatistickou ekonomiku, totalitní stát a rasový nacionalismus."
     },
     {
-        "name": "National-Syndicalism",
+        "name": "Národní syndikalismus",
         "stats": [
             75,
             55,
@@ -1893,10 +1893,10 @@
             25,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "National-Transhumanism",
+        "name": "Národní transhumanismus",
         "stats": [
             35,
             65,
@@ -1905,10 +1905,10 @@
             5,
             10
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neo-Libertarianism",
+        "name": "Neo-libertarianismus",
         "stats": [
             15,
             20,
@@ -1917,10 +1917,10 @@
             60,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neo-Marxism",
+        "name": "Neo-marxismus",
         "stats": [
             85,
             80,
@@ -1929,10 +1929,10 @@
             95,
             25
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neo-Trotskyism",
+        "name": "Neo-trotskyismus",
         "stats": [
             80,
             90,
@@ -1941,10 +1941,10 @@
             85,
             25
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neo-Zapatismo",
+        "name": "Neozapatismus",
         "stats": [
             95,
             75,
@@ -1953,10 +1953,10 @@
             85,
             65
         ],
-        "desc": "Ideology of Emiliano Zapata, "
+        "desc": "Ideologie Emiliano Zapatisty. "
     },
     {
-        "name": "Neocameralism",
+        "name": "Neokameralismus",
         "stats": [
             15,
             45,
@@ -1965,10 +1965,10 @@
             20,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neoconservatism",
+        "name": "Neokonzervatismus",
         "stats": [
             20,
             35,
@@ -1977,10 +1977,10 @@
             50,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neoliberalism",
+        "name": "Neoliberalismus",
         "stats": [
             30,
             30,
@@ -1989,10 +1989,10 @@
             80,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Neoreactionarism",
+        "name": "Neoreakcionářství",
         "stats": [
             20,
             60,
@@ -2001,10 +2001,10 @@
             15,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "New-Right Conservatism",
+        "name": "Konzervatismus nové pravice",
         "stats": [
             15,
             35,
@@ -2013,10 +2013,10 @@
             40,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Nordic Model",
+        "name": "Nordický model",
         "stats": [
             50,
             55,
@@ -2025,10 +2025,10 @@
             80,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Objectivism",
+        "name": "Objektivismus",
         "stats": [
             20,
             0,
@@ -2037,10 +2037,10 @@
             50,
             35
         ],
-        "desc": "Ideology of Alisa Rosenbaum, fanatically individualist, promoting social darwinist economics and capitalist laissez-faire."
+        "desc": "Ideologie Alisy Rosenbaum, zahrnující fanatický individualismus, podporující ekonomii sociálního darwinismu a laissez-faire kapitalismus."
     },
     {
-        "name": "Ochlocracy",
+        "name": "Ochlocracie",
         "stats": [
             75,
             65,
@@ -2049,10 +2049,10 @@
             45,
             60
         ],
-        "desc": "System under which the majority enforces its power brutally through anarchist means, aslo known as tyranny by majority."
+        "desc": "Systém, pod kterým si většina anarchisticky brutálně vynucuje moc, také známý pod pojmem \"tyranie většnou\"."
     },
     {
-        "name": "Odalism",
+        "name": "Odalismus",
         "stats": [
             55,
             55,
@@ -2061,10 +2061,10 @@
             20,
             100
         ],
-        "desc": "Ideology of Louis Cachet, wanting a return to primitivism, racial nationalism, anarchism, and third positionist economics."
+        "desc": "Ideologie Loise Cacheta, snažící se o návrat k primitivismu, rasový nacionalismus, anarchismus, a ekonomiku tzv. třetí pozice."
     },
     {
-        "name": "Ordoliberalism",
+        "name": "Ordoliberalismus",
         "stats": [
             30,
             40,
@@ -2073,10 +2073,10 @@
             70,
             40
         ],
-        "desc": "Economic model advocating for a moderately regulated capitalist market to ensure fair competition in a liberal society."
+        "desc": "Economický model obhajující mírně regulovaný kapitalistický trh, za účelem férové kompetice v liberální společnosti."
     },
     {
-        "name": "Orwellism",
+        "name": "Orwellismus",
         "stats": [
             70,
             80,
@@ -2085,10 +2085,10 @@
             55,
             60
         ],
-        "desc": "Ideology of Eric Blair, form of libertarian democratic socialism which opposes totalitarianism, and is slightly conservative."
+        "desc": "Ideologie Erika Blaira, vyznačující se libertárním domkoratickým socialismem, který odporuje totalitarianismu a je mírně konzervativní."
     },
     {
-        "name": "Paleoconservatism",
+        "name": "Paleokonservatismus",
         "stats": [
             30,
             50,
@@ -2097,10 +2097,10 @@
             30,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Paleoliberalism",
+        "name": "Paleoliberalismus",
         "stats": [
             50,
             50,
@@ -2109,10 +2109,10 @@
             65,
             35
         ],
-        "desc": "Liberal ideology with a focus on populism, labor rights, progressivism, diversity and civil freedom."
+        "desc": "Liberální ideologie se zaměřením na populismus, dělnická práva, progresivismus, diverzitu a občanskou svobodu."
     },
     {
-        "name": "Paleolibertarianism",
+        "name": "Paleolibertarianismus",
         "stats": [
             15,
             10,
@@ -2121,10 +2121,10 @@
             30,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Paternalistic Conservatism",
+        "name": "Paternalistický konzervatismus",
         "stats": [
             25,
             70,
@@ -2133,10 +2133,10 @@
             45,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Peronism",
+        "name": "Peronismus",
         "stats": [
             55,
             75,
@@ -2145,10 +2145,10 @@
             55,
             50
         ],
-        "desc": "Ideology of Juan Perón, "
+        "desc": "Ideologie Juan Peróna. "
     },
     {
-        "name": "Pink Capitalism",
+        "name": "Růžový kapitalismus",
         "stats": [
             20,
             10,
@@ -2157,10 +2157,10 @@
             95,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Pinkertonism",
+        "name": "Pinkertonismus",
         "stats": [
             5,
             20,
@@ -2169,10 +2169,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Pinochetism",
+        "name": "Pinochetismus",
         "stats": [
             20,
             30,
@@ -2181,10 +2181,10 @@
             40,
             60
         ],
-        "desc": "Ideology of Augusto Pinochet, moderately conservative, against all forms of economic leftism, autocratic, and slightly nationalist."
+        "desc": "Ideologie Augusta Pinocheta, která je mírně konzervativní, stavící se proti všem formám ekonomické levice, autokratická a mírně nacionalistická."
     },
     {
-        "name": "Pirate Politics",
+        "name": "Pirátská politika",
         "stats": [
             50,
             40,
@@ -2193,10 +2193,10 @@
             65,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Pol Potism",
+        "name": "Polpotismus",
         "stats": [
             80,
             90,
@@ -2205,10 +2205,10 @@
             30,
             80
         ],
-        "desc": "Ideology of Saloth Sar, "
+        "desc": "Ideologie Saloth Sara. "
     },
     {
-        "name": "Populism",
+        "name": "Populismus",
         "stats": [
             45,
             50,
@@ -2217,10 +2217,10 @@
             45,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Post-Civilisation Anarchism",
+        "name": "Postcivilizační anarchismus",
         "stats": [
             80,
             50,
@@ -2229,10 +2229,10 @@
             80,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Post-Left Anarchism",
+        "name": "Post-levicový anarchismus",
         "stats": [
             80,
             40,
@@ -2241,10 +2241,10 @@
             85,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Progressive Conservatism",
+        "name": "Progresivní konzervatismus",
         "stats": [
             25,
             55,
@@ -2253,10 +2253,10 @@
             65,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Proutism",
+        "name": "Proutismus",
         "stats": [
             75,
             35,
@@ -2265,10 +2265,10 @@
             75,
             75
         ],
-        "desc": "Ideology of Prabhat Ranjan Sarkar, also known as Progressive Utilization Theory, aims for local zones to be governed in self-sufficient ways, with a market socialist economy, and inclusive traditionalism."
+        "desc": "Ideologie Prabhat Ranjan Sarkara, také známá jako Teorie progresivního využití. Snaží se o lokální zóny a jeich správu soběstačnými způsoby s tržně socialistickou ekonomií a inkluzivním tradicionalismem."
     },
     {
-        "name": "Queer Anarchism",
+        "name": "LGBT anarchismus",
         "stats": [
             70,
             60,
@@ -2277,10 +2277,10 @@
             95,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Radical Conservatism",
+        "name": "Radikální konzervatismus",
         "stats": [
             30,
             40,
@@ -2289,10 +2289,10 @@
             25,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Radical Liberalism",
+        "name": "Radikální liberalismus",
         "stats": [
             40,
             50,
@@ -2301,10 +2301,10 @@
             80,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Reactionarism",
+        "name": "Reakcionářství",
         "stats": [
             20,
             50,
@@ -2313,10 +2313,10 @@
             25,
             90
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Reactionary Liberalism",
+        "name": "Reakcionářský liberalismus",
         "stats": [
             25,
             35,
@@ -2325,10 +2325,10 @@
             25,
             85
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Reactionary Libertarianism",
+        "name": "Reakcionářský libertarianismus",
         "stats": [
             10,
             20,
@@ -2337,10 +2337,10 @@
             30,
             90
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Reactionary Socialism",
+        "name": "Reakcionářský socialismus",
         "stats": [
             75,
             65,
@@ -2349,10 +2349,10 @@
             40,
             90
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Regulationism",
+        "name": "Regulacionismus",
         "stats": [
             40,
             80,
@@ -2361,10 +2361,10 @@
             55,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Religious Anarchism",
+        "name": "Náboženský anarchismus",
         "stats": [
             80,
             65,
@@ -2373,10 +2373,10 @@
             65,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Religious Socialism",
+        "name": "Náboženský socialismus",
         "stats": [
             75,
             75,
@@ -2385,10 +2385,10 @@
             65,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Ricardian Socialism",
+        "name": "Ricardovský socialismus",
         "stats": [
             80,
             25,
@@ -2397,10 +2397,10 @@
             65,
             55
         ],
-        "desc": "Ideology of David Ricardo, "
+        "desc": "Ideologie Davida Ricarda. "
     },
     {
-        "name": "Right-Libertarianism",
+        "name": "Pravicový libertarianismus",
         "stats": [
             20,
             20,
@@ -2409,10 +2409,10 @@
             60,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Right-Minarchism",
+        "name": "Pravicový minarchismus",
         "stats": [
             20,
             10,
@@ -2421,10 +2421,10 @@
             50,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Right-Wing Populism",
+        "name": "Pravicový populismus",
         "stats": [
             35,
             55,
@@ -2433,10 +2433,10 @@
             30,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Scientocracy",
+        "name": "Scientokracie",
         "stats": [
             45,
             55,
@@ -2445,10 +2445,10 @@
             60,
             25
         ],
-        "desc": "Government system under which a commitee of scientists rule over social policy, and make sure all decisions are fact-checked."
+        "desc": "Systém vlády, ve kterém vládne komise vědců a zajišťuje, aby rozhodnutí byla správná vzhledem k faktům."
     },
     {
-        "name": "Small-Government Conservatism",
+        "name": "Konzervatismus malé vlády",
         "stats": [
             20,
             15,
@@ -2457,10 +2457,10 @@
             40,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Anarchism",
+        "name": "Sociální anarchismus",
         "stats": [
             70,
             35,
@@ -2469,10 +2469,10 @@
             75,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Authoritarianism",
+        "name": "Sociální autoritarianismus",
         "stats": [
             50,
             70,
@@ -2481,10 +2481,10 @@
             65,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Capitalism",
+        "name": "Sociální kapitalismus",
         "stats": [
             35,
             40,
@@ -2493,10 +2493,10 @@
             60,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Corporatism",
+        "name": "Sociální korporatismus",
         "stats": [
             55,
             65,
@@ -2505,10 +2505,10 @@
             70,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Darwinism",
+        "name": "Sociální darwinismus",
         "stats": [
             20,
             10,
@@ -2517,10 +2517,10 @@
             35,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Democracy",
+        "name": "Sociální demokracie",
         "stats": [
             50,
             65,
@@ -2529,10 +2529,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Distributism",
+        "name": "Sociální distributismus",
         "stats": [
             60,
             50,
@@ -2541,10 +2541,10 @@
             65,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Georgism",
+        "name": "Sociální georgismus",
         "stats": [
             60,
             45,
@@ -2553,10 +2553,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Liberalism",
+        "name": "Sociální liberalismus",
         "stats": [
             40,
             50,
@@ -2565,10 +2565,10 @@
             80,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Libertarianism",
+        "name": "Sociální libertarianismus",
         "stats": [
             40,
             50,
@@ -2577,10 +2577,10 @@
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Social Nationalism",
+        "name": "Sociální nacionalismus",
         "stats": [
             50,
             70,
@@ -2589,10 +2589,10 @@
             35,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Sorelianism",
+        "name": "Sorelianismus",
         "stats": [
             70,
             40,
@@ -2601,10 +2601,10 @@
             20,
             75
         ],
-        "desc": "Ideology of Georges Sorel, "
+        "desc": "Ideologie Georgese Sorela. "
     },
     {
-        "name": "State Capitalism",
+        "name": "Státní kapitalismus",
         "stats": [
             15,
             85,
@@ -2613,10 +2613,10 @@
             55,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "State Corporatism",
+        "name": "Státní korporatismus",
         "stats": [
             35,
             75,
@@ -2625,10 +2625,10 @@
             50,
             45
         ],
-        "desc": "Economic system under which the state plans the economy according to its own goals, and separates the economy into sectors, unified by production types to ensure efficiency."
+        "desc": "Ekonomický systém, pod kterým stát plánuje ekonomiku podle svých cílů a rozděluje ekonomiku do sektorů sjednocených typem produkce, aby zajistil efektivitu."
     },
     {
-        "name": "State Development Capitalism",
+        "name": "Státní rozvojový kapitalismus",
         "stats": [
             15,
             55,
@@ -2637,10 +2637,10 @@
             40,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "State Liberalism",
+        "name": "Státní liberalismus",
         "stats": [
             20,
             35,
@@ -2649,10 +2649,10 @@
             100,
             25
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Strasserism",
+        "name": "Strasserismus",
         "stats": [
             55,
             80,
@@ -2661,10 +2661,10 @@
             10,
             45
         ],
-        "desc": "Ideology of Otto Strasser, combining leftist economics with right-wing nationalism and authoritarian governance."
+        "desc": "Ideologie Otta Strassera, kombinující levicovou ekonomiku s pravicovým nacionalismem a autoritní vládou."
     },
     {
-        "name": "Syncretic Liberalism",
+        "name": "Synkretický liberalismus",
         "stats": [
             40,
             50,
@@ -2673,10 +2673,10 @@
             65,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Techno-Nationalism",
+        "name": "Techno-nacionalismus",
         "stats": [
             40,
             60,
@@ -2685,10 +2685,10 @@
             35,
             25
         ],
-        "desc": "Thought which seeks to strengthen the nation with the use of technology, and sees patriotic pride in research."
+        "desc": "Myšlenkový směr snažící se posilnit národ použitím technolgie a vidící vlasteneckou hrdost ve výzkumu."
     },
     {
-        "name": "Techno-Populism",
+        "name": "Techno-populismus",
         "stats": [
             60,
             60,
@@ -2697,10 +2697,10 @@
             55,
             15
         ],
-        "desc": "Movement promoting decentral access to technology, electronic voting, and a connection between experts and the people."
+        "desc": "Hnutí podporující decentralizovaný přístup k technologii, elektronické hlasování, a lepší vztahy mezi experty a lidmi."
     },
     {
-        "name": "Technocracy",
+        "name": "Technokracie",
         "stats": [
             45,
             80,
@@ -2709,10 +2709,10 @@
             60,
             10
         ],
-        "desc": "Ideology promoting an oligarchic rule of experts to dictate policy and the economy in rational and efficient ways."
+        "desc": "Ideologie podporující oligarchickou vládu expertů s pravomocí racionálně směrovat zákony a ekonomii k efektivitě."
     },
     {
-        "name": "Technoliberalism",
+        "name": "Technoliberalismus",
         "stats": [
             35,
             45,
@@ -2721,10 +2721,10 @@
             80,
             10
         ],
-        "desc": "Philosophy valuing freedom, individualism, free access to technology, widespread education, and economic liberty."
+        "desc": "Politická filozofie vážící si civilní i ekonomické svobody, individualismu, volného přístupu k technologii, a rozšíření školství."
     },
     {
-        "name": "Technolibertarianism",
+        "name": "Technolibertarianismus",
         "stats": [
             35,
             10,
@@ -2733,10 +2733,10 @@
             60,
             10
         ],
-        "desc": "Movement in favor of minimal market regulation, removing internet censorship, civil freedoms, and market-driven technological innovation."
+        "desc": "Hnutí podporující minimální regulaci trhu, zrušení cenzury internetu, občanská práva a technologickou inovaci založenou na tržních principech."
     },
     {
-        "name": "Thatcherism",
+        "name": "Thatcherismus",
         "stats": [
             30,
             30,
@@ -2745,10 +2745,10 @@
             40,
             60
         ],
-        "desc": "Ideology of Margaret Thatcher, opposing public services and social welfare in favor of privatisation, centralization, and conservatism."
+        "desc": "Ideologie Margaret Thatcher odporující veřejným službám a sociálním dávkám ve prospěch privatizace, centralizace a konzervatismu."
     },
     {
-        "name": "Theocracy",
+        "name": "Teokracie",
         "stats": [
             40,
             60,
@@ -2757,10 +2757,10 @@
             50,
             80
         ],
-        "desc": "Form of government where rulers are selected for their faith, and aims to spread religious beliefs through authoritarian means."
+        "desc": "Forma vlády, ve které jsou vládci vybírání pro jejich víru, snažící se náboženské názory šířit skrz autoritativní prostředky."
     },
     {
-        "name": "Third Way",
+        "name": "Třetí cesta",
         "stats": [
             35,
             40,
@@ -2769,10 +2769,10 @@
             85,
             35
         ],
-        "desc": "Political position combining economic freedom with limited social services, under a liberal system."
+        "desc": "Politická pozice kombinující ekonomickou svobodu s omezenými sociálními službami, operující pod liberálním systémem."
     },
     {
-        "name": "Timocracy",
+        "name": "Timocracie",
         "stats": [
             0,
             35,
@@ -2781,10 +2781,10 @@
             50,
             55
         ],
-        "desc": "Form of government in which those with the most wealth or property rule to increase their economic power."
+        "desc": "Forma vlády, ve které ti s největším majetkem vládnou, aby si zvýšili jejich ekonomickou moc."
     },
     {
-        "name": "Titoism",
+        "name": "Titoismus",
         "stats": [
             80,
             60,
@@ -2793,10 +2793,10 @@
             70,
             40
         ],
-        "desc": "Ideology of Josip Broz Tito, wanting an authoritarian market socialist economy, cross-ethnic unity, and federalism."
+        "desc": "Ideologie Josib Broz Tita, obhajující autoritativní ekonomii tržního socialismu, mezi-etnické spojení a federalismus."
     },
     {
-        "name": "Totalitarianism",
+        "name": "Totalitarianismus",
         "stats": [
             35,
             80,
@@ -2805,10 +2805,10 @@
             45,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Popis této ideologie ještě nebyl přidán."
     },
     {
-        "name": "Transhumanism",
+        "name": "Transhumanismus",
         "stats": [
             45,
             50,
@@ -2817,10 +2817,10 @@
             55,
             0
         ],
-        "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement."
+        "desc": "Hnutí snažící se překonat biologii minulosti skrz hojné využití technologického a vědeckého pokroku."
     },
     {
-        "name": "Transhumanist Socialism",
+        "name": "Transhumanistický socialismus",
         "stats": [
             80,
             70,
@@ -2829,10 +2829,10 @@
             70,
             0
         ],
-        "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using socialist economics."
+        "desc": "Hnutí snažící se překonat biologii minulosti skrz hojné využití technologického a vědeckého pokroku s využitím socialistické ekonomie."
     },
     {
-        "name": "Tridemism",
+        "name": "Tridemismus",
         "stats": [
             70,
             45,
@@ -2841,10 +2841,10 @@
             65,
             30
         ],
-        "desc": "Ideology of Sun Yat-sen, wanting a society founded on the principles of central democracy, moderate socialism and civic nationalism."
+        "desc": "Ideologie Sun Yat-sena, snažící se o společnost založenou na principech centralizované demokracie, mírného socialismu a civilního nacionalismu."
     },
     {
-        "name": "Trotskyism",
+        "name": "Trotskyismus",
         "stats": [
             80,
             90,
@@ -2853,10 +2853,10 @@
             65,
             25
         ],
-        "desc": "Ideology of Lev Bronstein, wanting a global communist revolution, spread by a moderately authoritarian state."
+        "desc": "Ideologie Lva Bronsteina, obhajující globální komunistickou revoluci šířenou mírně autoritativním státem."
     },
     {
-        "name": "Welfare Chauvinism",
+        "name": "Sociální chauvinismus",
         "stats": [
             50,
             70,
@@ -2865,10 +2865,10 @@
             30,
             55
         ],
-        "desc": "Ideology combining a strong welfare state with ultranationalism, reserving social benefits to native populations in the nation."
+        "desc": "Ideologie kombinující silný sociální stát s ultranacionalismem, omezující sociální výhody pouze populacím narozeným v onom národu."
     },
     {
-        "name": "Yellow Socialism",
+        "name": "Žlutý socialismus",
         "stats": [
             65,
             80,
@@ -2877,6 +2877,6 @@
             30,
             45
         ],
-        "desc": "Ideology of Pierre Biétry, believing the best way to achieve socialism is by constant negotiation between unions and owners, operating under a strong reactionary government."
+        "desc": "Ideologie Pierre Biétriho, věřící v to, že nejlepším způsobem dosažení socialismu je konstantním smlouváním mezi odbory a vlastníky, operující pod autoritativní reakcionářskou vládou."
     }
 ]
