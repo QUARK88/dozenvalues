@@ -1,13 +1,11 @@
 const pug = require("pug")
 const fs = require("fs")
-const terser = require("terser");
-
+const terser = require("terser")
+const blacklist = require("./blacklist.json");
 
 (() => {
     const src_dir_name = "./src/json/"
     const dist_dir_name = "./dist/json/"
-    //Blacklist
-    const blacklist = ["ui-de","ideologies-fr","ui-fr","questions-fr"]
 
     const src_dir = fs.readdirSync(src_dir_name)
     for (const file of src_dir) {

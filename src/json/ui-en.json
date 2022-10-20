@@ -151,7 +151,7 @@
             "title": "DozenValues",
             "start_button": "Click here to start!",
             "matches_button": "Matches",
-            "lister_button" : "Lister",
+            "lister_button": "Lister",
             "questions_button": "Questions",
             "whatis": "What is DozenValues?",
             "whatare12v": "What are the 12 values?",
@@ -165,31 +165,19 @@
         },
         "creditslist": [
             {
-                "tag": "Quark#1916",
+                "tag": " Quark#1916",
                 "role": "Project leader, design & code:",
                 "score": [
-                    59.7,
-                    41,
-                    75.7,
-                    54.9,
-                    72.2,
-                    2.1
+                    52.1,
+                    20.1,
+                    76.4,
+                    66.0,
+                    85.4,
+                    2.8
                 ]
             },
             {
-                "tag": "Solar#5896",
-                "role": "Original idea & questions:",
-                "score": [
-                    72.9,
-                    8.3,
-                    13.9,
-                    91.7,
-                    67.4,
-                    16
-                ]
-            },
-            {
-                "tag": "Bery#4540",
+                "tag": " Bery#4540",
                 "role": "Questions & matches help:",
                 "score": [
                     39.6,
@@ -201,19 +189,7 @@
                 ]
             },
             {
-                "tag": "Buni/Wilbur/Alan/Lepus#6282",
-                "role": "Questions & matches help:",
-                "score": [
-                    87.5,
-                    51.4,
-                    12.5,
-                    81.3,
-                    91,
-                    20.8
-                ]
-            },
-            {
-                "tag": "Tomscimyt#9258",
+                "tag": " Tomscimyt#9258",
                 "role": "Questions & matches help:",
                 "score": [
                     77.8,
@@ -270,7 +246,7 @@
         ]
     },
     "resultstext": {
-        "text" : {
+        "text": {
             "title": "DozenValues",
             "pagename": "Results",
             "back_button": "Back",
@@ -280,7 +256,6 @@
             "questions_button": "Questions",
             "lister_button": "Full List"
         },
-
         "axis_name": "Axis",
         "axis_name_before": false,
         "version_name": "Version",
@@ -306,8 +281,8 @@
         "matches_button": "Matches",
         "lister_button": "Lister"
     },
-    "font" : {
-        "text_font" : "BrandonText",
-        "title_font" : "Cocogoose"
+    "font": {
+        "text_font": "BrandonText",
+        "title_font": "Cocogoose"
     }
 }

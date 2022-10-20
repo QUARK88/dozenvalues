@@ -18,34 +18,34 @@ export function getLanguage(lang: string): Ui {
     return getLanguage("en")
 }
 
-export function b64enc(input: string) {
-    const codeUnits = Uint16Array.from(
+export function b64enc(input: string): string {
+    const codeUnits: Uint16Array = Uint16Array.from(
         { length: input.length },
         (_, index) => input.charCodeAt(index)
-    );
-    const charCodes = new Uint8Array(codeUnits.buffer)
+    )
+    const charCodes: Uint8Array = new Uint8Array(codeUnits.buffer)
 
-    let result = ""
+    let result: string = ""
     charCodes.forEach((char) => {
         result += String.fromCharCode(char)
-    });
+    })
     return btoa(result)
 }
 
-export function b64dec(input: string) {
-    const dec = atob(input)
-    const bytes = Uint8Array.from(
+export function b64dec(input: string): string {
+    const dec: string = atob(input)
+    const bytes: Uint8Array = Uint8Array.from(
         { length: dec.length },
         (_, index) => dec.charCodeAt(index)
-    );
-    const charCodes = new Uint16Array(bytes.buffer)
-  
-    let result = ""
+    )
+    const charCodes: Uint16Array = new Uint16Array(bytes.buffer)
+
+    let result: string = ""
     charCodes.forEach((char) => {
-      result += String.fromCharCode(char)
+        result += String.fromCharCode(char)
     })
     return result
-  }
+}
 
 
 export function matchAxisTier(score: number, labels: Array<string>): string {
@@ -142,12 +142,14 @@ export class Canvas {
         //Draw left bar
         this.ctx.fillStyle = colors[0]
         const w1 = 5.44 * score - 3
-        this.ctx.fillRect(128, h2, w1, 52)
+        if(score > 0)
+            this.ctx.fillRect(128, h2, w1, 52)
         //Draw right bar
         this.ctx.fillStyle = colors[1]
         const d1 = 403 - (5.44 * (50 - score))
         const w2 = 5.44 * (100 - score) - 3
-        this.ctx.fillRect(d1, h2, w2, 52)
+        if(score < 100)
+            this.ctx.fillRect(d1, h2, w2, 52)
         //Draw score percentages
         this.setFontsize(32)
         this.ctx.fillStyle = "#080808"
