@@ -1,5 +1,6 @@
 const pug = require("pug")
 const fs = require("fs")
+const blacklist = require("./blacklist.json");
 
 const dirName = "./src/views/"
 const viewsDir = fs.readdirSync(dirName)
@@ -14,7 +15,6 @@ const params = {
     const src_dir_name = "./src/json/"
     const dist_dir_name = "./dist/json/"
     //Blacklist
-    const blacklist = ["ui-de"]
 
     const src_dir = fs.readdirSync(src_dir_name)
     for (const file of src_dir) {

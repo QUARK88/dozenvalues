@@ -165,31 +165,19 @@
         },
         "creditslist": [
             {
-                "tag": "Quark#1916",
+                "tag": " Quark#1916",
                 "role": "Vedoucí projektu, design a kódování:",
                 "score": [
-                    59.7,
-                    41,
-                    75.7,
-                    54.9,
-                    72.2,
-                    2.1
+                    52.1,
+                    20.1,
+                    76.4,
+                    66.0,
+                    85.4,
+                    2.8
                 ]
             },
             {
-                "tag": "Solar#5896",
-                "role": "Původní nápad a otázky:",
-                "score": [
-                    72.9,
-                    8.3,
-                    13.9,
-                    91.7,
-                    67.4,
-                    16
-                ]
-            },
-            {
-                "tag": "Bery#4540",
+                "tag": " Bery#4540",
                 "role": "Pomoc s otázkami a shodami:",
                 "score": [
                     39.6,
@@ -201,19 +189,7 @@
                 ]
             },
             {
-                "tag": "Buni/Wilbur/Alan/Lepus#6282",
-                "role": "Pomoc s otázkami a shodami:",
-                "score": [
-                    87.5,
-                    51.4,
-                    12.5,
-                    81.3,
-                    91,
-                    20.8
-                ]
-            },
-            {
-                "tag": "Tomscimyt#9258",
+                "tag": " Tomscimyt#9258",
                 "role": "Pomoc s otázkami a shodami:",
                 "score": [
                     77.8,

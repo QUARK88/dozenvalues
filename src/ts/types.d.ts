@@ -19,18 +19,18 @@ export type Axis = {
 
 export type Credit = {
     tag: string;
-    role: string
+    role: string;
     score: Array<number>;
 }
 
 export type Textelm = {
-    [key: string]: string
+    [key: string]: string;
 }
 
 export type Indextext = {
-    rawtext: Textelm
-    htmltext: Textelm
-    creditslist: Array<Credit>
+    rawtext: Textelm;
+    htmltext: Textelm;
+    creditslist: Array<Credit>;
 }
 
 export type Question = {
@@ -74,7 +74,7 @@ export type Ui = {
     questionstext: Textelm;
     font: {
         text_font : string;
-        title_font : string
+        title_font : string;
     }
 }
 
