@@ -165,8 +165,8 @@
         },
         "creditslist": [
             {
-                "tag": " Quark#1916",
-                "role": "Vedoucí projektu, design a kódování:",
+                "tag": "Quark#1916",
+                "role": "Vedoucí projektu, design a kódování: ",
                 "score": [
                     52.1,
                     20.1,
@@ -177,8 +177,8 @@
                 ]
             },
             {
-                "tag": " Bery#4540",
-                "role": "Pomoc s otázkami a shodami:",
+                "tag": "Bery#4540",
+                "role": "Pomoc s otázkami a shodami: ",
                 "score": [
                     39.6,
                     29.9,
