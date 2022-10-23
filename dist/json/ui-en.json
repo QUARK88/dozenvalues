@@ -165,8 +165,8 @@
         },
         "creditslist": [
             {
-                "tag": " Quark#1916",
-                "role": "Project leader, design & code:",
+                "tag": "Quark#1916",
+                "role": "Project leader, design & code: ",
                 "score": [
                     52.1,
                     20.1,
@@ -177,8 +177,8 @@
                 ]
             },
             {
-                "tag": " Bery#4540",
-                "role": "Questions & matches help:",
+                "tag": "Bery#4540",
+                "role": "Questions & matches help: ",
                 "score": [
                     39.6,
                     29.9,
