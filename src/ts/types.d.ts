@@ -20,6 +20,7 @@ export type Axis = {
 export type Credit = {
     tag: string;
     role: string;
+    img: string;
     score: Array<number>;
 }
 

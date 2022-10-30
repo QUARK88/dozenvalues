@@ -216,6 +216,50 @@ div {
     width: 70%;
 }
 
+#credits-list {
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 20px auto;
+    .entry {
+        display: block;
+        background-color: var(--bg-c1);
+        border-radius: 20px;
+        margin-bottom: 20px;
+        height: 192px;
+        cursor: pointer;
+        img {
+            display: inline-block;
+            text-align: left;
+            max-width: 128px;
+            border-radius: 64px;
+            margin: 32px;
+
+        }
+        .credit-wrapper {
+            margin: 5px auto;
+            display: inline-block;
+            position: relative;
+            width: 350px;
+            top: -35%;
+            .tag {
+                font-weight: bold;
+                font-size: larger;
+            }
+            div {
+                display: block;
+            }
+        }
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background: var(--bg-c2);
+            transform: scale(1.025);
+            box-shadow: 0 8px 16px 0 #00000080, 0 16px 32px 0 #00000080;
+        }
+    }
+}
+
 .value {
     font-family: $titlefont;
     font-size: 32px;

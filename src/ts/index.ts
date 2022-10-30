@@ -150,13 +150,35 @@ function loadUI(ui: Ui, lang: string): void {
 
     //Renders credits
     for (const credit of ui.indextext.creditslist) {
-        const creditSpan = document.createElement("div")
-        creditSpan.textContent = credit.role
-        const link = document.createElement("a")
-        link.textContent = credit.tag
-        link.href = "./results.html?lang=" + lang + "&score=" +
-            credit.score.map(x => x.toFixed(1)).join(",") + "&send=no"
-        creditSpan.appendChild(link)
+        const 
+            creditSpan = document.createElement("div"),
+            linkWrapper = document.createElement("div"),
+            creditName = document.createElement("div"),
+            creditRoles = document.createElement("div"),
+            creditImg = new Image()
+
+        creditSpan.className = "entry"
+        creditRoles.textContent = credit.role
+        creditName.className = "tag"
+        creditImg.src = credit.img
+        creditName.textContent = credit.tag
+        linkWrapper.className = "credit-wrapper"
+
+        creditSpan.addEventListener("click", () => 
+            location.href = "./results.html?lang=" + lang + "&score=" +
+            credit.score.map(x => x.toFixed(1)).join(",") + "&send=no");
+        
+        ((...divs) => 
+            divs.forEach(div =>
+                linkWrapper.appendChild(div)
+            )
+        )(creditName,creditRoles);
+        ((...divs) => 
+            divs.forEach(div =>
+                creditSpan.appendChild(div)
+            )
+        )(creditImg,linkWrapper)
+
         creditsList.appendChild(creditSpan)
     }
 }
