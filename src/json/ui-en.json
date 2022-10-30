@@ -166,7 +166,8 @@
         "creditslist": [
             {
                 "tag": " Quark#1916",
-                "role": "Project leader, design & code:",
+                "role": "Project leader, design & code",
+                "img": "./assets/usericons/Quark.png",
                 "score": [
                     52.1,
                     20.1,
@@ -178,7 +179,8 @@
             },
             {
                 "tag": " Bery#4540",
-                "role": "Questions & matches help:",
+                "role": "Questions & matches help",
+                "img": "./assets/usericons/Bery.png",
                 "score": [
                     39.6,
                     29.9,
@@ -186,18 +188,6 @@
                     93.8,
                     72.9,
                     25
-                ]
-            },
-            {
-                "tag": " Tomscimyt#9258",
-                "role": "Questions & matches help:",
-                "score": [
-                    77.8,
-                    60.4,
-                    39.6,
-                    59.7,
-                    80.6,
-                    50.7
                 ]
             }
         ]
