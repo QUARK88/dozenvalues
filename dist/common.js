@@ -138,7 +138,7 @@ export class Canvas {
     }
     static downloadImage(canvas) {
         const link = document.createElement("a");
-        link.download = "dv.png";
+        link.download = "DozenValues.png";
         link.href = canvas.toDataURL("image/png");
         link.click();
     }
