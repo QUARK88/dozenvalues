@@ -12,9 +12,15 @@ for (const elm of Object.keys(ui.instructiontext)) {
 
 document.title = ui.instructiontext.title
 
+//Quiz ordered button
 document.getElementById("quiz_button")!.addEventListener<"click">("click", () =>
-    window.location.href = "quiz.html?lang=" + lang)
+    window.location.href = "quiz.html?lang=" + lang
+)
+//Quiz random button
 document.getElementById("quiz_random_button")!.addEventListener<"click">("click", () =>
-    window.location.href = "quiz.html?lang=" + lang + "&rand=true")
+    window.location.href = "quiz.html?lang=" + lang + "&rand=true"
+)
+//Back button
 document.getElementById("back_button")!.addEventListener<"click">("click", () =>
-    window.location.href = "index.html?lang=" + lang)
+    window.location.href = "index.html?lang=" + lang
+)

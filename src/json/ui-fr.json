@@ -166,24 +166,12 @@
                 "tag": "Quark#1916",
                 "role": "Développeur et design:",
                 "score": [
-                    59.7,
-                    41,
-                    75.7,
-                    54.9,
-                    72.2,
-                    2.1
-                ]
-            },
-            {
-                "tag": "Solar#5896",
-                "role": "Idée originale et questions:",
-                "score": [
-                    72.9,
-                    8.3,
-                    13.9,
-                    91.7,
-                    67.4,
-                    16
+                    44.4,
+                    34.7,
+                    34.7,
+                    91.0,
+                    66.7,
+                    31.9
                 ]
             },
             {
@@ -196,30 +184,6 @@
                     93.8,
                     72.9,
                     25
-                ]
-            },
-            {
-                "tag": "Buni/Wilbur/Alan/Lepus#6282",
-                "role": "Correspondances et questions:",
-                "score": [
-                    87.5,
-                    51.4,
-                    12.5,
-                    81.3,
-                    91,
-                    20.8
-                ]
-            },
-            {
-                "tag": "Tomscimyt#9258",
-                "role": "Correspondances et questions:",
-                "score": [
-                    77.8,
-                    60.4,
-                    39.6,
-                    59.7,
-                    80.6,
-                    50.7
                 ]
             }
         ]

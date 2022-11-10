@@ -153,6 +153,7 @@
             "matches_button": "Možné shody",
             "lister_button": "Seznam ideologií",
             "questions_button": "Seznam otázek",
+            "custom_button": "Custom scores",
             "whatis": "Co je DozenValues?",
             "whatare12v": "Jaké jsou hodnoty DozenValues?",
             "whatare12v_text": "DozenValues má 6 na sobě nezávislých os - vlastnictví, trh, moc, autonomie, identita, a pokrok - a každá z těchto os má dvě protichůdné hodnoty:",
@@ -169,12 +170,12 @@
                 "role": "Vedoucí projektu, design a kódování",
                 "img": "./assets/usericons/Quark.png",
                 "score": [
-                    52.1,
-                    20.1,
-                    76.4,
-                    66.0,
-                    85.4,
-                    2.8
+                    44.4,
+                    34.7,
+                    34.7,
+                    91.0,
+                    66.7,
+                    31.9
                 ]
             },
             {
@@ -244,7 +245,8 @@
             "advanced_results": "Pokročilé výsledky",
             "matches_button": "Všechny shody",
             "questions_button": "Otázky",
-            "lister_button": "Celý seznam"
+            "lister_button": "Celý seznam",
+            "custom_button": "Custom scores"
         },
         "axis_name": "Osa",
         "axis_name_before": false,
@@ -257,19 +259,31 @@
         "back_button": "Zpět",
         "abs_label": "Absolutní rozřazení procent",
         "matches_button": "Shody",
-        "questions_button": "Otázky"
+        "questions_button": "Otázky",
+        "custom_button": "Custom scores"
     },
     "matchestext": {
         "title": "DozenValues",
         "back_button": "Zpět",
         "questions_button": "Otázky",
-        "lister_button": "Senam ideologií"
+        "lister_button": "Senam ideologií",
+        "custom_button": "Custom scores"
     },
     "questionstext": {
         "title": "DozenValues",
         "back_button": "Zpět",
         "matches_button": "Shody",
-        "lister_button": "Seznam ideologií"
+        "lister_button": "Seznam ideologií",
+        "custom_button": "Custom scores"
+    },
+    "customtext": {
+        "title": "DozenValues",
+        "about": "Click the icons to increase their opposite scores by 5 points, click the bars directly to select your score and click the name to change it to a custom entry",
+        "download_button": "Download",
+        "back_button": "Back",
+        "questions_button": "Questions",
+        "matches_button": "Matches",
+        "lister_button": "Lister"
     },
     "font": {
         "text_font": "BrandonText",

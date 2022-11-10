@@ -80,7 +80,7 @@ export function orderScores(
 }
 
 export class Canvas {
-    private canvas: HTMLCanvasElement
+    protected canvas: HTMLCanvasElement
     private ctx: CanvasRenderingContext2D
     private font: string
     private titleFont: string
@@ -180,5 +180,11 @@ export class Canvas {
                 this.ctx.drawImage(img, w, h, 96, 96)
             )
         })
+    }
+    static downloadImage(canvas: HTMLCanvasElement) {
+        const link = document.createElement("a")
+        link.download = "dv.png"
+        link.href = canvas.toDataURL("image/png")
+        link.click()
     }
 }

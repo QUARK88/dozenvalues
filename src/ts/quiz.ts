@@ -28,7 +28,7 @@ for (const [index, button] of ui.quiztext.buttons.entries()) {
     buttonHolder.appendChild(quizbutton)
 }
 //Maps back button to last question function
-document.getElementById("back_button")!.addEventListener<"click">("click", () => lastQuestion())
+document.getElementById("back_button")!.addEventListener<"click">("click", lastQuestion)
 //Creates empty arrays for answers and maximum values
 const answers: Array<number> = new Array(questions.length)
 const maxvalues: Array<number> = new Array(questions[0].effect.length).fill(0)

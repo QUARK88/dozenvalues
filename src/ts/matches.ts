@@ -12,7 +12,7 @@ const dark: boolean = window.matchMedia?.("(prefers-color-scheme: dark)").matche
 const [bg, fg] = dark ? ["#202020", "#fff"] : ["#e0e0e0", "#000"]
 const canvas = new Canvas(canvasElm, 800, 880, ui.font.text_font, ui.font.title_font, fg, bg)
 const dropDown = <HTMLSelectElement> document.getElementById("match-dropdown")!
-const matchText = <HTMLDivElement> document.getElementById("match-text")
+const matchText = <HTMLDivElement> document.getElementById("match-text")!
 
 matches.forEach( (match,ind) => {
     const opt = document.createElement("option")
@@ -31,16 +31,18 @@ for(const [key,value] of Object.entries(ui.matchestext)) {
 }
 
 //Button to lister.hmtl
-const fullList = document.getElementById("lister_button")!
-fullList.addEventListener<"click">("click", () => {
+document.getElementById("lister_button")!.addEventListener<"click">("click", () => {
     const index = parseInt(dropDown.value)
     window.location.href = "lister.html?lang=" + lang + 
     "&score=" + matches[index].stats.map(x => x.toFixed(1)).join(",")
 })
 //Button to questions.html
-const questionsButton = document.getElementById("questions_button")!
-questionsButton.addEventListener<"click">("click",() =>
-    window.location.href = `questions.html?lang=${lang}`
+document.getElementById("questions_button")!.addEventListener<"click">("click", () =>
+    window.location.href = "questions.html?lang=" + lang
+)
+//Button to custom.html
+document.getElementById("custom_button")!.addEventListener<"click">("click", () =>
+    window.location.href = "custom.html?lang=" + lang
 )
 
 
