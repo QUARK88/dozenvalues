@@ -73,6 +73,9 @@ function loadUI(ui: Ui, lang: string): void {
     document.getElementById("questions_button")!.addEventListener<"click">("click", () =>
         window.location.href = "questions.html?lang=" + lang
     )
+    document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
+        window.location.href = "custom.html?lang=" + lang
+    )
     //Creates icons boxes and explaination blocks
     for (const axis of ui.axes) {
         //creates base column node div

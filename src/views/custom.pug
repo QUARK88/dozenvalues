@@ -3,16 +3,16 @@ html
     include includes/tags
     body 
         h1(id="title")
-        select(id="match-dropdown")
-        canvas(id="match")
-        div(id="match-text")
+        p(id="about")
+        canvas(id="score")
+        button(id="download_button")
         div(class="small-button-holder")
+            button(id="matches_button" class="small-button")
             button(id="lister_button" class="small-button")
             button(id="back_button" onclick="window.history.back()")
             button(id="questions_button" class="small-button")
-            button(id="custom_button" class="small-button")
         script(type="application/javascript") window.VERSION = "#{version}"
         if inline_js
-            script(type="module") !{js["matches"]}
+            script(type="module") !{js["custom"]}
         else
-            script(type="module" src="./dist/matches.js")
+            script(type="module" src="./dist/custom.js")

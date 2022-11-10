@@ -73,6 +73,7 @@ export type Ui = {
     listertext: Textelm;
     matchestext: Textelm;
     questionstext: Textelm;
+    customtext: Textelm;
     font: {
         text_font : string;
         title_font : string;

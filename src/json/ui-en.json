@@ -153,6 +153,7 @@
             "matches_button": "Matches",
             "lister_button": "Lister",
             "questions_button": "Questions",
+            "custom_button": "Custom scores",
             "whatis": "What is DozenValues?",
             "whatare12v": "What are the 12 values?",
             "whatare12v_text": "There are 6 independent axes - Ownership, Market, Power, Autonomy, Identity and Progress - and each has two opposing values assigned to them:",
@@ -244,7 +245,8 @@
             "advanced_results": "Advanced Results",
             "matches_button": "All Matches",
             "questions_button": "Questions",
-            "lister_button": "Full List"
+            "lister_button": "Full List",
+            "custom_button": "Custom scores"
         },
         "axis_name": "Axis",
         "axis_name_before": false,
@@ -257,20 +259,33 @@
         "back_button": "Back",
         "abs_label": "Absolute",
         "matches_button": "Matches",
-        "questions_button": "Questions"
+        "questions_button": "Questions",
+        "custom_button": "Custom scores"
     },
     "matchestext": {
         "title": "DozenValues",
         "back_button": "Back",
         "questions_button": "Questions",
-        "lister_button": "Lister"
+        "lister_button": "Lister",
+        "custom_button": "Custom scores"
     },
     "questionstext": {
         "title": "DozenValues",
         "back_button": "Back",
         "matches_button": "Matches",
-        "lister_button": "Lister"
+        "lister_button": "Lister",
+        "custom_button": "Custom scores"
     },
+    "customtext": {
+        "title": "DozenValues",
+        "about": "Click the icons to increase their respective scores by 5 points, click the bars directly to select your score and click the name to change it to a custom entry",
+        "download_button": "Download",
+        "back_button": "Back",
+        "questions_button": "Questions",
+        "matches_button": "Matches",
+        "lister_button": "Lister"
+    }
+    ,
     "font": {
         "text_font": "BrandonText",
         "title_font": "Cocogoose"

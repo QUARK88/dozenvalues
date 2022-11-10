@@ -31,16 +31,18 @@ for(const [key,value] of Object.entries(ui.matchestext)) {
 }
 
 //Button to lister.hmtl
-const fullList = document.getElementById("lister_button")!
-fullList.addEventListener<"click">("click", () => {
+document.getElementById("lister_button")!.addEventListener<"click">("click", () => {
     const index = parseInt(dropDown.value)
     window.location.href = "lister.html?lang=" + lang + 
     "&score=" + matches[index].stats.map(x => x.toFixed(1)).join(",")
 })
 //Button to questions.html
-const questionsButton = document.getElementById("questions_button")!
-questionsButton.addEventListener<"click">("click",() =>
+document.getElementById("questions_button")!.addEventListener<"click">("click",() =>
     window.location.href = `questions.html?lang=${lang}`
+)
+//Button to custom.html
+document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
+    window.location.href = `custom.html?lang=${lang}`
 )
 
 

@@ -19,16 +19,18 @@ for(const [key,value] of Object.entries(ui.listertext)) {
 }
 
 //Button to questions.html
-const questionsButton = document.getElementById("questions_button")!
-questionsButton.addEventListener<"click">("click",() =>
+document.getElementById("questions_button")!.addEventListener<"click">("click",() =>
     window.location.href = `questions.html?lang=${lang}`
 )
 //Button to matches.html
-const matchesButton = document.getElementById("matches_button")!
-matchesButton.addEventListener<"click">("click", () => {
+document.getElementById("matches_button")!.addEventListener<"click">("click", () => {
     window.location.href = "matches.html?lang=" + lang +
     "&ideo=" + b64enc(matches[0].name)
 })
+//Button to custom.html
+document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
+    window.location.href = `custom.html?lang=${lang}`
+)
 
 const abscheck = <HTMLInputElement> document.getElementById("abs")
 abscheck.addEventListener("click", () => {

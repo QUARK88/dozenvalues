@@ -136,39 +136,32 @@ const desc = document.getElementById("desc")!
 desc.textContent = matches[0].desc
 
 //Button to index
-const backButton = document.getElementById("back_button")!
-backButton.addEventListener<"click">("click", () =>
+document.getElementById("back_button")!.addEventListener<"click">("click", () =>
     window.location.href = "index.html?lang=" + lang
 )
 //Button to lister.hmtl
-const fullList = document.getElementById("lister_button")!
-fullList.addEventListener<"click">("click", () =>
+document.getElementById("lister_button")!.addEventListener<"click">("click", () =>
     window.location.href = "lister.html?lang=" + lang + 
     "&score=" + scores.map(x => x.toFixed(1)).join(",")
 )
 //Button to questions.html
-const questionsButton = document.getElementById("questions_button")!
-questionsButton.addEventListener<"click">("click",() =>
+document.getElementById("questions_button")!.addEventListener<"click">("click",() =>
     window.location.href = `questions.html?lang=${lang}`
 )
 //Button to matches.html
-const matchesButton = document.getElementById("matches_button")!
-matchesButton.addEventListener<"click">("click", () => {
+document.getElementById("matches_button")!.addEventListener<"click">("click", () => {
     window.location.href = "matches.html?lang=" + lang +
     "&ideo=" + b64enc(matches[0].name)
 })
 
-//Enable download buttons
-for (let i = 1; i < 3; i++) {
-    const button = document.getElementById("download" + i.toFixed())!
-    button.addEventListener<"click">("click", () => {
-        const link = document.createElement("a")
-        link.download = "dv.png"
-        const canvas = <HTMLCanvasElement>document.getElementById("results" + i.toFixed())!
-        link.href = canvas.toDataURL("image/png")
-        link.click()
-    })
-}
+//Button to custom.html
+document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
+    window.location.href = `custom.html?lang=${lang}`
+)
+
+document.getElementById("download1")!.addEventListener("click", () => Canvas.downloadImage(canvasElm))
+document.getElementById("download2")!.addEventListener("click", () => Canvas.downloadImage(canvasElm2)) 
+
 
 const axisHolder = <HTMLDivElement>document.getElementById("axisholder")
 let axisLabels: Array<string> = Array()
