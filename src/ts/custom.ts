@@ -14,19 +14,17 @@ const [bg, fg] = dark ? ["#202020", "#fff"] : ["#e0e0e0", "#000"]
 for(const [key,value] of Object.entries(ui.customtext)) {
     document.getElementById(key)!.textContent = value
 }
-
-document.getElementById("download_button")!.addEventListener("click",() => Canvas.downloadImage(canvasElm))
-//Button to lister.hmtl
-document.getElementById("lister_button")!.addEventListener<"click">("click", () => {
-    window.location.href = `lister.html?lang=${lang}`
-})
+//Download canvas button
+document.getElementById("download_button")!.addEventListener<"click">("click", () => 
+    Canvas.downloadImage(canvasElm)
+)
 //Button to questions.html
 document.getElementById("questions_button")!.addEventListener<"click">("click",() =>
-    window.location.href = `questions.html?lang=${lang}`
+    window.location.href = "questions.html?lang=" + lang
 )
 //Button to matches.html
 document.getElementById("matches_button")!.addEventListener<"click">("click",() =>
-    window.location.href = `matches.html?lang=${lang}`
+    window.location.href = "matches.html?lang=" + lang
 )
 
 class TouchCanvas extends Canvas {
@@ -60,12 +58,12 @@ class TouchCanvas extends Canvas {
         }
         else if(y>192 && x<128 && ((y-192)%112) < 96) {
             const index = Math.floor((y-192) / 112)
-            if(this.state[index] <= 95)
-                this.state[index] += 5
-        } else if(y>192 && x>672 && ((y-192)%112) < 96) {
-            const index = Math.floor((y-192) / 112)
             if(this.state[index] >= 5)
                 this.state[index] -= 5
+        } else if(y>192 && x>672 && ((y-192)%112) < 96) {
+            const index = Math.floor((y-192) / 112)
+            if(this.state[index] <= 95)
+                this.state[index] += 5
         } else {
             return
         }
@@ -94,4 +92,9 @@ class TouchCanvas extends Canvas {
 
 window.onload = () => {
     const canvas = new TouchCanvas(canvasElm, 800, 880, ui.font.text_font, ui.font.title_font, fg, bg)
+    //Button to lister.html
+    document.getElementById("lister_button")!.addEventListener<"click">("click", () =>
+        window.location.href = "lister.html?lang=" + lang + 
+        "&score=" + canvas.state.map(x => x.toFixed()).join(",")
+    )
 }

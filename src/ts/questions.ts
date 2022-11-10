@@ -11,15 +11,15 @@ for(const [key,value] of Object.entries(ui.questionstext)) {
 }
 //Button to lister.hmtl
 document.getElementById("lister_button")!.addEventListener<"click">("click", () =>
-    window.location.href = `lister.html?lang=${lang}`
+    window.location.href = "lister.html?lang=" + lang
 )
 //Button to matches.html
 document.getElementById("matches_button")!.addEventListener<"click">("click", () => {
-    window.location.href = `matches.html?lang=${lang}`
+    window.location.href = "matches.html?lang=" + lang
 })
 //Button to custom.html
 document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
-    window.location.href = `custom.html?lang=${lang}`
+    window.location.href = "custom.html?lang=" + lang
 )
 
 const questions: Question[] = getJson("questions-" + lang)

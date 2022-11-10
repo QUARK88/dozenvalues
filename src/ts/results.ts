@@ -146,7 +146,7 @@ document.getElementById("lister_button")!.addEventListener<"click">("click", () 
 )
 //Button to questions.html
 document.getElementById("questions_button")!.addEventListener<"click">("click",() =>
-    window.location.href = `questions.html?lang=${lang}`
+    window.location.href = "questions.html?lang=" + lang
 )
 //Button to matches.html
 document.getElementById("matches_button")!.addEventListener<"click">("click", () => {
@@ -156,14 +156,17 @@ document.getElementById("matches_button")!.addEventListener<"click">("click", ()
 
 //Button to custom.html
 document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
-    window.location.href = `custom.html?lang=${lang}`
+    window.location.href = "custom.html?lang=" + lang
 )
+//Download buttons for canvas 1 and 2
+document.getElementById("download1")!.addEventListener<"click">("click", () => 
+    Canvas.downloadImage(canvasElm)
+)
+document.getElementById("download2")!.addEventListener<"click">("click", () => 
+    Canvas.downloadImage(canvasElm2)
+) 
 
-document.getElementById("download1")!.addEventListener("click", () => Canvas.downloadImage(canvasElm))
-document.getElementById("download2")!.addEventListener("click", () => Canvas.downloadImage(canvasElm2)) 
-
-
-const axisHolder = <HTMLDivElement>document.getElementById("axisholder")
+const axisHolder = <HTMLDivElement>document.getElementById("axisholder")!
 let axisLabels: Array<string> = Array()
 ui.axes.forEach((v, i) => {
     //Finds axis label and composes result string, pushes to array

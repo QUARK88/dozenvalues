@@ -278,7 +278,7 @@
     },
     "customtext": {
         "title": "DozenValues",
-        "about": "Click the icons to increase their respective scores by 5 points, click the bars directly to select your score and click the name to change it to a custom entry",
+        "about": "Click the icons to increase their opposite scores by 5 points, click the bars directly to select your score and click the name to change it to a custom entry",
         "download_button": "Download",
         "back_button": "Back",
         "questions_button": "Questions",
