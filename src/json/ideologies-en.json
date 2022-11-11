@@ -576,6 +576,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Confederatism",
+        "stats": [
+            10,
+            20,
+            25,
+            35,
+            20,
+            75
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Conservative Liberalism",
         "stats": [
             20,
@@ -845,6 +857,18 @@
             20,
             35,
             40,
+            55,
+            85,
+            65
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "Eco-Socialism",
+        "stats": [
+            80,
+            80,
+            35,
             55,
             85,
             65
@@ -1632,6 +1656,30 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Longism",
+        "stats": [
+            40,
+            75,
+            65,
+            35,
+            35,
+            75
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "Machajskism",
+        "stats": [
+            80,
+            70,
+            5,
+            40,
+            30,
+            85
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Mao-Spontex",
         "stats": [
             85,
@@ -1848,6 +1896,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "National-Communism",
+        "stats": [
+            75,
+            80,
+            75,
+            30,
+            35,
+            40
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "National-Conservatism",
         "stats": [
             35,
@@ -1868,6 +1928,18 @@
             75,
             35,
             45
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "National-Libertarianism",
+        "stats": [
+            20,
+            15,
+            35,
+            85,
+            35,
+            55
         ],
         "desc": "Description in progress"
     },
@@ -2256,6 +2328,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Propertarianism",
+        "stats": [
+            0,
+            15,
+            40,
+            65,
+            50,
+            50
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Proutism",
         "stats": [
             75,
@@ -2504,6 +2588,18 @@
             60,
             70,
             40
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "Social Credit",
+        "stats": [
+            35,
+            65,
+            40,
+            40,
+            40,
+            65
         ],
         "desc": "Description in progress"
     },
@@ -2856,6 +2952,18 @@
         "desc": "Ideology of Lev Bronstein, wanting a global communist revolution, spread by a moderately authoritarian state."
     },
     {
+        "name": "Vperedism",
+        "stats": [
+            85,
+            85,
+            80,
+            55,
+            85,
+            10
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Welfare Chauvinism",
         "stats": [
             50,
@@ -2866,6 +2974,18 @@
             55
         ],
         "desc": "Ideology combining a strong welfare state with ultranationalism, reserving social benefits to native populations in the nation."
+    },
+    {
+        "name": "Xenofeminism",
+        "stats": [
+            85,
+            65,
+            35,
+            85,
+            95,
+            5
+        ],
+        "desc": "Description in progress"
     },
     {
         "name": "Yellow Socialism",
