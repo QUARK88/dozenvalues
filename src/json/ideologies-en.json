@@ -168,6 +168,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Anarcho-Syndicalism",
+        "stats": [
+            80,
+            55,
+            5,
+            70,
+            65,
+            40
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Anarcho-Transhumanism",
         "stats": [
             70,
@@ -322,6 +334,18 @@
             55
         ],
         "desc": "Ideology of Otto von Bismarck, operating under a strong paternalistic state, conservative values, nationalism, and a heavily centralized capitalism."
+    },
+    {
+        "name": "Blanquism",
+        "stats": [
+            80,
+            75,
+            80,
+            50,
+            60,
+            45
+        ],
+        "desc": "Description in progress"
     },
     {
         "name": "Bleeding-Heart Libertarianism",
@@ -2520,6 +2544,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Sansepolcrismo",
+        "stats": [
+            75,
+            65,
+            65,
+            40,
+            30,
+            35
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Scientocracy",
         "stats": [
             45,
@@ -2748,6 +2784,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Steiner-Vallentyne School",
+        "stats": [
+            60,
+            35,
+            35,
+            95,
+            75,
+            40
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Strasserism",
         "stats": [
             55,
@@ -2768,6 +2816,18 @@
             65,
             65,
             45
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "Syndicalism",
+        "stats": [
+            80,
+            55,
+            35,
+            60,
+            55,
+            50
         ],
         "desc": "Description in progress"
     },
@@ -2974,6 +3034,18 @@
             55
         ],
         "desc": "Ideology combining a strong welfare state with ultranationalism, reserving social benefits to native populations in the nation."
+    },
+    {
+        "name": "Wilsonianism",
+        "stats": [
+            40,
+            50,
+            70,
+            60,
+            70,
+            35
+        ],
+        "desc": "Description in progress"
     },
     {
         "name": "Xenofeminism",

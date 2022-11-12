@@ -149,11 +149,11 @@
     "indextext": {
         "rawtext": {
             "title": "DozenValues",
-            "start_button": "Click here to start!",
+            "start_button": "Begin!",
             "matches_button": "Matches",
             "lister_button": "Lister",
             "questions_button": "Questions",
-            "custom_button": "Custom scores",
+            "custom_button": "Custom",
             "whatis": "What is DozenValues?",
             "whatare12v": "What are the 12 values?",
             "whatare12v_text": "There are 6 independent axes - Ownership, Market, Power, Autonomy, Identity and Progress - and each has two opposing values assigned to them:",
@@ -161,7 +161,7 @@
             "credits": "Credits"
         },
         "htmltext": {
-            "whatis_text": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz you will be presented with your results. Since some questions affect multiple axes, it's very unlikely you'll get 100% for any value, so don't be alarmed if your responses seem more moderate than you expected.",
+            "whatis_text": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz, you will be presented with your results. Since some questions affect multiple axes, it is very unlikely you will get 100% for any value, so don't be alarmed if your responses seem more moderate than you expected.",
             "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 250 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed."
         },
         "creditslist": [
@@ -170,12 +170,12 @@
                 "role": "Project leader, design & code",
                 "img": "./assets/usericons/Quark.png",
                 "score": [
-                    44.4,
-                    34.7,
-                    34.7,
-                    91.0,
-                    66.7,
-                    31.9
+                    52.1,
+                    20.1,
+                    76.4,
+                    66.0,
+                    85.4,
+                    2.8
                 ]
             },
             {
@@ -246,7 +246,7 @@
             "matches_button": "All Matches",
             "questions_button": "Questions",
             "lister_button": "Full List",
-            "custom_button": "Custom scores"
+            "custom_button": "Custom"
         },
         "axis_name": "Axis",
         "axis_name_before": false,
@@ -260,21 +260,21 @@
         "abs_label": "Absolute",
         "matches_button": "Matches",
         "questions_button": "Questions",
-        "custom_button": "Custom scores"
+        "custom_button": "Custom"
     },
     "matchestext": {
         "title": "DozenValues",
         "back_button": "Back",
         "questions_button": "Questions",
         "lister_button": "Lister",
-        "custom_button": "Custom scores"
+        "custom_button": "Custom"
     },
     "questionstext": {
         "title": "DozenValues",
         "back_button": "Back",
         "matches_button": "Matches",
         "lister_button": "Lister",
-        "custom_button": "Custom scores"
+        "custom_button": "Custom"
     },
     "customtext": {
         "title": "DozenValues",
