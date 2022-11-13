@@ -47,23 +47,30 @@ class TouchCanvas extends Canvas {
             event.clientX - bounds.x,
             event.clientY - bounds.y
         ]
+        //Bar
         if (x > 132 && x < 676 && y > 208 && ((y - 208) % 112) < 64) {
             const index = Math.floor((y - 208) / 112)
             const perc = Math.round(20 * ((x - 132) / (676 - 132)))
             this.state[index] = perc * 5
         }
+        //Name
         else if (y > 100 && y < 180) {
             this.name = window.prompt("Insert ideology name:") ?? this.name
         }
-        else if (y > 192 && x < 132 && ((y - 192) % 112) < 96) {
+        //Left icon
+        else if (y > 192 && x < 132 && x > 36 && ((y - 196) % 112) < 96) {
             const index = Math.floor((y - 192) / 112)
             if (this.state[index] <= 95)
                 this.state[index] += 5
-        } else if (y > 192 && x > 676 && ((y - 192) % 112) < 96) {
+        }
+        //Right icon
+        else if (y > 192 && x > 676 && x < 772 && ((y - 196) % 112) < 96) {
             const index = Math.floor((y - 192) / 112)
             if (this.state[index] >= 5)
                 this.state[index] -= 5
-        } else {
+        }
+        //Nothing
+        else {
             return
         }
         this.drawState()
