@@ -50,7 +50,7 @@ export function b64dec(input: string): string {
 
 export function matchAxisTier(score: number, labels: Array<string>): string {
     if (score < 0 || score > 100 || Number.isNaN(score)) throw new Error(`Invalid score: ${score}%`)
-    const tiers = [10, 25, 45, 55, 75, 90, 100]
+    const tiers = [10, 25, 45, 54.9, 74.9, 89.9, 100]
     for (let i = 0; i < tiers.length; i++) {
         const lb = tiers[i - 1] ?? 0
         const ub = tiers[i]
