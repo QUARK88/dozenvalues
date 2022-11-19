@@ -396,6 +396,18 @@
         "desc": "Ideology of Theodore Roosevelt Jr., focusing on pro-worker regulations within capitalism and better social justice between different citizen groups."
     },
     {
+        "name": "Camattism",
+        "stats": [
+            95,
+            85,
+            40,
+            80,
+            90,
+            75
+        ],
+        "desc": "Description in progress"
+    },
+    {
         "name": "Cameralism",
         "stats": [
             10,
@@ -920,18 +932,6 @@
             75,
             60,
             35
-        ],
-        "desc": "Description in progress"
-    },
-    {
-        "name": "Esoteric Fascism",
-        "stats": [
-            35,
-            75,
-            85,
-            15,
-            5,
-            70
         ],
         "desc": "Description in progress"
     },
