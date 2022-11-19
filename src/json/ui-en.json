@@ -246,7 +246,8 @@
             "matches_button": "All Matches",
             "questions_button": "Questions",
             "lister_button": "Full List",
-            "custom_button": "Custom"
+            "custom_button": "Custom",
+            "hint": "Click To Download"
         },
         "axis_name": "Axis",
         "axis_name_before": false,

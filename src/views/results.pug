@@ -2,6 +2,12 @@ doctype html
 html
     include includes/tags
     body 
+        a(
+            href="./index.html"
+            class="index-corner"
+            aria-label="Go back to main page"
+            )
+            include includes/index.svg
         h1(id="title")
         h2(id="pagename")
         div(id="axisholder")
@@ -9,13 +15,11 @@ html
         h3(id="score2")
         p(id="desc")
         h2(id="simple_results")
+        h3(id="hint")
         canvas(id="results1")
-        button(id="download1")
-            include includes/download.svg
         h2(id="advanced_results")
+        h3(id="hint")
         canvas(id="results2")
-        button(id="download2")
-            include includes/download.svg
         div(class="small-button-holder")
             button(id="matches_button" class="small-button")
             button(id="lister_button" class="small-button")

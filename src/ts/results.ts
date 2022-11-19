@@ -159,10 +159,10 @@ document.getElementById("custom_button")!.addEventListener<"click">("click",() =
     window.location.href = "custom.html?lang=" + lang
 )
 //Download buttons for canvas 1 and 2
-document.getElementById("download1")!.addEventListener<"click">("click", () => 
+document.getElementById("results1")!.addEventListener<"click">("click", () => 
     Canvas.downloadImage(canvasElm)
 )
-document.getElementById("download2")!.addEventListener<"click">("click", () => 
+document.getElementById("results2")!.addEventListener<"click">("click", () => 
     Canvas.downloadImage(canvasElm2)
 ) 
 

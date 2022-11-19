@@ -19,6 +19,8 @@ $titlefont : Cocogoose;
     --bg-c3: #101010;
     --bg-c4: #202020;
     --bg-c5: #404040;
+    --bg-c6: #00a0ff;
+    --bg-c7: #0080e0;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,7 +31,9 @@ $titlefont : Cocogoose;
         --bg-c2: #ffffff;
         --bg-c3: #e0e0e0;
         --bg-c4: #c0c0c0;
-        --bg-c5: #404040;
+        --bg-c5: #e0e0e0;
+        --bg-c6: #0080e0;
+        --bg-c7: #00a0ff;
     }
 }
 
@@ -91,7 +95,7 @@ a {
 
 button {
     font-family: $titlefont;
-    background-color: #00a0e0;
+    background-color: var(--bg-c6);
     border: 0;
     border-radius: 16px;
     color: #fff;
@@ -106,17 +110,22 @@ button {
     transition: all .2s ease-in-out;
 
     &:hover {
-        background: #0080c0;
+        background: var(--bg-c7);
         transform: scale(1.025);
         box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
+        transition: all .2s ease-in-out;
+    }
+
+    &:active {
+        transform: scale(0.975);
+        transition: all .2s ease-in-out;
     }
 
 }
 
 select {
-    //font: -moz-pull-down-menu;
     font-family: $textfont;
-    font-weight: 100;
+    font-weight: 128;
     background-color: var(--bg-c4);
     color: var(--fg-c1);
     border: 0;
@@ -126,22 +135,15 @@ select {
     display: block;
     font-size: 24px;
     margin: auto;
-    padding: 8px;
+    padding: 12px;
     width: 20%;
-    min-width: 150px;
+    min-width: 96px;
     transition: all .2s ease-in-out;
 
     &:hover {
         background: var(--bg-c5);
         transform: scale(1.025);
         box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
-    }
-
-    option {
-        font: -moz-pull-down-menu;
-        font-family: $textfont, Tahoma;
-        font-size: 18pt;
-        text-align: start;
     }
 }
 
@@ -150,7 +152,7 @@ label {
 }
 
 iframe {
-    width: 400px;
+    width: 384px;
 }
 
 div {
@@ -169,6 +171,18 @@ div {
     max-width: 90%;
 }
 
+#results1,
+#results2 {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.025);
+        box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
+    }
+}
+
+
 #about {
     max-width: 800px;
     margin: auto;
@@ -185,6 +199,7 @@ div {
     color: var(--fg-c1);
     margin-left: 4px;
     margin-right: 4px;
+
     &:hover {
         background-color: var(--bg-c5);
     }
@@ -228,6 +243,7 @@ div {
     border-radius: 20px;
     width: fit-content;
     margin: 20px auto;
+
     .entry {
         display: block;
         background-color: var(--bg-c1);
@@ -235,6 +251,7 @@ div {
         margin-bottom: 20px;
         height: 192px;
         cursor: pointer;
+
         img {
             display: inline-block;
             text-align: left;
@@ -243,20 +260,24 @@ div {
             margin: 32px;
 
         }
+
         .credit-wrapper {
             margin: 5px auto;
             display: inline-block;
             position: relative;
             width: 350px;
             top: -35%;
+
             .tag {
                 font-weight: bold;
                 font-size: larger;
             }
+
             div {
                 display: block;
             }
         }
+
         transition: all .2s ease-in-out;
 
         &:hover {
@@ -349,8 +370,9 @@ div {
     height: auto;
     width: 300px;
     max-width: 100%;
+
     path {
-        stroke: var(--fg-c2) ;
+        stroke: var(--fg-c2);
     }
 }
 
@@ -370,6 +392,7 @@ div {
     text-align: center;
     width: fit-content;
     margin: auto;
+
     .question-holder {
         display: block;
         background-color: var(--bg-c4);
@@ -377,13 +400,16 @@ div {
         width: 100%;
         padding: 10px;
         border-radius: 20px;
+
         .question-text {
             color: var(--fg-c1);
             margin: 4px;
         }
+
         .value-holder {
             display: inline-block;
             margin: 8px;
+
             .value-score {
                 //Border
                 border-style: solid;
@@ -398,13 +424,15 @@ div {
                 //Display
                 display: inline-block;
                 position: relative;
+
                 p {
                     position: relative;
                     font-size: 20px;
                     top: -36px;
-                    color: #000;  
+                    color: #000;
                 }
             }
+
             img {
                 display: inline-block;
                 height: 64px;
@@ -434,6 +462,7 @@ div {
     background-color: var(--bg-c4);
     border-radius: 8px;
     transition: all .2s ease-in-out;
+
     &:hover {
         background: var(--bg-c5);
         transform: scale(1.025);
@@ -441,13 +470,12 @@ div {
     }
 }
 
-/****************************
-*****************************
-*****************************
-******Github Corner CSS******
-*****************************
-*****************************
-****************************/
+.index-corner:hover,
+.github-corner:hover {
+    transform: scale(1.025);
+    box-shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
+    transition: all .2s ease-in-out;
+}
 
 .github-corner:hover .octo-arm {
     animation: octocat-wave 500ms ease-in-out
