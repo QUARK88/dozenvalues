@@ -1,6 +1,6 @@
 {
   "name": "dozenvalues",
-  "version": "5.0.7",
+  "version": "5.1.7",
   "description": "DozenValues is a political test that aims to map differing political perspectives onto six axes.",
   "main": "index.html",
   "scripts": {

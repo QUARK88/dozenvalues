@@ -3,9 +3,9 @@
         "name": "21st Century Socialism",
         "stats": [
             75,
-            80,
+            75,
             50,
-            70,
+            65,
             85,
             50
         ],
@@ -30,8 +30,8 @@
             5,
             5,
             95,
-            65,
-            35
+            60,
+            45
         ],
         "desc": "Anarchist ideology which believes that using counter-economics like black markets is the best way to have freedom from the state."
     },
@@ -52,7 +52,7 @@
         "stats": [
             30,
             40,
-            25,
+            30,
             45,
             55,
             80
@@ -112,8 +112,8 @@
         "stats": [
             50,
             35,
-            0,
-            75,
+            5,
+            70,
             65,
             75
         ],
@@ -126,7 +126,7 @@
             35,
             0,
             100,
-            75,
+            80,
             30
         ],
         "desc": "Description in progress"
@@ -186,7 +186,7 @@
             30,
             5,
             95,
-            70,
+            75,
             5
         ],
         "desc": "Description in progress"
@@ -210,8 +210,8 @@
             5,
             30,
             95,
-            75,
-            40
+            65,
+            50
         ],
         "desc": "Description in progress"
     },
@@ -231,7 +231,7 @@
         "name": "Authoritarian Capitalism",
         "stats": [
             15,
-            30,
+            25,
             80,
             30,
             55,
@@ -243,10 +243,10 @@
         "name": "Authoritarian Conservatism",
         "stats": [
             15,
-            75,
-            70,
+            65,
+            80,
             25,
-            40,
+            30,
             70
         ],
         "desc": "Description in progress"
@@ -303,8 +303,8 @@
         "name": "Ba'athism",
         "stats": [
             40,
-            65,
-            85,
+            70,
+            80,
             25,
             25,
             40
@@ -316,7 +316,7 @@
         "stats": [
             20,
             65,
-            85,
+            80,
             90,
             55,
             70
@@ -330,7 +330,7 @@
             75,
             75,
             35,
-            40,
+            35,
             55
         ],
         "desc": "Ideology of Otto von Bismarck, operating under a strong paternalistic state, conservative values, nationalism, and a heavily centralized capitalism."
@@ -375,10 +375,10 @@
         "name": "Bonapartism",
         "stats": [
             25,
-            50,
-            90,
+            60,
+            85,
             40,
-            50,
+            45,
             50
         ],
         "desc": "Ideology of Napoléon Bonaparte, pragmatic, autocratic, and supportive of enlightenment values such as legal equality."
@@ -414,7 +414,7 @@
             20,
             55,
             60,
-            55,
+            60,
             0
         ],
         "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using capitalist economics."
@@ -422,7 +422,7 @@
     {
         "name": "Cardenismo",
         "stats": [
-            65,
+            60,
             70,
             70,
             60,
@@ -451,7 +451,7 @@
             75,
             50,
             60,
-            35
+            30
         ],
         "desc": "Ideology of Fidel Castro, form of marxism-leninism promoting nationalism and progress under an authoritarian government."
     },
@@ -473,9 +473,9 @@
             50,
             10,
             25,
-            60,
             70,
-            50
+            70,
+            45
         ],
         "desc": "Model of democracy wanting to divide areas into democratic subdivisions under a georgist and libertarian economy."
     },
@@ -518,10 +518,10 @@
     {
         "name": "Classical Conservatism",
         "stats": [
-            20,
-            50,
-            55,
-            40,
+            15,
+            45,
+            60,
+            35,
             35,
             80
         ],
@@ -532,9 +532,9 @@
         "stats": [
             35,
             75,
-            90,
-            15,
+            85,
             20,
+            25,
             45
         ],
         "desc": "Description in progress"
@@ -555,10 +555,10 @@
         "name": "Clerical Fascism",
         "stats": [
             30,
-            70,
+            75,
             85,
-            10,
-            10,
+            15,
+            15,
             85
         ],
         "desc": "Description in progress"
@@ -567,8 +567,8 @@
         "name": "Collectivist Anarchism",
         "stats": [
             80,
-            75,
-            0,
+            70,
+            5,
             80,
             55,
             55
@@ -583,7 +583,7 @@
             10,
             80,
             90,
-            60
+            65
         ],
         "desc": "Ideology of Murray Bookchin, type of anarcho-communism with an emphasis on ecology and federal communes."
     },
@@ -638,7 +638,7 @@
     {
         "name": "Constitutional Monarchism",
         "stats": [
-            40,
+            30,
             45,
             70,
             70,
@@ -677,7 +677,7 @@
             20,
             50,
             60,
-            5,
+            15,
             50,
             75
         ],
@@ -784,7 +784,7 @@
         "stats": [
             50,
             60,
-            35,
+            40,
             60,
             80,
             0
@@ -796,8 +796,8 @@
         "stats": [
             55,
             60,
-            75,
-            35,
+            80,
+            30,
             40,
             50
         ],
@@ -808,7 +808,7 @@
         "stats": [
             45,
             40,
-            90,
+            80,
             95,
             60,
             50
@@ -818,7 +818,7 @@
     {
         "name": "Digger Movement",
         "stats": [
-            80,
+            85,
             45,
             0,
             65,
@@ -830,8 +830,8 @@
     {
         "name": "Dirigisme",
         "stats": [
-            35,
-            80,
+            30,
+            75,
             60,
             50,
             55,
@@ -843,7 +843,7 @@
         "name": "Distributism",
         "stats": [
             50,
-            50,
+            45,
             30,
             45,
             55,
@@ -855,8 +855,8 @@
         "name": "Eco-Anarchism",
         "stats": [
             90,
-            65,
-            0,
+            70,
+            5,
             70,
             80,
             70
@@ -867,7 +867,7 @@
         "name": "Eco-Authoritarianism",
         "stats": [
             50,
-            70,
+            75,
             75,
             35,
             85,
@@ -915,11 +915,11 @@
         "name": "Enlightened Absolutism",
         "stats": [
             20,
-            35,
+            45,
             80,
             75,
-            50,
-            40
+            60,
+            35
         ],
         "desc": "Description in progress"
     },
@@ -927,11 +927,11 @@
         "name": "Esoteric Fascism",
         "stats": [
             35,
-            70,
-            90,
+            75,
+            85,
             15,
-            0,
-            90
+            5,
+            70
         ],
         "desc": "Description in progress"
     },
@@ -988,7 +988,7 @@
         "stats": [
             20,
             20,
-            50,
+            55,
             55,
             60,
             60
@@ -1000,7 +1000,7 @@
         "stats": [
             10,
             55,
-            90,
+            85,
             60,
             95,
             0
@@ -1050,8 +1050,20 @@
             45,
             70,
             40,
-            20,
+            30,
             0
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "Gandhian Socialism",
+        "stats": [
+            65,
+            45,
+            35,
+            40,
+            45,
+            80
         ],
         "desc": "Description in progress"
     },
@@ -1126,6 +1138,18 @@
             40
         ],
         "desc": "Ideology of Mikhail Gorbachev, "
+    },
+    {
+        "name": "Green Libertarianism",
+        "stats": [
+            30,
+            25,
+            30,
+            80,
+            70,
+            65
+        ],
+        "desc": "Description in progress"
     },
     {
         "name": "Green Politics",
@@ -1205,7 +1229,7 @@
             10,
             5,
             10,
-            75,
+            70,
             25,
             75
         ],
@@ -1242,7 +1266,7 @@
             70,
             75,
             25,
-            30,
+            25,
             65
         ],
         "desc": "Description in progress"
@@ -1267,17 +1291,17 @@
             0,
             100,
             75,
-            35
+            40
         ],
         "desc": "Description in progress"
     },
     {
         "name": "Jacobinism",
         "stats": [
-            85,
+            75,
             80,
-            65,
-            40,
+            55,
+            35,
             80,
             25
         ],
@@ -1291,7 +1315,7 @@
             30,
             75,
             55,
-            40
+            45
         ],
         "desc": "Description in progress"
     },
@@ -1300,10 +1324,10 @@
         "stats": [
             45,
             60,
-            90,
+            85,
             5,
             40,
-            95
+            90
         ],
         "desc": "Description in progress"
     },
@@ -1312,9 +1336,9 @@
         "stats": [
             80,
             90,
-            95,
+            90,
             20,
-            50,
+            40,
             40
         ],
         "desc": "Description in progress"
@@ -1324,7 +1348,7 @@
         "stats": [
             55,
             65,
-            75,
+            70,
             50,
             65,
             30
@@ -1351,17 +1375,17 @@
             25,
             90,
             10,
-            60
+            65
         ],
         "desc": "Ideology of Janusz Korwin-Mikke, "
     },
     {
         "name": "Labourism",
         "stats": [
-            65,
+            60,
             75,
-            50,
             55,
+            60,
             75,
             45
         ],
@@ -1409,7 +1433,7 @@
             85,
             50,
             75,
-            40,
+            50,
             55,
             30
         ],
@@ -1440,22 +1464,10 @@
         "desc": "Description in progress"
     },
     {
-        "name": "Left-Market Minarchism",
-        "stats": [
-            80,
-            10,
-            25,
-            100,
-            70,
-            30
-        ],
-        "desc": "Description in progress"
-    },
-    {
         "name": "Left-Wing Populism",
         "stats": [
             50,
-            65,
+            70,
             45,
             60,
             60,
@@ -1493,7 +1505,7 @@
             80,
             75,
             65,
-            45,
+            40,
             65,
             30
         ],
@@ -1514,7 +1526,7 @@
     {
         "name": "Liberal Corporatism",
         "stats": [
-            55,
+            50,
             55,
             60,
             70,
@@ -1579,7 +1591,7 @@
             30,
             80,
             75,
-            50
+            40
         ],
         "desc": "Description in progress"
     },
@@ -1590,8 +1602,8 @@
             20,
             30,
             80,
-            60,
-            70
+            45,
+            75
         ],
         "desc": "Description in progress"
     },
@@ -1627,7 +1639,7 @@
             30,
             80,
             75,
-            35
+            30
         ],
         "desc": "Description in progress"
     },
@@ -1639,7 +1651,7 @@
             80,
             85,
             55,
-            65
+            70
         ],
         "desc": "Description in progress"
     },
@@ -1647,7 +1659,7 @@
         "name": "Libertarian Socialism",
         "stats": [
             85,
-            70,
+            65,
             30,
             85,
             75,
@@ -1658,7 +1670,7 @@
     {
         "name": "Libertarian Transhumanism",
         "stats": [
-            25,
+            30,
             20,
             30,
             95,
@@ -1697,9 +1709,9 @@
             80,
             70,
             5,
-            40,
-            30,
-            85
+            35,
+            35,
+            80
         ],
         "desc": "Description in progress"
     },
@@ -1759,7 +1771,7 @@
             65,
             30,
             55,
-            60
+            50
         ],
         "desc": "Description in progress"
     },
@@ -1792,8 +1804,8 @@
         "stats": [
             20,
             70,
-            85,
-            40,
+            80,
+            35,
             40,
             80
         ],
@@ -1806,7 +1818,7 @@
             30,
             40,
             95,
-            60,
+            65,
             30
         ],
         "desc": "Ideology of John Stuart Mill, "
@@ -1814,7 +1826,7 @@
     {
         "name": "Minarchism",
         "stats": [
-            30,
+            35,
             10,
             25,
             95,
@@ -1840,9 +1852,9 @@
         "stats": [
             5,
             20,
-            90,
+            85,
             35,
-            45,
+            50,
             70
         ],
         "desc": "Description in progress"
@@ -1852,8 +1864,8 @@
         "stats": [
             70,
             80,
-            90,
-            55,
+            85,
+            45,
             55,
             70
         ],
@@ -1867,14 +1879,14 @@
             65,
             45,
             85,
-            45
+            40
         ],
         "desc": "Ideology of David Cameron, "
     },
     {
         "name": "Mutualism",
         "stats": [
-            75,
+            80,
             20,
             5,
             90,
@@ -1888,9 +1900,9 @@
         "stats": [
             80,
             40,
-            5,
-            40,
             10,
+            40,
+            20,
             60
         ],
         "desc": "Description in progress"
@@ -1902,7 +1914,7 @@
             85,
             80,
             20,
-            5,
+            15,
             50
         ],
         "desc": "Description in progress"
@@ -1914,7 +1926,7 @@
             20,
             85,
             25,
-            5,
+            15,
             40
         ],
         "desc": "Description in progress"
@@ -1937,9 +1949,9 @@
             35,
             50,
             55,
-            40,
-            10,
-            85
+            35,
+            15,
+            80
         ],
         "desc": "Description in progress"
     },
@@ -1950,7 +1962,7 @@
             35,
             55,
             75,
-            35,
+            40,
             45
         ],
         "desc": "Description in progress"
@@ -1971,10 +1983,10 @@
         "name": "National-Socialism",
         "stats": [
             35,
-            65,
-            90,
-            25,
-            0,
+            75,
+            85,
+            20,
+            5,
             45
         ],
         "desc": "Ideology of Adolf Hitler, adpoting state corporatist economics, totalitarian control and racial nationalism."
@@ -1987,7 +1999,7 @@
             65,
             30,
             25,
-            75
+            70
         ],
         "desc": "Description in progress"
     },
@@ -1995,10 +2007,10 @@
         "name": "National-Transhumanism",
         "stats": [
             35,
-            65,
-            90,
+            75,
+            85,
             30,
-            5,
+            10,
             10
         ],
         "desc": "Description in progress"
@@ -2010,7 +2022,7 @@
             20,
             45,
             80,
-            60,
+            55,
             55
         ],
         "desc": "Description in progress"
@@ -2018,23 +2030,11 @@
     {
         "name": "Neo-Marxism",
         "stats": [
-            85,
-            80,
-            45,
-            80,
-            95,
-            25
-        ],
-        "desc": "Description in progress"
-    },
-    {
-        "name": "Neo-Trotskyism",
-        "stats": [
-            80,
             90,
-            60,
-            60,
             85,
+            45,
+            75,
+            100,
             25
         ],
         "desc": "Description in progress"
@@ -2047,7 +2047,7 @@
             15,
             80,
             85,
-            65
+            70
         ],
         "desc": "Ideology of Emiliano Zapata, "
     },
@@ -2056,7 +2056,7 @@
         "stats": [
             15,
             45,
-            90,
+            85,
             70,
             20,
             75
@@ -2068,8 +2068,8 @@
         "stats": [
             20,
             35,
-            60,
-            50,
+            65,
+            55,
             50,
             50
         ],
@@ -2128,7 +2128,7 @@
         "stats": [
             20,
             0,
-            45,
+            40,
             90,
             50,
             35
@@ -2138,10 +2138,10 @@
     {
         "name": "Ochlocracy",
         "stats": [
-            75,
-            65,
+            70,
+            70,
             15,
-            15,
+            20,
             45,
             60
         ],
@@ -2155,7 +2155,7 @@
             10,
             35,
             20,
-            100
+            95
         ],
         "desc": "Ideology of Louis Cachet, wanting a return to primitivism, racial nationalism, anarchism, and third positionist economics."
     },
@@ -2176,9 +2176,9 @@
         "stats": [
             70,
             80,
-            55,
+            45,
             80,
-            55,
+            45,
             60
         ],
         "desc": "Ideology of Eric Blair, form of libertarian democratic socialism which opposes totalitarianism, and is slightly conservative."
@@ -2189,7 +2189,7 @@
             30,
             50,
             40,
-            45,
+            40,
             30,
             70
         ],
@@ -2198,7 +2198,7 @@
     {
         "name": "Paleoliberalism",
         "stats": [
-            50,
+            45,
             50,
             45,
             75,
@@ -2259,10 +2259,10 @@
         "name": "Pinkertonism",
         "stats": [
             5,
-            20,
-            20,
             15,
-            75,
+            20,
+            25,
+            70,
             40
         ],
         "desc": "Description in progress"
@@ -2271,7 +2271,7 @@
         "name": "Pinochetism",
         "stats": [
             20,
-            30,
+            25,
             85,
             25,
             40,
@@ -2283,7 +2283,7 @@
         "name": "Pirate Politics",
         "stats": [
             50,
-            40,
+            35,
             30,
             90,
             65,
@@ -2296,8 +2296,8 @@
         "stats": [
             80,
             90,
-            90,
-            5,
+            85,
+            10,
             30,
             80
         ],
@@ -2343,11 +2343,11 @@
         "name": "Progressive Conservatism",
         "stats": [
             25,
-            55,
+            45,
             60,
             50,
             65,
-            55
+            60
         ],
         "desc": "Description in progress"
     },
@@ -2368,7 +2368,7 @@
         "stats": [
             75,
             35,
-            40,
+            30,
             60,
             75,
             75
@@ -2380,7 +2380,7 @@
         "stats": [
             70,
             60,
-            10,
+            5,
             90,
             95,
             45
@@ -2463,7 +2463,7 @@
         "name": "Regulationism",
         "stats": [
             40,
-            80,
+            65,
             55,
             50,
             55,
@@ -2548,8 +2548,8 @@
         "stats": [
             75,
             65,
-            65,
-            40,
+            70,
+            35,
             30,
             35
         ],
@@ -2583,8 +2583,8 @@
         "name": "Social Anarchism",
         "stats": [
             70,
-            35,
-            0,
+            45,
+            5,
             75,
             75,
             45
@@ -2656,7 +2656,7 @@
         "stats": [
             50,
             65,
-            50,
+            55,
             65,
             75,
             40
@@ -2667,7 +2667,7 @@
         "name": "Social Distributism",
         "stats": [
             60,
-            50,
+            60,
             30,
             45,
             65,
@@ -2693,7 +2693,7 @@
             40,
             50,
             50,
-            70,
+            75,
             80,
             40
         ],
@@ -2729,8 +2729,8 @@
             70,
             40,
             50,
-            50,
-            20,
+            45,
+            25,
             75
         ],
         "desc": "Ideology of Georges Sorel, "
@@ -2739,7 +2739,7 @@
         "name": "State Capitalism",
         "stats": [
             15,
-            85,
+            80,
             75,
             45,
             55,
@@ -2751,7 +2751,7 @@
         "name": "State Corporatism",
         "stats": [
             35,
-            75,
+            85,
             85,
             40,
             50,
@@ -2863,7 +2863,7 @@
             75,
             50,
             60,
-            10
+            5
         ],
         "desc": "Ideology promoting an oligarchic rule of experts to dictate policy and the economy in rational and efficient ways."
     },
@@ -2872,10 +2872,10 @@
         "stats": [
             35,
             45,
-            35,
+            40,
             80,
             80,
-            10
+            15
         ],
         "desc": "Philosophy valuing freedom, individualism, free access to technology, widespread education, and economic liberty."
     },
@@ -2887,7 +2887,7 @@
             30,
             90,
             60,
-            10
+            15
         ],
         "desc": "Movement in favor of minimal market regulation, removing internet censorship, civil freedoms, and market-driven technological innovation."
     },
@@ -2908,7 +2908,7 @@
         "stats": [
             40,
             60,
-            70,
+            80,
             25,
             50,
             80
@@ -2982,7 +2982,7 @@
             70,
             50,
             65,
-            70,
+            65,
             0
         ],
         "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using socialist economics."
@@ -2990,7 +2990,7 @@
     {
         "name": "Tridemism",
         "stats": [
-            70,
+            65,
             45,
             65,
             50,
@@ -3003,7 +3003,7 @@
         "name": "Trotskyism",
         "stats": [
             80,
-            90,
+            85,
             70,
             45,
             65,
@@ -3050,7 +3050,7 @@
     {
         "name": "Xenofeminism",
         "stats": [
-            85,
+            80,
             65,
             35,
             85,
@@ -3063,7 +3063,7 @@
         "name": "Yellow Socialism",
         "stats": [
             65,
-            80,
+            75,
             70,
             45,
             30,
