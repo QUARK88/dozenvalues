@@ -25,6 +25,9 @@ document.getElementById("questions_button")!.addEventListener<"click">("click", 
 document.getElementById("matches_button")!.addEventListener<"click">("click", () =>
     window.location.href = "matches.html?lang=" + lang
 )
+document.getElementById("back_button")!.addEventListener<"click">("click", () =>
+    window.location.href = "index.html?lang=" + lang
+)
 
 class TouchCanvas extends Canvas {
     public state: Array<number>

@@ -20,6 +20,7 @@ document.getElementById("matches_button").addEventListener("click", () => {
         "&ideo=" + b64enc(matches[0].name);
 });
 document.getElementById("custom_button").addEventListener("click", () => window.location.href = "custom.html?lang=" + lang);
+document.getElementById("back_button").addEventListener("click", () => window.location.href = "index.html?lang=" + lang);
 const abscheck = document.getElementById("abs");
 abscheck.addEventListener("click", () => displayMatches(matches, abscheck.checked));
 displayMatches(matches, abscheck.checked);

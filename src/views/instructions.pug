@@ -11,9 +11,12 @@ html
         h1(id="title")
         h2(id="pagename")
         p(id="instructiontext")
-        button(id="quiz_button")
-        button(id="quiz_random_button")
-        button(id="back_button")
+        button(class="startbutton" id="quiz_button")
+            span(id="quiz_text")
+        button(class="startbutton" id="quiz_random_button")
+            span(id="quiz_random_text")
+        button(class="backbutton" id="back_button")
+            span(id="back_text")
         if inline_js
             script(type="module") !{js["instructions"]}
         else

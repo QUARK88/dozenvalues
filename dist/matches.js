@@ -31,6 +31,7 @@ document.getElementById("lister_button").addEventListener("click", () => {
 });
 document.getElementById("questions_button").addEventListener("click", () => window.location.href = "questions.html?lang=" + lang);
 document.getElementById("custom_button").addEventListener("click", () => window.location.href = "custom.html?lang=" + lang);
+document.getElementById("back_button").addEventListener("click", () => window.location.href = "index.html?lang=" + lang);
 function changedSelection(match) {
     canvas.drawHeader(ui.resultstext.text.title, "quark88.github.io/dozenvalues/", version, match.name);
     match.stats.forEach((stat, ind) => {

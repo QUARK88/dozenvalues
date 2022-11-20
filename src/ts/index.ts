@@ -25,8 +25,8 @@ import type { Indextext, Lang, Axis, Ui, Value, Textelm } from "./types"
             loadUI(ui, lang)
             //Sets lang parameter and changes URL accordingly
             params.set("lang", lang)
-            const newPath: string = document.location.origin + 
-            window.location.pathname + "?" + params.toString()
+            const newPath: string = document.location.origin +
+                window.location.pathname + "?" + params.toString()
             window.history.replaceState(null, document.title, newPath)
             //Changes selected index
             langDropdown.selectedIndex = langList.indexOf(lang, 0)
@@ -45,10 +45,10 @@ import type { Indextext, Lang, Axis, Ui, Value, Textelm } from "./types"
 
 function loadUI(ui: Ui, lang: string): void {
     //Assigning elements to constants
-    const 
-    collumn_holder = <HTMLDivElement>document.getElementById("column-holder")!,
-    valuesExplaination = <HTMLDivElement>document.getElementById("values-explaination")!,
-    creditsList = <HTMLParagraphElement>document.getElementById("credits-list")!
+    const
+        collumn_holder = <HTMLDivElement>document.getElementById("column-holder")!,
+        valuesExplaination = <HTMLDivElement>document.getElementById("values-explaination")!,
+        creditsList = <HTMLParagraphElement>document.getElementById("credits-list")!
     //Function to clear all elements for clean language changes
     const clearElm = (elm: HTMLElement): void => {
         while (elm.firstChild) {
@@ -73,7 +73,7 @@ function loadUI(ui: Ui, lang: string): void {
     document.getElementById("questions_button")!.addEventListener<"click">("click", () =>
         window.location.href = "questions.html?lang=" + lang
     )
-    document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
+    document.getElementById("custom_button")!.addEventListener<"click">("click", () =>
         window.location.href = "custom.html?lang=" + lang
     )
     //Creates icons boxes and explaination blocks
@@ -141,7 +141,6 @@ function loadUI(ui: Ui, lang: string): void {
         valuesExplaination.appendChild(spacer)
 
     }
-    //changes text constent of text and button elements
     for (const i of Object.keys(ui.indextext.rawtext)) {
         document.getElementById(i)!.textContent = ui.indextext.rawtext[i]
     }
@@ -153,7 +152,7 @@ function loadUI(ui: Ui, lang: string): void {
 
     //Renders credits
     for (const credit of ui.indextext.creditslist) {
-        const 
+        const
             creditSpan = document.createElement("div"),
             linkWrapper = document.createElement("div"),
             creditName = document.createElement("div"),
@@ -167,20 +166,20 @@ function loadUI(ui: Ui, lang: string): void {
         creditName.textContent = credit.tag
         linkWrapper.className = "credit-wrapper"
 
-        creditSpan.addEventListener("click", () => 
+        creditSpan.addEventListener("click", () =>
             location.href = "./results.html?lang=" + lang + "&score=" +
             credit.score.map(x => x.toFixed(1)).join(",") + "&send=no");
-        
-        ((...divs) => 
+
+        ((...divs) =>
             divs.forEach(div =>
                 linkWrapper.appendChild(div)
             )
-        )(creditName,creditRoles);
-        ((...divs) => 
+        )(creditName, creditRoles);
+        ((...divs) =>
             divs.forEach(div =>
                 creditSpan.appendChild(div)
             )
-        )(creditImg,linkWrapper)
+        )(creditImg, linkWrapper)
 
         creditsList.appendChild(creditSpan)
     }

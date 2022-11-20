@@ -66,7 +66,7 @@
         ]
     },
     {
-        "text": "It is deplorable that unions force non-consenting workers to strike.",
+        "text": "People should be allowed to do whatever they want in their own yard.",
         "effect": [
             -1,
             0,
@@ -88,13 +88,13 @@
         ]
     },
     {
-        "text": "It’s not healthy for children to be raised by gay couples.",
+        "text": "It's not healthy for children to be raised by gay couples.",
         "effect": [
             0,
             0,
             0,
             0,
-            -2,
+            -1,
             0
         ]
     },
@@ -204,7 +204,7 @@
             0,
             0,
             0,
-            2,
+            1,
             0
         ]
     },
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "text": "The universal basic income is superior to other types of welfare.",
+        "text": "An universal basic income should be implemented.",
         "effect": [
             0,
             1,
@@ -341,13 +341,13 @@
         ]
     },
     {
-        "text": "Equality between men and women is desirable.",
+        "text": "All marginalized minorities should act in solidarity with each other.",
         "effect": [
             0,
             0,
             0,
             0,
-            1,
+            2,
             0
         ]
     },
@@ -418,7 +418,7 @@
         ]
     },
     {
-        "text": "Our natural resources don't belong to foreign capital.",
+        "text": "Nobody should get fired for disrespecting a coworker's identity.",
         "effect": [
             1,
             0,
@@ -473,7 +473,7 @@
         ]
     },
     {
-        "text": "We shouldn’t let people do things which will put them in danger.",
+        "text": "We shouldn't let people do things which will put them in danger.",
         "effect": [
             0,
             0,
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "text": "People should be allowed to use their terrain however they please.",
+        "text": "Bosses know what's best for their workers.",
         "effect": [
             -1,
             0,
@@ -528,13 +528,13 @@
         ]
     },
     {
-        "text": "An individual’s gender is determined by their chromosomes.",
+        "text": "An individual's gender is determined by their chromosomes.",
         "effect": [
             0,
             0,
             0,
             0,
-            -1,
+            -2,
             0
         ]
     },
@@ -550,7 +550,7 @@
         ]
     },
     {
-        "text": "It’s wasteful to have so many different brands of the same good.",
+        "text": "It's wasteful to have so many different brands of the same good.",
         "effect": [
             0,
             2,
@@ -715,7 +715,7 @@
         ]
     },
     {
-        "text": "Equality of opportunity is a must-have.",
+        "text": "The economy should be open to each and every one.",
         "effect": [
             1,
             0,
@@ -803,7 +803,7 @@
         ]
     },
     {
-        "text": "Founding offshore platform countries is a legitimate practice.",
+        "text": "Declaring your territory to be independent from governmental authority is legitimate.",
         "effect": [
             -1,
             0,
@@ -847,7 +847,7 @@
         ]
     },
     {
-        "text": "Industrial capitalism was a great improvement for humanity.",
+        "text": "The industrial revolution was a required step in history.",
         "effect": [
             -1,
             0,
@@ -880,7 +880,7 @@
         ]
     },
     {
-        "text": "Monarchy is an outdated form of government.",
+        "text": "Religious authority should never grant political power.",
         "effect": [
             0,
             0,
@@ -891,7 +891,7 @@
         ]
     },
     {
-        "text": "Bosses know what's best for their workers.",
+        "text": "Executive comittees are an efficient way of handling large economic entities.",
         "effect": [
             -1,
             0,
@@ -924,7 +924,7 @@
         ]
     },
     {
-        "text": "Equal representation of genders should be mandatory in workplaces.",
+        "text": "Proportional representation of minorities should be mandatory in workplaces.",
         "effect": [
             0,
             1,
@@ -990,7 +990,7 @@
         ]
     },
     {
-        "text": "Workers should be encouraged to form cooperatives on their own.",
+        "text": "Self-employment is a net positive for everyone involved.",
         "effect": [
             1,
             -1,
@@ -1001,7 +1001,7 @@
         ]
     },
     {
-        "text": "Not questioning authority is good if it ensures stability.",
+        "text": "Authorities should not be questionned as long as they provide stability.",
         "effect": [
             0,
             0,
@@ -1034,7 +1034,7 @@
         ]
     },
     {
-        "text": "It’s often necessary to break taboos.",
+        "text": "It's often necessary to break taboos.",
         "effect": [
             0,
             0,
@@ -1045,7 +1045,7 @@
         ]
     },
     {
-        "text": "Space travel should not be funded by tax money.",
+        "text": "Technological advancements ",
         "effect": [
             0,
             -1,
@@ -1056,7 +1056,7 @@
         ]
     },
     {
-        "text": "Employers should have the duty to fire workers who engage in internalized discrimination.",
+        "text": "Foreign investments are to be welcomed.",
         "effect": [
             -1,
             0,
@@ -1133,7 +1133,7 @@
         ]
     },
     {
-        "text": "Eminent domain is needed to ensure ethical and efficient usage of land.",
+        "text": "Workers should be allowed to block access to workplaces during general strikes.",
         "effect": [
             1,
             0,
@@ -1188,7 +1188,7 @@
         ]
     },
     {
-        "text": "The state should control all aspects of the economy.",
+        "text": "The economy should be organized by profession groups performing their function.",
         "effect": [
             0,
             1,
@@ -1243,7 +1243,7 @@
         ]
     },
     {
-        "text": "Trade unions hurt everyone.",
+        "text": "Worker associations hurt everyone in the end.",
         "effect": [
             -1,
             0,
@@ -1265,7 +1265,7 @@
         ]
     },
     {
-        "text": "There is no reason why children should stay with their biological parents.",
+        "text": "Biological parenting is no more better than adoption or communal parenting.",
         "effect": [
             0,
             0,
@@ -1287,7 +1287,7 @@
         ]
     },
     {
-        "text": "In the future we should improve our own biology with technology.",
+        "text": "In the future, we should improve our own biology with technology.",
         "effect": [
             0,
             0,
@@ -1309,7 +1309,7 @@
         ]
     },
     {
-        "text": "Traditional gender roles are necessary.",
+        "text": "Traditional gender roles are optimal.",
         "effect": [
             0,
             0,
@@ -1331,7 +1331,7 @@
         ]
     },
     {
-        "text": "If it is tradition to perform some surgeries on babies, it should be done.",
+        "text": "If it is tradition to perform some surgeries on children, it should be done.",
         "effect": [
             0,
             0,

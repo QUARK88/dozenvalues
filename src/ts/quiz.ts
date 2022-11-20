@@ -20,12 +20,37 @@ const buttonHolder = <HTMLDivElement>document.getElementById("buttonholder")!
 const questiontext = <HTMLDivElement>document.getElementById("questiontext")!
 const questionnumber = <HTMLDivElement>document.getElementById("question_number")!
 //Sets quiz buttons
+var buttons = 0
 for (const [index, button] of ui.quiztext.buttons.entries()) {
+    buttons += 1
     const quizbutton = document.createElement("button")
-    quizbutton.textContent = button.text
+    const quizbuttonspan = document.createElement("span")
+    const quizdisagree = document.createElement("div")
+    const quizagree = document.createElement("div")
+    quizdisagree.className = "disagree"
+    quizagree.className = "agree"
+    quizdisagree.textContent = "Disagree"
+    quizagree.textContent = "Agree"
+    quizbuttonspan.textContent = button.text
+    quizbutton.appendChild(quizbuttonspan)
     quizbutton.style.backgroundColor = button.color
+    if (buttons == 1) {
+        buttonHolder.appendChild(quizdisagree)
+    }
+    if (buttons < 3) {
+        quizbutton.className = "leftbutton"
+    }
+    if (buttons == 3) {
+        quizbutton.className = "centrebutton"
+    }
+    if (buttons > 3) {
+        quizbutton.className = "rightbutton"
+    }
     quizbutton.addEventListener<"click">("click", () => nextQuestion(index))
     buttonHolder.appendChild(quizbutton)
+    if (buttons == 5) {
+        buttonHolder.appendChild(quizagree)
+    }
 }
 //Maps back button to last question function
 document.getElementById("back_button")!.addEventListener<"click">("click", lastQuestion)
@@ -71,7 +96,7 @@ function calcScores(): void {
     //creates 2 empty arrays and an array with the button weights
     const score: Array<number> = new Array(questions[0].effect.length).fill(0)
     const weighedScore: Array<number> = new Array(questions[0].effect.length).fill(0)
-    const weights: Array<number> = [1, 0.5, 0, -0.5, -1]
+    const weights: Array<number> = [-1, -0.5, 0, 0.5, 1]
     //creates mutable array for placing sorted answers
     let sortedAnswers = new Array(answers.length)
     //checks if questions were randomized

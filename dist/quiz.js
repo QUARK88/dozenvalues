@@ -12,12 +12,37 @@ document.title = ui.quiztext.text.title;
 const buttonHolder = document.getElementById("buttonholder");
 const questiontext = document.getElementById("questiontext");
 const questionnumber = document.getElementById("question_number");
+var buttons = 0;
 for (const [index, button] of ui.quiztext.buttons.entries()) {
+    buttons += 1;
     const quizbutton = document.createElement("button");
-    quizbutton.textContent = button.text;
+    const quizbuttonspan = document.createElement("span");
+    const quizdisagree = document.createElement("div");
+    const quizagree = document.createElement("div");
+    quizdisagree.className = "disagree";
+    quizagree.className = "agree";
+    quizdisagree.textContent = "Disagree";
+    quizagree.textContent = "Agree";
+    quizbuttonspan.textContent = button.text;
+    quizbutton.appendChild(quizbuttonspan);
     quizbutton.style.backgroundColor = button.color;
+    if (buttons == 1) {
+        buttonHolder.appendChild(quizdisagree);
+    }
+    if (buttons < 3) {
+        quizbutton.className = "leftbutton";
+    }
+    if (buttons == 3) {
+        quizbutton.className = "centrebutton";
+    }
+    if (buttons > 3) {
+        quizbutton.className = "rightbutton";
+    }
     quizbutton.addEventListener("click", () => nextQuestion(index));
     buttonHolder.appendChild(quizbutton);
+    if (buttons == 5) {
+        buttonHolder.appendChild(quizagree);
+    }
 }
 document.getElementById("back_button").addEventListener("click", lastQuestion);
 const answers = new Array(questions.length);
@@ -53,7 +78,7 @@ function lastQuestion() {
 function calcScores() {
     const score = new Array(questions[0].effect.length).fill(0);
     const weighedScore = new Array(questions[0].effect.length).fill(0);
-    const weights = [1, 0.5, 0, -0.5, -1];
+    const weights = [-1, -0.5, 0, 0.5, 1];
     let sortedAnswers = new Array(answers.length);
     if (questions[0]?.ogIndex !== undefined) {
         questions.forEach((v, i) => sortedAnswers[v.ogIndex] = answers[i]);

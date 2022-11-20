@@ -124,8 +124,8 @@ document.getElementById("matches_button").addEventListener("click", () => {
         "&ideo=" + b64enc(matches[0].name);
 });
 document.getElementById("custom_button").addEventListener("click", () => window.location.href = "custom.html?lang=" + lang);
-document.getElementById("download1").addEventListener("click", () => Canvas.downloadImage(canvasElm));
-document.getElementById("download2").addEventListener("click", () => Canvas.downloadImage(canvasElm2));
+document.getElementById("results1").addEventListener("click", () => Canvas.downloadImage(canvasElm));
+document.getElementById("results2").addEventListener("click", () => Canvas.downloadImage(canvasElm2));
 const axisHolder = document.getElementById("axisholder");
 let axisLabels = Array();
 ui.axes.forEach((v, i) => {

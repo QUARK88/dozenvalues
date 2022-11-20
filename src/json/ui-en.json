@@ -149,7 +149,7 @@
     "indextext": {
         "rawtext": {
             "title": "DozenValues",
-            "start_button": "Begin!",
+            "start_text": "Begin",
             "matches_button": "Matches",
             "lister_button": "Lister",
             "questions_button": "Questions",
@@ -196,43 +196,44 @@
     "instructiontext": {
         "title": "DozenValues",
         "pagename": "Instructions",
-        "instructiontext": "You will be presented with 132 statements. For each one, click the button with your opinion on it.",
-        "quiz_button": "Got it!",
-        "quiz_random_button": "Got it! (Shuffled)",
-        "back_button": "Back"
+        "instructiontext": "You will be presented with 132 statements and a spectrum ranging from Agree to Disagree. Click the button that fits your opinion.",
+        "quiz_text": "Got it",
+        "quiz_random_text": "Got it (Shuffled)",
+        "back_text": "Back"
     },
     "quiztext": {
         "text": {
             "title": "DozenValues",
-            "back_button": "Back"
+            "back_text": "Back",
+            "pagename": "Quiz"
         },
         "of": "of",
         "question": "Question",
         "buttons": [
             {
-                "text": "Strongly Agree",
-                "color": "#0080c0",
-                "weight": 1
+                "text": "«",
+                "color": "#c00000",
+                "weight": -1
             },
             {
-                "text": "Agree",
-                "color": "#00c0ff",
-                "weight": 0.5
-            },
-            {
-                "text": "Neutral",
-                "color": "#a0a0a0",
-                "weight": 0
-            },
-            {
-                "text": "Disagree",
+                "text": "‹",
                 "color": "#ff0000",
                 "weight": -0.5
             },
             {
-                "text": "Strongly Disagree",
-                "color": "#c00000",
-                "weight": -1
+                "text": "•",
+                "color": "#a0a0a0",
+                "weight": 0
+            },
+            {
+                "text": "›",
+                "color": "#00a0e0",
+                "weight": 0.5
+            },
+            {
+                "text": "»",
+                "color": "#0080c0",
+                "weight": 1
             }
         ]
     },
@@ -240,14 +241,15 @@
         "text": {
             "title": "DozenValues",
             "pagename": "Results",
-            "back_button": "Back",
+            "back_text": "Back",
             "simple_results": "Simple Results",
             "advanced_results": "Advanced Results",
-            "matches_button": "All Matches",
+            "matches_button": "Matches",
             "questions_button": "Questions",
-            "lister_button": "Full List",
+            "lister_button": "Lister",
             "custom_button": "Custom",
-            "hint": "Click To Download"
+            "hint": "Click To Download",
+            "hint2": "Click To Download"
         },
         "axis_name": "Axis",
         "axis_name_before": false,
@@ -257,7 +259,8 @@
     },
     "listertext": {
         "title": "DozenValues",
-        "back_button": "Back",
+        "pagename": "Lister",
+        "back_text": "Back",
         "abs_label": "Absolute",
         "matches_button": "Matches",
         "questions_button": "Questions",
@@ -265,28 +268,30 @@
     },
     "matchestext": {
         "title": "DozenValues",
-        "back_button": "Back",
+        "pagename": "Matches",
+        "back_text": "Back",
         "questions_button": "Questions",
         "lister_button": "Lister",
         "custom_button": "Custom"
     },
     "questionstext": {
         "title": "DozenValues",
-        "back_button": "Back",
+        "pagename": "Questions",
+        "back_text": "Back",
         "matches_button": "Matches",
         "lister_button": "Lister",
         "custom_button": "Custom"
     },
     "customtext": {
         "title": "DozenValues",
+        "pagename": "Custom",
         "about": "Click the icons to increase their scores by 5 points, click the bars directly to select your score and click the name to change it to a custom entry.",
         "download_button": "Download",
-        "back_button": "Back",
+        "back_text": "Back",
         "questions_button": "Questions",
         "matches_button": "Matches",
         "lister_button": "Lister"
-    }
-    ,
+    },
     "font": {
         "text_font": "BrandonText",
         "title_font": "Cocogoose"

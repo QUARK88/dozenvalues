@@ -11,6 +11,7 @@ document.getElementById("matches_button").addEventListener("click", () => {
     window.location.href = "matches.html?lang=" + lang;
 });
 document.getElementById("custom_button").addEventListener("click", () => window.location.href = "custom.html?lang=" + lang);
+document.getElementById("back_button").addEventListener("click", () => window.location.href = "index.html?lang=" + lang);
 const questions = getJson("questions-" + lang);
 const questionHolder = document.getElementById("questionholder");
 const elmMaker = (eff, val) => {
@@ -19,28 +20,31 @@ const elmMaker = (eff, val) => {
     const imgElm = new Image();
     imgElm.src = val.icon;
     const scoreElm = document.createElement("div");
-    scoreElm.className = "value-score";
-    const scoreTxt = document.createElement("p");
-    scoreTxt.textContent = eff.toFixed();
-    scoreElm.appendChild(scoreTxt);
     scoreElm.style.backgroundColor = val.color;
     mainElm.appendChild(imgElm);
-    mainElm.appendChild(scoreElm);
     return mainElm;
 };
+var number = 0;
 for (const question of questions) {
+    number += 1;
     const parentElm = document.createElement("div");
     parentElm.className = "question-holder";
     const questionText = document.createElement("div");
     questionText.className = "question-text";
-    questionText.textContent = question.text;
+    questionText.textContent = number + ". " + question.text;
     parentElm.appendChild(questionText);
     question.effect.forEach((eff, ind) => {
         if (eff > 0) {
             parentElm.appendChild(elmMaker(eff, ui.axes[ind].leftvalue));
+            if (eff > 1) {
+                parentElm.appendChild(elmMaker(eff, ui.axes[ind].leftvalue));
+            }
         }
         else if (eff < 0) {
             parentElm.appendChild(elmMaker(Math.abs(eff), ui.axes[ind].rightvalue));
+            if (eff < -1) {
+                parentElm.appendChild(elmMaker(Math.abs(eff), ui.axes[ind].rightvalue));
+            }
         }
     });
     questionHolder.appendChild(parentElm);

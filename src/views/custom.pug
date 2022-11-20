@@ -9,14 +9,16 @@ html
             )
             include includes/index.svg
         h1(id="title")
+        h2(id="pagename")
         p(id="about")
         canvas(id="score")
         button(id="download_button")
         div(class="small-button-holder")
-            button(id="matches_button" class="small-button")
-            button(id="lister_button" class="small-button")
-            button(id="back_button" onclick="window.history.back()")
-            button(id="questions_button" class="small-button")
+            button(id="matches_button" class="toolbutton")
+            button(id="lister_button" class="toolbutton")
+            button(id="questions_button" class="toolbutton")
+        button(class="backbutton" id="back_button")
+            span(id="back_text")
         script(type="application/javascript") window.VERSION = "#{version}"
         if inline_js
             script(type="module") !{js["custom"]}

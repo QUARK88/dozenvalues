@@ -13,6 +13,7 @@ for (const [key, value] of Object.entries(ui.customtext)) {
 document.getElementById("download_button").addEventListener("click", () => Canvas.downloadImage(canvasElm));
 document.getElementById("questions_button").addEventListener("click", () => window.location.href = "questions.html?lang=" + lang);
 document.getElementById("matches_button").addEventListener("click", () => window.location.href = "matches.html?lang=" + lang);
+document.getElementById("back_button").addEventListener("click", () => window.location.href = "index.html?lang=" + lang);
 class TouchCanvas extends Canvas {
     state;
     name;
@@ -41,12 +42,12 @@ class TouchCanvas extends Canvas {
         else if (y > 100 && y < 180) {
             this.name = window.prompt("Insert ideology name:") ?? this.name;
         }
-        else if (y > 192 && x < 132 && ((y - 192) % 112) < 96) {
+        else if (y > 192 && x < 132 && x > 36 && ((y - 196) % 112) < 96) {
             const index = Math.floor((y - 192) / 112);
             if (this.state[index] <= 95)
                 this.state[index] += 5;
         }
-        else if (y > 192 && x > 676 && ((y - 192) % 112) < 96) {
+        else if (y > 192 && x > 676 && x < 772 && ((y - 196) % 112) < 96) {
             const index = Math.floor((y - 192) / 112);
             if (this.state[index] >= 5)
                 this.state[index] -= 5;

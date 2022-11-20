@@ -10,7 +10,7 @@ html
             include includes/index.svg
         h1(id="title")
         h2(id="pagename")
-        div(id="axisholder")
+        div(id="axisholder" style="display:none;")
         h2(id="score1")
         h3(id="score2")
         p(id="desc")
@@ -18,14 +18,15 @@ html
         h3(id="hint")
         canvas(id="results1")
         h2(id="advanced_results")
-        h3(id="hint")
+        h3(id="hint2")
         canvas(id="results2")
         div(class="small-button-holder")
-            button(id="matches_button" class="small-button")
-            button(id="lister_button" class="small-button")
-            button(id="questions_button" class="small-button")
-            button(id="custom_button" class="small-button")
-        button(id="back_button")
+            button(id="matches_button" class="toolbutton")
+            button(id="lister_button" class="toolbutton")
+            button(id="questions_button" class="toolbutton")
+            button(id="custom_button" class="toolbutton")
+        button(class="backbutton" id="back_button")
+            span(id="back_text")
         script(type="application/javascript") window.VERSION = "#{version}"
         if inline_js
             script(type="module") !{js["results"]}
