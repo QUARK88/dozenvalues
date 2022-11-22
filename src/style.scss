@@ -334,6 +334,7 @@ select {
     margin: auto;
     width: 20%;
     transition: all .25s ease-in-out;
+    cursor: pointer;
 
     &:hover {
         background: var(--hover);
@@ -606,6 +607,7 @@ iframe {
     height: 64px;
     padding: 16px;
     font-size: 20px;
+    cursor: pointer;
 
     &:hover {
         box-shadow: var(--shadow);
@@ -620,6 +622,7 @@ iframe {
     height: 64px;
     padding: 16px;
     font-size: 20px;
+    cursor: pointer;
 
     &:hover {
         box-shadow: var(--shadow);
