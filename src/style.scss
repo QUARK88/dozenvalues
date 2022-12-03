@@ -218,7 +218,7 @@ button {
     font-size: 24px;
     background-color: var(--button);
     transition: all .25s ease-in-out;
-    width: 15%;
+    width: 20%;
 
     &:hover {
         background-color: var(--hover);
@@ -616,7 +616,7 @@ iframe {
 
 #match-dropdown {
     font-family: $buttonfont;
-    width: 40%;
+    width: 50%;
     border: none;
     border-radius: 16px;
     height: 64px;
