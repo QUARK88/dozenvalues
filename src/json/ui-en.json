@@ -118,7 +118,7 @@
                 "name": "Supremacy",
                 "color": "#ff7b09",
                 "icon": "./assets/icons/supremacy.svg",
-                "blurb": "Those with higher Supremacy scores tend to believe that identity groups are stratified and more or less valuable. They tend to support sexual norms, gender roles, and racial nationalism."
+                "blurb": "Those with higher Supremacy scores believe that identity groups are stratified and more or less valuable. They tend to support sexual norms, gender roles, and racial nationalism."
             }
         },
         {
@@ -161,8 +161,8 @@
             "credits": "Credits"
         },
         "htmltext": {
-            "whatis_text": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a statement and a set of responses from Strongly Agree to Strongly disagree. Pick the response that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz, you will be presented with your results. Since some questions affect multiple axes, it is very unlikely you will get 100% for any value, so don't be alarmed if your responses seem more moderate than you expected.",
-            "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 250 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed."
+            "whatis_text": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a spectrum of buttons, ranging from agree to disagree. Pick the option that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz, you will be presented with your results. Since some questions affect multiple axes, it is very unlikely you will get 100% for any value, so don't be alarmed if your results seem more moderate than you expected.",
+            "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 256 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed."
         },
         "creditslist": [
             {
@@ -170,12 +170,12 @@
                 "role": "Project leader, design & code",
                 "img": "./assets/usericons/Quark.svg",
                 "score": [
-                    50.7,
-                    11.8,
-                    75.0,
-                    63.9,
-                    85.4,
-                    2.1
+                    50.0,
+                    2.8,
+                    72.9,
+                    71.5,
+                    84.7,
+                    2.8
                 ]
             },
             {
