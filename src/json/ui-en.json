@@ -147,6 +147,7 @@
         }
     ],
     "indextext": {
+        "switchlabel": "Theme",
         "rawtext": {
             "title": "DozenValues",
             "start_text": "Begin",
@@ -162,7 +163,7 @@
         },
         "htmltext": {
             "whatis_text": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a spectrum of buttons, ranging from agree to disagree. Pick the option that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz, you will be presented with your results. Since some questions affect multiple axes, it is very unlikely you will get 100% for any value, so don't be alarmed if your results seem more moderate than you expected.",
-            "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 256 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed."
+            "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 253 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed."
         },
         "creditslist": [
             {
@@ -243,13 +244,11 @@
             "pagename": "Results",
             "back_text": "Back",
             "simple_results": "Simple Results",
-            "advanced_results": "Advanced Results",
             "matches_button": "Matches",
             "questions_button": "Questions",
             "lister_button": "Lister",
             "custom_button": "Custom",
-            "hint": "Click To Download",
-            "hint2": "Click To Download"
+            "hint": "Click To Download"
         },
         "axis_name": "Axis",
         "axis_name_before": false,
@@ -260,8 +259,9 @@
     "listertext": {
         "title": "DozenValues",
         "pagename": "Lister",
-        "back_text": "Back",
+        "about": "All ideological matches listed from closest to farthest, with percentages. Click on an ideology for more information, and enable absolute values for a different comparison method.",
         "abs_label": "Absolute",
+        "back_text": "Back",
         "matches_button": "Matches",
         "questions_button": "Questions",
         "custom_button": "Custom"
@@ -269,6 +269,9 @@
     "matchestext": {
         "title": "DozenValues",
         "pagename": "Matches",
+        "about": "Select an ideology from the list to see its details, or use the arrows to swap between them.",
+        "leftarrow": "«",
+        "rightarrow": "»",
         "back_text": "Back",
         "questions_button": "Questions",
         "lister_button": "Lister",
@@ -277,6 +280,7 @@
     "questionstext": {
         "title": "DozenValues",
         "pagename": "Questions",
+        "about": "All of the test's questions, with the values they influence.",
         "back_text": "Back",
         "matches_button": "Matches",
         "lister_button": "Lister",

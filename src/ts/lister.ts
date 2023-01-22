@@ -61,8 +61,8 @@ function displayMatches(matches: Ideology[], absolute: boolean = false) {
     matchholder.innerHTML = ""
     weighedMatches.forEach((v, i) => {
         const elm = document.createElement("a")
-        elm.className = "match-text"
-        elm.textContent = `${i + 1}: ${v.name} : ${v.score?.toFixed(1)}%`
+        elm.className = "match-button"
+        elm.textContent = `${i + 1}: ${v.name} ${v.score?.toFixed(1)}%`
         elm.href = `matches.html?lang=${lang}&ideo=${b64enc(v.name)}`
         matchholder.appendChild(elm)
     })

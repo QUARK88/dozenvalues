@@ -9,7 +9,7 @@
             85,
             50
         ],
-        "desc": "Ideology claiming that both capitalism and marxism-leninism failed, and aims to focus on worker and minority issues using democratic means."
+        "desc": "Ideology of Heinz Dieterich, claiming that both capitalism and marxism-leninism failed, and aims to focus on worker and minority issues using democratic means."
     },
     {
         "name": "Absolute Monarchism",
@@ -64,7 +64,7 @@
         "stats": [
             40,
             60,
-            60,
+            50,
             80,
             90,
             35
@@ -98,7 +98,7 @@
     {
         "name": "Anarcho-Conservatism",
         "stats": [
-            40,
+            30,
             35,
             5,
             60,
@@ -129,7 +129,7 @@
             80,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Johann Kaspar Schmidt, "
     },
     {
         "name": "Anarcho-Frontierism",
@@ -139,7 +139,7 @@
             5,
             95,
             70,
-            20
+            15
         ],
         "desc": "Description in progress"
     },
@@ -182,12 +182,12 @@
     {
         "name": "Anarcho-Transhumanism",
         "stats": [
-            70,
-            30,
+            60,
+            40,
             5,
             95,
             75,
-            5
+            10
         ],
         "desc": "Description in progress"
     },
@@ -199,21 +199,9 @@
             70,
             80,
             50,
-            20
+            25
         ],
-        "desc": "Description in progress"
-    },
-    {
-        "name": "Austrolibertarian Market Socialism",
-        "stats": [
-            75,
-            5,
-            30,
-            95,
-            65,
-            50
-        ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Friedrich Nietzsche, "
     },
     {
         "name": "Austrolibertarianism",
@@ -254,7 +242,7 @@
     {
         "name": "Authoritarian Democracy",
         "stats": [
-            40,
+            35,
             65,
             55,
             35,
@@ -281,7 +269,7 @@
             90,
             80,
             0,
-            75,
+            80,
             85,
             35
         ],
@@ -297,7 +285,7 @@
             60,
             55
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Sergey Nechayev, "
     },
     {
         "name": "Ba'athism",
@@ -306,7 +294,7 @@
             70,
             80,
             25,
-            25,
+            30,
             40
         ],
         "desc": "Description in progress"
@@ -341,18 +329,18 @@
             80,
             75,
             80,
-            50,
+            40,
             60,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Louis Auguste Blanqui, "
     },
     {
         "name": "Bleeding-Heart Libertarianism",
         "stats": [
             30,
             20,
-            35,
+            30,
             95,
             85,
             40
@@ -405,7 +393,7 @@
             90,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Jacques Camatte, "
     },
     {
         "name": "Cameralism",
@@ -427,7 +415,7 @@
             55,
             60,
             60,
-            0
+            10
         ],
         "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using capitalist economics."
     },
@@ -477,7 +465,7 @@
             55,
             80
         ],
-        "desc": "Ideology wishing to create autonomous, pacifist religious communes with strong community values."
+        "desc": "Ideology of Dorothy Day and Peter Maurin, wishing to create autonomous, pacifist religious communes with strong community values."
     },
     {
         "name": "Cellular Democracy",
@@ -487,7 +475,7 @@
             25,
             70,
             70,
-            45
+            40
         ],
         "desc": "Model of democracy wanting to divide areas into democratic subdivisions under a georgist and libertarian economy."
     },
@@ -525,7 +513,7 @@
             50,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology promoting christian values in a democratic society alongside a moderately regulated capitalism with social safety nets."
     },
     {
         "name": "Classical Conservatism",
@@ -537,7 +525,7 @@
             35,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Political philosophy emphasizing traditional institutions, natural law, rigid morality, religious authority and nationalism."
     },
     {
         "name": "Classical Fascism",
@@ -549,7 +537,7 @@
             25,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Benito Mussolini and Giovanni Gentile, "
     },
     {
         "name": "Classical Liberalism",
@@ -717,7 +705,7 @@
             75,
             5
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Paul Cockshott, "
     },
     {
         "name": "Cyberfeminism",
@@ -727,9 +715,21 @@
             40,
             90,
             95,
-            0
+            10
         ],
         "desc": "Description in progress"
+    },
+    {
+        "name": "Dark Enlightenment",
+        "stats": [
+            10,
+            60,
+            50,
+            35,
+            10,
+            85
+        ],
+        "desc": "Ideology of Curtis Yarvin, "
     },
     {
         "name": "De Francism",
@@ -744,7 +744,7 @@
         "desc": "Ideology of José de Francia, which is extremely authoritarian and extremely progressive, mandating race mixing."
     },
     {
-        "name": "Degrowthism",
+        "name": "Degrowth Movement",
         "stats": [
             70,
             80,
@@ -799,7 +799,7 @@
             40,
             60,
             80,
-            0
+            10
         ],
         "desc": "Description in progress"
     },
@@ -1065,7 +1065,7 @@
             45,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Mohandas Karamchand Gandhi, "
     },
     {
         "name": "Geo-Anarchism",
@@ -1075,7 +1075,7 @@
             5,
             95,
             65,
-            50
+            40
         ],
         "desc": "Description in progress"
     },
@@ -1095,7 +1095,7 @@
         "name": "Georgism",
         "stats": [
             50,
-            30,
+            20,
             40,
             70,
             65,
@@ -1107,7 +1107,7 @@
         "name": "Geosyndicalism",
         "stats": [
             65,
-            40,
+            35,
             25,
             75,
             75,
@@ -1116,21 +1116,9 @@
         "desc": "Description in progress"
     },
     {
-        "name": "Geo-Transhumanism",
-        "stats": [
-            50,
-            30,
-            40,
-            75,
-            70,
-            0
-        ],
-        "desc": "Description in progress"
-    },
-    {
         "name": "Gorbachevism",
         "stats": [
-            60,
+            65,
             65,
             65,
             60,
@@ -1248,28 +1236,16 @@
         "desc": "Ideology of Enver Hoxha, using a totalitarian state in order to bring communism, strong secularism and progress to the people."
     },
     {
-        "name": "Illiberal Democracy",
-        "stats": [
-            50,
-            55,
-            40,
-            20,
-            40,
-            50
-        ],
-        "desc": "Description in progress"
-    },
-    {
         "name": "Ilminism",
         "stats": [
             20,
             70,
             75,
             25,
-            25,
+            20,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Syngman Rhee, "
     },
     {
         "name": "Indigenous Anarchism",
@@ -1305,19 +1281,19 @@
             80,
             25
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Maximilien Robespierre, "
     },
     {
         "name": "Jeffersonian Democracy",
         "stats": [
-            30,
             35,
-            30,
-            75,
+            35,
+            35,
+            80,
             55,
             45
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Thomas Jefferson, "
     },
     {
         "name": "Jihadism",
@@ -1341,7 +1317,7 @@
             40,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Kim Il-sung, "
     },
     {
         "name": "Kemalism",
@@ -1354,18 +1330,6 @@
             30
         ],
         "desc": "Ideology of Mustafa Kemal, which believes in a strong state to promote progress, social economics and an united republic."
-    },
-    {
-        "name": "Keynesian Socialism",
-        "stats": [
-            75,
-            55,
-            55,
-            70,
-            70,
-            35
-        ],
-        "desc": "Description in progress"
     },
     {
         "name": "Korwinism",
@@ -1428,6 +1392,18 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Landian Accelerationism",
+        "stats": [
+            15,
+            5,
+            50,
+            75,
+            15,
+            0
+        ],
+        "desc": "Ideology of Nick Land, "
+    },
+    {
         "name": "Lange Model",
         "stats": [
             85,
@@ -1449,7 +1425,7 @@
             80,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Amadeo Bordiga, "
     },
     {
         "name": "Left-Libertarianism",
@@ -1472,18 +1448,6 @@
             60,
             60,
             45
-        ],
-        "desc": "Description in progress"
-    },
-    {
-        "name": "Left-Minarchism",
-        "stats": [
-            80,
-            55,
-            25,
-            100,
-            70,
-            35
         ],
         "desc": "Description in progress"
     },
@@ -1575,22 +1539,10 @@
         "name": "Liberaltarianism",
         "stats": [
             35,
-            35,
+            30,
             40,
             95,
             80,
-            40
-        ],
-        "desc": "Description in progress"
-    },
-    {
-        "name": "Libertarian Communism",
-        "stats": [
-            90,
-            80,
-            30,
-            80,
-            75,
             40
         ],
         "desc": "Description in progress"
@@ -1634,7 +1586,7 @@
     {
         "name": "Libertarian Marxism",
         "stats": [
-            95,
+            85,
             80,
             30,
             80,
@@ -1675,7 +1627,7 @@
             30,
             95,
             65,
-            0
+            10
         ],
         "desc": "Description in progress"
     },
@@ -1701,7 +1653,7 @@
             35,
             75
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Huey Pierce Long Jr., "
     },
     {
         "name": "Machajskism",
@@ -1713,7 +1665,7 @@
             35,
             80
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Jan Wacław Machajski, "
     },
     {
         "name": "Mao-Spontex",
@@ -1721,7 +1673,7 @@
             85,
             75,
             20,
-            40,
+            35,
             70,
             45
         ],
@@ -1785,7 +1737,7 @@
             55,
             30
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Ioseb Jughashvili, "
     },
     {
         "name": "Marxism",
@@ -1797,7 +1749,7 @@
             70,
             30
         ],
-        "desc": "Ideology of Karl Marx, "
+        "desc": "Ideology of Karl Marx and Friedrich Engels, "
     },
     {
         "name": "Mercantilism",
@@ -1874,10 +1826,10 @@
     {
         "name": "Muscular Liberalism",
         "stats": [
-            20,
-            45,
+            30,
+            35,
             65,
-            45,
+            55,
             85,
             40
         ],
@@ -1917,7 +1869,7 @@
             15,
             50
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Karl Otto Paetel, "
     },
     {
         "name": "National-Capitalism",
@@ -1946,7 +1898,7 @@
     {
         "name": "National-Conservatism",
         "stats": [
-            35,
+            30,
             50,
             55,
             35,
@@ -1972,7 +1924,7 @@
         "stats": [
             20,
             15,
-            35,
+            30,
             85,
             35,
             55
@@ -2001,7 +1953,7 @@
             25,
             70
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Charles Maurras, "
     },
     {
         "name": "National-Transhumanism",
@@ -2011,7 +1963,7 @@
             85,
             30,
             10,
-            10
+            15
         ],
         "desc": "Description in progress"
     },
@@ -2024,6 +1976,18 @@
             80,
             55,
             55
+        ],
+        "desc": "Description in progress"
+    },
+    {
+        "name": "Neo-Luddism",
+        "stats": [
+            65,
+            45,
+            20,
+            60,
+            65,
+            90
         ],
         "desc": "Description in progress"
     },
@@ -2088,18 +2052,6 @@
         "desc": "Description in progress"
     },
     {
-        "name": "Neoreactionarism",
-        "stats": [
-            20,
-            60,
-            70,
-            35,
-            15,
-            80
-        ],
-        "desc": "Description in progress"
-    },
-    {
         "name": "New-Right Conservatism",
         "stats": [
             15,
@@ -2145,7 +2097,7 @@
             45,
             60
         ],
-        "desc": "System under which the majority enforces its power brutally through anarchist means, aslo known as tyranny by majority."
+        "desc": "System under which the majority enforces its power brutally through anarchist means, also known as tyranny by majority."
     },
     {
         "name": "Odalism",
@@ -2179,7 +2131,7 @@
             45,
             80,
             45,
-            60
+            65
         ],
         "desc": "Ideology of Eric Blair, form of libertarian democratic socialism which opposes totalitarianism, and is slightly conservative."
     },
@@ -2212,7 +2164,7 @@
         "stats": [
             15,
             10,
-            25,
+            30,
             85,
             30,
             70
@@ -2244,6 +2196,18 @@
         "desc": "Ideology of Juan Perón, "
     },
     {
+        "name": "Person Dignity Theory",
+        "stats": [
+            40,
+            65,
+            65,
+            25,
+            25,
+            85
+        ],
+        "desc": "Ideology of Ngô Đình Nhu, "
+    },
+    {
         "name": "Pink Capitalism",
         "stats": [
             20,
@@ -2261,11 +2225,11 @@
             5,
             15,
             20,
-            25,
+            35,
             70,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Allan Pinkerton, "
     },
     {
         "name": "Pinochetism",
@@ -2282,7 +2246,7 @@
     {
         "name": "Pirate Politics",
         "stats": [
-            50,
+            55,
             35,
             30,
             90,
@@ -2440,7 +2404,7 @@
         "stats": [
             10,
             20,
-            20,
+            30,
             40,
             30,
             90
@@ -2512,7 +2476,7 @@
         "stats": [
             20,
             20,
-            35,
+            30,
             85,
             60,
             50
@@ -2544,16 +2508,28 @@
         "desc": "Description in progress"
     },
     {
+        "name": "Saadehism",
+        "stats": [
+            50,
+            70,
+            75,
+            40,
+            35,
+            40
+        ],
+        "desc": "Ideology of Antoun Saadeh, "
+    },
+    {
         "name": "Sansepolcrismo",
         "stats": [
-            75,
+            70,
             65,
             70,
             35,
             30,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Former ideology of Benito Mussolini, "
     },
     {
         "name": "Scientocracy",
@@ -2637,7 +2613,7 @@
             40,
             65
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Clifford Hugh Douglas, "
     },
     {
         "name": "Social Darwinism",
@@ -2678,8 +2654,8 @@
     {
         "name": "Social Georgism",
         "stats": [
-            60,
-            45,
+            55,
+            40,
             40,
             75,
             75,
@@ -2704,21 +2680,9 @@
         "stats": [
             40,
             50,
-            40,
+            30,
             85,
             75,
-            40
-        ],
-        "desc": "Description in progress"
-    },
-    {
-        "name": "Social Nationalism",
-        "stats": [
-            50,
-            70,
-            75,
-            40,
-            35,
             40
         ],
         "desc": "Description in progress"
@@ -2786,14 +2750,14 @@
     {
         "name": "Steiner-Vallentyne School",
         "stats": [
-            60,
+            65,
             35,
             35,
             95,
             75,
             40
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Hillel Steiner and Peter Vallentyne, "
     },
     {
         "name": "Strasserism",
@@ -2865,14 +2829,14 @@
             60,
             5
         ],
-        "desc": "Ideology promoting an oligarchic rule of experts to dictate policy and the economy in rational and efficient ways."
+        "desc": "Ideology of Howard Scott, promoting an oligarchic rule of experts to dictate policy and the economy in rational and efficient ways."
     },
     {
         "name": "Technoliberalism",
         "stats": [
             35,
             45,
-            40,
+            45,
             80,
             80,
             15
@@ -2894,7 +2858,7 @@
     {
         "name": "Thatcherism",
         "stats": [
-            30,
+            25,
             30,
             65,
             55,
@@ -2971,7 +2935,7 @@
             50,
             65,
             55,
-            0
+            10
         ],
         "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement."
     },
@@ -2983,7 +2947,7 @@
             50,
             65,
             65,
-            0
+            10
         ],
         "desc": "Movement wanting to transcend past biology via the extensive use of technology and scientific advancement using socialist economics."
     },
@@ -3021,7 +2985,7 @@
             85,
             10
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Alexander Bogdanov, "
     },
     {
         "name": "Welfare Chauvinism",
@@ -3045,7 +3009,7 @@
             70,
             35
         ],
-        "desc": "Description in progress"
+        "desc": "Ideology of Thomas Woodrow Wilson, "
     },
     {
         "name": "Xenofeminism",

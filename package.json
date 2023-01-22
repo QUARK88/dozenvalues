@@ -1,12 +1,12 @@
 {
   "name": "dozenvalues",
-  "version": "6.0.4",
+  "version": "6.1.0 'The Epic Update'",
   "description": "DozenValues is a political test that aims to map differing political perspectives onto six axes.",
   "main": "index.html",
   "scripts": {
     "build": "tsc && node tools/render.js && sass src:dist",
     "release": "tsc && sass src:dist --style compressed --no-source-map && node tools/inline-builder.js",
-    "clean" : "node tools/clean.js",
+    "clean": "node tools/clean.js",
     "tsc_watch": "tsc --watch",
     "sass_watch": "sass src:dist -w"
   },

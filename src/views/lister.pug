@@ -2,6 +2,10 @@ doctype html
 html
     include includes/tags
     body
+        //span(id="switchlabel")
+        //label(class="switch" id="themeswitch")
+        //    input(type="checkbox" id="box")
+        //    span(class="slider")
         a(
             href="./index.html"
             class="index-corner"
@@ -10,9 +14,12 @@ html
             include includes/index.svg
         h1(id="title")
         h2(id="pagename")
-        div(id="matchholder")
+        p(id="about")
         label(for="abs" id="abs_label")
-        input(type="checkbox" id="abs")
+        label(class="switch" for="abs" id="abs_label")
+            input(type="checkbox" id="abs")
+            span(class="slider")
+        div(id="matchholder")
         div(class="small-button-holder")
             button(id="matches_button" class="toolbutton")
             button(id="questions_button" class="toolbutton")

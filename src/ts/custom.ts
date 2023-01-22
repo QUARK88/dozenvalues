@@ -6,6 +6,8 @@ let lang: string = params.get("lang") ?? "en"
 const ui: Ui = getLanguage(lang)
 lang = ui.lang ?? lang
 const version: string = ui.resultstext.version_name + ": " + window.VERSION
+var today = new Date()
+const date = "Built on: " + today.toISOString().substring(0, 10)
 const canvasElm = <HTMLCanvasElement>document.getElementById("score")!
 const dark: boolean = window.matchMedia?.("(prefers-color-scheme: dark)").matches
 const [bg, fg] = dark ? ["#202020", "#fff"] : ["#e0e0e0", "#000"]
@@ -81,8 +83,9 @@ class TouchCanvas extends Canvas {
     drawState() {
         this.drawHeader(
             ui.resultstext.text.title,
-            "quark88.github.io/dozenvalues/",
+            "quark88.github.io/dozenvalues",
             version,
+            date,
             this.name
         )
         this.state.forEach((stat, ind) => {

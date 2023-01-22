@@ -1,14 +1,13 @@
 import { getJson, getLanguage, Canvas, matchAxisTier, orderScores, b64enc } from "./common.js"
 import type { Ui, Ideology, Axis } from "./types"
 
-class Canvas2 {
+/*class Canvas2 {
     private canvas: HTMLCanvasElement
     private ctx: CanvasRenderingContext2D
     private font: string
     private titleFont: string
     private bgColor: string
     private fgColor: string
-    private images = ["econ", "stat", "cult"]
     constructor(element: HTMLCanvasElement, x: number, y: number, textFont: string, titleFont: string, fg: string, bg: string) {
         //Assigns canvas property to class
         this.canvas = element
@@ -22,93 +21,56 @@ class Canvas2 {
         //Draws background
         this.ctx.fillStyle = this.bgColor
         this.ctx.fillRect(0, 0, x, y)
-    }
-    drawImages(): void {
-        //Draws compass backgrounds
-        this.images.forEach((v, i) => {
-            const img = new Image()
-            img.src = "./assets/" + v + "compass.svg"
-            img.addEventListener<"load">("load", () =>
-                this.ctx.drawImage(img, ((i+1)&2)*250, ((i+1)&1)*500, 500, 500)
-            )
-        })
+        //The rest
+        this.ctx.stroke()
     }
     private setFontsize(size: number): void {
         this.ctx.font = size.toFixed(0) + "px " + this.font
     }
-    drawBorders(): void {
-        this.ctx.fillStyle = "black"
-        for(let i=0;i<3;i++) {
-            this.ctx.fillRect(0,496*i,1000,8)
-            this.ctx.fillRect(496*i,0,8,1000)
-        }
-    }
-    drawheader(title:string, matches: Array<Ideology>): void {
-        this.ctx.fillStyle = this.fgColor
-        this.ctx.font = "64px " + this.titleFont
-        this.ctx.fillText(title,16,64,480)
-        this.setFontsize(32)
-        for(let i=0;i<3;i++) {
-            const text = `${i+1}. ${matches[i].name}`
-            this.ctx.fillText(text,16,112+i*40)
-        }
-    }
-    drawAxis(index: number, value: number ,axis: Axis, tier: string): void {
+    drawAxis(index: number, value: number, axis: Axis, tier: string): void {
         this.ctx.fillStyle = this.fgColor
         this.setFontsize(24)
         let text: string = "";
-        if(value>=50) {
+        if (value >= 50) {
             text += value.toFixed(1) + "% " + axis.leftvalue.name
         } else {
-            text += (100-value).toFixed(1) + "% " + axis.rightvalue.name
+            text += (100 - value).toFixed(1) + "% " + axis.rightvalue.name
         }
         text += ` (${tier})`
-        this.ctx.fillText(text,16,240+48*index)
+        this.ctx.fillText(text, 16, 240 + 48 * index)
     }
-    drawDot(postion:number,x:number,y:number): void {
-        //Sets x and y positions
-        x = 4.64*(100-x) + 18
-        y = 4.64*(100-y) + 18
-        x += (postion & 2)*250 
-        y += (postion & 1)*500
-        this.ctx.fillStyle = "white"
-        this.ctx.lineWidth = 4
-        this.ctx.beginPath()
-        this.ctx.arc(x,y,12,0,Math.PI*2)
-        this.ctx.fill()
-        this.ctx.stroke()
-    }
-}
+}*/
 
 //Grabs parameters and parses scores
 const params: URLSearchParams = new URLSearchParams(document.location.search)
 let lang: string = params.get("lang") ?? "en"
 const ui: Ui = getLanguage(lang); lang = ui.lang ?? lang
 const rawScores: string = params.get("score") ?? "50,50,50,50,50,50"
-const scores: Array<number> = rawScores.split(",").map(v =>  {
+const scores: Array<number> = rawScores.split(",").map(v => {
     const score = parseFloat(v)
-    if(Number.isNaN(score) || !Number.isFinite(score)) {
+    if (Number.isNaN(score) || !Number.isFinite(score)) {
         return 50
     }
-    return Math.max(Math.min(score,100),0)
+    return Math.max(Math.min(score, 100), 0)
 })
-if(scores.length < 6) {
+if (scores.length < 6) {
     alert("Invalid result")
     throw new Error("Missing scores")
 }
 const send: boolean = !(params.get("send") === "no")
 //Assigns canvas elements to constants
 const canvasElm = <HTMLCanvasElement>document.getElementById("results1")!
-const canvasElm2 = <HTMLCanvasElement>document.getElementById("results2")!
-//Finfs color theme and sets colors accordingly 
+//const canvasElm2 = <HTMLCanvasElement>document.getElementById("results2")!
+//Finds color theme and sets colors accordingly 
 const dark: boolean = window.matchMedia?.("(prefers-color-scheme: dark)").matches
 const [bg, fg] = dark ? ["#202020", "#fff"] : ["#e0e0e0", "#000"]
 //Create canvas objects and draws canvas 2 images (set here to avoid async functions)
 const canvas: Canvas = new Canvas(canvasElm, 800, 880, ui.font.text_font, ui.font.title_font, fg, bg)
-const canvas2: Canvas2 = new Canvas2(canvasElm2, 1000, 1000, ui.font.text_font, ui.font.title_font, fg, bg)
-canvas2.drawImages()
+//const canvas2: Canvas2 = new Canvas2(canvasElm2, 1024, 1024, ui.font.text_font, ui.font.title_font, fg, bg)
 //Grabs test version from window object
 const version: string = ui.resultstext.version_name + ": " + window.VERSION
+var today = new Date()
+const date = "Taken on: " + today.toISOString().substring(0, 10)
 //Grabs ideologies list from json and parses their matches
 const ideologies: Array<Ideology> = getJson("ideologies-" + lang)
 const weights: Array<number> = [1, 0.9, 1, 0.6, 0.6, 0.7]
@@ -123,7 +85,7 @@ document.title = ui.resultstext.text.title
 //Adds match to div
 const score1 = document.getElementById("score1")!
 score1.textContent = `${ui.resultstext.closest_match}: ${matches[0].name}`
-//Adds next cclosest scores
+//Adds next closest scores
 const score2 = document.getElementById("score2")!
 score2.textContent = ui.resultstext.next_matches + ": "
 let nextLabels: Array<string> = Array()
@@ -134,39 +96,37 @@ score2.textContent += nextLabels.join(", ")
 //Adds description
 const desc = document.getElementById("desc")!
 desc.textContent = matches[0].desc
-
 //Button to index
 document.getElementById("back_button")!.addEventListener<"click">("click", () =>
     window.location.href = "index.html?lang=" + lang
 )
 //Button to lister.hmtl
 document.getElementById("lister_button")!.addEventListener<"click">("click", () =>
-    window.location.href = "lister.html?lang=" + lang + 
+    window.location.href = "lister.html?lang=" + lang +
     "&score=" + scores.map(x => x.toFixed(1)).join(",")
 )
 //Button to questions.html
-document.getElementById("questions_button")!.addEventListener<"click">("click",() =>
+document.getElementById("questions_button")!.addEventListener<"click">("click", () =>
     window.location.href = "questions.html?lang=" + lang
 )
 //Button to matches.html
 document.getElementById("matches_button")!.addEventListener<"click">("click", () => {
     window.location.href = "matches.html?lang=" + lang +
-    "&ideo=" + b64enc(matches[0].name)
+        "&ideo=" + b64enc(matches[0].name)
 })
 
 //Button to custom.html
-document.getElementById("custom_button")!.addEventListener<"click">("click",() =>
+document.getElementById("custom_button")!.addEventListener<"click">("click", () =>
     window.location.href = "custom.html?lang=" + lang
 )
 //Download buttons for canvas 1 and 2
-document.getElementById("results1")!.addEventListener<"click">("click", () => 
+document.getElementById("results1")!.addEventListener<"click">("click", () =>
     Canvas.downloadImage(canvasElm)
 )
-document.getElementById("results2")!.addEventListener<"click">("click", () => 
+/*document.getElementById("results2")!.addEventListener<"click">("click", () =>
     Canvas.downloadImage(canvasElm2)
-) 
+)*/
 
-const axisHolder = <HTMLDivElement>document.getElementById("axisholder")!
 let axisLabels: Array<string> = Array()
 ui.axes.forEach((v, i) => {
     //Finds axis label and composes result string, pushes to array
@@ -178,69 +138,27 @@ ui.axes.forEach((v, i) => {
         axisLabel = `${v.axisname} ${ui.resultstext.axis_name}: ${tier}`
     }
     axisLabels.push(axisLabel)
-    //Pushes string to label
-    const labelelm = document.createElement("h2")
-    labelelm.textContent = axisLabel
-    axisHolder.appendChild(labelelm)
-    //Creates axis div
-    const axis_elm = document.createElement("div")
-    axis_elm.className = "axis"
-    //Generates value images
-    const lft_img = new Image()
-    lft_img.src = v.leftvalue.icon
-    const rgt_img = new Image()
-    rgt_img.src = v.rightvalue.icon
-    //Generates result divs
-    const divgen = (
-        right: boolean,
-        color: string,
-        value: number): HTMLDivElement => {
-        //Creates parent div
-        const parentDiv = document.createElement("div")
-        parentDiv.className = "bar"
-        parentDiv.style.backgroundColor = color
-        parentDiv.style.width = value.toFixed(1) + "%"
-        if (right) {
-            parentDiv.style.borderLeftStyle = "solid"
-            parentDiv.style.textAlign = "right"
-        } else {
-            parentDiv.style.borderRightStyle = "solid"
-            parentDiv.style.textAlign = "left"
-        }
-        if (value > 20) {
-            const childDiv = document.createElement("div")
-            childDiv.className = "text-wrapper"
-            childDiv.textContent = value.toFixed(1) + "%"
-            parentDiv.appendChild(childDiv)
-        }
-        return parentDiv
-    }
-    //Appends all created elements to the axis element and axis elm to axisholder
-    axis_elm.appendChild(lft_img)
-    axis_elm.appendChild(divgen(false, v.leftvalue.color, scores[i]))
-    axis_elm.appendChild(divgen(true, v.rightvalue.color, (100 - scores[i])))
-    axis_elm.appendChild(rgt_img)
-    axisHolder.appendChild(axis_elm)
 })
+
+/*//Gets compass coordinates
+function sixtothree(a: number, b: number, c: number, d: number, e: boolean, f: boolean) {
+    return Math.round(((a*scores[b]+c*scores[d])-50)/20)/10
+}
+const x = sixtothree(1.05, 0, .95, 1, true, true)
+const y = sixtothree(1.2, 2, .8, 3, false, true)
+const z = sixtothree(.857, 4, 1.143, 5, false, true)
+console.log(x, y, z)*/
 
 window.onload = () => {
     //Draws canvas 1 header
     canvas.drawHeader(
-        ui.resultstext.text.title, 
-        "quark88.github.io/dozenvalues/", 
-        version, matches[0].name)
-    //Draws canvas 2 borders and header
-    canvas2.drawBorders()
-    canvas2.drawheader(ui.resultstext.text.title,matches)
-
+        ui.resultstext.text.title,
+        "quark88.github.io/dozenvalues",
+        version,
+        date,
+        matches[0].name)
     //For each axis draw axis (both canvas), images (canvas 1) and dots (canvas 2)
     ui.axes.forEach((v, i) => {
-        canvas2.drawAxis(i,scores[i],ui.axes[i],axisLabels[i].split(": ")[1])
-        if(i % 2 === 0){ //Only draws dot ever 2 passes since dot needs x and y coord
-            const postion = Math.floor(i/2) + 1
-            const [x,y] = postion === 2 ? [scores[i+1],scores[i]] : [scores[i],scores[i+1]] //PCMoid brainworms
-            canvas2.drawDot(postion,x,y)
-        }
         const icons = [v.leftvalue.icon, v.rightvalue.icon]
         canvas.drawImages(icons, i)
         const colors = [v.leftvalue.color, v.rightvalue.color]

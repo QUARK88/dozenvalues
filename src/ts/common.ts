@@ -1,5 +1,22 @@
 import { Ui, Ideology } from "./types"
 
+/*const box = document.getElementById("box")
+function switchtheme() {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches == true) {
+        if (box.checked == true) {
+            //Light
+        } else {
+            //Dark
+        }
+    } else {
+        if (box.checked == true) {
+            //Dark
+        } else {
+            //Light
+        }
+    }
+}*/
+
 export function getJson(name: string): any {
     const request: XMLHttpRequest = new XMLHttpRequest()
     request.open("GET", "./dist/json/" + name + ".json", false)
@@ -46,7 +63,6 @@ export function b64dec(input: string): string {
     })
     return result
 }
-
 
 export function matchAxisTier(score: number, labels: Array<string>): string {
     if (score < 0 || score > 100 || Number.isNaN(score)) throw new Error(`Invalid score: ${score}%`)
@@ -106,7 +122,7 @@ export class Canvas {
     private setFontsize(size: number): void {
         this.ctx.font = size.toFixed(0) + "px " + this.font
     }
-    drawHeader(title: string, url: string, version: string, match: string): void {
+    drawHeader(title: string, url: string, version: string, date: string, match: string): void {
         this.ctx.fillStyle = this.bgColor
         this.ctx.fillRect(0, 0, this.canvas.width, 180)
         //Draws title
@@ -117,9 +133,11 @@ export class Canvas {
         //Draws url
         this.ctx.textAlign = "end"
         this.setFontsize(16)
-        this.ctx.fillText(url, 768, 48)
+        this.ctx.fillText(url, 768, 40)
         //Draws version 
-        this.ctx.fillText(version, 768, 80)
+        this.ctx.fillText(version, 768, 64)
+        //Draws date
+        this.ctx.fillText(date, 768, 88)
         //Draws match
         this.ctx.textAlign = "left"
         this.setFontsize(48)
@@ -142,13 +160,13 @@ export class Canvas {
         //Draw left bar
         this.ctx.fillStyle = colors[0]
         const w1 = 5.44 * score - 3
-        if(score > 0)
+        if (score > 0)
             this.ctx.fillRect(128, h2, w1, 52)
         //Draw right bar
         this.ctx.fillStyle = colors[1]
         const d1 = 403 - (5.44 * (50 - score))
         const w2 = 5.44 * (100 - score) - 3
-        if(score < 100)
+        if (score < 100)
             this.ctx.fillRect(d1, h2, w2, 52)
         //Draw score percentages
         this.setFontsize(32)
