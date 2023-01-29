@@ -4,6 +4,8 @@ let lang = params.get("lang") ?? "en";
 const ui = getLanguage(lang);
 lang = ui.lang ?? lang;
 const version = ui.resultstext.version_name + ": " + window.VERSION;
+var today = new Date();
+const date = "Built on: " + today.toISOString().substring(0, 10);
 const canvasElm = document.getElementById("score");
 const dark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
 const [bg, fg] = dark ? ["#202020", "#fff"] : ["#e0e0e0", "#000"];
@@ -58,7 +60,7 @@ class TouchCanvas extends Canvas {
         this.drawState();
     }
     drawState() {
-        this.drawHeader(ui.resultstext.text.title, "quark88.github.io/dozenvalues/", version, this.name);
+        this.drawHeader(ui.resultstext.text.title, "quark88.github.io/dozenvalues", version, date, this.name);
         this.state.forEach((stat, ind) => {
             const colors = [ui.axes[ind].leftvalue.color, ui.axes[ind].rightvalue.color];
             const tier = matchAxisTier(stat, ui.axes[ind].tiers);
