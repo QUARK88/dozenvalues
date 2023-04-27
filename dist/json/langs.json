@@ -1,1 +1,10 @@
-[{"id":"en","name":"English"}, {"id":"cs","name":"Czech"}]
+[
+    {
+        "id": "en",
+        "name": "English"
+    },
+    {
+        "id": "cs",
+        "name": "Czech"
+    }
+]
