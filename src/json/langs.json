@@ -2,5 +2,9 @@
     {
         "id": "en",
         "name": "English"
+    },
+    {
+        "id": "cs",
+        "name": "Czech"
     }
 ]
