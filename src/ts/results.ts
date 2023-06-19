@@ -94,8 +94,8 @@ for (let i = 1; i < 5; i++) {
 }
 score2.textContent += nextLabels.join(", ")
 //Adds description
-const desc = document.getElementById("desc")!
-desc.textContent = matches[0].desc
+/*const desc = document.getElementById("desc")!
+desc.textContent = matches[0].desc*/
 //Button to index
 document.getElementById("back_button")!.addEventListener<"click">("click", () =>
     window.location.href = "index.html?lang=" + lang

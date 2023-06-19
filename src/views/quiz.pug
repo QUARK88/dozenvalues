@@ -2,10 +2,10 @@ doctype html
 html
     include includes/tags
     body
-        //span(id="switchlabel")
-        //label(class="switch" id="themeswitch")
-        //    input(type="checkbox" id="box")
-        //    span(class="slider")
+        //-span(id="switchlabel")
+        //-label(class="switch" id="themeswitch")
+        //-    input(type="checkbox" id="box")
+        //-    span(class="slider")
         a(
             href="./index.html"
             class="index-corner"
@@ -14,11 +14,17 @@ html
             include includes/index.svg
         h1(id="title")
         h2(id="pagename")
+        label(for="bs" id="buttonswitch")
+        label(class="switch" for="bs" id="buttonswitch")
+            input(type="checkbox" id="buttonswitch")
+            span(class="slider")
         h2(id="question_number")
         p(id="questiontext")
-        div(id="buttonholder")
+        div(id="hbuttonholder")
+        div(id="vbuttonholder")
         button(class="backbutton" id="back_button")
             span(id="back_text")
+        div(id="buttonswitch")
         if inline_js
             script(type="module") !{js["quiz"]}
         else

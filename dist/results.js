@@ -39,8 +39,6 @@ for (let i = 1; i < 5; i++) {
     nextLabels.push(matches[i].name);
 }
 score2.textContent += nextLabels.join(", ");
-const desc = document.getElementById("desc");
-desc.textContent = matches[0].desc;
 document.getElementById("back_button").addEventListener("click", () => window.location.href = "index.html?lang=" + lang);
 document.getElementById("lister_button").addEventListener("click", () => window.location.href = "lister.html?lang=" + lang +
     "&score=" + scores.map(x => x.toFixed(1)).join(","));

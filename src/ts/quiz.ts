@@ -16,42 +16,79 @@ for (const elm of Object.keys(ui.quiztext.text)) {
 document.title = ui.quiztext.text.title
 
 //Loads back button, button and text divs into constants
-const buttonHolder = <HTMLDivElement>document.getElementById("buttonholder")!
 const questiontext = <HTMLDivElement>document.getElementById("questiontext")!
 const questionnumber = <HTMLDivElement>document.getElementById("question_number")!
-//Sets quiz buttons
-var buttons = 0
-for (const [index, button] of ui.quiztext.buttons.entries()) {
-    buttons += 1
+const hbuttonHolder = <HTMLDivElement>document.getElementById("hbuttonholder")!
+const vbuttonHolder = <HTMLDivElement>document.getElementById("vbuttonholder")!
+//Sets horizontal buttons
+var hbuttons = 0
+for (const [index, button] of ui.quiztext.hbuttons.entries()) {
+    hbuttons += 1
     const quizbutton = document.createElement("button")
     const quizbuttonspan = document.createElement("span")
     const quizdisagree = document.createElement("div")
     const quizagree = document.createElement("div")
     quizdisagree.className = "disagree"
     quizagree.className = "agree"
-    quizdisagree.textContent = "Disagree"
-    quizagree.textContent = "Agree"
+    quizdisagree.textContent = ui.quiztext.disagree
+    quizagree.textContent = ui.quiztext.agree
     quizbuttonspan.textContent = button.text
     quizbutton.appendChild(quizbuttonspan)
     quizbutton.style.backgroundColor = button.color
-    if (buttons == 1) {
-        buttonHolder.appendChild(quizdisagree)
+    if (hbuttons == 1) {
+        hbuttonHolder.appendChild(quizdisagree)
     }
-    if (buttons < 3) {
+    if (hbuttons < 3) {
         quizbutton.className = "leftbutton"
     }
-    if (buttons == 3) {
+    if (hbuttons == 3) {
         quizbutton.className = "centrebutton"
     }
-    if (buttons > 3) {
+    if (hbuttons > 3) {
         quizbutton.className = "rightbutton"
     }
     quizbutton.addEventListener<"click">("click", () => nextQuestion(index))
-    buttonHolder.appendChild(quizbutton)
-    if (buttons == 5) {
-        buttonHolder.appendChild(quizagree)
+    hbuttonHolder.appendChild(quizbutton)
+    if (hbuttons == 5) {
+        hbuttonHolder.appendChild(quizagree)
     }
 }
+//Sets vertical buttons
+for (const [index, button] of ui.quiztext.vbuttons.entries()) {
+    const quizbutton = document.createElement("button")
+    const quizbuttonspan = document.createElement("span")
+    quizbuttonspan.textContent = button.text
+    quizbutton.appendChild(quizbuttonspan)
+    quizbutton.style.backgroundColor = button.color
+    quizbutton.className = "vbutton"
+    quizbutton.addEventListener<"click">("click", () => nextQuestion(index))
+    vbuttonHolder.appendChild(quizbutton)
+}
+//Sets button switch
+const hbuttonholder = document.getElementById("hbuttonholder")
+const vbuttonholder = document.getElementById("vbuttonholder")
+const buttonswitch = <HTMLDivElement>document.getElementById("buttonswitch")!
+buttonswitch.addEventListener("click", () =>
+    switchOrientation()
+)
+function switchOrientation() {
+    if (orientation == "v") {
+        orientation = "h"
+        hbuttonHolder.style.display = "block"
+        hbuttonHolder.style.display = "none"
+
+    } else {
+        orientation = "v"
+        hbuttonHolder.style.display = "none"
+        hbuttonHolder.style.display = "block"
+    }
+}
+if (window.innerWidth < 1000) {
+    var orientation = "v"
+} else {
+    var orientation = "h"
+}
+switchOrientation()
 //Maps back button to last question function
 document.getElementById("back_button")!.addEventListener<"click">("click", lastQuestion)
 //Creates empty arrays for answers and maximum values

@@ -9,41 +9,75 @@ for (const elm of Object.keys(ui.quiztext.text)) {
     document.getElementById(elm).textContent = ui.quiztext.text[elm];
 }
 document.title = ui.quiztext.text.title;
-const buttonHolder = document.getElementById("buttonholder");
 const questiontext = document.getElementById("questiontext");
 const questionnumber = document.getElementById("question_number");
-var buttons = 0;
-for (const [index, button] of ui.quiztext.buttons.entries()) {
-    buttons += 1;
+const hbuttonHolder = document.getElementById("hbuttonholder");
+const vbuttonHolder = document.getElementById("vbuttonholder");
+var hbuttons = 0;
+for (const [index, button] of ui.quiztext.hbuttons.entries()) {
+    hbuttons += 1;
     const quizbutton = document.createElement("button");
     const quizbuttonspan = document.createElement("span");
     const quizdisagree = document.createElement("div");
     const quizagree = document.createElement("div");
     quizdisagree.className = "disagree";
     quizagree.className = "agree";
-    quizdisagree.textContent = "Disagree";
-    quizagree.textContent = "Agree";
+    quizdisagree.textContent = ui.quiztext.disagree;
+    quizagree.textContent = ui.quiztext.agree;
     quizbuttonspan.textContent = button.text;
     quizbutton.appendChild(quizbuttonspan);
     quizbutton.style.backgroundColor = button.color;
-    if (buttons == 1) {
-        buttonHolder.appendChild(quizdisagree);
+    if (hbuttons == 1) {
+        hbuttonHolder.appendChild(quizdisagree);
     }
-    if (buttons < 3) {
+    if (hbuttons < 3) {
         quizbutton.className = "leftbutton";
     }
-    if (buttons == 3) {
+    if (hbuttons == 3) {
         quizbutton.className = "centrebutton";
     }
-    if (buttons > 3) {
+    if (hbuttons > 3) {
         quizbutton.className = "rightbutton";
     }
     quizbutton.addEventListener("click", () => nextQuestion(index));
-    buttonHolder.appendChild(quizbutton);
-    if (buttons == 5) {
-        buttonHolder.appendChild(quizagree);
+    hbuttonHolder.appendChild(quizbutton);
+    if (hbuttons == 5) {
+        hbuttonHolder.appendChild(quizagree);
     }
 }
+for (const [index, button] of ui.quiztext.vbuttons.entries()) {
+    const quizbutton = document.createElement("button");
+    const quizbuttonspan = document.createElement("span");
+    quizbuttonspan.textContent = button.text;
+    quizbutton.appendChild(quizbuttonspan);
+    quizbutton.style.backgroundColor = button.color;
+    quizbutton.className = "vbutton";
+    quizbutton.addEventListener("click", () => nextQuestion(index));
+    vbuttonHolder.appendChild(quizbutton);
+}
+const hbuttonholder = document.getElementById("hbuttonholder");
+const vbuttonholder = document.getElementById("vbuttonholder");
+const buttonswitch = document.getElementById("buttonswitch");
+buttonswitch.addEventListener("click", () => switchOrientation());
+function switchOrientation() {
+    if (orientation == "v") {
+        orientation = "h";
+        hbuttonHolder.style.display = "block";
+        hbuttonHolder.style.display = "none";
+    }
+    else {
+        orientation = "v";
+        hbuttonHolder.style.display = "none";
+        hbuttonHolder.style.display = "block";
+    }
+}
+if (window.innerWidth < 1000) {
+    var orientation = "v";
+}
+else {
+    var orientation = "h";
+}
+switchOrientation();
 document.getElementById("back_button").addEventListener("click", lastQuestion);
 const answers = new Array(questions.length);
 const maxvalues = new Array(questions[0].effect.length).fill(0);

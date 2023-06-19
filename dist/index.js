@@ -7,7 +7,6 @@ import { getJson } from "./common.js";
         const opt = document.createElement("option");
         opt.value = lang.id;
         opt.textContent = lang.name;
-        langDropdown.appendChild(opt);
         langList.push(lang.id);
     }
     const params = new URLSearchParams(document.location.search);
@@ -20,7 +19,6 @@ import { getJson } from "./common.js";
             const newPath = document.location.origin +
                 window.location.pathname + "?" + params.toString();
             window.history.replaceState(null, document.title, newPath);
-            langDropdown.selectedIndex = langList.indexOf(lang, 0);
         }
         catch (e) {
             console.error(e);
@@ -29,7 +27,6 @@ import { getJson } from "./common.js";
         }
     };
     changeLang(lang);
-    langDropdown.addEventListener("change", () => changeLang(langDropdown.value));
 })();
 function loadUI(ui, lang) {
     const collumn_holder = document.getElementById("column-holder"), valuesExplaination = document.getElementById("values-explaination"), creditsList = document.getElementById("credits-list");

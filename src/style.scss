@@ -31,7 +31,7 @@ $buttonfont: Uni;
     --startbutton: #0080c0ff;
     --starthover: #00a0e0ff;
     --arrows: #404040ff;
-    --shadow: 0 4px 8px 0 #00000080, 0 8px 16px 0 #00000080;
+    --shadow: 0 0.25vw 0.5vw 0 #00000080, 0 0.5vw 1vw 0 #00000080;
 }
 
 @media (prefers-color-scheme: light) {
@@ -45,6 +45,37 @@ $buttonfont: Uni;
         --button: #c0c0c0ff;
         --hover: #e0e0e0ff;
         --arrows: #808080ff;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .vbutton {
+        width: 80vw !important;
+        padding: 3vw !important;
+        font-size: 3vw !important;
+    }
+
+    .backbutton {
+        width: 60vw !important;
+        padding: 3vw !important;
+        font-size: 3vw !important;
+    }
+
+    body {
+        border-left: none !important;
+        border-right: none !important;
+        width: 100vw !important;
+        min-height: 100%;
+    }
+
+    #instructiontext,
+    #questiontext {
+        font-size: 3vw;
+        justify-content: center;
+        margin: 1vw auto;
+        min-height: 16vw;
+        padding: 2vw;
+        width: 80vw;
     }
 }
 
@@ -67,48 +98,48 @@ body {
     font-family: $titlefont;
     text-align: center;
     background-color: var(--background);
-    border-left: 24px solid var(--border);
-    border-right: 24px solid var(--border);
+    border-left: 1.5vw solid var(--border);
+    border-right: 1.5vw solid var(--border);
     margin: 0 auto;
-    padding: 48px;
-    padding-top: 10px;
-    width: 80%;
+    padding: 3vw;
+    padding-top: 1vw;
+    width: 80vw;
     min-height: 100%;
 }
 
 h1 {
     color: var(--text);
-    font-size: 96px;
-    line-height: 96px;
-    margin-bottom: 32px;
-    margin-top: 32px
+    font-size: 6vw;
+    line-height: 6vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw
 }
 
 h2 {
     color: var(--text);
     font-family: $textfont;
-    font-size: 48px;
-    margin-bottom: 16px;
-    margin-top: 32px
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    margin-top: 2vw
 }
 
 h3 {
     color: var(--text2);
     font-family: $textfont;
-    font-size: 24px;
-    margin-bottom: 16px;
-    margin-top: 0px
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 0
 }
 
 p {
     color: var(--text3);
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: $textfont;
     text-align: center;
 }
 
 a {
-    scroll-margin-top: 128px;
+    scroll-margin-top: 8vw;
 }
 
 .index-corner:hover,
@@ -140,35 +171,25 @@ a {
     }
 }
 
-@media(max-width:500px) {
-    .github-corner:hover .octo-arm {
-        animation: none
-    }
-
-    .github-corner .octo-arm {
-        animation: octocat-wave 560ms ease-in-out
-    }
-}
-
 #about {
-    width: 60%;
+    width: 75vw;
     margin: auto;
 }
 
 option {
-    margin: 8px 0px;
-    font-size: 16px;
+    margin: 0.5vw 0;
+    font-size: 1vw;
     font-family: $textfont;
 }
 
 #langDropdown {
     font-family: $buttonfont;
-    width: 20%;
+    width: 20vw;
     border: none;
-    border-radius: 16px;
-    height: 64px;
-    padding: 16px;
-    font-size: 20px;
+    border-radius: 1vw;
+    height: 4vw;
+    padding: 1vw;
+    font-size: 1.5vw;
     cursor: pointer;
 
     &:hover {
@@ -178,17 +199,17 @@ option {
 
 /*#themeswitch {
     position: fixed;
-    bottom: 24px;
-    right: 24px;
+    bottom: 1.5vw;
+    right: 1.5vw;
 }
 
 #switchlabel {
     position: fixed;
-    bottom: 64px;
-    right: 24px;
+    bottom: 4vw;
+    right: 1.5vw;
     font-family: $textfont;
     color: var(--text);
-    font-size: 24px;
+    font-size: 1.5vw;
     text-align: center;
 
     &::before {
@@ -200,8 +221,8 @@ button {
     font-family: $buttonfont;
     color: var(--text);
     border: none;
-    border-radius: 16px;
-    padding: 16px;
+    border-radius: 1vw;
+    padding: 1vw;
     cursor: pointer;
     background-color: var(--button);
 
@@ -211,18 +232,16 @@ button {
 }
 
 .startbutton {
-    margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 1vw auto;
     font-family: $buttonfont;
     display: block;
-    border-radius: 16px;
+    border-radius: 1wv;
     color: #ffffffff;
     background-color: var(--startbutton);
     text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 40%;
+    font-size: 2vw;
+    padding: 1vw;
+    width: 34vw;
     transition: all .25s ease-in-out;
     cursor: pointer;
 
@@ -240,13 +259,13 @@ button {
             content: "\00BB";
             position: absolute;
             opacity: 0;
-            right: -32px;
+            right: -2vw;
             transition: all .25s ease-in-out;
         }
     }
 
     &:hover span {
-        padding-right: 32px;
+        padding-right: 2vw;
 
         &:after {
             opacity: 1;
@@ -256,18 +275,16 @@ button {
 }
 
 .backbutton {
-    margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 1vw auto;
     font-family: $buttonfont;
     display: block;
-    border-radius: 16px;
+    border-radius: 1vw;
     color: var(--text);
     background-color: var(--button);
     text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 20%;
+    font-size: 2vw;
+    padding: 1vw;
+    width: 20vw;
     transition: all .25s ease-in-out;
     cursor: pointer;
 
@@ -285,13 +302,13 @@ button {
             content: "\00AB";
             position: absolute;
             opacity: 0;
-            left: -32px;
+            left: -2vw;
             transition: all .25s ease-in-out;
         }
     }
 
     &:hover span {
-        padding-left: 32px;
+        padding-left: 2vw;
 
         &:after {
             opacity: 1;
@@ -302,11 +319,11 @@ button {
 
 .toolbutton {
     display: inline-block;
-    margin: 8px;
-    font-size: 24px;
+    margin: 0.5vw;
+    font-size: 1.5vw;
     background-color: var(--button);
     transition: all .25s ease-in-out;
-    width: 20%;
+    width: 16vw;
 
     &:hover {
         background-color: var(--hover);
@@ -319,56 +336,53 @@ button {
 #questiontext {
     align-items: center;
     background-color: var(--border);
-    border-radius: 32px;
+    border-radius: 2vw;
     color: var(--text);
     display: flex;
-    font-size: 48px;
+    font-size: 3vw;
     justify-content: center;
-    margin: 16px auto;
-    min-height: 256px;
-    min-width: 80%;
-    padding: 32px;
-    width: 80%;
+    margin: 1vw auto;
+    min-height: 16vw;
+    padding: 2vw;
+    width: 75vw;
 }
 
 //Index
 
 iframe {
-    width: 384px;
+    width: 24vw;
 }
 
 .axis_label {
-    font-size: 32px;
+    font-size: 2vw;
     font-family: $titlefont;
     color: var(--text);
 }
 
 .value {
     font-family: $titlefont;
-    font-size: 32px;
-    margin-bottom: 24px;
-    margin-left: 48px;
-    margin-top: 24px;
-    text-indent: -32px
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+    margin-left: 3vw;
+    margin-top: 1.5vw;
+    text-indent: -2vw
 }
 
 .quadcolumn {
-    width: 45%;
+    width: 45vw;
 }
 
 .block {
     font-family: $titlefont;
     display: inline-block;
-    width: 32%;
     text-align: center;
-    border-radius: 32px;
-    margin: 0.5%;
+    border-radius: 2vw;
+    margin: 0.5vw;
 
     img.quadcolumn {
-        width: 45%;
+        width: 10vw;
         padding: 0;
-        margin: 2%;
-        margin-top: 1em;
+        margin: 1vw;
         transition: all .25s ease-in-out;
 
         &:hover {
@@ -379,15 +393,15 @@ iframe {
 
 .explanation_blurb_left,
 .explanation_blurb_right {
-    margin: 16px;
+    margin: 1vw;
     vertical-align: top;
-    width: 40%
+    width: 40vw
 }
 
 .arrow {
     height: auto;
-    width: 256px;
-    max-width: 100%;
+    width: 16vw;
+    max-width: 100vw;
 
     path {
         stroke: var(--arrows);
@@ -398,45 +412,44 @@ iframe {
     display: flex;
 
     &>div {
-        max-width: 40%;
+        max-width: 40vw;
         display: inline-block;
-        margin-top: 12px;
+        margin-top: 0.75vw;
         text-align: center;
     }
 }
 
 #credits-list {
-    padding: 24px;
-    border-radius: 24px;
+    padding: 1.5vw;
+    border-radius: 1.5vw;
     width: fit-content;
-    margin: 24px auto;
+    margin: 1.5vw auto;
 
     .entry {
-        display: block;
+        display: inline-block;
         background-color: var(--button);
-        border-radius: 24px;
-        margin-bottom: 24px;
-        height: 192px;
+        border-radius: 1.5vw;
+        margin: 1.5vw;
         cursor: pointer;
 
         img {
             display: inline-block;
             text-align: left;
-            max-width: 128px;
-            border-radius: 64px;
-            margin: 32px;
-            box-shadow: 0 8px 16px 0 #00000080, 0 16px 32px 0 #00000080;
+            max-width: 8vw;
+            border-radius: 4vw;
+            margin: 2vw;
+            box-shadow: 0 0.5vw 1vw 0 #00000080, 0 1vw 2vw 0 #00000080;
         }
 
         .credit-wrapper {
-            margin: 4px auto;
+            margin: 0.25vw auto;
             display: inline-block;
             position: relative;
-            width: 384px;
-            top: -35%;
+            width: 24vw;
+            top: -4vw;
 
             .tag {
-                font-size: 32px;
+                font-size: 2vw;
                 font-family: $buttonfont;
             }
 
@@ -450,7 +463,7 @@ iframe {
         &:hover {
             background: var(--hover);
             transform: scale(1.025);
-            box-shadow: 0 8px 16px 0 #00000080, 0 16px 32px 0 #00000080;
+            box-shadow: 0 0.5vw 1vw 0 #00000080, 0 1vw 2vw 0 #00000080;
         }
     }
 }
@@ -458,42 +471,42 @@ iframe {
 //Instructions
 
 #instructionstext {
-    font-size: 32px !important;
-    padding: 32px;
+    font-size: 2vw !important;
+    padding: 2vw;
 }
 
 //Quiz
 
 .agree {
     display: inline-block;
-    width: 12%;
-    padding-left: 16px;
+    width: 10vw;
+    padding-left: 2vw;
     color: var(--text);
-    font-size: 24px;
+    font-size: 2vw;
     font-family: $buttonfont;
     text-align: left;
 }
 
 .disagree {
     display: inline-block;
-    width: 12%;
-    padding-right: 16px;
+    width: 10vw;
+    padding-right: 2vw;
     color: var(--text);
-    font-size: 24px;
+    font-size: 2vw;
     font-family: $buttonfont;
     text-align: right;
 }
 
 .rightbutton {
-    margin: 8px;
+    margin: 0.5vw;
     font-family: $buttonfont;
     display: inline-block;
-    border-radius: 16px;
+    border-radius: 1vw;
     color: #ffffffff;
     text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 10%;
+    font-size: 2vw;
+    padding: 2vw;
+    width: 10vw;
     cursor: pointer;
     transition: all .25s ease-in-out;
 
@@ -504,24 +517,24 @@ iframe {
     }
 
     &:hover span {
-        padding-left: 16px;
+        padding-left: 1vw;
     }
 
     &:active {
-        transform: scale(0.95);
+        transform: scale(0.96);
     }
 }
 
 .leftbutton {
-    margin: 8px;
+    margin: 0.5vw;
     font-family: $buttonfont;
     display: inline-block;
-    border-radius: 16px;
+    border-radius: 1vw;
     color: #ffffffff;
     text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 10%;
+    font-size: 2vw;
+    padding: 2vw;
+    width: 10vw;
     cursor: pointer;
     transition: all .25s ease-in-out;
 
@@ -532,29 +545,51 @@ iframe {
     }
 
     &:hover span {
-        padding-right: 16px;
+        padding-right: 1vw;
     }
 
     &:active {
-        transform: scale(0.95);
+        transform: scale(0.96);
     }
 }
 
 .centrebutton {
-    margin: 8px;
+    margin: 0.5vw;
     font-family: $buttonfont;
     display: inline-block;
-    border-radius: 16px;
+    border-radius: 1vw;
     color: #ffffffff;
     text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 10%;
+    font-size: 2vw;
+    padding: 2vw;
+    width: 10vw;
     cursor: pointer;
     transition: all .25s ease-in-out;
 
     &:active {
-        transform: scale(0.95);
+        transform: scale(0.96);
+    }
+}
+
+.vbutton {
+    margin: 2vw auto;
+    font-family: $buttonfont;
+    display: block;
+    border-radius: 1vw;
+    color: #ffffffff;
+    text-align: center;
+    font-size: 2vw;
+    padding: 2vw;
+    width: 50vw;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+
+    &:hover {
+        transform: scale(0.98);
+    }
+
+    &:active {
+        transform: scale(0.96);
     }
 }
 
@@ -565,11 +600,11 @@ iframe {
 #score,
 #match {
     background-color: var(--border);
-    border: 4px solid var(--border);
-    border-radius: 16px;
+    border: 0.25vw solid var(--border);
+    border-radius: 1vw;
     display: block;
-    margin: 16px auto;
-    max-width: 90%;
+    margin: 1vw auto;
+    max-width: 90vw;
 }
 
 #results1,
@@ -586,23 +621,23 @@ iframe {
 //Matches
 
 .matchswapper {
-    width: 10%;
-    height: 64px;
-    padding: 8px;
-    margin: 16px;
-    font-size: 32px;
+    width: 10vw;
+    height: 4vw;
+    padding: 0.5vw;
+    margin: 1vw;
+    font-size: 2vw;
     vertical-align: middle;
 }
 
 #match-dropdown {
     display: inline-block;
     font-family: $buttonfont;
-    width: 50%;
+    width: 50vw;
     border: none;
-    border-radius: 16px;
-    height: 64px;
-    padding: 16px;
-    font-size: 20px;
+    border-radius: 1vw;
+    height: 4vw;
+    padding: 1vw;
+    font-size: 1.5vw;
     cursor: pointer;
     vertical-align: middle;
 
@@ -616,9 +651,9 @@ select {
     color: var(--text);
     text-align: start;
     display: block;
-    font-size: 24px;
+    font-size: 1.5vw;
     margin: auto;
-    width: 20%;
+    width: 20vw;
     transition: all .25s ease-in-out;
     cursor: pointer;
 
@@ -629,7 +664,7 @@ select {
 }
 
 #match-text {
-    width: 60%;
+    width: 75vw;
     margin: auto;
 }
 
@@ -640,14 +675,14 @@ select {
     cursor: pointer;
     display: block;
     color: var(--text);
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: $textfont;
     text-decoration: none;
     margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    width: 60%;
-    border-radius: 8px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 60vw;
+    border-radius: 0.5vw;
     transition: all .25s ease-in-out;
 
     &:hover {
@@ -658,16 +693,16 @@ select {
 
 label {
     color: var(--text);
-    font-size: 16px;
+    font-size: 1vw;
     display: block;
-    margin: 8px 0px;
+    margin: 0.5vw 0;
 }
 
 .switch {
     position: relative;
     display: inline-block;
-    width: 64px;
-    height: 32px;
+    width: 4vw;
+    height: 2vw;
 }
 
 .switch input {
@@ -686,20 +721,20 @@ label {
     background-color: #c0c0c0ff;
     -webkit-transition: .5s;
     transition: .5s;
-    border-radius: 32px;
+    border-radius: 2vw;
 }
 
 .slider:before {
     position: absolute;
     content: "";
-    height: 24px;
-    width: 24px;
-    left: 4px;
-    bottom: 4px;
+    height: 1.5vw;
+    width: 1.5vw;
+    left: 0.25vw;
+    bottom: 0.25vw;
     background-color: #ffffffff;
     -webkit-transition: .5s;
     transition: .5s;
-    border-radius: 50%;
+    border-radius: 100vw;
 }
 
 input:checked+.slider {
@@ -707,9 +742,9 @@ input:checked+.slider {
 }
 
 input:checked+.slider:before {
-    -webkit-transform: translateX(32px);
-    -ms-transform: translateX(32px);
-    transform: translateX(32px);
+    -webkit-transform: translateX(2vw);
+    -ms-transform: translateX(2vw);
+    transform: translateX(2vw);
 }
 
 //Questions
@@ -717,20 +752,17 @@ input:checked+.slider:before {
 #questionholder {
     display: block;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: $textfont;
-    width: fit-content;
     margin: auto;
 
     .question-holder {
         display: block;
         background-color: var(--border);
-        margin: auto;
-        margin-top: 16px;
-        margin-bottom: 16px;
-        width: 100%;
-        padding: 16px;
-        border-radius: 24px;
+        margin: 1vw auto;
+        width: 60vw;
+        padding: 2vw;
+        border-radius: 1.5vw;
 
         .question-text {
             color: var(--text);
@@ -738,11 +770,11 @@ input:checked+.slider:before {
 
         .value-holder {
             display: inline-block;
-            margin: 8px;
+            margin: 0.5vw;
 
             img {
                 display: inline-block;
-                height: 96px;
+                height: 6vw;
             }
         }
     }
@@ -755,18 +787,18 @@ input:checked+.slider:before {
     color: #ffffffff;
     background-color: var(--startbutton);
     display: block;
-    width: 40%;
+    width: 40vw;
     margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 24px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
 
     &:hover {
         background-color: var(--starthover);
     }
 
     svg {
-        height: 48px;
+        height: 3vw;
     }
 
 }

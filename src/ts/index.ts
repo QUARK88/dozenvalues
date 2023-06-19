@@ -12,7 +12,7 @@ import type { Indextext, Lang, Axis, Ui, Value, Textelm } from "./types"
         const opt = <HTMLOptionElement>document.createElement("option")
         opt.value = lang.id
         opt.textContent = lang.name
-        langDropdown.appendChild(opt)
+        //langDropdown.appendChild(opt)
         langList.push(lang.id)
     }
     //Grabs parameters and sets language
@@ -29,7 +29,7 @@ import type { Indextext, Lang, Axis, Ui, Value, Textelm } from "./types"
                 window.location.pathname + "?" + params.toString()
             window.history.replaceState(null, document.title, newPath)
             //Changes selected index
-            langDropdown.selectedIndex = langList.indexOf(lang, 0)
+            //langDropdown.selectedIndex = langList.indexOf(lang, 0)
         } catch (e) {
             console.error(e)
             alert(lang + " is not a valid language")
@@ -38,9 +38,9 @@ import type { Indextext, Lang, Axis, Ui, Value, Textelm } from "./types"
     }
     //Loads language UI and adds event listeners to elements
     changeLang(lang)
-    langDropdown.addEventListener<"change">("change", () =>
+    /*langDropdown.addEventListener<"change">("change", () =>
         changeLang(langDropdown.value)
-    )
+    )*/
 })()
 
 function loadUI(ui: Ui, lang: string): void {

@@ -163,32 +163,32 @@
         },
         "htmltext": {
             "whatis_text": "DozenValues is a political test that aims to map differing political perspectives onto six axes. You will be presented with a spectrum of buttons, ranging from agree to disagree. Pick the option that best fits your reaction to the given statement, and remember to answer honestly.<br><br>At the end of the quiz, you will be presented with your results. Since some questions affect multiple axes, it is very unlikely you will get 100% for any value, so don't be alarmed if your results seem more moderate than you expected.",
-            "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 253 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs.<br><br>If not, let us know by joining our Discord server or our subreddit and propose any features or ideologies you would like to see added. DozenValues is meant to be built and developed collectively, so any propositions are welcomed."
+            "whatisclosestmatch_text": "Once your results are generated, our test will try to assign you with an ideology, out of the 253 we have, that is the closest to your scores. We invite you to search more about that ideology, to see if it seems to fit your beliefs."
         },
         "creditslist": [
             {
-                "tag": " Quark#1916",
+                "tag": " Quark",
                 "role": "Project leader, design & code",
-                "img": "./assets/usericons/Quark.svg",
+                "img": "./assets/usericons/Quark.png",
                 "score": [
-                    47.2,
-                    5.6,
-                    72.9,
-                    74.3,
-                    86.8,
-                    2.8
+                    33.3,
+                    2.8,
+                    69.4,
+                    94.4,
+                    77.8,
+                    11.1
                 ]
             },
             {
-                "tag": " Bery#4540",
+                "tag": " Bery",
                 "role": "Questions & matches help",
                 "img": "./assets/usericons/Bery.png",
                 "score": [
-                    41.7,
-                    37.5,
-                    42.4,
-                    88.2,
-                    61.1,
+                    41.0,
+                    41.0,
+                    43.8,
+                    86.1,
+                    68.1,
                     29.9
                 ]
             }
@@ -210,10 +210,40 @@
         },
         "of": "of",
         "question": "Question",
-        "buttons": [
+        "buttonswitch": "Orientation",
+        "agree": "Agree",
+        "disagree": "Disagree",
+        "vbuttons": [
+            {
+                "text": "Strongly Agree",
+                "color": "#0060c0",
+                "weight": 1
+            },
+            {
+                "text": "Agree",
+                "color": "#00a0ff",
+                "weight": 0.5
+            },
+            {
+                "text": "Neutral",
+                "color": "#a0a0a0",
+                "weight": 0
+            },
+            {
+                "text": "Disagree",
+                "color": "#ff0000",
+                "weight": -0.5
+            },
+            {
+                "text": "Strongly Disagree",
+                "color": "#a00000",
+                "weight": -1
+            }
+        ],
+        "hbuttons": [
             {
                 "text": "«",
-                "color": "#c00000",
+                "color": "#a00000",
                 "weight": -1
             },
             {
@@ -233,7 +263,7 @@
             },
             {
                 "text": "»",
-                "color": "#0080c0",
+                "color": "#0060c0",
                 "weight": 1
             }
         ]

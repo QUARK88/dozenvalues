@@ -40,17 +40,26 @@ export type Question = {
     ogIndex?: number;
 }
 
-export type Quizbuttons = {
+export type hbuttons = {
+    text: string;
+    color: string;
+    weight: number;
+}
+
+export type vbuttons = {
     text: string;
     color: string;
     weight: number;
 }
 
 export type Quiztext = {
-    buttons: Array<Quizbuttons>;
+    hbuttons: Array<hbuttons>;
+    vbuttons: Array<vbuttons>;
     of: string;
     question: string;
     text: Textelm;
+    agree: string;
+    disagree: string;
 }
 
 export type Resultstext = {
@@ -75,8 +84,8 @@ export type Ui = {
     questionstext: Textelm;
     customtext: Textelm;
     font: {
-        text_font : string;
-        title_font : string;
+        text_font: string;
+        title_font: string;
     }
 }
 
